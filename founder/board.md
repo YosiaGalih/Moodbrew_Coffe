@@ -43,6 +43,16 @@ Diuji oleh skill yang disebut di kurung.
 - [ ] **C10. Tim:** siapa barista utamanya, dan apa pengalaman F&B founder. (`/founder-ops`)
 - [ ] **C11. Yogyakarta keluar dari rencana** sampai Rawamangun menghasilkan untung. (`/founder-plan`)
 
+## Catatan setelah rapat: Fase 1 GoFood (belum dinilai board)
+
+Setelah rapat, founder menambahkan rencana membangun reputasi rasa lewat takeaway di GoFood sebelum membuka slowbar. Board belum menilai rencana ini. Ketua mencatat tiga syarat yang tersentuh langsung:
+
+- **C4/C5 (jangan bersaing di harga):** kategori kopi di GoFood adalah arena yang paling digerakkan promo.
+- **C8 (uji nyata):** GoFood memang uji nyata, tetapi yang diuji adalah kopi yang diantar, bukan pengalaman slowbar.
+- **C7 (100 pelanggan pertama):** GoFood tidak memberi kontak pelanggan.
+
+CFO memodelkan Fase 1 sebagai skenario terpisah, dan `/founder-launch` membandingkannya dengan uji pop-up.
+
 ## Versi terkuat yang bisa dilihat board
 
 **Ini berbeda dari yang dipitch.** Kopiyo yang paling kuat bukan "slowbar murah dengan aplikasi AI". Kopiyo yang paling kuat adalah **ruang ngobrol sepulang kerja di Rawamangun**: tanpa laptop dan tanpa layar, dengan barista sebagai tuan rumah yang mengenal tamunya. Yang dijual adalah *sesi*, bukan cangkir: paket untuk 2–4 orang dengan beberapa seduhan untuk dicicipi bersama, cerita beans yang diceritakan barista dan dibawa pulang sebagai kartu, dan meja yang dijamin bebas laptop. Harganya terasa adil karena dibagi bersama, bukan karena murah. Kedai mungkin hanya perlu buka sore sampai malam, saat pelanggan targetnya ada; CFO harus mengujinya. Moat-nya hanya bisa komunitas: pelanggan tetap, acara rutin, dan barista yang dikenal namanya. Aplikasi AI tidak membangun moat itu. MoodBrew sebaiknya disimpan sebagai proyek tahun kedua, dan itu pun hanya bagian back-office (HPP, stok) jika data menunjukkan masalahnya nyata.

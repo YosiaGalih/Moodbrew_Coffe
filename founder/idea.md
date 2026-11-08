@@ -8,3 +8,4 @@
   - Anggaran modal **belum disebutkan** founder; CFO yang akan menghitung kebutuhannya.
   - Founder berencana membangun aplikasi AI (PRD "MoodBrew AI": AI Coffee Companion + POS + inventori + HPP + pricing + AI Business Copilot) sebagai **alat internal Kopiyo saja**, bukan produk yang dijual ke kedai lain.
   - Sudah diputuskan: tidak melayani orang yang datang untuk bekerja (bukan coworking/WFC).
+  - **Ditambahkan founder setelah board (8 Nov 2026):** "Saya belum punya reputasi. Jadi saya berniat membangun rasa kopi ini dari model takeaway dari GoFood." Artinya ada **Fase 1: takeaway/delivery lewat GoFood** untuk membangun reputasi rasa, sebelum (atau sebagai jalan menuju) slowbar fisik. Lokasi dapur Fase 1, menu, dan harganya belum ditentukan.
