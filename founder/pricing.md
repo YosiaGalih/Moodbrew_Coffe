@@ -31,9 +31,9 @@ Rentang lengkap ada di [pricing-curve-lapak.md](pricing-curve-lapak.md):
 
 | Belanja rata-rata per tamu | Kontribusi/tamu | Break-even/malam | Margin di 28 tamu/malam | Tahun 1 |
 |---:|---:|---:|---:|---:|
-| Rp26.000 | Rp10.768 (41%) | 27 | +2,4% | −Rp10,9 jt |
-| **Rp29.000 (rencana v3)** | **Rp13.768 (47%)** | **21** | **+12,5%** | **+Rp2,2 jt** |
-| Rp32.000 | Rp16.768 (52%) | 17 | +20,7% | +Rp15,3 jt |
+| Rp26.000 | Rp10.733 (41%) | 27 | +2,3% | −Rp11,1 jt |
+| **Rp29.000 (rencana v3)** | **Rp13.733 (47%)** | **21** | **+12,4%** | **+Rp2,1 jt** |
+| Rp32.000 | Rp16.733 (52%) | 17 | +20,6% | +Rp15,2 jt |
 
 Rp29.000 = minuman pertama rata-rata Rp17.650 + 35% gelas kedua Rp12.000 + 75% makanan rata-rata Rp9.000 [estimasi].
 
@@ -46,10 +46,9 @@ Rp29.000 = minuman pertama rata-rata Rp17.650 + 35% gelas kedua Rp12.000 + 75% m
 | Seduh | V60 + kue/roti, dengan kartu beans | Rp27.000 |
 | Sesi Bareng (3–4 orang, **Jumat–Sabtu**) | Teko V60 dua beans + sepiring sate/gorengan | Rp75.000 (Rp19.000–25.000/orang) |
 
-## 4. Penawaran pembukaan dan setelahnya
+## 4. Penawaran pembukaan
 
-- **Ajak Teman (2 minggu pertama):** minuman kedua untuk teman yang diajak setengah harga. Tanggal berakhir ditulis.
-- **Setelah itu, kartu cap: gelas ke-10 gratis**, permanen. Kartu cap menjangkau tamu yang menunggu review dan melewatkan promo 2 minggu, seperti dicatat salah satu pembeli panel. Biayanya sekitar Rp560/tamu [estimasi].
+- **Kartu Cap Yok, sejak malam pertama dan tanpa tanggal berakhir:** 1 cap per malam belanja ≥Rp25.000, 5 cap = gelas ke-6 gratis, cap bonus untuk yang membawa teman baru. Biayanya ±Rp595/kunjungan (`marketing-lapak.md`). Kartu ini **menggantikan** promo Ajak Teman 2 minggu, yang hanya menarik pemburu promo dan terlewat oleh penunggu review (panel lapak, P017).
 - **Tidak ada beli-1-gratis-1 atau cashback e-wallet.** Pemburu promo 3/3 hanya datang selama promo, di panel kafe maupun panel lapak.
 
 ## 5. Yang diuji dengan pembeli nyata

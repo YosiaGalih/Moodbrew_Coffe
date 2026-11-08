@@ -29,7 +29,7 @@ Tanpa pemburu promo, pembeli sekitar 7/20 (35%).
 | 15 kursi bisa penuh saat rombongan datang (P004, P014, P018, P020) | **Reservasi meja grup lewat WhatsApp** untuk Jumat–Sabtu |
 | Parkir motor susah (P003, P004, P007, P010) | **Kriteria tempat:** ada parkir motor yang jelas, diumumkan di IG dan Google Maps (D4) |
 | V60 diseduh satu per satu, nunggu lama (P001, P020) | Es kopi susu ≤3 menit, **waktu tunggu V60 disebut sebelum bayar** (D3), menu malam solo dipangkas (D2) |
-| Promo 2 minggu terlewat oleh yang menunggu review (P017) | **Kartu cap permanen: gelas ke-10 gratis** |
+| Promo 2 minggu terlewat oleh yang menunggu review (P017) | **Kartu Cap Yok permanen, tanpa tanggal berakhir**, menggantikan promo 2 minggu |
 | V60 Rp22.000 di angkringan dicurigai beansnya biasa (P016) | **Kartu beans: roastery + tanggal sangrai**, ditambah cicip |
 
 ## Tumpukan offer v3
@@ -44,7 +44,7 @@ Tanpa pemburu promo, pembeli sekitar 7/20 (35%).
 - **Gelas kedua Rp12.000** (es kopi susu atau tubruk) untuk yang duduk lama.
 - **Bonus:** cicip (malam solo: cium bubuk dua beans; Jumat–Sabtu: tegukan kecil) dan kartu beans dibawa pulang.
 - **Garansi:** tidak cocok di tegukan pertama, diseduh ulang dengan beans lain, gratis.
-- **Pembukaan:** Ajak Teman 2 minggu pertama (minuman kedua untuk teman setengah harga), tanggal berakhir ditulis. **Setelah itu kartu cap gelas ke-10 gratis.**
+- **Kartu Cap Yok (menggantikan Ajak Teman 2 minggu):** 1 cap per malam belanja ≥Rp25.000. 5 cap = gelas ke-6 gratis. Cap bonus jika membawa teman yang baru pertama kali datang. Tanpa tanggal berakhir. Biaya ±Rp595/kunjungan (`marketing-lapak.md` §5). Kartu ini menjangkau penunggu review dan tidak mengundang pemburu promo yang hilang setelah 2 minggu.
 
 ## Menu menurut malam (syarat D2)
 
@@ -66,14 +66,14 @@ Belanja per tamu Rp29.000:
 | Waste | 465 |
 | Cup | 320 |
 | Cicip + garansi | 250 |
-| Kartu cap | 560 |
+| Kartu Cap Yok | 595 |
 | PPh 0,5% | 145 |
-| **Total** | **15.232** |
-| **Kontribusi** | **Rp13.768 (47%)** |
+| **Total** | **15.267** |
+| **Kontribusi** | **Rp13.733 (47%)** |
 
-Hasilnya: break-even **21 tamu/malam**, tahun 1 **+Rp2,2 juta**.
+Hasilnya: break-even **21 tamu/malam**, tahun 1 **+Rp2,1 juta**.
 
-**Kalau semua makanan titipan (HPP ±72%) dan kartu cap gelas ke-6 gratis:** kontribusi Rp12.728, break-even 23, tahun 1 **−Rp2,3 juta**. Selisih antara untung dan rugi di tahun 1 ditentukan oleh dua keputusan kecil ini.
+**Kalau semua makanan titipan (HPP ±72%, tidak memasak di akhir pekan):** kontribusi Rp13.063, break-even 22, tahun 1 **−Rp0,9 juta**. Selisih antara untung dan rugi di tahun 1 ditentukan oleh keputusan kecil seperti ini, jadi catat HPP makanan sejak malam pertama.
 
 ## Belum diuji
 

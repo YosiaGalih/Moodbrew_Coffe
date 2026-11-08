@@ -28,8 +28,8 @@
    "cost": 250
   },
   {
-   "label": "Kartu cap: gelas ke-10 gratis, 60% ditukar (1,35 gelas/tamu x Rp6.890/10 x 60%) [estimasi]",
-   "cost": 560
+   "label": "Kartu Cap Yok: 1 cap per malam belanja >=Rp25.000, 5 cap = gelas ke-6 gratis, cap bonus bawa teman baru (marketing-lapak.md, ±Rp595/kunjungan) [estimasi]",
+   "cost": 595
   },
   {
    "label": "PPh Final UMKM 0,5% (orang pribadi: Rp500 jt omzet pertama/tahun bebas; dimasukkan agar konservatif)",
@@ -130,10 +130,6 @@
   {
    "label": "NIB (gratis, OSS) dan halal self-declare SEHATI (gratis jika memenuhi syarat)",
    "cost": 0
-  },
-  {
-   "label": "Promo Ajak Teman 2 minggu pertama [estimasi]",
-   "cost": 500000
   }
  ],
  "days_per_month": 17,
