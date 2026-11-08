@@ -9,3 +9,15 @@
   - Founder berencana membangun aplikasi AI (PRD "MoodBrew AI": AI Coffee Companion + POS + inventori + HPP + pricing + AI Business Copilot) sebagai **alat internal Kopiyo saja**, bukan produk yang dijual ke kedai lain.
   - Sudah diputuskan: tidak melayani orang yang datang untuk bekerja (bukan coworking/WFC).
   - **Ditambahkan founder setelah board (8 Nov 2026):** "Saya belum punya reputasi. Jadi saya berniat membangun rasa kopi ini dari model takeaway dari GoFood." Artinya ada **Fase 1: takeaway/delivery lewat GoFood** untuk membangun reputasi rasa, sebelum (atau sebagai jalan menuju) slowbar fisik. Lokasi dapur Fase 1, menu, dan harganya belum ditentukan.
+
+## Pembaruan dari founder (8 Nov 2026, setelah business plan v1)
+
+Founder menjawab pertanyaan CFO dan memberi batasan baru:
+
+1. **Waktu:** founder masih bekerja kantor pukul 07.30–17.30, jadi hanya bisa membuka usaha **malam hari, sekitar 18.00–24.00**.
+2. **Alat dan format:** founder **sudah punya alat slowbar manual lengkap, tanpa listrik.** Kalau menyewa kios tidak memungkinkan, jangan dipaksakan. Founder bersedia berjualan di pinggir jalan dengan konsep **angkringan tenda**, atau kios kecil di tempat yang sepi yang mendukung slowbar, atau mengontrak tempat.
+3. **Nama:** dibangun dari ajakan pekerja kantoran yang capek: **"Yok nongkrong" / "Yok ngopi"**, untuk meredakan penat.
+4. **Lokasi:** Rawamangun, Jakarta. Founder minta dicarikan tempat strategis di pinggir jalan atau kios kecil yang sewanya tidak mahal.
+5. **Yogyakarta:** founder minta dibuatkan opsi berjualan di Jogja.
+
+Konsekuensinya, rencana ruko + 3 staf (`numbers.json` versi v1/v2) diganti oleh **format lapak/kios malam yang dijalankan founder**. Lihat `lapak-malam.md`.

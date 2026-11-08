@@ -1,0 +1,168 @@
+{
+ "business": "Kopiyo: slowbar di Rawamangun dengan offer v2 (kopi + makanan + Sesi Ngobrol). Semua angka dalam Rupiah; alat mencetak '$' = Rp.",
+ "unit": "tamu (rata-rata belanja per kunjungan)",
+ "price": 40000,
+ "variable": [
+  {
+   "label": "Minuman pertama: bahan rata-rata (V60/es kopi susu, termasuk cup take-away & waste)",
+   "cost": 8442
+  },
+  {
+   "label": "Gelas kedua Rp15.000 (30% tamu) x bahan Rp8.442",
+   "cost": 2533
+  },
+  {
+   "label": "Makanan (60% tamu) x HPP ±49% (roti bakar, pisang goreng, mie buat sendiri; rice bowl titip UMKM) [ops.md, sebagian estimasi]",
+   "cost": 5880
+  },
+  {
+   "label": "Garansi seduh ulang (5% klaim x 50% V60 x Rp6.850) [estimasi klaim]",
+   "cost": 171
+  },
+  {
+   "label": "Kartu beans cetak (50% tamu x Rp400) [estimasi]",
+   "cost": 200
+  },
+  {
+   "label": "PPh Final UMKM 0,5% dari belanja",
+   "cost": 200
+  },
+  {
+   "label": "Biaya QRIS (MDR 0% untuk transaksi <= Rp100.000)",
+   "cost": 0
+  }
+ ],
+ "fixed_monthly": [
+  {
+   "label": "Sewa ruko ±100-150 m2 Rawamangun (Rp150 jt/tahun)",
+   "cost": 12500000
+  },
+  {
+   "label": "3 staf (2 barista + 1 helper/kasir) x Rp6,79 jt (UMP DKI 2026 + BPJS pemberi kerja + THR/12)",
+   "cost": 20370000
+  },
+  {
+   "label": "Listrik B-2 ±1.250 kWh x Rp1.444,7 [estimasi beban]",
+   "cost": 1800000
+  },
+  {
+   "label": "Air, galon, internet [estimasi]",
+   "cost": 800000
+  },
+  {
+   "label": "POS Majoo Starter Rp249.000 + PPN 11% (ops.md)",
+   "cost": 276390
+  },
+  {
+   "label": "Marketing rutin [estimasi]",
+   "cost": 2000000
+  },
+  {
+   "label": "Perawatan, kebersihan, perlengkapan kecil [estimasi]",
+   "cost": 1000000
+  },
+  {
+   "label": "Gas LPG dapur sederhana [estimasi]",
+   "cost": 400000
+  },
+  {
+   "label": "Royalti musik LMKN (Rp120.000/kursi/tahun) (ops.md)",
+   "cost": 300000
+  },
+  {
+   "label": "Paruh waktu jam ramai (dimasukkan penuh 12 bulan agar konservatif; ops.md: mulai bulan 5)",
+   "cost": 2380000
+  },
+  {
+   "label": "Makan staf + antar pulang malam (UU 13/2003 Ps. 76) [estimasi tengah Rp2,2-2,8 jt]",
+   "cost": 2500000
+  },
+  {
+   "label": "Cicip Dulu: 2 teko/hari x 3 beans (ops.md, tetap)",
+   "cost": 873000
+  },
+  {
+   "label": "Asuransi kebakaran (±Rp160 jt x 0,2-0,35%/th + PPN) [estimasi tengah]",
+   "cost": 41000
+  }
+ ],
+ "startup": [
+  {
+   "label": "Deposit sewa (batas bawah rentang Rp25-75 jt)",
+   "cost": 25000000
+  },
+  {
+   "label": "Renovasi/fit-out ruko [estimasi, perlu quote kontraktor]",
+   "cost": 75000000
+  },
+  {
+   "label": "Furnitur ±30 kursi + meja [estimasi]",
+   "cost": 25000000
+  },
+  {
+   "label": "Peralatan bar manual brew (paket A riset biaya)",
+   "cost": 18500000
+  },
+  {
+   "label": "AC 2 unit [estimasi]",
+   "cost": 12000000
+  },
+  {
+   "label": "Under-counter chiller 2 pintu (batas bawah Tokopedia)",
+   "cost": 10175000
+  },
+  {
+   "label": "Peralatan dapur sederhana (kompor, griddle/toaster, rice cooker, freezer kecil) [estimasi]",
+   "cost": 8000000
+  },
+  {
+   "label": "Tablet POS + printer struk [estimasi]",
+   "cost": 5000000
+  },
+  {
+   "label": "Gelas, dripper tambahan, smallwares [estimasi]",
+   "cost": 5000000
+  },
+  {
+   "label": "Perizinan (SLHS, halal, dll.) [estimasi]",
+   "cost": 3000000
+  },
+  {
+   "label": "Signage [estimasi]",
+   "cost": 5000000
+  },
+  {
+   "label": "Stok awal bahan [estimasi]",
+   "cost": 10000000
+  },
+  {
+   "label": "Marketing pembukaan [estimasi]",
+   "cost": 5000000
+  },
+  {
+   "label": "Promo Ajak Teman 14 hari (±30% tamu bulan 1 x setengah harga gelas kedua) [estimasi]",
+   "cost": 1200000
+  },
+  {
+   "label": "Gaji pelatihan 2 minggu sebelum buka (ops.md)",
+   "cost": 10200000
+  }
+ ],
+ "days_per_month": 30,
+ "capacity_per_day": 96,
+ "plan_per_day": 60,
+ "ramp_per_day": [
+  23,
+  29,
+  35,
+  40,
+  45,
+  49,
+  52,
+  54,
+  56,
+  58,
+  60,
+  60
+ ]
+}
