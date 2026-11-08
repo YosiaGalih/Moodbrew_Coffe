@@ -1,94 +1,44 @@
-# Catatan CFO: Kopiyo
+# Catatan CFO: Lapak Malam (rencana v3)
 
-> Semua angka dalam Rupiah (`$` di tabel alat di bawah berarti Rp). Setiap angka berasal dari output `unit_economics.py` atau input yang tercatat di [cfo-sources.md](cfo-sources.md) dan [ops.md](ops.md) bagian 11. Banyak input masih **estimasi**, terutama kapasitas, renovasi, porsi makanan, dan ramp. Ini bukan nasihat keuangan, pajak, atau hukum. **Minta akuntan memeriksa struktur usaha, gaji/BPJS, PBJT, dan PPh sebelum uang keluar.**
->
-> **Versi 2 (setelah `/founder-ops`).** Biaya baru yang ditemukan ops sudah dimasukkan, dan **hasilnya lebih buruk dari versi pertama**:
-> - royalti musik LMKN;
-> - paruh waktu jam ramai, dimasukkan penuh 12 bulan agar konservatif;
-> - makan dan antar pulang staf malam;
-> - Cicip Dulu sebagai biaya tetap;
-> - HPP makanan 49% (bukan 38%);
-> - gaji pelatihan sebelum buka;
-> - asuransi;
-> - POS diganti Majoo.
-
-## Kebenaran yang tidak nyaman lebih dulu
-
-**Rencana dasar (ruko Rp150 juta/tahun, 3 staf + paruh waktu, founder tidak di bar) rugi bahkan ketika sudah mencapai volume rencana.**
-
-- Break-even **67 tamu/hari**, padahal rencananya 60. Margin di rencana **−6%**.
-- Tahun 1 rugi **Rp163 juta**, dan bulan ke-12 masih rugi Rp4,6 juta.
-- **Dalam bentuk ini, bisnisnya tidak layak. Jangan tanda tangani sewa untuk rencana ini.**
-
-**Versi ramping (founder bekerja di bar tanpa gaji, ruang lebih kecil sekitar Rp106 juta/tahun, 24 kursi)** memang membaik, tapi tahun 1 tetap rugi Rp27 juta dan balik modal sekitar 44 bulan sejak buka. Ramping baru menarik jika **belanja per tamu juga naik ke sekitar Rp44.000**, dan itu harus dibuktikan di pop-up.
+> `numbers.json` sekarang berisi **rencana lapak malam** (format yang dipilih founder pada 8 Nov 2026). Rencana ruko lama ada di [cfo-ruko.md](cfo-ruko.md) dan `numbers-ruko.json`. Semua angka dalam Rupiah (`$` di tabel alat = Rp). Ringkasan, skenario, dan opsi Jogja ada di [lapak-malam.md](lapak-malam.md). Banyak input masih **estimasi**, terutama sewa teras, porsi makanan, ramp, dan kapasitas. Ini bukan nasihat keuangan atau pajak; minta akuntan atau KPP mengecek PPh dan PBJT.
 
 ## Margin
 
-| | Rencana dasar | Versi ramping |
-|---|---:|---:|
-| Belanja per tamu | Rp40.000 | Rp40.000 |
-| Kontribusi per tamu | **Rp22.574** (56%) | Rp22.574 (56%) |
-| Biaya tetap/bulan | Rp45,2 jt | Rp33,9 jt |
-| Break-even | **67 tamu/hari** | **50 tamu/hari** |
-| Kapasitas [estimasi] | ±96 tamu/hari (30 kursi) | ±77 tamu/hari (24 kursi) |
-| Margin di 60 tamu/hari | **−6%** | **+9%** |
-| Tahun 1 (operasional) | **−Rp163,0 jt** | **−Rp27,2 jt** (untung mulai bulan 7) |
-| Laba bulan ke-12 | −Rp4,6 jt | Rp6,7 jt |
+- **Kontribusi per tamu: Rp14.105 (50%)** dari belanja rata-rata Rp28.000.
+- **Break-even: 21 tamu/malam**, dari kapasitas sekitar 37. Rencana 28 tamu/malam, buka 17 malam/bulan.
+- **Margin di rencana: +14%.**
+- **Tahun 1 (operasional): +Rp3,7 juta.** Laba bulan ke-12 Rp1,9 juta.
+- Startup Rp19,1 juta. Alat seduh sudah dimiliki, jadi dihitung Rp0.
 
-## Angka yang paling perlu dijaga: volume (ramp)
+## Angka yang paling perlu dijaga
 
-- **Ramping, volume −20%:** margin **−2,5%**, tahun 1 **−Rp103 juta**.
-- **Dasar, volume −20%:** tahun 1 **−Rp239 juta**.
-- **Cek ramp terhadap panel** [Menebak]:
-  - Bulan 1 = 23 tamu/hari ≈ 690 kunjungan. Panel v2 menyebut 1,4 kunjungan per pembeli di bulan pertama, jadi dibutuhkan sekitar 490 orang berbeda.
-  - Dengan tingkat beli sekitar 45% (60% dikurangi pembeli yang hanya datang karena promo), sekitar 1.100 orang di target harus melihat dan mempertimbangkan Kopiyo. Kalau tingkat beli nyata setengahnya, sekitar 2.200 orang.
-  - Jangan percaya ramp ini sampai pop-up memberi angka nyata.
-
-**Angka kedua yang perlu dijaga: PBJT 10%.** Model ini menganggap pajak **ditambahkan di atas harga menu**. Jika harga menu sudah termasuk pajak (belanja bersih Rp36.364), rencana dasar memburuk: break-even **80 tamu/hari**, tahun 1 **−Rp224 juta**. Tulis jelas di menu "harga belum termasuk PBJT 10%".
-
-**Angka ketiga: makanan titip.** Kalau semua makanan dititip UMKM dan Kopiyo hanya mendapat sekitar 30%, HPP makanan sekitar 70% dan kontribusi turun ke sekitar Rp19.750 (hitungan kasar ops). Roti bakar, pisang goreng, dan mie harus dibuat sendiri.
+1. **Jumlah tamu.** Tamu −30% membuat tahun 1 rugi Rp14,8 juta.
+2. **Belanja per tamu.** Di Rp24.000, break-even naik ke 29 tamu/malam dan usaha hanya impas.
 
 ## Kas
 
-| | Kas dibutuhkan (alat, sewa bulanan) | Puncak kas dengan sewa setahun di muka |
+**Sekitar Rp24,7 juta** sebelum usaha membiayai dirinya sendiri (rencana dasar). Versi solo sekitar Rp19,5 juta. Dalam skenario buruk (tamu −30%), sekitar Rp33,9 juta.
+
+## Tiga cara memperbaiki margin (dijalankan dengan alat)
+
+| Cara | Break-even/malam | Tahun 1 |
 |---|---:|---:|
-| Rencana dasar | Rp381,0 jt | **±Rp415 jt** |
-| Versi ramping | Rp243,6 jt | **±Rp312 jt** |
-| Ramping + belanja Rp44.000 | Rp224,1 jt | ±Rp304 jt |
+| Rencana dasar | 21 | +Rp3,7 jt |
+| Teras lebih murah (Rp600 rb, bukan Rp1,5 jt) | 17 | +Rp14,5 jt |
+| Tanpa helper berbayar (solo; tidak disarankan untuk Jumat–Sabtu) | 12 | +Rp27,3 jt |
+| Belanja per tamu Rp32.000 (+Rp4.000, misalnya lewat makanan atau gelas kedua) | 16 | +Rp21,2 jt |
 
-Startup: dasar Rp218,1 jt, ramping Rp189,7 jt. Kebutuhan kas lebih besar dari startup karena menutup kerugian bulan-bulan awal.
-
-## Tiga cara memperbaiki margin (semua dijalankan dengan alat)
-
-| # | Cara | Yang berubah | Break-even/hari | Margin di 60/hari | Tahun 1 | Laba bulan ke-12 |
-|---|---|---|---:|---:|---:|---:|
-| — | **Rencana dasar** | — | 67 | −6% | −Rp163,0 jt | −Rp4,6 jt |
-| 1+2 | **Founder di bar + ruang lebih kecil** (versi ramping) | Biaya tetap −Rp11,3 jt/bulan, startup −Rp28,4 jt | 50 | +9% | −Rp27,2 jt | Rp6,7 jt |
-| 3 | **Belanja per tamu Rp44.000** (+10%: porsi makanan lebih tinggi, Sesi Ngobrol, gelas kedua), pada rencana dasar | Belanja per tamu | 57 | +3% | −Rp95,6 jt | Rp2,6 jt |
-| 1+2+3 | **Ramping + belanja Rp44.000** | Gabungan | **43** | **+18%** | **+Rp40,2 jt** | **Rp13,9 jt** |
-| 1+2, volume −20% | Ramping, tamu lebih sedikit | Volume | 50 | −2,5% | −Rp103,1 jt | −Rp1,4 jt |
-
-- **Balik modal:** ramping sekitar 44 bulan sejak buka. **Ramping + belanja Rp44.000 sekitar 23 bulan.** Rencana dasar tidak balik modal pada laju ini.
-- **Cara terbesar adalah founder bekerja di bar.** Tanpa itu, angka ramping tidak berlaku.
-
-## Syarat board soal uang (`founder/board.md`)
+## Syarat board
 
 | Syarat | Status |
 |---|---|
-| C1 Bekukan MoodBrew AI, pakai POS siap pakai | **Terpenuhi di angka**: POS Majoo sekitar Rp276 ribu/bulan, biaya aplikasi Rp0 |
-| C4 Harga dari angka | **Terpenuhi**: V60 Rp25.000, es kopi susu Rp22.000 (`pricing.md`) |
-| C8 Uji nyata sebelum sewa | **Belum.** Ini paling penting: volume, belanja per tamu, dan lama duduk belum diukur |
-| Rencana menghasilkan untung | **Tidak terpenuhi** untuk rencana dasar dan ramping. Tahun 1 baru untung jika ramping **dan** belanja per tamu sekitar Rp44.000 |
-
-## Pertanyaan yang hanya bisa dijawab founder
-
-1. Apakah kamu akan bekerja di bar setiap hari, minimal di jam ramai? Ini syarat utama versi ramping.
-2. Berapa modal yang kamu punya? Dasar sekitar Rp415 juta, ramping sekitar Rp312 juta, keduanya dengan sewa setahun di muka.
-3. Ada penawaran sewa nyata (luas, kursi, parkir motor)? Sewa dan kapasitas di sini masih dari listing publik dan tebakan.
+| C1 Aplikasi dibekukan | Terpenuhi: kasir pakai Qasir sekitar Rp58 ribu/bulan dan QRIS statis |
+| C8 Uji nyata sebelum biaya besar | **Diubah bentuknya:** lapak (sekitar Rp19 juta) adalah ujinya, dengan review 8 minggu pada 2 Feb 2027 sebelum ada keputusan kios atau ruko |
+| C11 Yogyakarta ditunda | Dipertahankan. Opsi Jogja dihitung (Lampiran B), dan hasilnya rugi dengan operator berbayar |
 
 ---
 
-# Lampiran A: Rencana dasar (`numbers.json`), output alat
+# Lampiran A: Lapak malam Rawamangun (`numbers.json`), output alat
 
 
 Every number below comes from the input file. Nothing is looked up or guessed.
@@ -97,63 +47,62 @@ Every number below comes from the input file. Nothing is looked up or guessed.
 
 | line | per tamu (rata-rata belanja per kunjungan) |
 | --- | ---: |
-| Price | $40,000.00 |
-| Minuman pertama: bahan rata-rata (V60/es kopi susu, termasuk cup take-away & waste) | -$8,442.00 |
-| Gelas kedua Rp15.000 (30% tamu) x bahan Rp8.442 | -$2,533.00 |
-| Makanan (60% tamu) x HPP ±49% (roti bakar, pisang goreng, mie buat sendiri; rice bowl titip UMKM) [ops.md, sebagian estimasi] | -$5,880.00 |
-| Garansi seduh ulang (5% klaim x 50% V60 x Rp6.850) [estimasi klaim] | -$171.00 |
-| Kartu beans cetak (50% tamu x Rp400) [estimasi] | -$200.00 |
-| PPh Final UMKM 0,5% dari belanja | -$200.00 |
-| Biaya QRIS (MDR 0% untuk transaksi <= Rp100.000) | -$0.00 |
-| **Contribution** (what each tamu (rata-rata belanja per kunjungan) leaves to pay the fixed costs) | **$22,574.00** (56%) |
+| Price | $28,000.00 |
+| Minuman 1,25 per tamu: campuran 40% V60 (bahan Rp7.050), 45% es kopi susu (Rp7.900), 15% kopi tubruk (Rp3.400) [estimasi campuran] | -$8,610.00 |
+| Makanan angkringan: 70% tamu x Rp9.000 x HPP 65% (sebagian titipan, sebagian buat sendiri) [estimasi] | -$4,095.00 |
+| Waste 5% bahan minuman [estimasi] | -$430.00 |
+| Cup take-away 20% tamu x Rp1.600 | -$320.00 |
+| Cicip Dulu + garansi seduh ulang [estimasi] | -$300.00 |
+| PPh Final UMKM 0,5% (orang pribadi: Rp500 jt omzet pertama/tahun bebas; dimasukkan agar konservatif) | -$140.00 |
+| QRIS statis (MDR 0% untuk transaksi <= Rp100.000) | -$0.00 |
+| **Contribution** (what each tamu (rata-rata belanja per kunjungan) leaves to pay the fixed costs) | **$14,105.00** (50%) |
 
 ## The margin that matters
 
-Fixed costs: $45,240,390 a month (Sewa ruko ±100-150 m2 Rawamangun (Rp150 jt/tahun) $12,500,000, 3 staf (2 barista + 1 helper/kasir) x Rp6,79 jt (UMP DKI 2026 + BPJS pemberi kerja + THR/12) $20,370,000, Listrik B-2 ±1.250 kWh x Rp1.444,7 [estimasi beban] $1,800,000, Air, galon, internet [estimasi] $800,000, POS Majoo Starter Rp249.000 + PPN 11% (ops.md) $276,390, Marketing rutin [estimasi] $2,000,000, Perawatan, kebersihan, perlengkapan kecil [estimasi] $1,000,000, Gas LPG dapur sederhana [estimasi] $400,000, Royalti musik LMKN (Rp120.000/kursi/tahun) (ops.md) $300,000, Paruh waktu jam ramai (dimasukkan penuh 12 bulan agar konservatif; ops.md: mulai bulan 5) $2,380,000, Makan staf + antar pulang malam (UU 13/2003 Ps. 76) [estimasi tengah Rp2,2-2,8 jt] $2,500,000, Cicip Dulu: 2 teko/hari x 3 beans (ops.md, tetap) $873,000, Asuransi kebakaran (±Rp160 jt x 0,2-0,35%/th + PPN) [estimasi tengah] $41,000).
+Fixed costs: $4,828,250 a month (Sewa/numpang teras ruko atau rumah yang tutup sore (listing Jaktim Rp0,6-2,5 jt/bulan; research/lokasi-rawamangun.md) $1,500,000, Helper Jumat-Sabtu 5 jam (18.00-23.00) x 8,7 malam x Rp45.475/jam (UMP DKI / 126, PP 36/2021) $1,970,000, Gas LPG untuk kettle [estimasi] $250,000, Angkut/titip alat (kalau tidak bisa disimpan di lokasi) [estimasi] $400,000, Iuran kebersihan/warga dengan kuitansi [estimasi] $150,000, Marketing (cetak kartu Ajak Teman, konten) [estimasi] $500,000, Aplikasi kasir Qasir Pro (Rp699 rb/tahun) $58,250).
 
-- **Break-even: 67 tamu (rata-rata belanja per kunjungan)s a day.** Below that you lose money every month.
-- **Profit margin at your plan** (60 a day): **-6%** of every sale, after every cost.
-- Capacity: 96 a day.
+- **Break-even: 21 tamu (rata-rata belanja per kunjungan)s a day.** Below that you lose money every month.
+- **Profit margin at your plan** (28 a day): **14%** of every sale, after every cost.
+- Capacity: 37 a day.
 
 ## Year 1, month by month
 
-| month | tamu (rata-rata belanja per kunjungan)s a day | revenue | profit | cumulative (after $218,075,000 startup) |
+| month | tamu (rata-rata belanja per kunjungan)s a day | revenue | profit | cumulative (after $19,050,000 startup) |
 | ---: | ---: | ---: | ---: | ---: |
-| 1 | 23 | $27,600,000 | -$29,664,330 | -$247,739,330 |
-| 2 | 29 | $34,800,000 | -$25,601,010 | -$273,340,340 |
-| 3 | 35 | $42,000,000 | -$21,537,690 | -$294,878,030 |
-| 4 | 40 | $48,000,000 | -$18,151,590 | -$313,029,620 |
-| 5 | 45 | $54,000,000 | -$14,765,490 | -$327,795,110 |
-| 6 | 49 | $58,800,000 | -$12,056,610 | -$339,851,720 |
-| 7 | 52 | $62,400,000 | -$10,024,950 | -$349,876,670 |
-| 8 | 54 | $64,800,000 | -$8,670,510 | -$358,547,180 |
-| 9 | 56 | $67,200,000 | -$7,316,070 | -$365,863,250 |
-| 10 | 58 | $69,600,000 | -$5,961,630 | -$371,824,880 |
-| 11 | 60 | $72,000,000 | -$4,607,190 | -$376,432,070 |
-| 12 | 60 | $72,000,000 | -$4,607,190 | -$381,039,260 |
+| 1 | 10 | $4,760,000 | -$2,430,400 | -$21,480,400 |
+| 2 | 13 | $6,188,000 | -$1,711,045 | -$23,191,445 |
+| 3 | 16 | $7,616,000 | -$991,690 | -$24,183,135 |
+| 4 | 18 | $8,568,000 | -$512,120 | -$24,695,255 |
+| 5 | 20 | $9,520,000 | -$32,550 | -$24,727,805 |
+| 6 | 22 | $10,472,000 | $447,020 | -$24,280,785 |
+| 7 | 24 | $11,424,000 | $926,590 | -$23,354,195 |
+| 8 | 25 | $11,900,000 | $1,166,375 | -$22,187,820 |
+| 9 | 26 | $12,376,000 | $1,406,160 | -$20,781,660 |
+| 10 | 27 | $12,852,000 | $1,645,945 | -$19,135,715 |
+| 11 | 28 | $13,328,000 | $1,885,730 | -$17,249,985 |
+| 12 | 28 | $13,328,000 | $1,885,730 | -$15,364,255 |
 
-- **Year 1 operating profit: -$162,964,260** on $673,200,000 of revenue.
-- After the $218,075,000 startup spend: -$381,039,260.
+- **Year 1 operating profit: $3,685,745** on $122,332,000 of revenue.
+- After the $19,050,000 startup spend: -$15,364,255.
 - Startup money earned back: not within year 1.
-- Cash you need before it pays for itself: **$381,039,260**.
+- Cash you need before it pays for itself: **$24,727,805**.
 
 ## What if
 
 | scenario | margin at plan | break-even a day | year 1 profit |
 | --- | ---: | ---: | ---: |
-| Base plan | -6% | 67 | -$162,964,260 |
-| Price -10% | -18% | 82 | -$230,284,260 |
-| Volume -20% | -22% | 67 | -$238,948,344 |
-| Unit costs +15% | -13% | 76 | -$206,956,197 |
+| Base plan | 14% | 21 | $3,685,745 |
+| Price -10% | 5% | 26 | -$8,547,455 |
+| Volume -20% | 5% | 21 | -$8,639,204 |
+| Unit costs +15% | 7% | 24 | -$5,420,343 |
 
 ## Red flags
 
-- Year 1 loses money on operations (-$162,964,260).
 - The startup spend is not earned back within year 1.
 
 ---
 
-# Lampiran B: Versi ramping (`numbers-lean.json`), output alat
+# Lampiran B: Opsi Jogja dengan operator (`numbers-jogja.json`), output alat
 
 
 Every number below comes from the input file. Nothing is looked up or guessed.
@@ -162,56 +111,56 @@ Every number below comes from the input file. Nothing is looked up or guessed.
 
 | line | per tamu (rata-rata belanja per kunjungan) |
 | --- | ---: |
-| Price | $40,000.00 |
-| Minuman pertama: bahan rata-rata (V60/es kopi susu, termasuk cup take-away & waste) | -$8,442.00 |
-| Gelas kedua Rp15.000 (30% tamu) x bahan Rp8.442 | -$2,533.00 |
-| Makanan (60% tamu) x HPP ±49% (roti bakar, pisang goreng, mie buat sendiri; rice bowl titip UMKM) [ops.md, sebagian estimasi] | -$5,880.00 |
-| Garansi seduh ulang (5% klaim x 50% V60 x Rp6.850) [estimasi klaim] | -$171.00 |
-| Kartu beans cetak (50% tamu x Rp400) [estimasi] | -$200.00 |
-| PPh Final UMKM 0,5% dari belanja | -$200.00 |
-| Biaya QRIS (MDR 0% untuk transaksi <= Rp100.000) | -$0.00 |
-| **Contribution** (what each tamu (rata-rata belanja per kunjungan) leaves to pay the fixed costs) | **$22,574.00** (56%) |
+| Price | $22,000.00 |
+| Minuman 1,25 per tamu (bahan sama dengan Jakarta: beans, susu, filter) [estimasi campuran] | -$8,610.00 |
+| Makanan angkringan: 70% tamu x Rp7.000 x HPP 65% [estimasi] | -$3,185.00 |
+| Waste 5% bahan minuman [estimasi] | -$430.00 |
+| Cup take-away 20% tamu x Rp1.600 | -$320.00 |
+| Cicip Dulu + garansi seduh ulang [estimasi] | -$300.00 |
+| PPh Final UMKM 0,5% (orang pribadi: Rp500 jt omzet pertama/tahun bebas; dimasukkan agar konservatif) | -$110.00 |
+| QRIS statis (MDR 0% untuk transaksi <= Rp100.000) | -$0.00 |
+| **Contribution** (what each tamu (rata-rata belanja per kunjungan) leaves to pay the fixed costs) | **$9,045.00** (41%) |
 
 ## The margin that matters
 
-Fixed costs: $33,923,723 a month (Sewa ruko ±100-150 m2 Rawamangun (Rp150 jt/tahun) $8,833,333, 2 staf + founder di bar (tanpa gaji founder) $13,580,000, Listrik B-2 ±1.250 kWh x Rp1.444,7 [estimasi beban] $1,800,000, Air, galon, internet [estimasi] $800,000, POS Majoo Starter Rp249.000 + PPN 11% (ops.md) $276,390, Marketing rutin [estimasi] $2,000,000, Perawatan, kebersihan, perlengkapan kecil [estimasi] $1,000,000, Gas LPG dapur sederhana [estimasi] $400,000, Royalti musik LMKN (Rp120.000/kursi/tahun) (ops.md) $240,000, Paruh waktu jam ramai (dimasukkan penuh 12 bulan agar konservatif; ops.md: mulai bulan 5) $1,580,000, Makan staf + antar pulang malam (UU 13/2003 Ps. 76) [estimasi tengah Rp2,2-2,8 jt] $2,500,000, Cicip Dulu: 2 teko/hari x 3 beans (ops.md, tetap) $873,000, Asuransi kebakaran (±Rp160 jt x 0,2-0,35%/th + PPN) [estimasi tengah] $41,000).
+Fixed costs: $5,198,250 a month (Sewa teras/kios kecil Jogja (listing Rp650 rb-1,3 jt/bulan; research/opsi-jogja.md) $1,000,000, Operator 4 malam x 6 jam x 17 malam x Rp22.441/jam (UMK Kota Yogyakarta 2026 Rp2.827.593 / 126) $2,290,000, Gas LPG [estimasi] $250,000, Angkut/titip alat [estimasi] $300,000, Iuran kebersihan/warga [estimasi] $100,000, Marketing [estimasi] $400,000, Aplikasi kasir Qasir Pro $58,250, Kunjungan founder Jakarta-Jogja 1x/bulan [estimasi] $800,000).
 
-- **Break-even: 51 tamu (rata-rata belanja per kunjungan)s a day.** Below that you lose money every month.
-- **Profit margin at your plan** (60 a day): **9%** of every sale, after every cost.
-- Capacity: 77 a day.
+- **Break-even: 34 tamu (rata-rata belanja per kunjungan)s a day.** Below that you lose money every month.
+- **Profit margin at your plan** (28 a day): **-9%** of every sale, after every cost.
+- Capacity: 37 a day.
 
 ## Year 1, month by month
 
-| month | tamu (rata-rata belanja per kunjungan)s a day | revenue | profit | cumulative (after $189,675,000 startup) |
+| month | tamu (rata-rata belanja per kunjungan)s a day | revenue | profit | cumulative (after $24,550,000 startup) |
 | ---: | ---: | ---: | ---: | ---: |
-| 1 | 23 | $27,600,000 | -$18,347,663 | -$208,022,663 |
-| 2 | 29 | $34,800,000 | -$14,284,343 | -$222,307,006 |
-| 3 | 35 | $42,000,000 | -$10,221,023 | -$232,528,029 |
-| 4 | 40 | $48,000,000 | -$6,834,923 | -$239,362,952 |
-| 5 | 45 | $54,000,000 | -$3,448,823 | -$242,811,775 |
-| 6 | 49 | $58,800,000 | -$739,943 | -$243,551,718 |
-| 7 | 52 | $62,400,000 | $1,291,717 | -$242,260,001 |
-| 8 | 54 | $64,800,000 | $2,646,157 | -$239,613,844 |
-| 9 | 56 | $67,200,000 | $4,000,597 | -$235,613,247 |
-| 10 | 58 | $69,600,000 | $5,355,037 | -$230,258,210 |
-| 11 | 60 | $72,000,000 | $6,709,477 | -$223,548,733 |
-| 12 | 60 | $72,000,000 | $6,709,477 | -$216,839,256 |
+| 1 | 10 | $3,740,000 | -$3,660,600 | -$28,210,600 |
+| 2 | 13 | $4,862,000 | -$3,199,305 | -$31,409,905 |
+| 3 | 16 | $5,984,000 | -$2,738,010 | -$34,147,915 |
+| 4 | 18 | $6,732,000 | -$2,430,480 | -$36,578,395 |
+| 5 | 20 | $7,480,000 | -$2,122,950 | -$38,701,345 |
+| 6 | 22 | $8,228,000 | -$1,815,420 | -$40,516,765 |
+| 7 | 24 | $8,976,000 | -$1,507,890 | -$42,024,655 |
+| 8 | 25 | $9,350,000 | -$1,354,125 | -$43,378,780 |
+| 9 | 26 | $9,724,000 | -$1,200,360 | -$44,579,140 |
+| 10 | 27 | $10,098,000 | -$1,046,595 | -$45,625,735 |
+| 11 | 28 | $10,472,000 | -$892,830 | -$46,518,565 |
+| 12 | 28 | $10,472,000 | -$892,830 | -$47,411,395 |
 
-- **Year 1 operating profit: -$27,164,256** on $673,200,000 of revenue.
-- After the $189,675,000 startup spend: -$216,839,256.
+- **Year 1 operating profit: -$22,861,395** on $96,118,000 of revenue.
+- After the $24,550,000 startup spend: -$47,411,395.
 - Startup money earned back: not within year 1.
-- Cash you need before it pays for itself: **$243,551,718**.
+- Cash you need before it pays for itself: **$47,411,395**.
 
 ## What if
 
 | scenario | margin at plan | break-even a day | year 1 profit |
 | --- | ---: | ---: | ---: |
-| Base plan | 9% | 51 | -$27,164,256 |
-| Price -10% | -1% | 61 | -$94,484,256 |
-| Volume -20% | -2% | 51 | -$103,148,340 |
-| Unit costs +15% | 3% | 57 | -$71,156,193 |
+| Base plan | -9% | 34 | -$22,861,395 |
+| Price -10% | -21% | 45 | -$32,473,195 |
+| Volume -20% | -21% | 34 | -$30,764,916 |
+| Unit costs +15% | -17% | 44 | -$31,351,454 |
 
 ## Red flags
 
-- Year 1 loses money on operations (-$27,164,256).
+- Year 1 loses money on operations (-$22,861,395).
 - The startup spend is not earned back within year 1.

@@ -1,0 +1,148 @@
+{
+ "business": "Opsi Jogja: lapak malam (teras/kios kecil, Seturan-Gejayan), dijalankan OPERATOR berbayar 4 malam/minggu karena founder di Jakarta. Harga Jogja: V60 Rp18.000, es kopi susu Rp13.000, kopi joss/tubruk Rp6.000, makanan angkringan. Semua angka dalam Rupiah; alat mencetak '$' = Rp.",
+ "unit": "tamu (rata-rata belanja per kunjungan)",
+ "price": 22000,
+ "variable": [
+  {
+   "label": "Minuman 1,25 per tamu (bahan sama dengan Jakarta: beans, susu, filter) [estimasi campuran]",
+   "cost": 8610
+  },
+  {
+   "label": "Makanan angkringan: 70% tamu x Rp7.000 x HPP 65% [estimasi]",
+   "cost": 3185
+  },
+  {
+   "label": "Waste 5% bahan minuman [estimasi]",
+   "cost": 430
+  },
+  {
+   "label": "Cup take-away 20% tamu x Rp1.600",
+   "cost": 320
+  },
+  {
+   "label": "Cicip Dulu + garansi seduh ulang [estimasi]",
+   "cost": 300
+  },
+  {
+   "label": "PPh Final UMKM 0,5% (orang pribadi: Rp500 jt omzet pertama/tahun bebas; dimasukkan agar konservatif)",
+   "cost": 110
+  },
+  {
+   "label": "QRIS statis (MDR 0% untuk transaksi <= Rp100.000)",
+   "cost": 0
+  }
+ ],
+ "fixed_monthly": [
+  {
+   "label": "Sewa teras/kios kecil Jogja (listing Rp650 rb-1,3 jt/bulan; research/opsi-jogja.md)",
+   "cost": 1000000
+  },
+  {
+   "label": "Operator 4 malam x 6 jam x 17 malam x Rp22.441/jam (UMK Kota Yogyakarta 2026 Rp2.827.593 / 126)",
+   "cost": 2290000
+  },
+  {
+   "label": "Gas LPG [estimasi]",
+   "cost": 250000
+  },
+  {
+   "label": "Angkut/titip alat [estimasi]",
+   "cost": 300000
+  },
+  {
+   "label": "Iuran kebersihan/warga [estimasi]",
+   "cost": 100000
+  },
+  {
+   "label": "Marketing [estimasi]",
+   "cost": 400000
+  },
+  {
+   "label": "Aplikasi kasir Qasir Pro",
+   "cost": 58250
+  },
+  {
+   "label": "Kunjungan founder Jakarta-Jogja 1x/bulan [estimasi]",
+   "cost": 800000
+  }
+ ],
+ "startup": [
+  {
+   "label": "Set alat seduh manual kedua untuk Jogja (grinder tangan, kettle, dripper, timbangan) [estimasi]",
+   "cost": 6000000
+  },
+  {
+   "label": "Tenda lipat 3x3 m [estimasi]",
+   "cost": 2250000
+  },
+  {
+   "label": "Gerobak/meja bar portabel [estimasi]",
+   "cost": 3000000
+  },
+  {
+   "label": "Bangku dan meja lipat ±15 kursi + tikar [estimasi]",
+   "cost": 2300000
+  },
+  {
+   "label": "Cooler box 2 unit [estimasi]",
+   "cost": 1000000
+  },
+  {
+   "label": "Kompor portabel + tabung gas [estimasi]",
+   "cost": 600000
+  },
+  {
+   "label": "Lampu LED baterai + powerbank [estimasi]",
+   "cost": 600000
+  },
+  {
+   "label": "Gelas, cangkir, nampan [estimasi]",
+   "cost": 1000000
+  },
+  {
+   "label": "APAR kecil (wajib, risiko gas di tenda) [estimasi]",
+   "cost": 300000
+  },
+  {
+   "label": "Banner dan papan nama [estimasi]",
+   "cost": 700000
+  },
+  {
+   "label": "Stok awal bahan [estimasi]",
+   "cost": 2000000
+  },
+  {
+   "label": "Pendaftaran merek kelas 43 (tarif umum; brand.md)",
+   "cost": 2800000
+  },
+  {
+   "label": "Uang muka sewa teras 1 bulan [estimasi]",
+   "cost": 1000000
+  },
+  {
+   "label": "Marketing pembukaan [estimasi]",
+   "cost": 1000000
+  },
+  {
+   "label": "NIB (gratis, OSS) dan halal self-declare SEHATI (gratis jika memenuhi syarat)",
+   "cost": 0
+  }
+ ],
+ "days_per_month": 17,
+ "capacity_per_day": 37,
+ "plan_per_day": 28,
+ "ramp_per_day": [
+  10,
+  13,
+  16,
+  18,
+  20,
+  22,
+  24,
+  25,
+  26,
+  27,
+  28,
+  28
+ ]
+}
