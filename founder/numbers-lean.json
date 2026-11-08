@@ -1,0 +1,148 @@
+{
+ "business": "Kopiyo: slowbar di Rawamangun dengan offer v2, VERSI RAMPING (founder di bar, ruang lebih kecil) (kopi + makanan + Sesi Ngobrol). Semua angka dalam Rupiah; alat mencetak '$' = Rp.",
+ "unit": "tamu (rata-rata belanja per kunjungan)",
+ "price": 40000,
+ "variable": [
+  {
+   "label": "Minuman pertama: bahan rata-rata (V60/es kopi susu, termasuk cup take-away & waste)",
+   "cost": 8442
+  },
+  {
+   "label": "Gelas kedua Rp15.000 (30% tamu) x bahan Rp8.442",
+   "cost": 2533
+  },
+  {
+   "label": "Makanan (60% tamu) x HPP Rp7.600 (±38% dari rata-rata Rp20.000) [estimasi]",
+   "cost": 4560
+  },
+  {
+   "label": "Cicip Dulu gratis (30% tamu x Rp1.000) [estimasi]",
+   "cost": 300
+  },
+  {
+   "label": "Garansi seduh ulang (5% klaim x 50% V60 x Rp6.850) [estimasi klaim]",
+   "cost": 171
+  },
+  {
+   "label": "Kartu beans cetak (50% tamu x Rp400) [estimasi]",
+   "cost": 200
+  },
+  {
+   "label": "PPh Final UMKM 0,5% dari belanja",
+   "cost": 200
+  },
+  {
+   "label": "Biaya QRIS (MDR 0% untuk transaksi <= Rp100.000)",
+   "cost": 0
+  }
+ ],
+ "fixed_monthly": [
+  {
+   "label": "Sewa ruko ±100-150 m2 Rawamangun (Rp150 jt/tahun)",
+   "cost": 8833333
+  },
+  {
+   "label": "2 staf + founder di bar (tanpa gaji founder)",
+   "cost": 13580000
+  },
+  {
+   "label": "Listrik B-2 ±1.250 kWh x Rp1.444,7 [estimasi beban]",
+   "cost": 1800000
+  },
+  {
+   "label": "Air, galon, internet [estimasi]",
+   "cost": 800000
+  },
+  {
+   "label": "POS Moka Basic",
+   "cost": 299000
+  },
+  {
+   "label": "Marketing rutin [estimasi]",
+   "cost": 2000000
+  },
+  {
+   "label": "Perawatan, kebersihan, perlengkapan kecil [estimasi]",
+   "cost": 1000000
+  },
+  {
+   "label": "Gas LPG dapur sederhana [estimasi]",
+   "cost": 400000
+  }
+ ],
+ "startup": [
+  {
+   "label": "Deposit sewa (batas bawah rentang Rp25-75 jt)",
+   "cost": 25000000
+  },
+  {
+   "label": "Renovasi/fit-out ruko [estimasi, perlu quote kontraktor]",
+   "cost": 50000000
+  },
+  {
+   "label": "Furnitur ±30 kursi + meja [estimasi]",
+   "cost": 25000000
+  },
+  {
+   "label": "Peralatan bar manual brew (paket A riset biaya)",
+   "cost": 18500000
+  },
+  {
+   "label": "AC 2 unit [estimasi]",
+   "cost": 12000000
+  },
+  {
+   "label": "Under-counter chiller 2 pintu (batas bawah Tokopedia)",
+   "cost": 10175000
+  },
+  {
+   "label": "Peralatan dapur sederhana (kompor, griddle/toaster, rice cooker, freezer kecil) [estimasi]",
+   "cost": 8000000
+  },
+  {
+   "label": "Tablet POS + printer struk [estimasi]",
+   "cost": 5000000
+  },
+  {
+   "label": "Gelas, dripper tambahan, smallwares [estimasi]",
+   "cost": 5000000
+  },
+  {
+   "label": "Perizinan (SLHS, halal, dll.) [estimasi]",
+   "cost": 3000000
+  },
+  {
+   "label": "Signage [estimasi]",
+   "cost": 5000000
+  },
+  {
+   "label": "Stok awal bahan [estimasi]",
+   "cost": 10000000
+  },
+  {
+   "label": "Marketing pembukaan [estimasi]",
+   "cost": 5000000
+  },
+  {
+   "label": "Promo Ajak Teman 14 hari (±30% tamu bulan 1 x setengah harga gelas kedua) [estimasi]",
+   "cost": 1200000
+  }
+ ],
+ "days_per_month": 30,
+ "capacity_per_day": 77,
+ "plan_per_day": 60,
+ "ramp_per_day": [
+  23,
+  29,
+  35,
+  40,
+  45,
+  49,
+  52,
+  54,
+  56,
+  58,
+  60,
+  60
+ ]
+}
