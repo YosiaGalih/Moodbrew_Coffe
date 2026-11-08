@@ -1,0 +1,208 @@
+{
+ "business": "Kopiyo: slowbar (kopi seduh manual) di Rawamangun, Jakarta Timur; tempat ngobrol dan melepas lelah sepulang kerja, bukan tempat kerja/laptop",
+ "seed": 2611,
+ "dealt": 20,
+ "answered": 20,
+ "skipped": [],
+ "buys": 5,
+ "passes": 15,
+ "buy_rate": 0.25,
+ "by_segment": [
+  [
+   "Mahasiswa tingkat akhir / fresh graduate (uang saku atau gaji Rp2–5 juta/bulan)",
+   4,
+   0.75
+  ],
+  [
+   "Profesional mapan (gaji sekitar Rp10–25 juta/bulan)",
+   5,
+   0.2
+  ],
+  [
+   "Karyawan muda (gaji sekitar Rp5–9 juta/bulan)",
+   9,
+   0.1111111111111111
+  ],
+  [
+   "Pekerja lokal / wiraswasta / guru / ASN (Rp6–15 juta/bulan)",
+   2,
+   0.0
+  ]
+ ],
+ "by_behaviour": [
+  [
+   "Pecinta kopi yang suka ngulik",
+   2,
+   1.0
+  ],
+  [
+   "Hemat, kopi seadanya",
+   2,
+   0.5
+  ],
+  [
+   "Nongkrong rutin sepulang kerja",
+   4,
+   0.5
+  ],
+  [
+   "Pemburu promo",
+   3,
+   0.0
+  ],
+  [
+   "Ikut tren / FOMO media sosial",
+   3,
+   0.0
+  ],
+  [
+   "Loyal ke tempat langganan",
+   2,
+   0.0
+  ],
+  [
+   "Cari tempat sambil kerja",
+   2,
+   0.0
+  ],
+  [
+   "Cek review dulu",
+   2,
+   0.0
+  ]
+ ],
+ "by_income": [
+  [
+   "under $91,800,000",
+   6,
+   0.5
+  ],
+  [
+   "$104,733,000 and up",
+   7,
+   0.14285714285714285
+  ],
+  [
+   "$91,800,000 to $104,733,000",
+   7,
+   0.14285714285714285
+  ]
+ ],
+ "why_not": [
+  [
+   "trust",
+   4,
+   [
+    "Baru gajian sih, tapi aku biasanya ke tempat yang lagi rame di TikTok atau IG, dan Kopiyo belum ada yang ngomongin. Dari deskripsinya aku nggak kebayang tempatnya cakep buat foto, jadi buat apa aku nembus macet jam pulang kerja dan susah parkir di Rawamangun cuma buat coba-coba.",
+    "Konsepnya lucu sih, tapi ini tempat baru dan belum ada rating atau review di Google Maps. Tempat baru biasanya ramai sebentar terus sepi, jadi bulan pertama aku tunggu review dulu, sementara kopi susu tetap pesan lewat ojol di kantor aja."
+   ],
+   [
+    "P010",
+    "P013"
+   ]
+  ],
+  [
+   "price",
+   3,
+   [
+    "Rp20 ribu buat es kopi susu tanpa promo apa-apa itu harga penuh, padahal di kedai kopi chain dekat Arion aku bisa dapat beli 1 gratis 1 atau cashback e-wallet. Ditambah nggak boleh buka laptop, jadi kalau nongkrong sama teman kuliah aku lebih milih tempat yang murah dan fleksibel.",
+    "Rp20 ribu buat es kopi susu tanpa promo apa-apa, padahal di aplikasi aku biasa dapet beli 1 gratis 1 atau cashback e-wallet. Kalau mau nongkrong, aku sama temen-temen ya pilih tempat yang lagi ada diskon, apalagi parkir di Rawamangun susah."
+   ],
+   [
+    "P002",
+    "P003"
+   ]
+  ],
+  [
+   "habit",
+   3,
+   [
+    "Saya biasanya nongkrong di tempat yang lagi ramai di TikTok atau Instagram, dan slowbar baru yang belum pernah saya lihat di FYP nggak bakal kepikiran buat saya datangi. Harganya sih murah, tapi pulang kerja saya capek dan lapar, dan nunggu kopi diseduh pelan-pelan tanpa info ada makanan berat bikin saya pilih tempat lain.",
+    "Aku udah punya tempat nongkrong langganan deket rumah, murah dan buka sampai malam juga, jadi nggak ada alasan buat pindah cuma karena ada slowbar baru. Harganya sih masih masuk, tapi aku jarang banget coba tempat baru."
+   ],
+   [
+    "P005",
+    "P006"
+   ]
+  ],
+  [
+   "convenience",
+   3,
+   [
+    "Pulang kantor saya sudah capek dan lapar, nongkrongnya 2-3 jam, jadi saya butuh tempat yang kopinya cepat keluar dan ada makanannya. Slowbar yang nyeduh pelan-pelan dan nggak nyebut makanan sama sekali bukan pilihan pertama saya atau teman-teman, harganya sih nggak masalah.",
+    "Pulang kerja saya udah capek dan lapar, males nunggu kopi diseduh pelan-pelan sambil diajak ngobrol soal kopi. Kopi susu Rp20 ribu juga bisa saya pesan lewat ojol tanpa ke mana-mana, dan tempat baru yang belum rame di TikTok belum bikin saya penasaran."
+   ],
+   [
+    "P008",
+    "P011"
+   ]
+  ],
+  [
+   "need",
+   2,
+   [
+    "Saya ke kafe itu buat nyelesaiin kerjaan sambil ngopi, jadi kalau laptop dilarang dan nggak ada colokan, tempat ini nggak kepakai buat saya. Harganya sih oke, tapi saya nggak butuh tempat yang cuma buat ngobrol.",
+    "Saya ke kafe biasanya buat nyelesain kerjaan sambil ngopi, jadi tempat yang ngelarang laptop dan nggak ada colokan ya nggak masuk buat saya. Pulang kantor saya udah capek dan lapar, nggak mau nunggu kopi diseduh pelan-pelan sambil diajak ngobrol."
+   ],
+   [
+    "P009",
+    "P015"
+   ]
+  ]
+ ],
+ "why_yes": [
+  [
+   "quality",
+   2,
+   [
+    "V60 single origin Indonesia Rp22.000 sambil ngobrol sama barista soal beans itu persis yang saya cari, dan harganya lebih murah dari slowbar lain. Saya coba sekali bareng teman habis kerja, kalau beans-nya enak dan baristanya paham, saya balik lagi.",
+    "Slowbar V60 single origin dengan barista yang mau ngobrol soal beans itu memang yang saya cari, dan Rp22rb masih masuk kantong saya. Tapi saya nggak datang minggu pertama; tunggu review dulu, baru coba sekali bareng teman di akhir bulan."
+   ],
+   [
+    "P001",
+    "P016"
+   ]
+  ],
+  [
+   "habit",
+   2,
+   [
+    "Saya memang tiap minggu nongkrong sama teman habis kerja, dan tempat yang buka sampai tengah malam tanpa orang-orang laptopan itu cocok buat ngobrol. Es kopi susu Rp20.000 masih masuk akal, jadi sekali coba bareng teman mungkin, tapi belum tentu jadi langganan.",
+    "Saya memang nongkrong sama teman tiap minggu sepulang kerja, jadi kalau ada teman yang ngajak, saya mau coba sekali karena penasaran sama slowbar baru yang dekat. Tapi buat rutin, warkop masih jauh lebih murah buat duduk 2-3 jam."
+   ],
+   [
+    "P007",
+    "P014"
+   ]
+  ],
+  [
+   "price",
+   1,
+   [
+    "Es kopi susu Rp20 ribu itu masih sama kayak yang biasa gue pesen lewat ojol, jadi kalau temen ngajak nongkrong di situ sekali, gue mau coba. Tapi gue nggak terlalu peduli soal V60 atau ngobrol sama barista, buat gue kopi ya kopi."
+   ],
+   [
+    "P004"
+   ]
+  ]
+ ],
+ "flip": [
+  "Promo pembukaan yang jelas, misalnya beli 1 gratis 1 atau diskon e-wallet, supaya es kopi susunya jadi sekitar Rp12-15 ribu per cangkir.",
+  "Promo pembukaan beli 1 gratis 1 atau diskon lewat GoPay/OVO/ShopeePay, ditambah ada tempat parkir motor yang gampang.",
+  "Kalau teman-teman saya mulai posting tempat ini di TikTok/IG dan kelihatan ramai serta enak buat foto, baru saya ikut coba.",
+  "Kalau temen-temen tongkrongan aku sendiri yang ngajak ke sana dan bilang tempatnya enak buat ngobrol lama.",
+  "Kalau ada makanan yang bisa langsung dipesan (minimal camilan atau mie/nasi) dan es kopi susunya bisa keluar cepat tanpa harus nunggu seduhan manual.",
+  "Kalau teman-teman saya yang ngajak dan ada menu sederhana yang jelas buat orang awam, mungkin saya mau coba sekali pas nongkrong.",
+  "Kalau temen-temenku atau FYP TikTok mulai rame posting Kopiyo dengan spot yang bagus buat foto, ditambah info parkirnya gampang, aku pasti ajak temen ke sana sekali.",
+  "Kalau tempatnya lagi viral di TikTok/IG dan teman-teman ngajak nongkrong di sana, apalagi ada makanan atau camilan yang bikin kenyang.",
+  "Promo pembukaan yang jelas, misalnya beli 1 gratis 1 atau cashback e-wallet, supaya es kopi susunya jatuh sekitar Rp12–13 ribu per cangkir; kalau teman ngajak dan ada promo begitu, saya mau coba sekali.",
+  "Rating Google Maps minimal 4,5 dengan banyak review asli, atau teman dekat yang sudah coba ngajak aku ke sana.",
+  "Kalau teman-teman nongkrong saya sendiri yang ngajak ke sana dan ternyata ada makanan berat, saya mungkin ikut sekali.",
+  "Teman nongkrong saya yang sudah ke sana bilang enak dan nyaman lalu ngajak bareng, atau ada promo pembukaan beli dua lebih murah.",
+  "Kalau ada makanan yang mengenyangkan dan es kopi susunya bisa langsung jadi tanpa harus antre nunggu seduhan manual.",
+  "Rating Google Maps minimal 4.5 dengan puluhan review yang kelihatan asli, atau teman yang sudah ke sana ngajak saya langsung.",
+  "Kalau teman tongkrongan yang ngajak dan bayarin duluan, plus ternyata ada makanan yang mengenyangkan dan pesanan nggak lama keluarnya."
+ ],
+ "purchases_first_month_per_buyer": 1.2,
+ "price_answers": 20
+}

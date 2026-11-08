@@ -3,11 +3,11 @@
   "buys": false,
   "purchases_first_month": 0,
   "reason_code": "need",
-  "reason": "Saya ke kafe itu buat nyelesaiin kerjaan sambil ngopi, jadi kalau laptop dilarang dan nggak ada colokan, tempat ini nggak kepakai buat saya. Harganya sih oke, tapi saya nggak butuh tempat yang cuma buat ngobrol.",
-  "objection": "Nggak boleh bawa laptop itu udah bikin saya mundur, ditambah barista yang ngajak ngobrol soal kopi bikin saya makin takut salah pesan dan kelihatan nggak ngerti apa-apa.",
-  "would_change_my_mind": "Kalau teman-teman saya yang ngajak dan ada menu sederhana yang jelas buat orang awam, mungkin saya mau coba sekali pas nongkrong.",
-  "price_too_cheap": 10000,
+  "reason": "Saya ke kafe itu buat kerja sambil ngopi, bawa laptop. Di sini laptop nggak boleh dan bukanya baru jam 7 malam, padahal saya udah sampai rumah sekitar jam 6, males keluar lagi cuma buat duduk di tikar.",
+  "objection": "Tempatnya nggak cocok buat kebiasaan saya: nggak bisa buka laptop, duduknya bangku dan tikar, dan jamnya kemalaman. Cicip gratisnya enak sih buat orang kayak saya yang nggak ngerti kopi, tapi itu nggak cukup kalau tempatnya bukan buat saya.",
+  "would_change_my_mind": "Kalau teman kantor ngajak nongkrong ke sana di Jumat malam, mungkin saya ikut sekali karena ada promo minuman kedua setengah harga dan bisa cicip dulu.",
+  "price_too_cheap": 8000,
   "price_cheap": 15000,
-  "price_expensive": 28000,
-  "price_too_expensive": 38000
+  "price_expensive": 25000,
+  "price_too_expensive": 35000
 }

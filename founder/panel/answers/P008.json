@@ -1,13 +1,13 @@
 {
   "id": "P008",
-  "buys": false,
-  "purchases_first_month": 0,
-  "reason_code": "convenience",
-  "reason": "Pulang kantor saya sudah capek dan lapar, nongkrongnya 2-3 jam, jadi saya butuh tempat yang kopinya cepat keluar dan ada makanannya. Slowbar yang nyeduh pelan-pelan dan nggak nyebut makanan sama sekali bukan pilihan pertama saya atau teman-teman, harganya sih nggak masalah.",
-  "objection": "Nunggu kopi diseduh manual pas lagi capek itu bikin bete, dan kalau nggak ada makanan berat atau camilan, ujung-ujungnya kami pindah ke warkop atau kafe yang ada makanannya.",
-  "would_change_my_mind": "Kalau ada makanan yang bisa langsung dipesan (minimal camilan atau mie/nasi) dan es kopi susunya bisa keluar cepat tanpa harus nunggu seduhan manual.",
-  "price_too_cheap": 12000,
-  "price_cheap": 18000,
-  "price_expensive": 38000,
-  "price_too_expensive": 55000
+  "buys": true,
+  "purchases_first_month": 2,
+  "reason": "Saya memang nongkrong tiap minggu, dan di sini kopi plus makan bisa sekaligus dengan harga murah, ada es kopi susu yang jadi dalam 3 menit, jadi nggak harus nunggu slowbar. Promo ajak teman bikin saya mau coba sekali bareng geng kantor, kalau enak ya balik lagi.",
+  "reason_code": "need",
+  "objection": "Pulang kantor saya capek dan lapar beneran. Nasi kucing porsinya kecil, dan duduk lesehan di tikar atau bangku 2–3 jam itu pegal di punggung. Kalau datang ramai-ramai, 15 tempat duduk bisa sudah penuh. Hari Rabu–Kamis baru buka jam 7 malam, jadi saya harus nunggu dulu.",
+  "would_change_my_mind": "Kalau pertama kali datang ternyata penuh dan nggak kebagian duduk, atau kopinya tetap lama keluar, saya nggak akan balik lagi dan pindah ke warkop langganan.",
+  "price_too_cheap": 8000,
+  "price_cheap": 15000,
+  "price_expensive": 28000,
+  "price_too_expensive": 38000
 }

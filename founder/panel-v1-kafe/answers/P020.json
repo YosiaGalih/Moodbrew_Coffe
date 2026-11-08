@@ -1,0 +1,13 @@
+{
+  "id": "P020",
+  "buys": false,
+  "purchases_first_month": 0,
+  "reason_code": "habit",
+  "reason": "Habis kerja saya biasanya langsung ke warkop langganan dekat rumah: sudah kenal, cepat, dan bisa sekalian makan. Saya nggak lihat alasan pindah ke slowbar yang harus nunggu kopinya diseduh pelan-pelan, apalagi nggak disebut ada makanan.",
+  "objection": "Pulang kerja saya sudah capek dan lapar. Nunggu V60 diseduh sambil diajak ngobrol soal kopi malah terasa repot, dan kalau cuma ada kopi tanpa makanan berat ya buat apa.",
+  "would_change_my_mind": "Kalau teman tongkrongan yang ngajak dan bayarin duluan, plus ternyata ada makanan yang mengenyangkan dan pesanan nggak lama keluarnya.",
+  "price_too_cheap": 10000,
+  "price_cheap": 15000,
+  "price_expensive": 28000,
+  "price_too_expensive": 38000
+}

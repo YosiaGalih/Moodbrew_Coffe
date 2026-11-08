@@ -1,6 +1,6 @@
 # Marketing: Kopiyo
 
-> **Sumber:** `panel/results.md` (pitch v1), `panel-v2/results.md` (pitch saat ini), `panel-gofood/results.md`, `competitors.md`, `offer.md`, `pitch.md`, `pricing.md`, `cfo.md`, `numbers.json`, `board.md`. Semua uang dalam Rupiah.
+> **Sumber:** `panel-v1-kafe/results.md` (pitch v1), `panel-v2/results.md` (pitch saat ini), `panel-gofood/results.md`, `competitors.md`, `offer.md`, `pitch-v2-kafe.md`, `pricing.md`, `cfo.md`, `numbers.json`, `board.md`. Semua uang dalam Rupiah.
 >
 > - **Pembeli panel adalah simulasi.** Kutipan mereka di dokumen ini adalah bahan riset untuk memilih pesan. Kutipan itu **tidak pernah dipakai sebagai kutipan atau testimoni pelanggan** di iklan, post, papan, atau pesan WA.
 > - **Kalender memakai label relatif terhadap hari buka H** (H-14 sampai H+16). `/founder-launch` yang akan mengisi tanggal nyata.

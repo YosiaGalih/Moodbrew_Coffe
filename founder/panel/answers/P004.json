@@ -3,11 +3,11 @@
   "buys": true,
   "purchases_first_month": 1,
   "reason_code": "price",
-  "reason": "Es kopi susu Rp20 ribu itu masih sama kayak yang biasa gue pesen lewat ojol, jadi kalau temen ngajak nongkrong di situ sekali, gue mau coba. Tapi gue nggak terlalu peduli soal V60 atau ngobrol sama barista, buat gue kopi ya kopi.",
-  "objection": "Parkir di Rawamangun susah dan jam pulang kerja macet, males banget muter-muter cari parkir cuma buat ngopi yang sebenernya bisa gue dapet di warkop atau tinggal pesen ojol.",
-  "would_change_my_mind": "Kalau ada parkir motor yang jelas dan gampang, atau tempatnya deket banget sama jalur pulang gue, gue bakal lebih sering ke sana.",
-  "price_too_cheap": 10000,
-  "price_cheap": 15000,
-  "price_expensive": 25000,
-  "price_too_expensive": 30000
+  "reason": "Harganya masih masuk kantong: tubruk 8 ribu plus gorengan, atau es kopi susu 17 ribu, nggak beda jauh sama warkop atau kopi ojol yang biasa gue beli. Gue mungkin coba sekali bareng temen pas promo setengah harga, tapi bukan langsung jadi tempat langganan.",
+  "objection": "Parkir di Rawamangun susah dan jam pulang kerja macet, males muter-muter cari parkir cuma buat ngopi. Tempat duduknya juga cuma sekitar 15, kalau datang rame-rame terus penuh ya buang waktu. V60 22 ribu buat gue kemahalan, paling gue ambil tubruk atau es kopi susu aja.",
+  "would_change_my_mind": "Kalau ada parkir motor yang jelas dan gampang di depan rukonya, gue bisa balik rutin tiap nongkrong, bukan cuma sekali coba.",
+  "price_too_cheap": 6000,
+  "price_cheap": 12000,
+  "price_expensive": 20000,
+  "price_too_expensive": 27000
 }

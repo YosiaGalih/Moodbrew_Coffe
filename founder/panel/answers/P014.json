@@ -1,13 +1,13 @@
 {
   "id": "P014",
   "buys": true,
-  "purchases_first_month": 1,
-  "reason_code": "habit",
-  "reason": "Saya memang nongkrong sama teman tiap minggu sepulang kerja, jadi kalau ada teman yang ngajak, saya mau coba sekali karena penasaran sama slowbar baru yang dekat. Tapi buat rutin, warkop masih jauh lebih murah buat duduk 2-3 jam.",
-  "objection": "Kok nggak boleh buka laptop? Kadang saya perlu balas kerjaan sebentar, dan Rp20-22 ribu per gelas lumayan buat gaji fresh graduate kalau dibandingkan warkop yang cuma Rp5-10 ribu.",
-  "would_change_my_mind": "Kalau ada promo bawa teman atau harga es kopi susu di bawah Rp18 ribu, saya bisa jadikan tempat nongkrong rutin, bukan cuma coba sekali.",
-  "price_too_cheap": 10000,
-  "price_cheap": 15000,
-  "price_expensive": 25000,
-  "price_too_expensive": 30000
+  "purchases_first_month": 2,
+  "reason_code": "price",
+  "reason": "Harganya masuk buat kantong saya: es kopi susu Rp17 ribu, tubruk Rp8 ribu, gorengan sama nasi kucing murah, jadi nongkrong 2-3 jam nggak bikin boncos. Promo temen setengah harga bikin gampang ngajak anak-anak nyobain sekali-dua kali.",
+  "objection": "Kok nggak boleh buka laptop? Habis kantor kadang masih ada kerjaan yang harus dibales sebentar, kalau cuma lewat HP ribet. Ditambah tempatnya cuma 15 kursi, takut pas datang rombongan malah penuh.",
+  "would_change_my_mind": "Kalau saya ditegur cuma buka laptop 5 menit buat bales kerjaan, atau datang dua kali dan nggak dapat tempat, saya balik ke warkop atau kafe biasa.",
+  "price_too_cheap": 8000,
+  "price_cheap": 13000,
+  "price_expensive": 22000,
+  "price_too_expensive": 28000
 }

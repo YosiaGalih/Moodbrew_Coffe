@@ -1,31 +1,39 @@
 {
- "business": "Lapak malam Rawamangun (teras ruko/rumah numpang, angkringan-slowbar tanpa listrik), founder menjalankan sendiri 4 malam/minggu + helper Jumat-Sabtu. Harga: V60 Rp22.000, es kopi susu Rp17.000, kopi tubruk Rp8.000, makanan angkringan Rp3.000-12.000. Semua angka dalam Rupiah; alat mencetak '$' = Rp.",
+ "business": "Lapak Yok (nama kerja): slowbar berbentuk lapak, teras ruko/rumah numpang di Rawamangun, tanpa listrik. Rabu-Sabtu, founder + helper Jumat-Sabtu. Offer v3: gelas kedua Rp12.000, kartu cap (gelas ke-6 gratis), paket dengan makanan siap saji, menu pendek di malam solo. Semua angka dalam Rupiah; alat mencetak '$' = Rp.",
  "unit": "tamu (rata-rata belanja per kunjungan)",
- "price": 28000,
+ "price": 29000,
  "variable": [
   {
-   "label": "Minuman 1,25 per tamu: campuran 40% V60 (bahan Rp7.050), 45% es kopi susu (Rp7.900), 15% kopi tubruk (Rp3.400) [estimasi campuran]",
-   "cost": 8610
+   "label": "Minuman pertama: campuran 40% V60 (bahan Rp7.050), 45% es kopi susu (Rp7.900), 15% tubruk (Rp3.400) = Rp6.890 [estimasi campuran]",
+   "cost": 6890
   },
   {
-   "label": "Makanan angkringan: 70% tamu x Rp9.000 x HPP 65% (sebagian titipan, sebagian buat sendiri) [estimasi]",
-   "cost": 4095
+   "label": "Gelas kedua Rp12.000 (35% tamu) x bahan Rp6.890 [estimasi porsi]",
+   "cost": 2412
+  },
+  {
+   "label": "Makanan: 75% tamu x Rp9.000 x HPP ±62% (malam solo Rabu-Kamis: siap saji/titipan ±72%, ±40% tamu; Jumat-Sabtu dengan helper: roti bakar & sate buat sendiri, campuran ±55%, ±60% tamu) [estimasi]",
+   "cost": 4190
   },
   {
    "label": "Waste 5% bahan minuman [estimasi]",
-   "cost": 430
+   "cost": 465
   },
   {
    "label": "Cup take-away 20% tamu x Rp1.600",
    "cost": 320
   },
   {
-   "label": "Cicip Dulu + garansi seduh ulang [estimasi]",
-   "cost": 300
+   "label": "Cicip (cium bubuk/tegukan kecil) + garansi seduh ulang [estimasi]",
+   "cost": 250
+  },
+  {
+   "label": "Kartu cap: gelas ke-10 gratis, 60% ditukar (1,35 gelas/tamu x Rp6.890/10 x 60%) [estimasi]",
+   "cost": 560
   },
   {
    "label": "PPh Final UMKM 0,5% (orang pribadi: Rp500 jt omzet pertama/tahun bebas; dimasukkan agar konservatif)",
-   "cost": 140
+   "cost": 145
   },
   {
    "label": "QRIS statis (MDR 0% untuk transaksi <= Rp100.000)",
@@ -122,6 +130,10 @@
   {
    "label": "NIB (gratis, OSS) dan halal self-declare SEHATI (gratis jika memenuhi syarat)",
    "cost": 0
+  },
+  {
+   "label": "Promo Ajak Teman 2 minggu pertama [estimasi]",
+   "cost": 500000
   }
  ],
  "days_per_month": 17,

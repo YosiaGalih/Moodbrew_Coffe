@@ -3,11 +3,11 @@
   "buys": false,
   "purchases_first_month": 0,
   "reason_code": "trust",
-  "reason": "Konsepnya lucu sih, tapi ini tempat baru dan belum ada rating atau review di Google Maps. Tempat baru biasanya ramai sebentar terus sepi, jadi bulan pertama aku tunggu review dulu, sementara kopi susu tetap pesan lewat ojol di kantor aja.",
-  "objection": "Belum ada review sama sekali, aku nggak tahu kopinya enak atau cuma gimmick, dan aku malas ajak teman ke tempat yang ternyata zonk.",
-  "would_change_my_mind": "Rating Google Maps minimal 4,5 dengan banyak review asli, atau teman dekat yang sudah coba ngajak aku ke sana.",
-  "price_too_cheap": 10000,
-  "price_cheap": 16000,
-  "price_expensive": 28000,
-  "price_too_expensive": 38000
+  "reason": "Kedengarannya enak buat nongkrong, tapi tempatnya baru dan belum ada review di Google Maps, jadi bulan pertama aku belum mau coba dulu. Kopi susu sehari-hari aku juga udah biasa pesan lewat ojol di kantor.",
+  "objection": "Belum ada rating atau review sama sekali. Tempat baru gini biasanya rame sebentar terus sepi, dan aku nggak mau ngajak teman ke tempat yang ternyata zonk, apalagi cuma teras ruko dengan 15 tempat duduk.",
+  "would_change_my_mind": "Kalau rating Google Maps-nya udah 4.5 ke atas dengan puluhan review asli, atau ada teman yang udah ke sana dan ngajak aku langsung.",
+  "price_too_cheap": 8000,
+  "price_cheap": 13000,
+  "price_expensive": 22000,
+  "price_too_expensive": 30000
 }

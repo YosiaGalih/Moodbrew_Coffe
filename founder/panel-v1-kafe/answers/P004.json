@@ -1,0 +1,13 @@
+{
+  "id": "P004",
+  "buys": true,
+  "purchases_first_month": 1,
+  "reason_code": "price",
+  "reason": "Es kopi susu Rp20 ribu itu masih sama kayak yang biasa gue pesen lewat ojol, jadi kalau temen ngajak nongkrong di situ sekali, gue mau coba. Tapi gue nggak terlalu peduli soal V60 atau ngobrol sama barista, buat gue kopi ya kopi.",
+  "objection": "Parkir di Rawamangun susah dan jam pulang kerja macet, males banget muter-muter cari parkir cuma buat ngopi yang sebenernya bisa gue dapet di warkop atau tinggal pesen ojol.",
+  "would_change_my_mind": "Kalau ada parkir motor yang jelas dan gampang, atau tempatnya deket banget sama jalur pulang gue, gue bakal lebih sering ke sana.",
+  "price_too_cheap": 10000,
+  "price_cheap": 15000,
+  "price_expensive": 25000,
+  "price_too_expensive": 30000
+}

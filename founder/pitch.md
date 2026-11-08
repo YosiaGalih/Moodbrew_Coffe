@@ -1,6 +1,6 @@
-Kopiyo, slowbar baru di Rawamangun, Jakarta Timur: tempat ngobrol dan melepas lelah bareng teman sepulang kerja. Buka setiap hari 16.00–24.00. Meja bebas laptop (HP boleh).
-Es kopi susu Kopiyo Rp22.000, keluar dalam 3 menit. Atau V60 single origin Rp25.000 diseduh di depan kamu, dengan kartu asal beans, roastery, dan tanggal sangrainya. Gelas kedua di kunjungan yang sama Rp15.000.
-Makanan teman ngobrol: roti bakar, pisang goreng, mie, dan rice bowl, Rp15.000–28.000.
-Bingung pilih kopi? Cicip dulu tiga beans, gratis. Tidak cocok di tegukan pertama, kami seduh ulang dengan beans lain tanpa biaya.
-Sesi Ngobrol untuk 2–4 orang: satu teko seduhan dua beans plus camilan untuk berbagi, Rp85.000. Meja bisa dipesan lewat WhatsApp.
-14 hari pertama: minuman kedua untuk teman yang kamu ajak setengah harga. (Harga dalam Rupiah.)
+Lapak Yok, lapak kopi malam bergaya angkringan di teras ruko di Rawamangun, Jakarta Timur. Buka Rabu–Sabtu 19.00–24.00 (Jumat–Sabtu mulai 18.00).
+Kopi diseduh manual di depan kamu: V60 single origin Rp22.000 dengan kartu asal beans, es kopi susu cold brew Rp17.000 (siap dalam 3 menit), kopi tubruk Rp8.000.
+Makanan angkringan: nasi kucing, gorengan, sate, roti bakar, Rp3.000–12.000.
+Duduk di bangku dan tikar, sekitar 15 tempat duduk, untuk ngobrol dan melepas penat sepulang kerja; bukan tempat kerja (HP boleh, laptop tidak).
+Bingung pilih kopi? Cicip dulu gratis. Tidak cocok di tegukan pertama, kami seduh ulang dengan beans lain tanpa biaya.
+Dua minggu pertama: ajak teman, minuman kedua untuk temanmu setengah harga. (Harga dalam Rupiah.)

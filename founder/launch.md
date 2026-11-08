@@ -1,7 +1,7 @@
 # Rencana Peluncuran: Kopiyo (nama kerja)
 
 > **Cara membaca dokumen ini**
-> - Disusun Minggu, 8 November 2026, dari `board.md`, `idea.md`, `offer.md`, `pitch.md`, `pricing.md`, `panel-v2/results.md`, `panel-gofood/results.md`, `cfo.md`, `numbers-lean.json`, `ops.md`, `marketing.md`, dan `brand.md`. Semua uang dalam Rupiah.
+> - Disusun Minggu, 8 November 2026, dari `board.md`, `idea.md`, `offer.md`, `pitch-v2-kafe.md`, `pricing.md`, `panel-v2/results.md`, `panel-gofood/results.md`, `cfo.md`, `numbers-lean.json`, `ops.md`, `marketing.md`, dan `brand.md`. Semua uang dalam Rupiah.
 > - **"Kopiyo" di dokumen ini selalu berarti nama kerja.** Nama itu bertabrakan dengan Kopi Yor ("kopiyor"), jaringan kopi susu 100+ outlet yang outletnya dilaporkan ada di Jl. Pemuda, Rawamangun (`brand.md` §3). Founder belum memilih nama. Usulan brand: **Meja Pelan**, cadangan **Sepulang** dan **Larut**. Semua materi publik di rencana ini ditulis **[nama final]**.
 > - **[estimasi]** = perkiraan saya, bukan fakta. **[usulan]** = ambang yang saya turunkan dari angka CFO dan marketing, untuk diganti data nyata. **KP** = jalur kritis: kalau tugas ini mundur, tanggal buka ikut mundur.
 > - Tanggal libur 2027 berasal dari pemberitaan SKB 3 Menteri (15 Sep 2026); tanggal 1 Ramadan resmi menunggu Keputusan Menteri Agama. Sumber di bagian paling bawah.
@@ -71,7 +71,7 @@ Uji harga dari `pricing.md` dijalankan bersilang, sehingga setiap harga muncul d
 
 ### 1.3 Menu dan harga di pop-up
 
-Harga asli dari `pitch.md` dan `pricing.md`. **Tidak ada promo, termasuk Ajak Teman**, karena promo itu disimpan untuk 14 hari pertama kedai dan akan mengacaukan angka belanja per tamu.
+Harga asli dari `pitch-v2-kafe.md` dan `pricing.md`. **Tidak ada promo, termasuk Ajak Teman**, karena promo itu disimpan untuk 14 hari pertama kedai dan akan mengacaukan angka belanja per tamu.
 
 | Item | Harga |
 |---|---:|

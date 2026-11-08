@@ -1,6 +1,6 @@
 # Brand: Meja Pelan (usulan pengganti nama kerja "Kopiyo")
 
-> **Sumber:** `idea.md`, `marketing.md` (posisi dan kampanye), `competitors.md`, `offer.md`, `pitch.md`, `panel-v2/results.md`, `board.md`. Riset nama dilakukan 8 November 2026.
+> **Sumber:** `idea.md`, `marketing.md` (posisi dan kampanye), `competitors.md`, `offer.md`, `pitch-v2-kafe.md`, `panel-v2/results.md`, `board.md`. Riset nama dilakukan 8 November 2026.
 >
 > - **Hanya pencarian publik.** Saya memakai cuplikan hasil mesin pencari. Basis data merek DJKI (PDKI), RDAP/WHOIS domain, dan Instagram tidak bisa dibuka langsung dari sesi ini (rincian di bagian 4.5). **Tidak ditemukan di pencarian bukan berarti tersedia.**
 > - **Ini bukan nasihat hukum.** Yang bisa memastikan sebuah nama aman adalah **Konsultan KI terdaftar** di DJKI. **Tidak ada nama yang terlindungi sebelum terdaftar di DJKI**, dan Indonesia memakai sistem *first-to-file*: yang lebih dulu mengajukan, bukan yang lebih dulu memakai, yang didahulukan.
@@ -229,7 +229,7 @@ Jika ingin saya cek ulang secara langsung, host pdki-indonesia.dgip.go.id, rdap.
    - Hitung berapa tamu yang berkomentar "pelan = lama ya?".
    - Sehari kemudian, tanyakan lewat daftar WA nama tempatnya.
    - **Jika ≥3 dari 10 salah eja atau mengira lambat, pindah ke cadangan "Sepulang"** sebelum apa pun dicetak massal.
-6. Jika founder setuju dengan nama ini, ganti nama kerja "Kopiyo" di template `marketing.md` dan `pitch.md`. Saya tidak mengubah file lain.
+6. Jika founder setuju dengan nama ini, ganti nama kerja "Kopiyo" di template `marketing.md` dan `pitch-v2-kafe.md`. Saya tidak mengubah file lain.
 
 ---
 
@@ -272,7 +272,7 @@ Konsekuensinya untuk operasional (`/founder-ops`):
 - "terbaik", "nomor 1", "termurah";
 - "kopi melepas stres".
 
-### Sebelum dan sesudah: kalimat pembuka `pitch.md`
+### Sebelum dan sesudah: kalimat pembuka `pitch-v2-kafe.md`
 
 **Sebelum:**
 > Kopiyo, slowbar baru di Rawamangun, Jakarta Timur: tempat ngobrol dan melepas lelah bareng teman sepulang kerja. Buka setiap hari 16.00–24.00. Meja bebas laptop (HP boleh).
@@ -558,7 +558,7 @@ Sisi 2 menjalankan offer S10: "barista baca meja", cerita kopi hanya jika dimint
   - tanggal pengajuan merek sebelum H-14;
   - cetak materi setelah nama final.
 - **Perlu diperbarui (bukan oleh saya):**
-  - nama kerja "Kopiyo" di `marketing.md`, `pitch.md`, dan `offer.md`;
+  - nama kerja "Kopiyo" di `marketing.md`, `pitch-v2-kafe.md`, dan `offer.md`;
   - tambahkan Kopi Yor (Jl. Pemuda, Rawamangun) di `competitors.md`.
 
 ---
