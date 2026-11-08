@@ -1,0 +1,144 @@
+{
+ "business": "Lapak malam Rawamangun (teras ruko/rumah numpang, angkringan-slowbar tanpa listrik), founder menjalankan sendiri 4 malam/minggu + helper Jumat-Sabtu. Harga: V60 Rp22.000, es kopi susu Rp17.000, kopi tubruk Rp8.000, makanan angkringan Rp3.000-12.000. Semua angka dalam Rupiah; alat mencetak '$' = Rp.",
+ "unit": "tamu (rata-rata belanja per kunjungan)",
+ "price": 28000,
+ "variable": [
+  {
+   "label": "Minuman 1,25 per tamu: campuran 40% V60 (bahan Rp7.050), 45% es kopi susu (Rp7.900), 15% kopi tubruk (Rp3.400) [estimasi campuran]",
+   "cost": 8610
+  },
+  {
+   "label": "Makanan angkringan: 70% tamu x Rp9.000 x HPP 65% (sebagian titipan, sebagian buat sendiri) [estimasi]",
+   "cost": 4095
+  },
+  {
+   "label": "Waste 5% bahan minuman [estimasi]",
+   "cost": 430
+  },
+  {
+   "label": "Cup take-away 20% tamu x Rp1.600",
+   "cost": 320
+  },
+  {
+   "label": "Cicip Dulu + garansi seduh ulang [estimasi]",
+   "cost": 300
+  },
+  {
+   "label": "PPh Final UMKM 0,5% (orang pribadi: Rp500 jt omzet pertama/tahun bebas; dimasukkan agar konservatif)",
+   "cost": 140
+  },
+  {
+   "label": "QRIS statis (MDR 0% untuk transaksi <= Rp100.000)",
+   "cost": 0
+  }
+ ],
+ "fixed_monthly": [
+  {
+   "label": "Sewa/numpang teras ruko atau rumah yang tutup sore (listing Jaktim Rp0,6-2,5 jt/bulan; research/lokasi-rawamangun.md)",
+   "cost": 1500000
+  },
+  {
+   "label": "Helper Jumat-Sabtu 5 jam (18.00-23.00) x 8,7 malam x Rp45.475/jam (UMP DKI / 126, PP 36/2021)",
+   "cost": 1970000
+  },
+  {
+   "label": "Gas LPG untuk kettle [estimasi]",
+   "cost": 250000
+  },
+  {
+   "label": "Angkut/titip alat (kalau tidak bisa disimpan di lokasi) [estimasi]",
+   "cost": 400000
+  },
+  {
+   "label": "Iuran kebersihan/warga dengan kuitansi [estimasi]",
+   "cost": 150000
+  },
+  {
+   "label": "Marketing (cetak kartu Ajak Teman, konten) [estimasi]",
+   "cost": 500000
+  },
+  {
+   "label": "Aplikasi kasir Qasir Pro (Rp699 rb/tahun)",
+   "cost": 58250
+  }
+ ],
+ "startup": [
+  {
+   "label": "Alat seduh manual tanpa listrik (SUDAH DIMILIKI founder)",
+   "cost": 0
+  },
+  {
+   "label": "Tenda lipat 3x3 m [estimasi]",
+   "cost": 2250000
+  },
+  {
+   "label": "Gerobak/meja bar portabel [estimasi]",
+   "cost": 3000000
+  },
+  {
+   "label": "Bangku dan meja lipat ±15 kursi + tikar [estimasi]",
+   "cost": 2300000
+  },
+  {
+   "label": "Cooler box 2 unit [estimasi]",
+   "cost": 1000000
+  },
+  {
+   "label": "Kompor portabel + tabung gas [estimasi]",
+   "cost": 600000
+  },
+  {
+   "label": "Lampu LED baterai + powerbank [estimasi]",
+   "cost": 600000
+  },
+  {
+   "label": "Gelas, cangkir, nampan [estimasi]",
+   "cost": 1000000
+  },
+  {
+   "label": "APAR kecil (wajib, risiko gas di tenda) [estimasi]",
+   "cost": 300000
+  },
+  {
+   "label": "Banner dan papan nama [estimasi]",
+   "cost": 700000
+  },
+  {
+   "label": "Stok awal bahan [estimasi]",
+   "cost": 2000000
+  },
+  {
+   "label": "Pendaftaran merek kelas 43 (tarif umum; brand.md)",
+   "cost": 2800000
+  },
+  {
+   "label": "Uang muka sewa teras 1 bulan [estimasi]",
+   "cost": 1500000
+  },
+  {
+   "label": "Marketing pembukaan [estimasi]",
+   "cost": 1000000
+  },
+  {
+   "label": "NIB (gratis, OSS) dan halal self-declare SEHATI (gratis jika memenuhi syarat)",
+   "cost": 0
+  }
+ ],
+ "days_per_month": 17,
+ "capacity_per_day": 37,
+ "plan_per_day": 28,
+ "ramp_per_day": [
+  10,
+  13,
+  16,
+  18,
+  20,
+  22,
+  24,
+  25,
+  26,
+  27,
+  28,
+  28
+ ]
+}
