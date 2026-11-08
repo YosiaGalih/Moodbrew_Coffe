@@ -83,3 +83,24 @@ Semua angka dalam Rupiah. Alat CFO mencetak `$`, artinya Rp.
 ## PBJT 10% (pajak restoran DKI)
 
 Wajib jika omzet lebih dari Rp42 juta/bulan ([Bapenda DKI](https://bapenda.jakarta.go.id/jenis/pajak-restoran)). Di rencana 60 tamu × Rp40.000 × 30 hari = Rp72 juta/bulan, sehingga **wajib**. Model ini menganggap PBJT **ditambahkan di atas harga menu**. Jika harga menu sudah termasuk pajak, lihat what-if di `cfo.md`.
+
+## Tambahan setelah `/founder-ops` (versi 2)
+
+Sumber lengkap ada di [ops.md](ops.md), bagian 11.
+
+| Input | Dasar | Ramping | Asal |
+|---|---:|---:|---|
+| Royalti musik LMKN | 300.000/bulan | 240.000/bulan | Rp120.000/kursi/tahun ([izin.co.id](https://izin.co.id/blog/cara-bayar-royalti-lagu/)) |
+| Paruh waktu jam ramai | 2.380.000/bulan | 1.580.000/bulan | PP 36/2021: upah per jam ≥ upah sebulan ÷ 126. Dimasukkan penuh 12 bulan agar konservatif (ops: dibutuhkan mulai bulan 5) |
+| Makan staf + antar pulang malam | 2.500.000/bulan | 2.500.000/bulan | UU 13/2003 Pasal 76; besaran **[estimasi]** tengah rentang Rp2,2–2,8 juta |
+| Cicip Dulu (dipindah dari variabel ke tetap) | 873.000/bulan | 873.000/bulan | 2 teko/hari × 3 beans × (10 g × Rp400 + filter Rp850) |
+| Asuransi kebakaran | 41.000/bulan | 41.000/bulan | **[Estimasi]** tengah rentang Rp30.000–52.000 |
+| POS | 276.390/bulan | 276.390/bulan | Majoo Starter Rp249.000 + PPN 11% ([majoo.id](https://majoo.id/harga)) |
+| HPP makanan per tamu | 5.880 | 5.880 | ±49%: roti bakar, pisang goreng, mie dibuat sendiri; rice bowl titip ([ops.md](ops.md)) |
+| Gaji pelatihan sebelum buka (startup) | 10.200.000 | 6.800.000 | 2 minggu × staf |
+
+**Versi ramping** (`numbers-lean.json`):
+- founder bekerja di bar tanpa gaji (2 staf);
+- sewa Rp106 juta/tahun (batas bawah listing Rawamangun);
+- renovasi Rp50 juta **[estimasi]**;
+- kapasitas sekitar 77 tamu/hari (24 kursi) **[estimasi]**.

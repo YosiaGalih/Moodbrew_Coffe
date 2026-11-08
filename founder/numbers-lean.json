@@ -12,12 +12,8 @@
    "cost": 2533
   },
   {
-   "label": "Makanan (60% tamu) x HPP Rp7.600 (±38% dari rata-rata Rp20.000) [estimasi]",
-   "cost": 4560
-  },
-  {
-   "label": "Cicip Dulu gratis (30% tamu x Rp1.000) [estimasi]",
-   "cost": 300
+   "label": "Makanan (60% tamu) x HPP ±49% (roti bakar, pisang goreng, mie buat sendiri; rice bowl titip UMKM) [ops.md, sebagian estimasi]",
+   "cost": 5880
   },
   {
    "label": "Garansi seduh ulang (5% klaim x 50% V60 x Rp6.850) [estimasi klaim]",
@@ -54,8 +50,8 @@
    "cost": 800000
   },
   {
-   "label": "POS Moka Basic",
-   "cost": 299000
+   "label": "POS Majoo Starter Rp249.000 + PPN 11% (ops.md)",
+   "cost": 276390
   },
   {
    "label": "Marketing rutin [estimasi]",
@@ -68,6 +64,26 @@
   {
    "label": "Gas LPG dapur sederhana [estimasi]",
    "cost": 400000
+  },
+  {
+   "label": "Royalti musik LMKN (Rp120.000/kursi/tahun) (ops.md)",
+   "cost": 240000
+  },
+  {
+   "label": "Paruh waktu jam ramai (dimasukkan penuh 12 bulan agar konservatif; ops.md: mulai bulan 5)",
+   "cost": 1580000
+  },
+  {
+   "label": "Makan staf + antar pulang malam (UU 13/2003 Ps. 76) [estimasi tengah Rp2,2-2,8 jt]",
+   "cost": 2500000
+  },
+  {
+   "label": "Cicip Dulu: 2 teko/hari x 3 beans (ops.md, tetap)",
+   "cost": 873000
+  },
+  {
+   "label": "Asuransi kebakaran (±Rp160 jt x 0,2-0,35%/th + PPN) [estimasi tengah]",
+   "cost": 41000
   }
  ],
  "startup": [
@@ -126,6 +142,10 @@
   {
    "label": "Promo Ajak Teman 14 hari (±30% tamu bulan 1 x setengah harga gelas kedua) [estimasi]",
    "cost": 1200000
+  },
+  {
+   "label": "Gaji pelatihan 2 minggu sebelum buka (ops.md)",
+   "cost": 6800000
   }
  ],
  "days_per_month": 30,
