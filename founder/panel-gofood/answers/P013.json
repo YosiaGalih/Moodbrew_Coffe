@@ -1,0 +1,13 @@
+{
+  "id": "P013",
+  "buys": false,
+  "purchases_first_month": 0,
+  "reason_code": "trust",
+  "reason": "Belum ada rating sama sekali, dan aku nggak pernah pesan dari merchant yang belum ada review-nya. Harga Rp22.000 sih wajar, tapi di GoFood aku sudah punya langganan kopi susu yang ratingnya jelas, jadi buat apa ambil risiko.",
+  "objection": "Nggak ada rating dan review, jadi aku nggak tahu rasanya enak atau nggak, takarannya pas atau nggak, dan apakah es-nya masih utuh pas sampai kantor. Tempat baru biasanya ramai sebentar terus sepi.",
+  "would_change_my_mind": "Kalau sudah ada rating minimal 4,5 dengan puluhan review asli, atau teman kantor ada yang sudah coba dan bilang enak.",
+  "price_too_cheap": 10000,
+  "price_cheap": 15000,
+  "price_expensive": 27000,
+  "price_too_expensive": 35000
+}

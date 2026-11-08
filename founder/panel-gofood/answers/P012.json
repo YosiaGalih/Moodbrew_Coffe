@@ -1,0 +1,13 @@
+{
+  "id": "P012",
+  "buys": false,
+  "purchases_first_month": 0,
+  "reason_code": "price",
+  "reason": "Es kopi susu Rp22.000 itu belum ongkir dan biaya layanan, jadi bisa tembus Rp30 ribuan, dan nggak ada promo sama sekali. Di GoFood banyak kopi susu gula aren yang lagi diskon atau beli 1 gratis 1, ngapain bayar harga penuh ke merchant baru yang belum ada ratingnya.",
+  "objection": "Nggak ada promonya, harga penuh plus ongkir buat merchant yang ratingnya aja belum ada. Kopi manual brew Rp25 ribu juga bukan buat saya, kopi susu biasa udah cukup.",
+  "would_change_my_mind": "Promo pembukaan yang beneran, misalnya beli 1 gratis 1 atau potongan sampai kopi susunya jadi sekitar Rp12–15 ribu, plus gratis ongkir.",
+  "price_too_cheap": 8000,
+  "price_cheap": 13000,
+  "price_expensive": 20000,
+  "price_too_expensive": 27000
+}

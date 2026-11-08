@@ -1,0 +1,13 @@
+{
+  "id": "P005",
+  "buys": false,
+  "purchases_first_month": 0,
+  "reason_code": "trust",
+  "reason": "Saya beli kopi biasanya karena tempatnya lagi ramai di TikTok dan bisa nongkrong sambil foto; ini cuma merchant GoFood baru, belum ada rating, nggak ada yang ngomongin, jadi nggak ada alasan buat saya coba. Kalau mau es kopi susu diantar, saya pilih yang sudah saya tahu rasanya.",
+  "objection": "Belum ada rating sama sekali dan nggak kelihatan di FYP, jadi saya nggak tahu enak atau nggak, dan Rp22.000 plus ongkir plus biaya layanan bisa jadi hampir Rp35.000 buat kopi yang belum jelas.",
+  "would_change_my_mind": "Kalau Kopiyo mulai ramai dibahas di TikTok atau teman nongkrong saya ada yang rekomendasiin, plus rating di GoFood sudah tinggi dengan banyak ulasan.",
+  "price_too_cheap": 10000,
+  "price_cheap": 15000,
+  "price_expensive": 25000,
+  "price_too_expensive": 35000
+}

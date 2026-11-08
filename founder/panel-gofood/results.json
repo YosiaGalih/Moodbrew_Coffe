@@ -1,0 +1,164 @@
+{
+ "business": "Kopiyo: slowbar (kopi seduh manual) di Rawamangun, Jakarta Timur; tempat ngobrol dan melepas lelah sepulang kerja, bukan tempat kerja/laptop",
+ "seed": 2611,
+ "dealt": 20,
+ "answered": 20,
+ "skipped": [],
+ "buys": 0,
+ "passes": 20,
+ "buy_rate": 0.0,
+ "by_segment": [
+  [
+   "Profesional mapan (gaji sekitar Rp10–25 juta/bulan)",
+   5,
+   0.0
+  ],
+  [
+   "Mahasiswa tingkat akhir / fresh graduate (uang saku atau gaji Rp2–5 juta/bulan)",
+   4,
+   0.0
+  ],
+  [
+   "Karyawan muda (gaji sekitar Rp5–9 juta/bulan)",
+   9,
+   0.0
+  ],
+  [
+   "Pekerja lokal / wiraswasta / guru / ASN (Rp6–15 juta/bulan)",
+   2,
+   0.0
+  ]
+ ],
+ "by_behaviour": [
+  [
+   "Pecinta kopi yang suka ngulik",
+   2,
+   0.0
+  ],
+  [
+   "Pemburu promo",
+   3,
+   0.0
+  ],
+  [
+   "Hemat, kopi seadanya",
+   2,
+   0.0
+  ],
+  [
+   "Ikut tren / FOMO media sosial",
+   3,
+   0.0
+  ],
+  [
+   "Loyal ke tempat langganan",
+   2,
+   0.0
+  ],
+  [
+   "Nongkrong rutin sepulang kerja",
+   4,
+   0.0
+  ],
+  [
+   "Cari tempat sambil kerja",
+   2,
+   0.0
+  ],
+  [
+   "Cek review dulu",
+   2,
+   0.0
+  ]
+ ],
+ "by_income": [
+  [
+   "$104,733,000 and up",
+   7,
+   0.0
+  ],
+  [
+   "under $91,800,000",
+   6,
+   0.0
+  ],
+  [
+   "$91,800,000 to $104,733,000",
+   7,
+   0.0
+  ]
+ ],
+ "why_not": [
+  [
+   "trust",
+   9,
+   [
+    "Merchant baru tanpa rating, dan nggak disebut single origin-nya dari mana atau roastery siapa, jadi buat saya 'seduh manual' itu cuma label. Pulang kerja saya capek dan lapar, mau yang cepat dan pasti, jadi ya balik ke kopi susu langganan yang sudah jelas rasanya.",
+    "Saya beli kopi biasanya karena tempatnya lagi ramai di TikTok dan bisa nongkrong sambil foto; ini cuma merchant GoFood baru, belum ada rating, nggak ada yang ngomongin, jadi nggak ada alasan buat saya coba. Kalau mau es kopi susu diantar, saya pilih yang sudah saya tahu rasanya."
+   ],
+   [
+    "P001",
+    "P005"
+   ]
+  ],
+  [
+   "habit",
+   6,
+   [
+    "Saya ngopi itu buat nongkrong bareng teman di kafe langganan dekat rumah, bukan pesan antar sendirian. Rp22.000 belum ongkir dan biaya layanan itu lebih mahal dari es kopi susu di tempat langganan saya, dan di sana saya dapat tempat duduknya juga.",
+    "Ngopi buat aku itu bagian dari nongkrong sama teman sepulang kerja, duduk di kafe atau warkop 2-3 jam, bukan pesan kopi diantar ke kos. Kalau di rumah ya aku bikin sendiri atau beli sachet aja."
+   ],
+   [
+    "P006",
+    "P007"
+   ]
+  ],
+  [
+   "price",
+   4,
+   [
+    "Rp22.000 belum ongkir dan biaya layanan, jadi bisa hampir Rp35.000 secangkir, dan nggak ada promo sama sekali. Kalau mau es kopi susu di GoFood saya pilih yang lagi ada diskon atau beli 1 gratis 1, apalagi biasanya saya ngopi langsung bareng teman di Rawamangun, bukan pesan antar.",
+    "Es kopi susu Rp22.000 belum ongkir dan biaya layanan, jadi sampai rumah bisa Rp30.000-an, dan nggak ada promo sama sekali. Aku biasanya buka GoFood langsung filter yang ada diskon atau beli 1 gratis 1, jadi merchant baru tanpa promo dan tanpa rating ya aku skip."
+   ],
+   [
+    "P002",
+    "P003"
+   ]
+  ],
+  [
+   "need",
+   1,
+   [
+    "Kalau saya ngopi, saya cari tempat buat duduk sambil buka laptop, bukan kopi yang diantar. Pulang kantor jam enam sore saya capek dan lapar, yang saya pesan di GoFood itu makanan, bukan es kopi Rp22 ribu ditambah ongkir dan biaya layanan dari merchant yang belum ada ratingnya."
+   ],
+   [
+    "P015"
+   ]
+  ]
+ ],
+ "why_yes": [],
+ "flip": [
+  "Kalau di menunya ditulis jelas origin, proses dan roastery-nya, dan sudah ada rating atau review bagus dari orang sekitar Rawamangun yang bilang kopinya sampai masih enak.",
+  "Promo pembukaan di GoFood, misalnya diskon 50% atau beli 1 gratis 1 plus gratis ongkir, baru saya mau coba sekali.",
+  "Promo pembukaan yang nendang, misalnya beli 1 gratis 1 atau potongan sampai es kopi susunya jatuh sekitar Rp12.000-15.000 plus gratis ongkir.",
+  "Promo pembukaan, misalnya diskon atau gratis ongkir, yang bikin total sampai di kantor di bawah Rp20 ribu.",
+  "Kalau Kopiyo mulai ramai dibahas di TikTok atau teman nongkrong saya ada yang rekomendasiin, plus rating di GoFood sudah tinggi dengan banyak ulasan.",
+  "Promo besar sampai satu gelas sampai di tangan sekitar Rp15.000 termasuk ongkir, ditambah sudah ada rating bagus dari orang sekitar Rawamangun.",
+  "Promo perdana yang bikin total sampai rumah di bawah Rp20.000 termasuk ongkir, ditambah ada review bagus dari orang-orang dulu.",
+  "Kalau ada teman yang sudah coba dan bilang enak, plus ada paket kopi dan makanan berat dengan ongkir gratis, mungkin saya coba sekali buat di kantor.",
+  "Kalau Kopiyo punya tempat duduk yang nyaman buat kerja dengan wifi dan colokan di dekat Rawamangun, atau ada promo gratis ongkir untuk pesanan pertama dengan rating yang sudah bagus.",
+  "Kalau aku lihat Kopiyo lagi ramai dibahas di TikTok atau Instagram, ratingnya sudah bagus, plus ada promo gratis ongkir di GoFood.",
+  "Kalau temen atau FYP saya rame ngomongin Kopiyo dan ratingnya udah 4.7 ke atas, ditambah ada promo ongkir atau diskon pembukaan biar totalnya nggak lewat Rp25 ribu.",
+  "Promo pembukaan yang beneran, misalnya beli 1 gratis 1 atau potongan sampai kopi susunya jadi sekitar Rp12–15 ribu, plus gratis ongkir.",
+  "Kalau sudah ada rating minimal 4,5 dengan puluhan review asli, atau teman kantor ada yang sudah coba dan bilang enak.",
+  "Ada promo pembukaan atau diskon ongkir buat pesanan pertama sampai totalnya sekitar Rp20 ribuan, atau udah ada rating 4,7 ke atas dengan review yang kelihatan asli.",
+  "Promo gratis ongkir atau paket kopi plus makanan berat di bawah Rp35 ribu, dan rating minimal 4,5 dari pembeli lain.",
+  "Rating bagus dan review dari orang yang ngerti kopi, plus info jelas soal beans (asal, proses, roaster) atau promo gratis ongkir buat coba sekali.",
+  "Kalau sudah ada rating bagus (misalnya 4,7 ke atas dengan ratusan ulasan) dan ada promo gratis ongkir atau diskon pembelian pertama yang bikin totalnya di bawah Rp25 ribu.",
+  "Kalau ada promo gratis ongkir atau paket kopi plus makanan berat, dan sudah ada rating bagus dari orang sekitar Rawamangun, mungkin saya coba sekali buat di kantor sore hari.",
+  "Kalau sudah ada rating minimal 4,5 dengan puluhan review yang kelihatan asli, atau ada teman yang sudah coba dan bilang enak.",
+  "Kalau teman nongkrong saya sudah coba dan bilang enak, plus ada promo gratis ongkir buat pesanan pertama."
+ ],
+ "purchases_first_month_per_buyer": null,
+ "price_answers": 20
+}

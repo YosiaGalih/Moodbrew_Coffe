@@ -1,0 +1,13 @@
+{
+  "id": "P017",
+  "buys": false,
+  "purchases_first_month": 0,
+  "reason_code": "trust",
+  "reason": "Merchant baru, belum ada rating sama sekali, jadi saya nggak mau jadi kelinci percobaan. Apalagi Rp22 ribu itu belum ongkir dan biaya layanan, ujungnya bisa Rp30 ribuan buat satu es kopi susu, mending ke warkop atau beli kopi susu yang sudah jelas rasanya.",
+  "objection": "Belum ada review, saya nggak tahu rasanya enak atau nggak, dan tempat baru biasanya ramai sebentar lalu sepi. Ditambah ongkir dan biaya layanan GoFood, harganya jadi kemahalan buat kopi yang belum terbukti.",
+  "would_change_my_mind": "Kalau sudah ada rating bagus (misalnya 4,7 ke atas dengan ratusan ulasan) dan ada promo gratis ongkir atau diskon pembelian pertama yang bikin totalnya di bawah Rp25 ribu.",
+  "price_too_cheap": 8000,
+  "price_cheap": 14000,
+  "price_expensive": 22000,
+  "price_too_expensive": 30000
+}

@@ -1,0 +1,13 @@
+{
+  "id": "P002",
+  "buys": false,
+  "purchases_first_month": 0,
+  "reason_code": "price",
+  "reason": "Rp22.000 belum ongkir dan biaya layanan, jadi bisa hampir Rp35.000 secangkir, dan nggak ada promo sama sekali. Kalau mau es kopi susu di GoFood saya pilih yang lagi ada diskon atau beli 1 gratis 1, apalagi biasanya saya ngopi langsung bareng teman di Rawamangun, bukan pesan antar.",
+  "objection": "Harga penuh tanpa promo untuk merchant baru yang belum ada rating sama sekali, saya nggak mau jadi orang pertama yang coba dengan uang sendiri.",
+  "would_change_my_mind": "Promo pembukaan di GoFood, misalnya diskon 50% atau beli 1 gratis 1 plus gratis ongkir, baru saya mau coba sekali.",
+  "price_too_cheap": 8000,
+  "price_cheap": 13000,
+  "price_expensive": 20000,
+  "price_too_expensive": 27000
+}

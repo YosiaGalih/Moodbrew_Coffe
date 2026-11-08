@@ -1,0 +1,13 @@
+{
+  "id": "P020",
+  "buys": false,
+  "purchases_first_month": 0,
+  "reason_code": "habit",
+  "reason": "Saya sudah punya kafe langganan dekat kantor dan warkop dekat rumah, jadi buat apa pesan dari merchant baru yang belum ada ratingnya. Kalau mau kopi ya saya mampir ke tempat biasa, nggak perlu nambah ongkir dan biaya layanan GoFood.",
+  "objection": "Belum ada rating sama sekali, dan seduh manual itu biasanya lama, saya pulang kerja sudah capek dan lapar, nggak mau nunggu lama buat kopi yang belum tentu enak dan nyampe sudah encer esnya.",
+  "would_change_my_mind": "Kalau teman nongkrong saya sudah coba dan bilang enak, plus ada promo gratis ongkir buat pesanan pertama.",
+  "price_too_cheap": 10000,
+  "price_cheap": 17000,
+  "price_expensive": 28000,
+  "price_too_expensive": 38000
+}

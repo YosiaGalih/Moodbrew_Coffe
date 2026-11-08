@@ -1,0 +1,13 @@
+{
+  "id": "P003",
+  "buys": false,
+  "purchases_first_month": 0,
+  "reason_code": "price",
+  "reason": "Es kopi susu Rp22.000 belum ongkir dan biaya layanan, jadi sampai rumah bisa Rp30.000-an, dan nggak ada promo sama sekali. Aku biasanya buka GoFood langsung filter yang ada diskon atau beli 1 gratis 1, jadi merchant baru tanpa promo dan tanpa rating ya aku skip.",
+  "objection": "Harga penuh plus ongkir untuk merchant yang belum ada rating sama sekali, rasanya kayak taruhan. Mending ambil yang lagi promo dari brand yang udah jelas rasanya.",
+  "would_change_my_mind": "Promo pembukaan yang nendang, misalnya beli 1 gratis 1 atau potongan sampai es kopi susunya jatuh sekitar Rp12.000-15.000 plus gratis ongkir.",
+  "price_too_cheap": 8000,
+  "price_cheap": 13000,
+  "price_expensive": 20000,
+  "price_too_expensive": 27000
+}

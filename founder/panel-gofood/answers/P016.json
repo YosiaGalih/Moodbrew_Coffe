@@ -1,0 +1,13 @@
+{
+  "id": "P016",
+  "buys": false,
+  "purchases_first_month": 0,
+  "reason_code": "trust",
+  "reason": "Merchant baru, belum ada rating, dan nggak disebut beans-nya dari mana, roaster siapa, prosesnya apa. Saya mending tunggu review dulu, apalagi kalau kopi manual brew dikirim pakai ojol, sampai rumah esnya sudah cair dan rasanya belum tentu.",
+  "objection": "'Single origin Indonesia' itu terlalu umum, saya nggak tahu kualitasnya, dan Rp25 ribu ditambah ongkir plus biaya layanan bisa jadi hampir Rp40 ribu buat kopi yang belum pernah saya coba. Saya juga lebih suka ngopi di tempat sambil ngobrol sama barista, bukan pesan antar.",
+  "would_change_my_mind": "Rating bagus dan review dari orang yang ngerti kopi, plus info jelas soal beans (asal, proses, roaster) atau promo gratis ongkir buat coba sekali.",
+  "price_too_cheap": 12000,
+  "price_cheap": 18000,
+  "price_expensive": 28000,
+  "price_too_expensive": 38000
+}
