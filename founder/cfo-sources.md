@@ -86,7 +86,7 @@ Wajib jika omzet lebih dari Rp42 juta/bulan ([Bapenda DKI](https://bapenda.jakar
 
 ## Tambahan setelah `/founder-ops` (versi 2)
 
-Sumber lengkap ada di [ops.md](ops.md), bagian 11.
+Sumber lengkap ada di [ops-kafe.md](ops-kafe.md), bagian 11.
 
 | Input | Dasar | Ramping | Asal |
 |---|---:|---:|---|
@@ -96,7 +96,7 @@ Sumber lengkap ada di [ops.md](ops.md), bagian 11.
 | Cicip Dulu (dipindah dari variabel ke tetap) | 873.000/bulan | 873.000/bulan | 2 teko/hari × 3 beans × (10 g × Rp400 + filter Rp850) |
 | Asuransi kebakaran | 41.000/bulan | 41.000/bulan | **[Estimasi]** tengah rentang Rp30.000–52.000 |
 | POS | 276.390/bulan | 276.390/bulan | Majoo Starter Rp249.000 + PPN 11% ([majoo.id](https://majoo.id/harga)) |
-| HPP makanan per tamu | 5.880 | 5.880 | ±49%: roti bakar, pisang goreng, mie dibuat sendiri; rice bowl titip ([ops.md](ops.md)) |
+| HPP makanan per tamu | 5.880 | 5.880 | ±49%: roti bakar, pisang goreng, mie dibuat sendiri; rice bowl titip ([ops-kafe.md](ops-kafe.md)) |
 | Gaji pelatihan sebelum buka (startup) | 10.200.000 | 6.800.000 | 2 minggu × staf |
 
 **Versi ramping** (`numbers-lean.json`):

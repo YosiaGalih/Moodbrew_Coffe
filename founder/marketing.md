@@ -1,25 +1,36 @@
-# Marketing: Kopiyo
+# Marketing: Lapak Yok (lapak malam Rawamangun)
 
-> **Sumber:** `panel-v1-kafe/results.md` (pitch v1), `panel-v2/results.md` (pitch saat ini), `panel-gofood/results.md`, `competitors.md`, `offer.md`, `pitch-v2-kafe.md`, `pricing.md`, `cfo.md`, `numbers.json`, `board.md`. Semua uang dalam Rupiah.
+> **Catatan rekonsiliasi (setelah dokumen ini ditulis):** `offer.md`, `pricing.md`, dan `numbers.json` final memakai **Kartu Cap Yok** dari dokumen ini (±Rp595/kunjungan), menggantikan Ajak Teman 2 minggu. Belanja rata-rata menjadi **Rp29.000** (paket + gelas kedua Rp12.000), dengan kontribusi **Rp13.733/tamu** dan break-even **21 tamu/malam**. Batas biaya per pelanggan menjadi **Rp13.733 × 1,7 ≈ Rp23.300**. Angka Rp14.105 / Rp23.900 di bawah adalah dari model sebelumnya.
+
+> **Format baru.** Dokumen ini menggantikan `marketing-kafe.md` (rencana kafe "Kopiyo") **khusus untuk lapak malam**. Yang dipakai ulang dari `marketing-kafe.md`: posisi "untuk ngobrol, bukan kerja", kanal ajakan teman lewat WhatsApp + Google Maps + IG/TikTok, tidak ada GoFood atau beli-1-gratis-1, dan aturan soal review, testimoni, dan kerja sama berbayar.
 >
-> - **Pembeli panel adalah simulasi.** Kutipan mereka di dokumen ini adalah bahan riset untuk memilih pesan. Kutipan itu **tidak pernah dipakai sebagai kutipan atau testimoni pelanggan** di iklan, post, papan, atau pesan WA.
-> - **Kalender memakai label relatif terhadap hari buka H** (H-14 sampai H+16). `/founder-launch` yang akan mengisi tanggal nyata.
-> - **Hook dan pesan di sini diuji dulu di pop-up**, sebelum sewa ditandatangani (syarat board C8). Lihat bagian 7.
-> - "Kopiyo" adalah nama kerja sampai `/founder-brand` memutuskan. Bukan nasihat hukum.
+> **Sumber:** `lapak-malam.md` (rencana v3), `pitch.md`, `panel/results.md` dan `panel/answers/` (panel lapak, 20 pembeli simulasi, seed 2611), `pricing-curve-lapak.md`, `cfo.md`, `numbers-lapak.json`, `competitors.md`, `research/nama-yok.md`, `research/lokasi-rawamangun.md`, `board/v3-*.md`, `brand-kafe.md`, `ops-kafe.md`. Juga dibaca: `offer.md` dan `pricing.md` versi lapak, yang ditulis paralel pada 8 Nov 2026 (lihat §5 dan §12).
+>
+> **Label:** [Pasti] = bukti kuat · [Kemungkinan Besar] = inferensi kuat · [Menebak] = estimasi saya. Semua uang dalam Rupiah.
+>
+> - **Pembeli panel adalah simulasi.** Kutipan dan kode P001–P020 di sini adalah bahan riset untuk memilih pesan. **Tidak pernah dipakai sebagai kutipan atau testimoni pelanggan** di spanduk, post, pesan WA, atau iklan.
+> - Setiap kelompok panel hanya berisi 2–9 orang. Angka beli adalah batas atas. Delapan minggu pertama lapak adalah uji yang sebenarnya.
+> - "Lapak Yok" masih **nama kerja**. Tidak ada posting publik sebelum nama dicek di PDKI (`lapak-malam.md` §2). Tempat juga belum terkunci. Bukan nasihat hukum.
 
 ## Ringkasan
 
-- **Posisi yang direkomendasikan:** *Untuk geng yang rutin nongkrong sepulang kerja di Rawamangun–Pulogadung, Kopiyo adalah slowbar sore–malam yang dibuat untuk ngobrol, bukan untuk kerja.* Pesan kampanye: **"Pulang Kerja, Ngopi-yo."**
-- **Satu segmen (C3):** "nongkrong rutin sepulang kerja". Di panel v2, 4 dari 4 orang di kelompok ini membeli, dan mereka menyumbang 8 dari 17 pembelian bulan pertama.
-- **Satu kanal utama (C3): ajakan teman lewat WhatsApp.** Isinya tuan rumah tongkrongan, Kartu Ajak Teman, dan reservasi meja. Dua kanal pendukung menjadi **bukti** yang dicek teman yang diajak: **Google Maps** (review asli) dan **Instagram/TikTok** (konten organik ditambah 1–2 kreator lokal berbayar yang diungkap).
-- **Yang tidak dikerjakan:** GoFood/GrabFood, promo beli-1-gratis-1 atau cashback e-wallet, iklan berbayar skala besar, Google Ads, dan selebgram. Alasannya ada di bagian 4.
-- **Penawaran pembukaan:** Ajak Teman berlaku dari H sampai H+13 (14 hari) dan **berakhir pukul 24.00 di H+13**. Tanggal ini ditulis sejak hari pertama dan tidak diperpanjang.
-- **Batas biaya untuk memenangkan satu pelanggan: Rp33.000** (Rp23.594 × 1,4 kunjungan). Anggaran 30 hari pertama Rp8,2 juta setara **±Rp16.600 per tamu baru**, kira-kira separuh batas itu.
-- **100 pelanggan pertama** datang dari jaringan, bukan iklan. Biayanya ±Rp2,1 juta (±Rp20.700 per orang), dengan target tercapai di H+6.
+- **Posisi (rekomendasi):** *Untuk geng yang nongkrong tiap minggu sepulang kerja di Rawamangun, Lapak Yok adalah slowbar malam berbentuk lapak: kopi diseduh di depanmu tanpa listrik, jadi tanpa colokan dan tanpa laptop, ada makanan untuk ganjal lapar, buka sampai 24.00.* Kalimat publik: **"Pulang kerja, yok nongkrong dulu."**
+- **Tiga kanal:**
+  1. **Ajakan teman lewat WhatsApp** (kanal utama): tuan rumah, pesan siap-teruskan, cap bonus untuk yang membawa teman baru, dan tahan bangku untuk grup.
+  2. **Lapaknya sendiri ditambah Google Maps**: spanduk dan cahaya yang terbaca dari jalan pada malam hari, profil Maps untuk lokasi tetap, dan review jujur tanpa imbalan.
+  3. **Instagram dan TikTok organik**: konten di balik bar tanpa listrik (lampu, kettle di kompor gas, grinder tangan) dan status kursi secara langsung.
+- **Yang tidak dikerjakan:** GoFood, beli-1-gratis-1 atau cashback e-wallet, iklan berbayar (Meta, TikTok, Google), selebgram, dan giveaway. Kreator mikro baru mungkin di bulan 2, dengan syarat (§4.6).
+- **Pengganti "Ajak Teman 2 minggu": Kartu Cap Yok, permanen.**
+  - 1 cap per malam jika belanjamu ≥Rp25.000.
+  - 5 cap = gelas ke-6 gratis.
+  - Membawa teman yang baru pertama kali = +1 cap bonus.
+  - Tidak ada tanggal berakhir, jadi tamu yang menunggu review di minggu ke-4 mendapat hal yang sama dengan tamu malam pertama.
+  - Biayanya **±Rp595 per kunjungan** [Menebak, asumsi di §5]. Ajak Teman lama menghabiskan **Rp8.825 per teman yang memakainya**.
+- **Batas biaya untuk memenangkan satu pelanggan: Rp23.900** (Rp14.105 × 1,7). Rencana 30 hari pertama: Rp1,5 juta ÷ 100 pelanggan baru = **±Rp15.000 per orang**.
 - **Tiga angka mingguan:**
-  1. Tamu baru per minggu (ubah sesuatu jika di bawah 90).
-  2. Persentase tamu baru yang kembali dalam 14 hari (ubah sesuatu jika di bawah 25%).
-  3. Persentase tamu baru yang datang karena diajak teman (ubah sesuatu jika di bawah 30%).
+  1. **Tamu bayar per malam buka.** Harus naik dari ≥10 ke **≥21** (break-even) di minggu 6–8.
+  2. **Tamu baru per minggu.** ≥25 di minggu 1–4, ≥40 di minggu 5–8. Di bawah 15 per minggu berarti biaya per pelanggan sudah melewati batas.
+  3. **Persentase tamu baru yang kembali dalam 14 hari.** Ubah sesuatu jika di bawah 25%.
 
 ---
 
@@ -27,17 +38,21 @@
 
 | Temuan | Sumber | Artinya untuk marketing |
 |---|---|---|
-| Kelompok "nongkrong rutin sepulang kerja" 4/4 membeli, masing-masing 2 kunjungan di bulan pertama (8 dari 17 pembelian) | panel-v2: P007, P008, P014, P018 | Ini audiens pertama. Mereka juga yang mengajak teman. |
-| Pecinta kopi 2/2 membeli (datanya tipis) | panel-v2: P001, P016 | Bukan audiens utama karena hanya 12% target, tetapi bisa jadi tuan rumah yang kredibel |
-| Tiga keberatan yang tidak bisa diselesaikan offer: **belum ada review/rating**, **belum ada yang ngomongin di TikTok/IG**, **sudah punya langganan** | panel-v2 alasan menolak (habit 4, trust 3); `offer.md` §5 | Ketiganya tugas marketing, bukan tugas offer |
-| Pembalik "tidak" terkuat adalah **diajak teman**. Semua 8 penolak di panel v2 menyebutnya, dan 3 menambahkan "teman sudah pesan meja" (P009, P015, P020) | panel-v2 "What would flip a no" | Kanal utama: ajakan teman dan reservasi meja |
-| 3 pemburu promo (P002, P003, P012) hanya datang selama promo 14 hari | panel-v2; `offer.md` | Promo tidak boleh jadi judul iklan |
-| Pitch GoFood: 0 dari 20 membeli | panel-gofood | GoFood bukan kanal |
-| Lebih dari 10 kafe Rawamangun menjual diri sebagai tempat kerja (WFC). Tidak ada yang mengklaim "tempat ngobrol, bukan tempat kerja" | `competitors.md` §4–5 | Ini celah posisinya |
-| Hulu Coffee bisa meniru posisi ini dalam hitungan minggu | `competitors.md` §6 | Pertahanannya komunitas, bukan klaim |
-| Kontribusi per tamu Rp23.594. Bulan 1 butuh ±490 orang berbeda (690 kunjungan ÷ 1,4) | `cfo.md`, `numbers.json` | Dasar batas biaya per pelanggan dan target tamu baru |
+| **10 beli · 10 tidak (50%)**, 17 pembelian di bulan 1, atau **1,7 kunjungan per pembeli** | `panel/results.md` | 1,7 adalah lantai untuk batas biaya per pelanggan (§12) |
+| **Nongkrong rutin 4/4 membeli** (P007, P008, P014, P018), menyumbang 8 dari 17 pembelian | panel lapak | **Audiens pertama.** Mereka datang berkelompok dan bisa mengajak |
+| Mahasiswa/fresh graduate 4/4 (P002, P004, P014, P016, menyumbang 6 pembelian). Pecinta kopi 2/2 (P001, P016, menyumbang 3 pembelian) | panel lapak | Audiens pendukung (posisi B dan C di §2) |
+| **Pemburu promo 3/3 membeli, tetapi hanya selama promo 2 minggu** (P002, P003, P012). Mereka menyumbang 5 dari 17 pembelian | panel lapak | Promo berbatas waktu menarik pembeli yang tidak kembali. P002 sendiri menyebut "kartu stempel, beli 5 gratis 1" sebagai alasan untuk rutin datang |
+| **Ikut tren 0/3, cek review 0/2, loyal ke langganan 0/2, kerja dengan laptop 0/2** | panel lapak | Tiga kelompok pertama baru datang setelah ada bukti sosial nyata. Kelompok laptop **diterima hilang** |
+| **P016 baru akan datang di minggu ke-3 atau ke-4**, setelah ada review. P013, P017, dan P019 juga menunggu review | panel lapak | **Promo 2 minggu terlewat oleh orang-orang ini.** Mekanisme apa pun harus tetap berlaku setelah minggu ke-2 (§5) |
+| **Pembalik "tidak": diajak teman disebut di 10 dari 10 jawaban.** FYP TikTok disebut 3/10, rating Maps ≥4,5 dengan "puluhan review asli" 3/10, promo setengah harga 4/10, info parkir 1/10 | "What would flip a no" | Kanal utama: ajakan teman. Maps dan TikTok adalah bukti yang dicek teman yang diajak |
+| **Keberatan yang berulang** (dari kolom `objection` di jawaban panel): parkir motor (P003, P004, P007, P010); duduk lesehan pegal 2–3 jam (P007, P008, P018, P019); 15 kursi bisa penuh (P004, P007, P008, P014, P018, P020); menunggu seduhan manual (P001, P008, P011, P015, P018, P020); belum ada review atau buzz (P005, P010, P011, P013, P016, P017, P019); aturan laptop (P002, P009, P014, P015, P019); V60 Rp22.000 di lapak dicurigai beansnya biasa (P001, P006, P016) | `panel/answers/` | Satu hook per keberatan (§7) |
+| **Sinyal berhenti datang:** V60 >15 menit (P001), menunggu >10 menit atau tempat penuh (P018), penuh atau lama (P008), ditegur karena laptop 5 menit atau dua kali tidak dapat tempat (P014) | `panel/answers/` | Masalah pengalaman, bukan iklan. Masuk ke cek pendukung (§13) |
+| Kontribusi Rp14.105 per tamu. Break-even 21 tamu/malam, rencana 28, 17 malam/bulan. Ramp CFO: bulan 1 10 tamu/malam, bulan 2 13 | `cfo.md`, `numbers-lapak.json` | Dasar batas biaya per pelanggan dan pemicu angka mingguan |
+| Anggaran marketing di model: Rp1 juta pembukaan dan Rp500 ribu/bulan. Spanduk dan papan nama (Rp700 ribu) masuk startup | `numbers-lapak.json` | Anggaran kecil, jadi kanalnya harus gratis atau hampir gratis |
+| **Ambang review 2 Feb 2027:** rata-rata minggu 6–8 ≥21 tamu bayar/malam, belanja ≥Rp28.000, ≥25% kembali dalam 14 hari, ≥30% datang karena diajak teman. Board menambahkan: ≥40 pelanggan tetap, satu malam ritual tetap, satu komunitas yang kumpul rutin, dan ambang tidak boleh diturunkan | `lapak-malam.md` §7, `board/v3-*.md` | Angka mingguan (§13) disusun supaya ambang ini terbaca jauh sebelum 2 Feb |
+| Kafe di Rawamangun menjual diri sebagai tempat WFC. Hulu buka sampai tengah malam. YO'KOPI buka 15.00–24.00 (cuplikan IG, lokasi belum terverifikasi). Warkop/angkringan menjual kopi Rp5.000–8.000 | `competitors.md`, `lapak-malam.md` §1 | Jangan memimpin dengan harga (board D10/Monopoly C4). Pesaing tidak pernah disebut di materi publik |
 
-**Peringatan data:** setiap kelompok di panel hanya berisi 2–9 orang simulasi. Angka beli adalah batas atas. Semua angka di bawah harus diganti dengan data pop-up dan data minggu 1–4.
+**Ketegangan yang perlu diakui:** ramp CFO memperkirakan 13 tamu/malam di bulan 2, sedangkan ambang review meminta 21 di minggu 6–8. Tugas marketing adalah menutup selisih itu. Kalau tidak tertutup, jawaban jujurnya adalah ambang gagal, bukan ambang diturunkan.
 
 ---
 
@@ -45,399 +60,534 @@
 
 Template: *Untuk \<segmen yang paling banyak membeli\>, yang \<masalah mereka dengan kata-kata mereka\>, \<bisnis\> adalah \<kategori\> yang \<celah\>, tidak seperti \<alternatif terdekat\>.*
 
-**Versi A: "Tempat ngobrol, bukan tempat kerja" (direkomendasikan)**
-> Untuk geng yang rutin nongkrong sepulang kerja di Rawamangun–Pulogadung, yang datang "capek dan lapar" lalu duduk 2–3 jam untuk ngobrol, Kopiyo adalah slowbar sore–malam yang dibuat untuk ngobrol, bukan untuk kerja: makanan yang mengenyangkan, kopi diseduh di depan kamu, dan meja tanpa laptop sampai 24.00. Ini berbeda dari kafe-kafe Rawamangun yang menjual diri sebagai tempat WFC.
+**Versi A: geng nongkrong pulang kerja (direkomendasikan)**
+> Untuk geng yang nongkrong tiap minggu sepulang kerja di Rawamangun, yang datang "capek dan lapar beneran" lalu duduk 2–3 jam, Lapak Yok adalah slowbar malam berbentuk lapak. Kopinya diseduh di depanmu tanpa listrik, jadi tidak ada colokan dan tidak ada laptop. Ada makanan untuk ganjal lapar, dan bukanya sampai 24.00. Ini berbeda dari kafe Rawamangun yang menjual diri sebagai tempat WFC, dan dari warkop langganan yang tidak menyeduh kopinya di depanmu.
 
-**Versi B: "Nongkrong lama tanpa jadi mahal"**
-> Untuk geng nongkrong sepulang kerja yang biasanya ke warkop atau kafe langganan, yang merasa "kopi plus camilan bisa Rp40 ribuan sekali datang", Kopiyo adalah tempat nongkrong malam dengan gelas kedua Rp15.000 dan Sesi Ngobrol berempat Rp85.000. Ini berbeda dari kafe yang membuat duduk 3 jam terasa mahal.
+**Versi B: pecinta kopi**
+> Untuk pecinta kopi di Jakarta Timur yang curiga "V60 Rp22 ribu di lapak, beansnya biasa saja", Lapak Yok adalah slowbar malam yang menulis roastery, proses, dan tanggal sangrai di kartu beans. Kopinya diseduh oleh orang yang sama setiap malam. Ini berbeda dari kafe yang menjadikan manual brew menu sampingan.
 
-**Versi C: "Slowbar terjangkau untuk yang suka ngulik"**
-> Untuk pecinta kopi di Jakarta Timur yang ingin ngobrol soal beans dengan barista, Kopiyo adalah slowbar dengan V60 single origin Rp25.000, kartu beans, dan tanggal sangrai. Ini berbeda dari kafe yang menjadikan manual brew menu sampingan.
+**Versi C: mahasiswa dan fresh graduate**
+> Untuk mahasiswa tingkat akhir dan fresh graduate di sekitar UNJ, yang nongkrong selama "tubruk 8 ribu plus gorengan masih masuk kantong", Lapak Yok adalah lapak kopi malam untuk ngobrol lama tanpa jadi mahal. Ini berbeda dari kafe nugas yang penuh colokan.
 
-| Versi | Bukti yang mendukung | Kelemahan |
+| Versi | Bukti panel yang mendukung | Kelemahan |
 |---|---|---|
-| **A** | Kelompok nongkrong rutin 4/4 membeli dan menyumbang 8/17 pembelian. Alasan mereka: buka sampai malam, ada makanan, bisa duduk 2–3 jam (P007, P008, P018). Di panel v1, P007 bilang tempat "tanpa orang-orang laptopan itu cocok buat ngobrol". Di `competitors.md`, tidak satu pun dari lebih 10 kafe WFC mengambil posisi ini | Kehilangan kelompok "cari tempat sambil kerja" (8% target; P009 dan P015 menolak). Kerugian ini diterima. Hulu bisa meniru klaimnya |
-| B | P014, P017, dan P018 membandingkan dengan warkop. Gelas kedua dan Sesi Ngobrol memang ada | Memimpin dengan harga mengundang perbandingan dengan warkop Rp5.000 dan promo chain. Ini perang harga yang diperingatkan board (C4/C5), dan pembeli yang datang karena harga tidak kembali |
-| C | Pecinta kopi 2/2 membeli (tipis). Di tempat lain manual brew hanya menu sampingan, dan hanya Psswrd yang menyebut diri slow bar (`competitors.md`) | Hanya 12% target. Mengundang perbandingan dengan Kopi Nako, yang menjual V60 Rp29.000, menyangrai sendiri, dan bisa menahan harga (`competitors.md` §6) |
+| **A** | Nongkrong rutin 4/4 membeli dan menyumbang 8/17 pembelian. Alasan mereka: buka jam 7 malam itu pas, kopi plus makan sekaligus, harga masuk akal dibanding kafe (P007, P008, P018). Tanpa listrik berarti tanpa colokan, jadi aturan "bukan tempat kerja" ditegakkan oleh lapaknya sendiri (board Product v3). Tidak ada kafe WFC di `competitors.md` yang mengambil posisi ini | Kelompok laptop hilang (0/2, diterima). Keberatan fisik (duduk, kursi penuh, parkir) paling berat di segmen ini, jadi pengalaman harus menepati janji sebelum diiklankan |
+| B | Pecinta kopi 2/2 membeli (data tipis). P016 akan datang "lebih cepat dan lebih sering" jika roastery dan tanggal sangrai jelas | Kelompoknya kecil (12% target). P016 menunggu review dulu |
+| C | Mahasiswa/fresh graduate 4/4 membeli | Memimpin dengan harga mengundang perbandingan dengan warkop Rp5.000–8.000, risiko nomor satu di board Offers. Belanja kecil menyulitkan rata-rata Rp28.000. Pemburu promo ada di kelompok ini (P002) |
 
-**Rekomendasi: Versi A.** Versi B dan C tetap dipakai sebagai pesan pendukung (hook H8 dan H9), bukan sebagai posisi.
+**Rekomendasi: Versi A.** Versi B menjadi pesan pendukung (hook H10, kartu beans). Versi C hanya dipakai jika titik pertama di Jl. Pemuda dekat UNJ, lewat komunitas kampus, dan tetap tanpa harga di judul.
 
-**Kalimat pendek untuk materi publik** (boleh diperhalus `/founder-brand`): **"Pulang kerja, ngopi-yo. Tempat ngobrol, bukan tempat kerja."**
+**Jawaban untuk board** ("angkringan yang menyeduh kopi, atau slowbar berbentuk lapak?"): **slowbar berbentuk lapak**, sama dengan `offer.md` v3. Kata "angkringan" boleh muncul untuk menjelaskan suasana dan makanannya, tetapi tidak dipakai sebagai kategori. Kategori menentukan pembanding harga: angkringan dibandingkan dengan warkop Rp5.000, slowbar dibandingkan dengan kafe Rp26.000.
 
-### Kalau ditiru
+**Untuk materi publik** (boleh diperhalus `/founder-brand`): **"Pulang kerja, yok nongkrong dulu."** Kalimat pendukung: *"Kopi diseduh di depanmu. HP boleh, laptop istirahat."*
 
-Hulu Coffee sudah punya manual brew, ruang komunitas, board game, dan jam buka sampai tengah malam. Hulu cukup mengumumkan "no-laptop hours" untuk mengambil klaim yang sama (`competitors.md` §6). Klaimnya bisa ditiru, tetapi lima hal ini lebih sulit ditiru:
+**Kalau ditiru** (angkringan sebelah menambah V60, atau Hulu dan YO'KOPI mengambil klaim "tanpa laptop"): klaimnya bisa disalin dalam seminggu. Yang lebih sulit disalin:
+- pelanggan tetap yang kenal founder di balik bar;
+- Seduh Bareng setiap Sabtu sebagai ritual (§8);
+- kartu cap yang sudah setengah penuh di dompet tamu;
+- grup WA tamu yang biasa menahan bangku lewat founder.
 
-1. **Kebiasaan yang sudah terbentuk.** Dalam 30 hari pertama, tuan rumah dan teman-teman mereka sudah punya kebiasaan nongkrong di sini.
-2. **Seduh Bareng setiap minggu**, sebagai ritual yang ditunggu.
-3. **Barista yang dikenal namanya.** Kontennya mulai H-12.
-4. **Garansi seduh ulang dan Cicip Dulu.**
-5. **Tidak menyerang balik.** Hulu atau kafe lain tidak pernah disebut atau disindir di materi publik.
+Kompetitor tidak pernah disebut atau disindir di materi publik.
 
 ---
 
-## 3. Yang harus dijawab marketing
+## 3. Keberatan yang harus dijawab, dan apa yang harus benar dulu
 
-| Keberatan atau pemicu | Siapa di panel | Jawaban marketing | Hook |
-|---|---|---|---|
-| **Belum ada review/rating** | P013, P019 (v2); 9/20 penolak di panel GoFood | Mengaku jujur "kami baru", disertai garansi seduh ulang. Profil Google Maps dibuat H-14 dengan foto asli. Review jujur diminta ke **semua** tamu mulai H+1, tanpa imbalan. Setiap review dibalas paling lambat 24 jam | H6 |
-| **Belum ada yang ngomongin di TikTok/IG** | P005, P010, P011 | Founder dan barista memposting konten harian mulai H-14. 1–2 kreator mikro Jakarta Timur, berbayar dan diungkap, datang di H-4 dan H-2. Ada sudut foto (brief untuk brand). Tamu memposting sendiri tanpa imbalan. **Tidak membeli follower dan tidak mengklaim "viral".** | H1, H2 |
-| **Sudah punya langganan** | P006, P020 | Tamu tidak diminta pindah. Mereka diminta datang **satu malam bareng geng**, dengan meja Sesi Ngobrol yang dipesan lewat WA. Seduh Bareng mingguan menjadi alasan untuk kembali | H5, H10 |
-| **Diajak teman** (pembalik terkuat) | 8/8 penolak di v2 | Malam Tuan Rumah di H-1, Kartu Ajak Teman, pesan WA siap-teruskan, dan reservasi meja oleh yang mengajak | H5, H8 |
-| Slowbar lama, padahal capek dan lapar | P008, P015, P018, P020 | Jalur cepat 3 menit, **hanya diklaim kalau terbukti di pop-up**, plus makanan | H2, H3 |
-| Perlu balas kerjaan | P002, P014, P019 | HP boleh, laptop tidak | H7 |
-| Nongkrong lama jadi mahal | P014, P017, P018 | Gelas kedua Rp15.000 dan Sesi Ngobrol berempat | H8 |
-| Takut salah pesan karena tidak paham kopi | P009 | Cicip tiga beans dulu, gratis | H4 |
-| Ragu beans-nya segar | P001, P016 | Tanggal sangrai tertulis di kartu | H9 |
-| "Tempat baru ramai sebentar lalu sepi" | P013, P016, P017 | Acara rutin mingguan | H10 |
-| Parkir susah | P003, P004, P007, P010 | **Tidak dijanjikan** sampai lokasi pasti. Setelah itu info parkir motor wajib ada di profil Maps, sorotan IG, dan balasan otomatis WA | info wajib |
+| Keberatan | Siapa di panel | Jawaban marketing | Yang harus benar sebelum diklaim | Hook |
+|---|---|---|---|---|
+| **Parkir motor** | P003, P004, P007, P010 | Info parkir yang persis (tempat, tarif, siapa juru parkirnya) di papan lapak, profil Maps, sorotan IG, dan balasan otomatis WA | Dicek sendiri di lokasi bersama pemilik dan juru parkir. Kalau parkirnya buruk, lokasinya yang diganti, bukan teksnya (`offer.md`: kriteria tempat) | H1 |
+| **Duduk lesehan pegal 2–3 jam** | P007, P008, P018, P019 | Tunjukkan kursinya: sebagian besar kursi lipat bersandaran, tikar hanya untuk yang mau | Daftar belanja startup diganti dari "bangku + tikar" menjadi kursi bersandaran (`offer.md` v3; cek biayanya dengan CFO dan ops) | H2 |
+| **15 kursi bisa penuh** | P004, P007, P008, P014, P018, P020 | (1) Grup ≥4 orang bisa menahan bangku lewat WA, ditahan 15 menit. (2) Status kursi diposting langsung di story/status WA pada Jumat–Sabtu | Aturan tahan bangku tertulis: maksimal 2 meja (8 kursi) per malam Jumat–Sabtu pukul 19.00–22.00, sisanya untuk yang datang langsung | H3, H4 |
+| **Menunggu seduhan manual** | P001, P008, P011, P015, P018, P020 | Es kopi susu dari konsentrat untuk yang lapar dan buru-buru. Waktu tunggu V60 disebut **sebelum bayar** (board Product C3) | Klaim "3 menit" hanya jika ≥9 dari 10 pesanan selesai dalam 3 menit saat malam latihan. Angka menit V60 diambil dari stopwatch | H5, H6 |
+| **Belum ada review atau buzz** | P005, P010, P011, P013, P016, P017, P019 | Mengaku "kami baru", dengan garansi seduh ulang. Kartu cap tanpa tanggal berakhir untuk yang menunggu review. Review asli diminta ke **semua** tamu, tanpa imbalan | Profil Maps terverifikasi (§4.2). Tidak membeli follower, tidak mengklaim "viral" | H7, H8 |
+| **Aturan laptop** | P002, P014, P019 (perlu balas kerjaan); P009, P015 (pekerja laptop) | "Lapak ini nggak punya colokan" sebagai fakta, bukan larangan. HP boleh untuk membalas kerjaan | Benar dengan sendirinya: tidak ada listrik. SOP-06 di `ops-kafe.md` (sopan, pribadi, tanpa mempermalukan) | H9 |
+| V60 Rp22.000 di lapak dicurigai beansnya biasa | P001, P006, P016 | Kartu beans: roastery, proses, dan tanggal sangrai | Kartu beans ada untuk setiap beans | H10 |
+| Habis promo tidak ada alasan kembali | P002, P003, P012 | Kartu cap permanen (§5). Tidak ada diskon e-wallet atau beli-1-gratis-1 | — | H8 |
+| Sudah punya langganan | P006, P020 | Tidak diminta pindah, hanya diminta datang "sekali bareng geng" | — | Template B |
 
 ---
 
 ## 4. Kanal
 
-| Kanal | Kenapa cocok (atau tidak) untuk geng nongkrong sepulang kerja | Biaya 30 hari | Tanda berhasil | Keputusan |
+| Kanal | Kenapa cocok (atau tidak) untuk lapak ini | Biaya 30 hari | Tanda berhasil | Keputusan |
 |---|---|---:|---|---|
-| **Ajakan teman lewat WhatsApp** (tuan rumah, Kartu Ajak Teman, reservasi meja, siaran ke yang sudah setuju) | 8/8 penolak menyebut ajakan teman sebagai pembalik, dan 3 menyebut "sudah pesan meja". Kanal ini memberi kontak tamu (C7), sesuatu yang tidak diberikan GoFood | Rp3,7 jt (termasuk promo Rp1,2 jt) | ≥50% tamu baru datang karena diajak teman; ≥10 reservasi Sesi Ngobrol lewat WA sampai H+13 | **Pilih: kanal utama** |
-| **Google Maps** (profil dan review asli) | Tempat yang dicek teman yang diajak dan kelompok "cek review dulu" (P013, P019). Gratis | Rp0,4 jt (kartu QR) dan waktu founder | ≥25 review asli di H+16 dengan rating ≥4,5; klik rute di statistik profil naik setiap minggu | **Pilih: bukti** |
-| **Instagram + TikTok** (organik harian, 1–2 kreator mikro berbayar yang diungkap, boost kecil) | Kelompok ikut tren menunggu "ada yang ngomongin" (P005, P010, P011). Ini juga halaman yang dibuka teman yang diajak | Rp3,4 jt | ≥20% tamu baru menyebut IG/TikTok; DM "lokasinya di mana?" dan share per post naik; tiap kreator membawa ≥10 tamu yang menyebut namanya dalam 7 hari | **Pilih: bukti dan jangkauan** |
-| Papan depan dan jendela | Berguna jika lokasi ada di jalur pulang (persona: lewat Jl. Pemuda atau By Pass). Biaya papan sudah ada di startup (signage Rp5 jt) | Rp0 tambahan | Persentase tamu yang menjawab "lewat depan" | Teks hook dipakai, tetapi bukan pos anggaran marketing |
-| Kantor dan kampus sekitar (Pulogadung, Jl. Pemuda, UNJ) | Sumber tuan rumah, bukan kanal tersendiri | Masuk biaya flyer | Tamu yang menjawab "dari kantor/kampus" | Bagian dari kanal utama |
-| Grup lingkungan (grup FB/WA warga) | Targetnya pekerja yang nongkrong, bukan warga secara umum | Rp0 | — | Paling banyak satu posting, jika admin mengizinkan |
+| **Ajakan teman lewat WhatsApp** | Pembalik di 10/10 jawaban panel. Satu-satunya kanal yang juga memberi kontak tamu (dengan izin) | ±Rp820 rb | ≥30% tamu baru datang karena diajak teman (ambang 2 Feb). Ada tahan bangku setiap Jumat–Sabtu | **Pilih: kanal utama** |
+| **Lapak di jalan + Google Maps** | Jl. Balai Pustaka adalah jalan makan malam: orang sudah lewat di jam bukamu. Maps adalah tempat penunggu review mengecek (P013, P019) | ±Rp310 rb (+ spanduk Rp700 rb dari startup) | ≥25% tamu baru menjawab "lewat depan" atau "Maps". ≥10 review asli di 9 Jan, ≥20 di 2 Feb | **Pilih** |
+| **IG + TikTok organik** | Teman yang diajak membuka profil ini sebelum datang. Kelompok ikut tren butuh "ada yang posting" (P005, P010, P011) | ±Rp120 rb (alat) | Simpan, share, dan DM "lokasinya di mana?" per post. ≥10% tamu baru menyebut IG/TikTok | **Pilih: bukti** |
+| Komunitas UNJ dan kantor sekitar | Sumber tuan rumah, bukan kanal tersendiri | Rp60 rb (flyer) | Tamu yang menjawab "kampus/kantor" | Bagian dari kanal WA |
+| Kreator mikro lokal (berbayar, diungkap) | Membawa kelompok ikut tren (0/3 di panel, "jarang kembali"). Di lapak 15 kursi, mereka bisa mengambil kursi pelanggan tetap di Jumat malam | Rp0 di 30 hari pertama | — | **Tunda ke bulan 2, dengan syarat** (§4.6) |
 
-### Yang tidak dikerjakan, dan alasannya
+### 4.1 Lapaknya sendiri: spanduk, cahaya, dan seduhan yang terlihat dari jalan
+
+Pada pukul 19.00–24.00, lapak ini adalah iklan terbesarnya sendiri. Biayanya sudah ada di startup (spanduk dan papan nama Rp700 ribu, lampu LED baterai Rp600 ribu).
+
+- **Spanduk:** "LAPAK YOK" ditumpuk dua baris (`research/nama-yok.md` §3.1), warna Lampu `#F0A83C` di atas Biru Malam `#232647` (`brand-kafe.md`). Di bawahnya:
+  - jam yang lolos uji pasang di malam latihan: "Rab–Kam 19.00–24.00 · Jum–Sab 18.00–24.00", atau 19.30 jika pemasangan solo lewat 19.00 (board Product C2);
+  - satu baris "kopi seduh · HP boleh, laptop istirahat".
+- **Terbaca dari ±20 m:** tinggi huruf nama ≥20 cm [Menebak, aturan praktis ±2,5 cm per 3 m jarak baca]. Uji pada H-11: berdiri di seberang jalan dan di jalur motor dari dua arah.
+- **Cahaya:** spanduk harus disinari lampu baterai. Spanduk gelap tidak terbaca pada malam hari. Meja seduh dihadapkan ke jalan, supaya cahaya lampu, uap kettle, dan gerakan menyeduh terlihat dari motor. Itulah "tontonan" yang membedakan lapak ini dari angkringan biasa.
+- **Papan kecil:** "Parkir motor →" (hanya jika benar), dan papan tulis berisi status malam itu ("Kursi masih lega", "V60 malam ini ±8 menit", "Hujan? Tenda terpasang").
+- **Semua di dalam batas persil.** Papan berdiri tidak boleh di trotoar, dan spanduk tidak boleh diikat ke tiang listrik, pohon, atau pagar umum. Itu melanggar ketertiban dan mengundang penertiban (Perda DKI 8/2007; `lapak-malam.md` §1) [Kemungkinan Besar]. Tanyakan juga ke kelurahan atau Bapenda apakah papan nama usaha di tempat usaha kena pajak reklame [Menebak].
+
+### 4.2 Google Maps untuk lapak di lokasi pribadi yang tetap
+
+**Bolehkah?** Kemungkinan besar boleh, dengan syarat.
+- Aturan dasar Google: usaha harus **bertemu pelanggan secara langsung pada jam yang dicantumkan** ([eligibility](https://support.google.com/business/answer/13763036)). Lapak di titik yang sama, dengan jam tetap Rabu–Sabtu dan founder di bar, memenuhi aturan itu [Kemungkinan Besar].
+- Yang biasanya ditolak adalah kios sementara untuk acara, menurut panduan pihak ketiga (bukan teks resmi Google). Truk makanan keliling tidak diatur secara eksplisit [Kemungkinan Besar].
+- **Jadi lapak harus tampil sebagai tempat tetap, bukan pop-up:** titik yang sama setiap malam, jam yang benar, dan spanduk yang sama setiap kali buka.
+
+**Cara memasang:**
+1. **Izin tertulis pemilik** juga mencakup izin memakai alamatnya di Google Maps. Masukkan ke perjanjian tempat (`/founder-ops`).
+2. **Nama persis seperti di spanduk: "Lapak Yok".** Jangan ditambah kata kunci ("Lapak Yok Kopi Seduh Malam Rawamangun"). Itu melanggar pedoman nama Google dan bisa membuat profil ditangguhkan [Kemungkinan Besar].
+3. Kategori kedai kopi. Alamat persil ditambah pin tepat di teras. Jam Rabu–Kamis dan Jumat–Sabtu. Deskripsi berisi tanpa listrik, HP boleh/laptop istirahat, dan info parkir.
+4. **Isi tanggal buka (9 Des 2026) dulu, lalu pilih "Verifikasi nanti".** Google sendiri menyarankan urutan ini supaya profil tidak tampil "buka" sebelum waktunya ([opening date](https://support.google.com/business/answer/9174409)).
+5. **Verifikasi:** pilihannya tergantung jenis usaha dan wilayah. Video sering disarankan ([verifikasi](https://support.google.com/business/answer/7107242)), dan peninjauan bisa makan waktu sampai 5 hari kerja.
+   - Rekam pada malam buka saat spanduk menyala: spanduk, papan nama jalan atau penanda sekitar, alat seduh, dan alat bayar (QRIS).
+   - Isi persis yang diminta video mengikuti instruksi di aplikasi [Menebak soal detail].
+   - Jadwalnya: rekam pada Rab 2 Des, supaya selesai sekitar H.
+6. **Jika pemilik ruko sudah punya profil di alamat yang sama,** Lapak Yok tetap profil terpisah, dengan nama dan jamnya sendiri [Menebak; cek saat mendaftar].
+7. **Jika verifikasi ditolak:**
+   - jangan membuat alamat palsu atau profil kedua;
+   - sementara itu bagikan pin lokasi lewat WA dan lokasi IG;
+   - coba lagi setelah 2–4 minggu, dengan foto dan jam yang konsisten.
+
+**Review jujur pertama, tanpa imbalan yang melanggar kebijakan Google:**
+- **Boleh:** meminta review ke **semua** tamu, lewat QR di kartu meja, ucapan setelah tamu selesai, dan satu pesan WA ke yang sudah setuju dihubungi.
+- **Dilarang** ([kebijakan konten](https://support.google.com/contributionpolicy/answer/7400114); ringkasan pihak ketiga: [Search Engine Land](https://searchengineland.com/google-prohibits-incentivizing-customers-to-remove-or-modify-negative-reviews-387874), [PPC Land](https://ppc.land/google-tightens-maps-review-policy-staff-names-and-quotas-now-banned/)):
+  - imbalan apa pun untuk review, termasuk diskon, minuman gratis, atau **cap tambahan**;
+  - meminta review hanya ke tamu yang tampak puas (*review gating*);
+  - meminta bintang tertentu atau isi tertentu, termasuk meminta tamu menyebut nama founder atau barista;
+  - menawarkan sesuatu agar review negatif diubah atau dihapus.
+- **Tidak menulis review:** founder, keluarga, helper, kreator, dan **tuan rumah yang dijamu gratis di malam latihan**, karena minuman gratis adalah imbalan.
+- **Balas setiap review paling lambat 24 jam,** yang baik maupun yang buruk. Untuk founder yang bekerja kantor, waktunya pagi sebelum berangkat.
+- **Harapan yang jujur:** jika 5–10% tamu menulis review [Menebak], hasilnya sekitar 4–8 review di H+16 dan sekitar 15–25 di akhir Januari. "Puluhan review asli dengan rating 4,5+" (P013, P019) baru ada di bulan 2–3. **Karena itulah kartu cap tidak boleh punya tanggal berakhir.**
+
+> Halaman kebijakan Google tidak bisa dibuka dari sesi ini (support.google.com dan whitespark.ca diblokir jaringan sesi). Semua aturan di atas diambil dari cuplikan pencarian. Cek ulang di aplikasi Google Business Profile saat mendaftar.
+
+### 4.3 WhatsApp
+
+- **WhatsApp Business (gratis).** Isi katalog menu dan harga, label ("tuan rumah", "tahan bangku"), salam otomatis berisi pin lokasi, jam, parkir, dan aturan laptop (template E), serta pesan di luar jam buka.
+- **Undangan dan grup:** founder tidak membuat grup besar. Founder menulis pesan siap-teruskan (template B), lalu tuan rumah meneruskannya ke grup tongkrongan, kantor, atau angkatan mereka. Tamu yang memutuskan mau mengirim atau tidak.
+- **Daftar siaran:**
+  - hanya untuk yang setuju secara tertulis (UU 27/2022 PDP);
+  - pesan siaran hanya sampai ke kontak yang menyimpan nomormu [Kemungkinan Besar], jadi minta mereka menyimpan nomor saat mendaftar;
+  - paling banyak satu pesan per minggu, dengan cara berhenti "balas STOP".
+- **Status WA pada malam buka:** status kursi dan hujan/tidak, hanya yang benar saat itu.
+- **Tahan bangku:** grup ≥4 orang, ditahan 15 menit, maksimal 2 meja per malam Jumat–Sabtu pada pukul 19.00–22.00. Cocok dengan Sesi Bareng di `offer.md` v3. Founder sedang menyeduh, jadi salam otomatis memberi tahu bahwa balasan bisa agak lama.
+
+### 4.4 Instagram dan TikTok
+
+- **Isi:** di balik bar tanpa listrik. Air dididihkan di kompor gas, bloom V60 di bawah lampu, suara grinder tangan, menimbang, membuka kantong beans dan membaca tanggal sangrainya, memasang tenda dalam 30 detik (*timelapse*), dan menutup pukul 24.00. Daftar lengkap ada di §9.
+- **Ritme realistis untuk founder yang bekerja kantor:**
+  - 3 video per minggu, satu video dipasang di Reels dan TikTok sekaligus;
+  - story hanya pada malam buka (status kursi, hujan);
+  - rekam sekaligus pada Rabu/Kamis yang lebih sepi atau di malam latihan, lalu jadwalkan lewat Meta Business Suite;
+  - total sekitar 3 jam per minggu di luar malam buka.
+- **Batas:** wajah tamu hanya tampil dengan izin. Tidak ada angka follower, tidak ada "viral", dan tidak ada foto keramaian rekayasa.
+
+### 4.5 Komunitas UNJ dan kantor sekitar
+
+- Sumber tuan rumah, bukan kanal tersendiri.
+- Kirim pesan ke 3–5 admin organisasi mahasiswa/alumni UNJ dan grup kantor di sekitar Jl. Pemuda, Balai Pustaka, dan Pulogadung. Minta izin satu posting. Flyer hanya di tempat yang mengizinkan.
+- **Cek kalender akademik UNJ.** Jika minggu 6–8 (13–30 Jan) jatuh di masa ujian atau libur semester, tamu mahasiswa turun [Menebak]. Catat porsi mahasiswa di tally supaya review 2 Feb tidak salah baca.
+
+### 4.6 Kreator mikro: bulan 2, dengan syarat
+
+Baru dipertimbangkan sekitar 11 Jan jika **ketiganya** terpenuhi:
+- ≥10 review asli dengan rating ≥4,5;
+- angka mingguan #3 ≥25%;
+- ada kursi kosong di Rabu–Kamis.
+
+Paling banyak satu kreator, maksimal Rp300 ribu dari anggaran bulanan. Penontonnya harus di Jakarta Timur (minta data lokasi audiens), dan kontennya diarahkan ke Rabu–Kamis. **Wajib diungkap**, juga jika imbalannya hanya produk (template F).
+
+### 4.7 Yang tidak dikerjakan, dan alasannya
 
 1. **GoFood/GrabFood.**
-   - **Panel:** 0 dari 20 membeli. Sembilan menolak karena tidak percaya ("merchant baru tanpa rating"). Empat menolak karena harga: Rp22.000 menjadi Rp30.000–35.000 setelah ongkir dan biaya layanan.
-   - **Komisi:** sekitar 20% + Rp1.000 per produk. Data ini dari Kontan 2021–2022, dikutip di `pricing.md`, dan tarif 2026 belum dikonfirmasi. Sisa per gelas hanya ±Rp6.200 (28%), dibanding Rp23.594 per tamu yang datang ke kedai.
-   - **Kontak dan pengalaman:** GoFood tidak memberi kontak pelanggan (C7), dan yang dijual adalah kopi yang diantar, bukan tempat ngobrol.
-   - **Kesimpulan:** reputasi untuk konsep ini dibangun di meja, di review Google Maps, dan di grup WA teman.
-   - **Kapan ditinjau lagi:** paling cepat 3 bulan setelah buka, jika rating Maps sudah stabil di ≥4,5 dan CFO sudah menghitung ulang komisinya. Itu pun hanya sebagai kanal tambahan untuk es kopi susu, tanpa promo yang dibiayai sendiri.
-2. **Promo beli-1-gratis-1 atau cashback e-wallet.** Ketiga pemburu promo di panel bilang tidak akan kembali setelah promo selesai. Bersaing di harga juga melanggar C5.
-3. **Iklan berbayar luas (Meta/TikTok Ads).** Mengiklankan tempat yang belum punya review sama dengan membayar orang untuk melihat keberatan nomor satu. Yang dilakukan hanya boost kecil (total Rp1,6 jt dalam 30 hari) untuk post yang sudah terbukti bagus secara organik, dengan radius ±3 km.
-4. **Google Ads.** Hasil pencarian kafe di Rawamangun banyak berisi daftar tempat WFC (`competitors.md` §4), jadi orang yang mencari kemungkinan besar bukan target. Profil Google Maps yang gratis sudah menangkap pencarian lokal.
-5. **Selebgram atau influencer besar.** Mahal, penontonnya tidak lokal, dan menarik kelompok FOMO yang "jarang kembali kecuali sangat berkesan" (definisi segmen di `customer.json`). Paling banyak 2 kreator mikro yang penontonnya di Jakarta Timur.
-6. **Giveaway "follow & tag 3 teman".** Hanya menggelembungkan follower dengan pemburu hadiah, bukan menambah tamu.
-7. **Area boleh laptop.** Bertentangan dengan posisi.
-8. **Email.** WhatsApp sudah dipakai untuk reservasi. Email menambah kerja tanpa bukti bahwa segmen ini membacanya.
-9. **Yogyakarta.** Tidak ada aktivitas marketing di sana (C11).
+   - Panel GoFood 0/20 (`panel-gofood`).
+   - Yang dijual lapak ini adalah kursi dan seduhan di depanmu. Lapaknya tanpa listrik, punya 15 kursi, dan founder sendirian di Rabu–Kamis, jadi pesanan ojol akan memotong waktu ngobrol.
+   - Komisi platform memakan sebagian besar dari kontribusi yang tipis (`marketing-kafe.md` §4).
+2. **Beli-1-gratis-1, cashback e-wallet, atau promo setengah harga berbatas waktu.**
+   - Pemburu promo 3/3 hanya datang selama promo.
+   - Gelas gratis menghapus Rp17.000–22.000 pendapatan, sementara kontribusi satu tamu hanya Rp14.105.
+   - Board juga melarang memimpin dengan harga (Monopoly C4).
+3. **Iklan berbayar (Meta, TikTok, Google Ads).**
+   - Anggarannya Rp500 ribu/bulan.
+   - Mengiklankan tempat yang belum punya review sama dengan membayar orang untuk melihat keberatan nomor satu.
+   - Lapak 15 kursi tidak bisa menampung lonjakan tamu dari iklan.
+   - Ditinjau lagi paling cepat setelah review 2 Feb, dan hanya untuk boost post organik terbaik ke Rabu–Kamis.
+4. **Selebgram dan giveaway "follow & tag 3 teman".** Menggelembungkan follower dengan pemburu hadiah, bukan tamu yang kembali.
+5. **Spanduk liar, flyer di motor, atau papan di trotoar.** Melanggar ketertiban dan membahayakan izin tempat.
+6. **Area boleh laptop.** Bertentangan dengan posisi, dan memang tidak ada listrik.
+7. **Jogja.** Tidak ada aktivitas marketing di sana (board C11).
 
 ---
 
-## 5. 100 pelanggan pertama (syarat board C7)
+## 5. Pengganti "Ajak Teman 2 minggu": Kartu Cap Yok
 
-**Definisi:** pelanggan adalah orang berbeda yang membayar. Pelanggan tetap adalah orang yang datang 2 kali atau lebih dalam 30 hari. Angka per sumber di bawah adalah **target dan asumsi**. Catat per orang supaya tidak terhitung dua kali.
+### Kenapa diganti
+
+- **Pemburu promo 3/3 datang hanya selama promo.** Mereka menyumbang 5 dari 17 pembelian bulan 1.
+- **Penunggu review melewatkannya.** P016 baru datang di minggu 3–4, padahal Ajak Teman berakhir di H+13 (Sel 22 Des).
+- **Tanggal berakhirnya jatuh tepat sebelum minggu Natal.** Turunnya tamu di minggu 3 jadi tidak bisa dibedakan: karena promo habis, atau karena libur.
+- **Diskonnya tidak ada di model CFO.** Model hanya memuat biaya cetak kartu.
+
+Tetapi 4 dari 10 pembalik "tidak" menyebut promo setengah harga. Jadi pengganti harus tetap memberi alasan untuk **mengajak teman**, dan hadiahnya baru dibayar saat tamu **kembali**, yaitu perilaku yang diukur di 2 Feb.
+
+### Aturannya (ditulis di kartu, sama untuk semua tamu, sejak malam pertama dan seterusnya)
+
+1. **1 cap per orang per malam buka**, jika belanjamu malam itu **≥Rp25.000**.
+   - Batas Rp25.000 sama dengan harga Paket Pulang Kerja (`offer.md`), dan mendorong belanja ke rata-rata Rp28.000–29.000 yang dibutuhkan break-even.
+   - Tubruk saja tetap pintu masuk yang murah, tanpa cap.
+   - Untuk nota bersama, belanja dibagi rata per orang.
+2. **5 cap = 1 gelas gratis di kunjungan berikutnya** ("gelas ke-6 gratis"). Berlaku untuk minuman apa saja di menu, satu gelas.
+3. **Membawa teman yang baru pertama kali ke Lapak Yok = +1 cap bonus** untukmu malam itu, maksimal +1 per malam. Temanmu mulai dengan kartunya sendiri.
+4. **Tidak ada tanggal berakhir** selama Lapak Yok buka. Jika lapak berhenti atau pindah, diumumkan 2 minggu sebelumnya dan kartu dihormati sampai malam terakhir. Jika aturan diubah, hanya untuk kartu baru.
+5. **Cap tidak pernah diberikan untuk review, follow, tag, atau posting.** Satu-satunya cara mendapat cap adalah datang dan jajan, atau membawa teman baru.
+6. **Kontrol penyalahgunaan:**
+   - kartu bernomor;
+   - cap memakai stempel khusus, ditambah tanggal tulisan tangan;
+   - kartu hilang berarti mulai dari awal.
+
+### Biaya per tamu
+
+**Asumsi** [Menebak, ganti dengan data minggu 1–8]:
+- 60% kunjungan belanja ≥Rp25.000;
+- 12% kunjungan membawa teman baru;
+- 60% cap akhirnya ditukar (asumsi yang sama dengan `numbers.json` v3);
+- HPP gelas gratis Rp6.890, campuran minuman CFO.
+
+| Mekanisme | Biaya kas (HPP) per kunjungan | Terburuk: pendapatan hilang jika gelas gratis menggantikan gelas berbayar | Siapa yang terjangkau | Catatan |
+|---|---:|---:|---|---|
+| Ajak Teman 2 minggu (pitch lama) | — (diskon) | **Rp8.825 per teman yang memakai** (½ harga, campuran 40% V60 / 45% es kopi susu / 15% tubruk). Kontribusi teman itu tinggal ±Rp5.280. Selama 2 minggu ≈Rp2.650 per kunjungan jika 30% kunjungan memakainya | Teman yang datang 9–22 Des, termasuk pemburu promo | Terlewat oleh penunggu review |
+| **Kartu Cap Yok (rekomendasi)** | **±Rp595** (Rp683 jika gelas gratis selalu es kopi susu; Rp992 jika 100% cap ditukar) | ±Rp1.525 | **Semua tamu, kapan pun datang**, termasuk penunggu review | Hadiah di kunjungan ke-6, atau ke-5 jika pernah membawa teman |
+| Varian 6 cap (gelas ke-7) | ±Rp496 | ±Rp1.271 | Sama | Dipakai jika CFO ingin biaya tetap di bawah garis kartu cap model v3 (Rp560) |
+| Kartu cap di `offer.md`/`pricing.md` v3 (gelas ke-10, cap per gelas) | ±Rp558 | ±Rp1.430 | Semua, tetapi hadiahnya baru setelah ±7–8 kunjungan, tanpa mekanisme teman | Mulai setelah Ajak Teman selesai |
+| Gelas ke-6 dengan cap per gelas, tanpa syarat belanja | ±Rp1.116 | ±Rp2.859 | Semua | **Tidak dipilih:** break-even naik ke 22 di kedua model |
+
+**Dampak ke break-even** (biaya tetap Rp4.828.250 ÷ 17 malam = Rp284.015 per malam):
+- **Model `cfo.md`** (belanja Rp28.000, kartu cap belum dihitung): kartu ini menggeser break-even dari 20,1 ke **21,0 tamu/malam**. Itu tepat di garis, dan **22 jika dibulatkan ke atas.** Kenaikan belanja rata-rata Rp100 saja, yang memang tujuan syarat ≥Rp25.000, mengembalikannya ke 20,9 (21). Jika data belum menunjukkan itu, pakai varian 6 cap (20,9).
+- **Model `numbers.json` v3** (belanja Rp29.000, sudah ada garis kartu cap Rp560): selisihnya hanya +Rp35 per tamu, dan break-even tetap **21** (20,7).
+- **Bulan 1 hampir tanpa biaya hadiah.** Pelanggan mingguan baru mencapai 5 cap sekitar minggu ke-4 atau ke-5. Biaya bulan 1 hanya cetak kartu dan stempel (Rp250 ribu dari anggaran pembukaan).
+
+### Jika founder tetap ingin Ajak Teman
+
+Jalankan **bersama** kartu cap, dan kartu cap dimulai **sejak malam pertama**, bukan setelah 2 minggu. Ajak Teman berlaku Rab 9 Des sampai **Sel 22 Des pukul 24.00**. Tanggal itu ditulis sejak hari pertama dan tidak diperpanjang. Biaya diskonnya (±Rp200–250 ribu dalam 2 minggu [Menebak]) diambil dari cadangan, dan setiap pemakaian dicatat supaya angka minggu 3 bisa dibaca.
+
+### Kalimat di pitch
+
+Menggantikan baris "Dua minggu pertama: ajak teman…": *"Kartu cap: tiap malam jajan Rp25.000 ke atas dapat 1 cap, 5 cap = gelas ke-6 gratis. Bawa teman yang baru pertama kali, kamu dapat cap bonus. Tanpa tanggal berakhir."*
+
+**Belum diuji ke panel.** Jika sempat sebelum 9 Des, jalankan `/founder-consumer --quick` dengan pitch baru. Jika tidak, ujinya adalah malam latihan dan minggu 1–4.
+
+---
+
+## 6. 100 pelanggan pertama (bulan 1)
+
+Ramp CFO bulan 1: 10 tamu/malam × 17 malam = 170 kunjungan ÷ 1,7 = **±100 orang berbeda.** Angka per sumber di bawah adalah **target dan asumsi**. Tuan rumah dihitung sebagai pelanggan hanya setelah mereka membayar.
 
 | Sumber | Cara | Target orang | Biaya | Kapan |
 |---|---|---:|---:|---|
-| Tuan rumah | 30 orang diundang secara pribadi: peserta pop-up yang setuju dihubungi, jaringan founder dan barista, kontak kantor. Mereka datang ke Malam Tuan Rumah di H-1 dan dijamu satu minuman | 20 | Rp500.000 | H-13 → H-1 |
-| Teman yang dibawa tuan rumah | Rata-rata 2 orang per tuan rumah. Di H-1 mereka bayar harga normal (uji harga sungguhan); mulai H mereka memakai Ajak Teman | 40 | ±Rp220.000 (separuh memakai diskon: 20 × Rp11.000) | H-1 → H+6 |
-| Daftar WA dari pop-up (selain tuan rumah) | Satu siaran di H dan satu pesan di H+6 | 20 | Rp500.000 (materi uji pop-up) | H → H+6 |
-| Kantor dan kampus | Flyer ditambah pesan ke HR, pengurus komunitas kantor, dan organisasi alumni | 10 | Rp300.000 (flyer) | H-7 → H+6 |
-| Seduh Bareng #1 dan papan depan | Acara gratis 30 menit, ditambah orang yang lewat | 10 | Rp150.000 | H+2 |
-| Kartu Ajak Teman (cetak 1.000, dipakai sampai H+13) | — | — | Rp400.000 | H-10 |
-| **Total** | | **100** | **±Rp2,07 juta, atau ±Rp20.700 per orang** | **sampai H+6** |
+| Tuan rumah | 30 diundang pribadi, ±20 datang ke malam latihan | 20 | Rp250 rb (jamuan, dihitung HPP) | 4–5 Des |
+| Teman yang dibawa tuan rumah | ±1,5 orang per tuan rumah, bayar harga normal, langsung mendapat kartu cap | 30 | termasuk kartu | 4–19 Des |
+| Lewat depan (spanduk, cahaya, seduhan) | Orang yang makan malam di Balai Pustaka | 25 | spanduk dari startup | dari H |
+| Komunitas UNJ dan kantor | Satu posting per grup dengan izin, ditambah flyer | 10 | Rp60 rb | dari H-1 |
+| Google Maps | Pencarian "kopi" pada malam hari | 5 | Rp0 | setelah verifikasi |
+| IG/TikTok organik | — | 5 | alat Rp120 rb | dari H-14 |
+| Siaran WA | Ke yang sudah setuju | 5 | Rp0 | H-2, H+12 |
+| **Total** | | **100** | **Rp1,5 jt untuk 30 hari, atau ±Rp15.000 per orang** | sampai ±8 Jan |
 
-**Kenapa ini komunitas, bukan harga:** biayanya sebagian besar untuk menjamu tuan rumah dan mencetak kartu. Satu-satunya diskon adalah Ajak Teman, yang hanya berlaku jika seseorang membawa teman. Biaya per orang (±Rp20.700) di bawah batas Rp33.000.
-
-**Dari 100 pertama menjadi pelanggan tetap:** targetnya ≥40 orang dari 100 pertama kembali sebelum H+16, dengan batas minimum 25. Caranya:
-- Barista mencatat nama depan tamu yang mau dikenal (dengan izin).
-- Seduh Bareng diadakan setiap minggu.
-- Satu atau dua komunitas lokal diundang untuk kumpul rutin di H+12.
-- Tuan rumah diberi prioritas pesan meja.
-
-Hasilnya diukur lewat angka mingguan #2.
+Porsi yang datang karena teman: 50 dari 100 (ambang ≥30%). Kartu cap memberi nomor dan tanggal kunjungan, jadi "≥40 pelanggan tetap" (board) bisa dihitung dari kartu yang punya dua tanggal berbeda dalam 30 hari.
 
 ---
 
-## 6. Sepuluh hook
+## 7. Sepuluh hook
 
-Setiap hook menjawab satu keberatan atau memakai satu alasan beli dari panel. Semuanya **diuji dulu di pop-up** (bagian 7). Hook yang kalah ditulis ulang sebelum H-14.
+Satu hook untuk satu keberatan panel. Setiap hook hanya dipakai jika syarat di kolomnya sudah benar.
 
-| # | Format | Teks | Menjawab | Bukti panel | Cara uji di pop-up |
+| # | Format | Teks | Menjawab | Bukti panel | Syarat sebelum dipakai | Cara ukur |
+|---|---|---|---|---|---|---|
+| H1 | Papan kecil di lapak, deskripsi Maps, sorotan IG "Info", salam otomatis WA | **"Motor parkir di [tempat persis], [tarif nyata / ada juru parkir]. Kami sudah cek sendiri."** | Parkir | P003, P004, P007, P010. P003 batal kalau ada parkir liar mahal | Dicek di lokasi (H-11) bersama pemilik dan juru parkir | Pertanyaan "parkir di mana?" di WA/DM turun |
+| H2 | Video, 3 detik pertama | **"Kursi ini sengaja ada sandarannya."** (lanjut: "Duduk 2–3 jam nggak pegal. Tikar cuma buat yang mau selonjoran.") | Duduk lesehan pegal | P007, P008, P018, P019 | Sebagian besar kursi bersandaran sudah dibeli | Komentar dan DM; penilaian tuan rumah di malam latihan |
+| H3 | Pesan WA siap-teruskan, status WA | **"Datang berempat atau lebih? WA dulu. Bangkunya kami tahan 15 menit."** | 15 kursi bisa penuh | P004, P007, P008, P014, P018, P020 | Aturan tahan bangku tertulis (§4.3) | Jumlah tahan bangku per minggu; grup yang batal karena penuh |
+| H4 | Story IG dan status WA, Jumat–Sabtu pukul 19.30 dan 21.00 | **"Status kursi 20.15: masih ada ±6. Kalau penuh, kami tulis juga."** | Takut datang lalu penuh atau zonk | P008, P014, P018 (sinyal berhenti), P011 | Angkanya benar saat itu. Tidak pernah "tinggal sedikit" jika tidak benar | Jumlah lihat story; tamu yang bilang "lihat status" |
+| H5 | Video Reels/TikTok | **"Es kopi susu. Stopwatch jalan. [3] menit."** | Slowbar pasti lama, saya capek | P008 dan P018 (alasan beli); P011, P020 | ≥9 dari 10 pesanan ≤3 menit di malam latihan dan di malam ramai. Jika gagal, hook dibuang | Simpan dan share; log waktu |
+| H6 | Kartu meja, diucapkan sebelum bayar, carousel | **"V60 diseduh satu per satu, ±[8] menit. Kami bilang sebelum kamu bayar. Mau cepat? Es kopi susu."** | Menunggu V60 lama | P001 (berhenti jika >15 menit), P015, P018 (berhenti jika >10 menit) | Angka menit dari stopwatch malam latihan (board Product C3) | % tamu menunggu minuman pertama >10 menit |
+| H7 | Post feed dan kartu meja | **"Kami baru. Belum ada review. Jadi janjinya begini: tegukan pertama nggak cocok, kami seduh ulang. Gratis."** | Belum ada review | P011, P013, P017, P019 | Garansi seduh ulang tetap ada di offer | Klaim garansi; DM |
+| H8 | Post, papan tulis, belakang kartu cap | **"Nunggu review dulu? Santai. Kartu capnya nggak ada tanggal berakhir: 5 malam, gelas ke-6 gratis."** | Penunggu review; tidak ada alasan kembali setelah promo | P016 (minggu 3–4), P013, P017; P002, P003, P012 | Kartu Cap Yok berjalan (§5) | Kartu baru per minggu di minggu 3 dan seterusnya |
+| H9 | Video 3 detik pertama, papan di lapak | **"Lapak ini nggak punya colokan. Beneran."** (lanjut: "HP boleh. Laptop istirahat dulu.") | Aturan laptop | P002, P014, P019 (HP cukup); P009, P015 (diterima hilang) | Benar dengan sendirinya | Pertanyaan atau protes soal laptop |
+| H10 | Video close-up kartu beans | **"V60 Rp22.000 di lapak? Ini kartu beans-nya: roastery, proses, tanggal sangrai. Silakan cek."** | Curiga beansnya biasa | P001, P006, P016 | Kartu beans untuk setiap beans | Simpan dan DM dari akun pecinta kopi |
+
+---
+
+## 8. Kalender 30 hari: Rab 25 Nov sampai Jum 25 Des 2026 (H = Rab 9 Des)
+
+**Gerbang sebelum H-14** (cek Selasa 24 Nov):
+1. **Nama** lolos cek PDKI, dan handle (@lapakyok atau cadangan) aman. Jika belum, posting publik ditunda, tetapi kerja internal tetap jalan.
+2. **Tempat** terkunci dengan perjanjian tertulis **paling lambat Minggu 29 Nov** (`lapak-malam.md` §7). Jika belum, H mundur ke Rabu 16 Des dan semua tanggal di bawah bergeser +7 hari. Review 8 minggu ikut mundur ke Selasa 9 Feb, yang hampir bersamaan dengan awal Ramadan (±8 Feb). Catat itu.
+3. **Desain spanduk final** dengan jam dua baris (`/founder-brand`).
+
+**Pola minggu:** Rabu–Sabtu = malam buka (setelah H) atau malam kerja lapangan (sebelum H). Minggu–Selasa = founder istirahat dari lapak. Yang keluar di hari itu hanya post yang sudah dijadwalkan.
+
+| Tanggal | H | Malam lapak? | Kanal | Yang keluar / dikerjakan | Hook |
 |---|---|---|---|---|---|
-| H1 | Video, 3 detik pertama (TikTok/Reels) | **"Meja ini sengaja nggak punya colokan."** (dilanjutkan: "HP boleh. Laptop istirahat. Di sini kerjaannya cuma ngobrol.") | "Apa bedanya dengan langganan saya?" dan celah dibanding kafe WFC | P006 (v2), P007 (v1), `competitors.md` §4 | Share, simpan, dan DM per post |
-| H2 | Video, 3 detik pertama | **"Es kopi susu. Timer jalan. Tiga menit."** | "Slowbar pasti lama, saya capek" | P008, P015, P018, P020 | Stopwatch untuk semua pesanan di jam tersibuk. **Hanya dipakai jika ≥9 dari 10 pesanan selesai dalam 3 menit** |
-| H3 | Papan depan atau jendela | **"Lapar pulang kerja? Mie dan rice bowl dulu. Kopinya nyusul."** | Capek dan lapar | v1: P005, P008, P011, P015; v2: P008, P018 | Hitung orang yang berhenti atau masuk per jam untuk tiap teks papan |
-| H4 | Judul iklan atau post | **"Nggak ngerti kopi? Cicip tiga dulu. Gratis."** | Takut salah pesan; kopi hitam asam | P009 | Kode jawaban di kasir: "tertarik karena apa?" |
-| H5 | Pesan WA siap-teruskan dan story | **"Nggak usah pindah langganan. Ajak geng ke sini sekali aja."** ditambah tanggal berakhirnya Ajak Teman | Sudah punya langganan, dan memakai pembalik "diajak teman" | P006, P020; 8/8 pembalik | Jumlah pesan diteruskan dan reservasi yang menyebut pesan ini |
-| H6 | Post feed atau iklan | **"Kami baru buka. Belum ada review. Jadi janjinya begini: tegukan pertama nggak cocok, kami seduh ulang dengan beans lain. Gratis."** | Belum ada review atau rating | P013, P019; panel GoFood (trust 9/20) | DM dan simpan; klaim garansi dicatat |
-| H7 | Kartu di meja dan papan pintu | **"HP boleh. Laptop istirahat dulu."** | Perlu balas kerjaan | P002, P014, P019 | Jumlah tamu yang bertanya atau protes soal laptop |
-| H8 | Carousel atau papan menu | **"Berempat? Sesi Ngobrol Rp85.000: seteko kopi dua beans + camilan buat berbagi. ±Rp21 ribuan per orang."** (dengan catatan PBJT) | Nongkrong lama jadi mahal | P014, P017, P018 | Persentase meja berisi 2–4 orang yang mengambil paket (sejalan dengan uji harga di `pricing.md`) |
-| H9 | Foto atau video close-up kartu beans | **"Tanggal sangrainya kami tulis. Silakan cek."** | Ragu beans-nya segar | P001, P016 | Simpan dan DM dari akun pecinta kopi |
-| H10 | Post, pesan WA, dan papan | **"Tiap [Kamis] 19.30: Seduh Bareng 30 menit. Gratis. Bawa teman."** | "Tempat baru ramai sebentar lalu sepi"; memberi alasan untuk kembali | P013, P016, P017 | Jumlah peserta dan berapa yang kembali |
+| **Rab 25 Nov** | H-14 | Tidak (kerja lapangan) | WA Business, IG/TikTok | Siapkan WA Business: nama, jam "buka 9 Des", katalog menu dan harga, salam otomatis (template E). Post pertama, jika gerbang nama lolos: video 20 detik founder menyeduh dengan kompor gas dan lampu, "Lapak ini nggak punya colokan. Buka 9 Desember, Rawamangun." Belum menyebut alamat | H9 |
+| Kam 26 Nov | H-13 | Tidak | WA pribadi | Undangan malam latihan ke 30 tuan rumah (template A): teman kuliah, rekan kantor (cek dulu klausul usaha sampingan di kontrak kerja), tetangga, kenalan komunitas kopi, kontak UNJ. Target 20 yang bilang ya | — |
+| Jum 27 Nov | H-12 | Tidak | Percetakan, story | Pesan 500 Kartu Cap bernomor, stempel khusus, kartu meja (tanpa QR dulu), papan tulis status. Story: proof kartu cap | H8 |
+| Sab 28 Nov | H-11 | Survei di lokasi 19.00–22.00 | Offline | Cek dari dua arah lalu lintas di mana spanduk dan lampu terbaca dari ±20 m. Cek parkir motor bersama pemilik dan juru parkir, termasuk tarif nyata. Tulis teks H1. Foto teras malam | — |
+| Min 29 Nov | H-10 | — | Google Maps | **Gerbang tempat.** Jika perjanjian tertulis sudah ada: buat profil Google ("Lapak Yok", kedai kopi, alamat + pin teras, jam, tanggal buka 9 Des, "Verifikasi nanti"). Jika belum: geser H | — |
+| Sen 30 Nov | H-9 | — | IG (terjadwal) | Carousel "Cara pesan di Lapak Yok": cicip dulu, waktu tunggu V60 disebut sebelum bayar, es kopi susu untuk yang buru-buru, seduh ulang kalau tidak cocok | H6, H7 |
+| Sel 1 Des | H-8 | — | — | Ambil cetakan. Tidak ada post | — |
+| **Rab 2 Des** | H-7 | Uji solo, tanpa tamu | Offline, Google | Stopwatch pemasangan solo. Jika lewat 19.00, jam Rabu–Kamis ditulis 19.30 di **semua** materi. Rekam video verifikasi Google saat spanduk menyala, lalu kirim. Rekam 4–6 klip untuk stok konten | — |
+| Kam 3 Des | H-6 | Tidak | TikTok/Reels, WA | Video di balik bar: air di kompor gas, bloom di bawah lampu, grinder tangan. Konfirmasi tuan rumah per malam. Uji alur tahan bangku lewat WA dengan 2 teman | Di balik bar |
+| **Jum 4 Des** | H-5 | **Malam latihan 1** (18.00–22.00, dengan helper) | Offline | Tuan rumah dijamu satu minuman. Teman mereka bayar harga normal (uji harga nyata) dan langsung dapat kartu cap. Stopwatch: es kopi susu (gerbang H5), V60 (angka untuk H6), sapaan ≤10 detik. Tanya tuan rumah: kursi bersandaran atau tikar setelah 2 jam? Minta izin masuk daftar siaran WA. **Tidak meminta review** | (uji H2, H5, H6) |
+| **Sab 5 Des** | H-4 | **Malam latihan 2** | Offline, story | Sama dengan malam latihan 1, ditambah uji Seduh Bareng pukul 20.00 (15 menit). Uji story status kursi dengan angka asli | (uji H4) |
+| Min 6 Des | H-3 | — | WA pribadi | Finalkan angka: jam buka, menit V60, teks parkir, H5 lolos atau tidak, aturan tahan bangku. Ucapkan terima kasih ke tuan rumah, lalu kirim pesan siap-teruskan (template B) untuk grup mereka | H3 |
+| Sen 7 Des | H-2 | — | IG (terjadwal), siaran WA | Post "Motor parkir di …". Buat sorotan IG "Info" (parkir, jam, hujan, laptop). Siaran WA #1: "Buka Rabu 9 Des" | H1 |
+| Sel 8 Des | H-1 | — | IG (terjadwal), komunitas | Post kursi bersandaran, **hanya jika benar**. Pesan ke 3–5 admin komunitas UNJ dan kantor untuk izin satu posting. Flyer hanya di tempat yang mengizinkan | H2 |
+| **Rab 9 Des** | **H** | **Malam pertama** (solo) | Lapak, story | Spanduk menyala, meja seduh menghadap jalan. Kartu cap mulai, untuk semua tamu. Story: "Malam pertama, buka sampai 24.00." Mulai tally: baru/kembali, tahu dari mana, waktu tunggu | H9 (papan) |
+| Kam 10 Des | H+1 | Ya (solo) | Google Maps, story | Jika profil sudah terverifikasi: cetak kartu meja ber-QR (fotokopi, ±Rp20–30 rb), lalu minta review ke **semua** tamu (template D) | H7 |
+| Jum 11 Des | H+2 | Ya (18.00, helper) | Story/status WA | Status kursi pukul 19.30 dan 21.00. Tahan bangku untuk grup aktif | H3, H4 |
+| Sab 12 Des | H+3 | Ya | Offline, IG | **Seduh Bareng #1**, 20.00, 15 menit, gratis untuk yang sedang duduk. Ini malam ritual tetap (board). Rekam tanpa wajah kecuali ada izin. Catat 3 angka minggu 1 | — |
+| Min 13 Des | H+4 | — | Internal | 20 menit membaca 3 angka minggu 1, "tahu dari mana", dan log waktu tunggu. Balas semua review. Pilih tiga klip untuk minggu depan | — |
+| Sen 14 Des | H+5 | — | IG (terjadwal) | "Nunggu review dulu? Santai. Kartu capnya nggak ada tanggal berakhir." | H8 |
+| Sel 15 Des | H+6 | — | WA pribadi | Terima kasih ke tuan rumah yang membawa teman. Tawarkan tahan bangku untuk Jumat–Sabtu | H3 |
+| Rab 16 Des | H+7 | Ya (solo) | TikTok/Reels | Video stopwatch es kopi susu, **hanya jika gerbang H5 lolos**. Jika tidak, pakai H6 | H5 / H6 |
+| Kam 17 Des | H+8 | Ya (solo) | Story | Jika tally minggu 1 menunjukkan Rabu–Kamis lebih sepi: "Rabu–Kamis biasanya lebih lega." Ini fakta dari data, bukan janji | H4 |
+| Jum 18 Des | H+9 | Ya | Story/status WA | Status kursi dan tahan bangku | H3, H4 |
+| Sab 19 Des | H+10 | Ya | Offline, IG | **Seduh Bareng #2.** Post "Lapak ini nggak punya colokan." Catat 3 angka minggu 2 | H9 |
+| Min 20 Des | H+11 | — | Internal, Google Maps | Review minggu 2: pemicu di §13, hook yang dipertahankan atau dibuang, jumlah kartu baru dan cap kedua. Pasang jam khusus Google untuk 24–25 Des dan 31 Des–1 Jan, sesuai keputusan buka atau tutup | — |
+| Sen 21 Des | H+12 | — | IG (terjadwal), siaran WA | Video kartu beans dan tanggal sangrai. Siaran WA #2: jam libur akhir tahun dan Seduh Bareng Sabtu | H10 |
+| Sel 22 Des | H+13 | — | — | Di rencana lama, Ajak Teman berakhir malam ini. Di rencana ini tidak ada yang berakhir, jadi tidak ada post "hari terakhir". Siapkan post H+14 | — |
+| Rab 23 Des | H+14 | Ya (solo) | IG | "Dua minggu pertama: yang kami ubah dari masukan tamu", hanya perubahan yang benar-benar dilakukan. Menjawab "tempat baru ramai sebentar lalu turun" (P013, P016, P017). Angka #3 kohort minggu 1 pertama kali terbaca | — |
+| Kam 24 Des | H+15 | Ya, atau tutup (keputusan founder, sudah dipasang di Maps sejak 20 Des) | Story | Jika buka, catat sebagai **malam libur**, terpisah dari tren | H4 |
+| **Jum 25 Des** | H+16 | Libur Natal. Jika buka: 18.00–24.00 dengan helper | Story | Post hanya info jam. Malam ini ditandai "libur". Rapat bulan 2 dijadwalkan Minggu 27 Des: kanal yang lolos diteruskan, kreator ya/tidak (§4.6), cetak ulang | — |
 
----
-
-## 7. Tahap 0: uji hook di pop-up (sebelum sewa ditandatangani)
-
-Jadwal dan biaya pop-up diatur `/founder-launch`. Marketing butuh lima hal dari pop-up:
-
-1. **Papan A.** Ganti teks di setiap sesi (misalnya H3, H7, dan H1 bergantian). Catat jumlah orang yang berhenti atau masuk per jam di lembar tally.
-2. **IG/TikTok.** Post satu hook per hari selama periode pop-up. Yang dicatat per post adalah simpan, share, dan DM "lokasinya di mana?". Like dan jumlah follower diabaikan.
-3. **Di kasir.** Tanyakan "Tahu dari mana?" dan "Apa yang bikin mampir?", lalu catat kode hook-nya.
-4. **Uji 3 menit.** Catat waktu dari bayar sampai es kopi susu ada di tangan, untuk semua pesanan di jam tersibuk. Klaim H2 boleh dipakai hanya jika ≥9 dari 10 pesanan selesai dalam 3 menit. Jika tidak, H2 dibuang dan H3 dipakai sebagai gantinya.
-5. **Daftar WA.** Pasang kartu "Mau dikabari saat kedai buka?", dengan izin tertulis. Target ≥50 nomor. Untuk tamu yang datang bergrup, tanyakan "Siapa yang ngajak?" untuk memastikan peran tuan rumah memang ada.
-
-**Keputusan sebelum H-14:**
-- Tiga hook dengan skor terendah dibuang atau ditulis ulang.
-- Hook terbaik dipakai di papan depan dan di post yang di-boost.
-
----
-
-## 8. Kalender 30 hari (H-14 sampai H+16)
-
-Seduh Bareng diadakan di H+2, H+9, dan H+16 sebagai jadwal mingguan. Saat tanggal nyata ditentukan, pindahkan ke satu hari tetap (usulan: Kamis 19.30). Meja Sesi Ngobrol paling dicari pada Jumat–Sabtu.
-
-| Hari | Kanal | Yang keluar | Pesan / hook |
-|---|---|---|---|
-| **H-14** | Google Maps, IG/TikTok | Buat dan verifikasi profil Google Maps: nama, kategori kedai kopi, jam 16.00–24.00, tanggal buka (jika fiturnya tersedia), dan foto asli lokasi. Post pertama: video founder 30 detik tentang kenapa tempat ini tidak punya colokan | H1 |
-| H-13 | WA pribadi | Susun daftar 30 tuan rumah. Kirim undangan Malam Tuan Rumah secara pribadi, bukan siaran (template A) | — |
-| H-12 | IG/TikTok | Kenalan dengan barista: nama, wajah, beans favoritnya, dan kenapa ia senang ngobrol dengan tamu | Di balik layar |
-| H-11 | IG (carousel) | "Cara pesan kalau nggak ngerti kopi": Cicip Dulu 3 beans, 2 pertanyaan dari barista, seduh ulang kalau tidak cocok | H4 |
-| H-10 | Percetakan, IG story | Cetak Kartu Ajak Teman, kartu meja, kartu QR review, dan flyer. Story: proses mengecat papan pintu | H7 |
-| H-9 | TikTok/Reels | Video timer es kopi susu dari uji pop-up. **Hanya jika lolos syarat 3 menit.** Jika tidak, ganti dengan video makanan | H2 (atau H3) |
-| H-8 | IG | Cerita beans pertama: kartu beans (origin, proses, roastery, tanggal sangrai) | H9 |
-| H-7 | Offline, WA | Antar flyer dan kirim pesan ke HR atau pengurus komunitas kantor di sekitar Pulogadung dan Jl. Pemuda, serta organisasi mahasiswa dan alumni UNJ: Sesi Ngobrol pulang kantor, reservasi dibuka H-5 | H8 |
-| H-6 | IG/TikTok | Masak di dapur: mie, rice bowl, pisang goreng | H3 |
-| H-5 | WA, IG | Reservasi meja Sesi Ngobrol lewat WA dibuka untuk H sampai H+13. Post pesan siap-teruskan dengan ajakan "kirim ke grup tongkronganmu" (template B) | H5 |
-| H-4 | Kreator #1 | Kreator mikro lokal datang ke latihan servis. Kontennya tayang dengan "#iklan" atau "kerja sama berbayar" dan label kemitraan berbayar dari platform (template E) | — |
-| H-3 | IG/TikTok, boost | Video aturan rumah: HP boleh, laptop istirahat, ngobrol sampai 24.00. Mulai boost post organik terbaik sejauh ini, radius ±3 km | H7, H1 |
-| H-2 | Google Maps, kreator #2 | Unggah foto asli ruang, menu, dan harga, dengan catatan "belum termasuk PBJT 10%". Kreator #2 hanya jika ada yang cocok; jika tidak, dananya pindah ke anggaran komunitas | — |
-| H-1 | Offline (Malam Tuan Rumah), WA | 19.00–22.00. Tuan rumah dijamu satu minuman, teman mereka bayar harga normal. Semua pulang membawa Kartu Ajak Teman yang berlaku H sampai H+13. Minta izin untuk masuk daftar siaran WA | — |
-| **H (buka)** | Papan depan, IG/TikTok, siaran WA | Buka 16.00. Papan: "Pulang kerja, ngopi-yo. 16.00–24.00. Ajak Teman sampai [tanggal H+13]." Story langsung dari bar. Siaran WA pertama ke yang sudah setuju | H5 + tanggal berakhir |
-| H+1 | Google Maps, IG | Mulai minta review jujur ke **semua** tamu lewat kartu QR di nota (template D) | H6 |
-| H+2 | Offline, IG | Seduh Bareng #1, 19.30, 30 menit, gratis | H10 |
-| H+3 | IG/TikTok | Di balik layar: malam pertama dan apa yang dipelajari barista | Di balik layar |
-| H+4 | IG story (disimpan di sorotan) | Tanya-jawab: parkir (jawaban jujur sesuai lokasi), laptop, jam buka, makanan | Info wajib |
-| H+5 | TikTok/Reels | Suasana jam 19.30: meja penuh orang ngobrol. Wajah hanya tampil dengan izin. Bukan testimoni, tanpa kutipan | H1 |
-| H+6 | WA pribadi | Ucapkan terima kasih ke tuan rumah yang datang, lalu tawarkan meja Sesi Ngobrol akhir pekan (sesuai jumlah meja nyata). **Target 100 pelanggan pertama tercapai** | H8 |
-| H+7 | Internal | Rapat 30 menit membahas tiga angka minggu 1 (bagian 13). Pilih post untuk di-boost dan bandingkan dengan hasil pop-up | — |
-| H+8 | IG | Beans kedua atau sorotan barista | H9 |
-| H+9 | Offline, IG | Seduh Bareng #2 | H10 |
-| H+10 | TikTok/Reels | Timer es kopi susu direkam di jam sibuk sungguhan, hanya jika memang selesai dalam 3 menit | H2 |
-| H+11 | IG, siaran WA | Pengingat jujur: Ajak Teman berakhir H+13 pukul 24.00 | H5 + tanggal |
-| H+12 | Komunitas | Undang 1–2 komunitas lokal (klub buku, klub lari, alumni) untuk kumpul rutin di Kopiyo. Meja disiapkan, tanpa diskon | H10 |
-| H+13 | Papan, IG story | Hari terakhir Ajak Teman, sesuai tanggal yang tertulis sejak awal | — |
-| H+14 | IG, papan, internal | Post: "Promo pembukaan sudah selesai. Yang tetap: gelas kedua Rp15.000, Cicip Dulu gratis, seduh ulang kalau tidak cocok." Rapat angka minggu 2, termasuk cek apakah tamu turun setelah promo | H4, H6 |
-| H+15 | IG/TikTok | "Dua minggu pertama: yang kami ubah dari masukan tamu". Hanya perubahan yang benar-benar dilakukan | Di balik layar |
-| H+16 | Offline, IG, internal | Seduh Bareng #3. Putuskan rencana bulan 2: kanal yang lolos ambang diteruskan, yang gagal dihentikan | H10 |
+**Rencana hujan** (Desember–Januari musim hujan; syarat board Offers C4): story pukul 18.00 berisi "Buka. Tenda terpasang, ada [n] kursi kering", atau "Tutup malam ini" jika memang tutup. Malam hujan dicatat terpisah untuk review 2 Feb.
 
 ---
 
 ## 9. Kalau tidak ada yang baru untuk diposting
 
-Isi hari kosong dengan cerita di balik layar. Jangan merekayasa keramaian dan jangan memposting angka follower.
+Isi dengan cerita di balik bar. Jangan merekayasa keramaian.
 
-1. Barista menimbang dan menyeduh satu gelas dari awal sampai akhir (30 detik, tanpa suara).
-2. Membuka kantong beans baru dan membaca tanggal sangrainya.
-3. Dua pertanyaan yang diajukan barista kepada orang yang "nggak ngerti kopi".
-4. Persiapan dapur sore: pisang goreng dan rice bowl.
-5. Menyiapkan ruang pukul 15.30: menyalakan lampu, menata meja, mengatur musik supaya tidak lebih keras dari suara ngobrol.
-6. Kenalan dengan staf: nama dan satu hal yang mereka suka.
-7. Kartu beans minggu ini: dari mana kopinya berasal (syarat board C2).
-8. Pertanyaan tamu minggu ini beserta jawabannya. Nama tamu hanya disebut jika ia mengizinkan.
-9. Satu kesalahan minggu ini dan apa yang diubah. Kejujuran seperti ini membangun kepercayaan untuk tempat yang baru buka.
-10. Pukul 23.30: menutup bar dan membersihkan alat.
-11. Info praktis di sorotan: parkir motor, rute dari Jl. Pemuda atau Arion, dan jam buka.
-12. Founder menjelaskan selama 20 detik kenapa aturannya "HP boleh, laptop istirahat".
+1. Memasang tenda dan lampu dari 18.00 ke 19.00 (*timelapse* 20 detik).
+2. Air mendidih di kompor gas, tanpa suara selain desisnya.
+3. Bloom V60 di bawah lampu baterai, dari dekat.
+4. Grinder tangan: berapa putaran untuk satu gelas.
+5. Membuka kantong beans baru dan membaca tanggal sangrainya (H10).
+6. Kartu beans minggu ini: dari mana kopinya (syarat board C2).
+7. Menyiapkan konsentrat cold brew di rumah, malam sebelumnya.
+8. Pertanyaan tamu minggu ini dan jawabannya. Nama hanya disebut dengan izin.
+9. Satu kesalahan minggu ini dan apa yang diubah.
+10. Malam hujan: cara tenda dan kursi diatur supaya tetap kering.
+11. Info praktis: parkir, rute dari halte Pemuda Rawamangun atau LRT Velodrome, jam buka.
+12. Pukul 24.00: mematikan lampu terakhir, melipat kursi, mencuci alat.
 
 ---
 
 ## 10. Template
 
 **A. Undangan tuan rumah (WA pribadi dari founder)**
-> Halo [nama], ini [nama founder] dari Kopiyo ([konteks: kita ketemu di pop-up / teman kantor]). Kami buka [tanggal H] di [alamat], tiap hari 16.00–24.00. Tempat ngobrol, bukan tempat kerja. Sehari sebelumnya, [tanggal H-1] jam 19.00, aku mau menjamu beberapa orang yang biasa jadi "tukang ngajak" di gengnya. Minuman pertamamu dari kami. Teman yang kamu bawa (2–3 orang) bayar harga biasa. Mau aku simpankan meja? Balas jumlah orangnya ya. Kalau nggak bisa, santai.
+> Halo [nama], ini [nama founder]. Aku buka lapak kopi kecil, Lapak Yok, di [alamat singkat], Rawamangun. Kopinya diseduh manual tanpa listrik, ada makanan angkringan. Buka mulai Rabu 9 Desember, Rabu–Sabtu malam. Sebelum buka aku latihan dua malam: Jumat 4 Des dan Sabtu 5 Des, jam 18.00–22.00. Kamu yang paling sering ngajak geng nongkrong, jadi aku mau menjamu: minuman pertamamu dari aku. Teman yang kamu bawa bayar harga biasa (sekalian uji harga). Mau datang malam yang mana, berapa orang? Kalau nggak bisa, santai.
 
-**B. Pesan siap-teruskan** (disediakan Kopiyo, tamu yang memutuskan mau mengirim atau tidak)
-> Ada tempat ngobrol baru di Rawamangun: Kopiyo, [alamat]. Buka 16.00–24.00, meja tanpa laptop (HP boleh), ada mie dan rice bowl. Sampai [tanggal H+13], minuman kedua buat teman yang diajak setengah harga. Pesan meja: wa.me/[nomor]. [Hari] jam [..], siapa ikut?
+**B. Pesan siap-teruskan** (disediakan Lapak Yok; tamu yang memutuskan mau mengirim atau tidak)
+> Ada lapak kopi malam baru di Rawamangun: Lapak Yok, [alamat singkat] ([pin]). Rab–Kam [19.00]–24.00, Jum–Sab 18.00–24.00. Kopi diseduh di depan kita, ada nasi kucing dan gorengan. HP boleh, laptop istirahat. Parkir motor: [info]. Nggak usah pindah langganan, sekali aja bareng geng. Datang berempat atau lebih? Tahan bangku: wa.me/[nomor]. [Hari] jam [..], siapa ikut?
 
 Aturan template B: isinya hanya fakta. Jangan menaruh penilaian seperti "enak banget" di mulut tamu.
 
-**C. Kartu Ajak Teman**
-- Depan: "Ajak Teman. Minuman kedua untuk teman yang kamu ajak, setengah harga. Berlaku [tanggal H]–[tanggal H+13], sampai pukul 24.00."
-- Belakang: "Pesan meja: WA [nomor] · 16.00–24.00 · HP boleh, laptop istirahat dulu. Yang mengajak: ________."
-- Kartu dikumpulkan di kasir. Jumlahnya dipakai untuk angka mingguan #3 dan untuk tahu siapa tuan rumah yang paling aktif.
+**C. Kartu Cap Yok** (ukuran kartu nama, Biru Malam di atas Kertas, bernomor)
+- **Depan:** "Kartu Cap Yok · No. ____ · 5 kotak cap (tanggal di tiap kotak) · 5 cap = gelas ke-6 gratis."
+- **Belakang:**
+  - "1 cap tiap malam kamu jajan Rp25.000 ke atas."
+  - "Bawa teman yang baru pertama kali: +1 cap buat kamu."
+  - "Nggak ada tanggal berakhir."
+  - "Cap nggak pernah ditukar dengan review atau follow."
+  - "Tahan bangku: WA [nomor] · HP boleh, laptop istirahat."
 
-**D. Kartu QR review** (diberikan ke semua tamu, tanpa imbalan)
-> Kami baru buka dan belum punya banyak review. Kalau sempat, ceritakan pengalamanmu di Google Maps, yang enak maupun yang kurang. Kami baca dan balas semuanya. [QR]
+**D. Kartu meja / QR review** (untuk semua tamu, tanpa imbalan)
+> Kami baru buka dan belum punya banyak review. Kalau sempat, ceritakan pengalamanmu di Google Maps, yang enak maupun yang kurang. Kami baca dan balas semuanya. Tidak ada hadiah untuk review, dan kartu capmu tidak berubah. [QR]
 
-**E. Brief kreator**
-- **Memilih kreator:** pilih akun yang penontonnya di Jakarta Timur (minta data lokasi audiens), bukan akun dengan follower terbanyak. Batas Rp750 ribu per kreator.
-- **Saat datang:** kreator datang sebagai tamu biasa dan mencoba es kopi susu, V60, makanan, serta Cicip Dulu.
-- **Kebebasan berpendapat:** kreator bebas berpendapat, termasuk menyampaikan yang kurang. Pembayaran tidak bergantung pada nada ulasan. Kopiyo hanya mengoreksi fakta, tidak mengubah pendapat.
-- **Wajib diungkap:** "#iklan" atau "kerja sama berbayar" di awal caption, ditambah label kemitraan berbayar dari platform. Aturan ini berlaku juga jika imbalannya hanya produk gratis.
-- **Fakta yang harus benar:** alamat, jam 16.00–24.00, harga dengan catatan "belum termasuk PBJT 10%", aturan HP boleh dan laptop tidak, dan Ajak Teman yang berakhir di [tanggal H+13].
+**E. Salam otomatis WhatsApp Business**
+> Halo! Ini Lapak Yok, [alamat] ([pin]). Buka Rab–Kam [19.00]–24.00, Jum–Sab 18.00–24.00. Parkir motor: [info]. HP boleh, laptop istirahat (lapak kami memang tanpa listrik). Mau tahan bangku untuk 4 orang atau lebih? Balas: nama, jumlah orang, jam datang. Bangku ditahan 15 menit. Founder sedang menyeduh, jadi balasan bisa agak lama. Maaf ya.
+
+**F. Brief kreator** (hanya bulan 2, jika syarat §4.6 terpenuhi)
+- **Saat datang:** kreator datang sebagai tamu di Rabu atau Kamis, dan bebas berpendapat, termasuk menyampaikan yang kurang. Pembayaran tidak bergantung pada nada ulasan.
+- **Wajib diungkap:** "#iklan" atau "kerja sama berbayar" di awal caption, ditambah label kemitraan berbayar dari platform, juga jika imbalannya hanya produk.
+- **Fakta yang harus benar:** alamat, jam, parkir, aturan laptop, harga, dan aturan kartu cap.
 - **Dilarang:**
-  - klaim kesehatan, misalnya "kopi bikin hilang stres";
-  - "terbaik" atau "nomor 1 di Rawamangun";
-  - menyindir kafe lain;
-  - "viral" atau "tinggal sedikit".
+  - klaim kesehatan;
+  - "terbaik" atau "nomor 1";
+  - "viral" atau "tinggal sedikit";
+  - menyindir tempat lain;
+  - meminta penonton menulis review.
 
 ---
 
 ## 11. Anggaran
 
-Anggaran mengikuti model CFO: Rp5 juta marketing pembukaan, Rp2 juta marketing rutin per bulan, dan Rp1,2 juta promo Ajak Teman. Total 30 hari pertama **Rp8,2 juta**. Harga cetak dan tarif kreator masih **[estimasi]**: minta dua penawaran, dan lewati kreator yang tarifnya di atas Rp750 ribu.
+Mengikuti model CFO: **Rp1.000.000 marketing pembukaan** (startup) dan **Rp500.000 per bulan**. Spanduk dan papan nama (Rp700 ribu) serta lampu (Rp600 ribu) sudah ada di startup dan tidak diambil dari sini. Semua harga cetak adalah **[estimasi]**. Minta dua penawaran.
 
-**Marketing pembukaan: Rp5.000.000** (startup, dipakai dari pop-up sampai H+16)
-
-| Pos | Kanal | Rp |
-|---|---|---:|
-| Materi uji hook di pop-up (papan A dua varian, kartu daftar WA) | Uji | 500.000 |
-| Cetak 1.000 Kartu Ajak Teman dan 500 flyer kantor/kampus | Ajak teman / WA | 700.000 |
-| Cetak 30 kartu meja ("HP boleh, laptop istirahat" + QR review) dan 300 kartu QR review | Google Maps | 300.000 |
-| Malam Tuan Rumah H-1 (satu minuman dan cicip untuk ±20–30 tuan rumah, dihitung dari HPP) | Ajak teman / WA | 500.000 |
-| 1–2 kreator mikro lokal, berbayar dan diungkap | IG/TikTok | 1.500.000 |
-| Boost post terbaik, radius ±3 km, H-3 sampai H+10 | IG/TikTok | 1.000.000 |
-| Alat konten (tripod HP, lampu kecil, mic clip) | IG/TikTok | 300.000 |
-| Cadangan | — | 200.000 |
-
-**Marketing rutin bulan 1: Rp2.000.000** (H sampai H+30)
+**Pembukaan: Rp1.000.000** (25 Nov sampai ±8 Jan)
 
 | Pos | Kanal | Rp |
 |---|---|---:|
-| Seduh Bareng mingguan (beans dan camilan cicip, 4 kali × Rp150.000) | Ajak teman / komunitas | 600.000 |
-| Jamuan cicip untuk kumpul perdana 1–2 komunitas lokal | Ajak teman / komunitas | 500.000 |
-| Boost lanjutan, **hanya jika angka #1 hijau** | IG/TikTok | 600.000 |
-| Cetak ulang kartu (Ajak Teman Rp200.000, QR review Rp100.000) | Ajak teman / Maps | 300.000 |
+| 500 Kartu Cap Yok bernomor (1 warna) dan stempel khusus | WA / ajakan teman | 250.000 |
+| Dua malam latihan: satu minuman dan cicip untuk ±25 tuan rumah (HPP ±Rp8.000), ditambah gorengan cicip | WA / ajakan teman | 250.000 |
+| Kartu meja laminasi: laptop, cara pesan dan waktu tunggu, QR review (QR dicetak setelah verifikasi) | Lapak + Maps | 100.000 |
+| Papan kecil "Parkir motor →" dan papan tulis status (kursi, menit V60, hujan) | Lapak + Maps | 150.000 |
+| Tripod HP dan lampu klip baterai untuk konten | IG/TikTok | 120.000 |
+| 200 flyer A6 untuk kantor dan komunitas yang mengizinkan | WA (sumber tuan rumah) | 60.000 |
+| Cadangan | — | 70.000 |
+| **Total** | | **1.000.000** |
 
-**Promo Ajak Teman: Rp1.200.000** (diskon, dari H sampai H+13; perkiraan CFO)
+**Bulanan: Rp500.000** (bulan 1 = 9 Des sampai 8 Jan)
 
-**Per kanal, 30 hari pertama**
+| Pos | Kanal | Rp |
+|---|---|---:|
+| Seduh Bareng setiap Sabtu (4–5 × ±Rp35.000–40.000 beans dan cup cicip) | WA / komunitas | 160.000 |
+| Jamuan kecil untuk kumpul perdana satu komunitas lokal (syarat board: satu komunitas yang kumpul rutin) | WA / komunitas | 100.000 |
+| Cetak ulang (kartu meja QR, kartu cap) | Lapak + Maps | 60.000 |
+| Cadangan. Dipakai untuk hadiah kartu cap **jika CFO belum memasukkannya sebagai biaya variabel** (model `cfo.md` lama belum, `numbers.json` v3 sudah: Rp560/tamu), atau untuk kreator di bulan 2 (§4.6) | — | 180.000 |
+| **Total** | | **500.000** |
+
+**Per kanal, 30 hari pertama (Rp1,5 juta)**
 
 | Kanal | Rp | Porsi |
 |---|---:|---:|
-| Ajak teman lewat WA dan komunitas (kanal utama) | 3.700.000 | 45% |
-| Instagram + TikTok | 3.400.000 | 41% |
-| Google Maps | 400.000 | 5% |
-| Uji hook di pop-up | 500.000 | 6% |
-| Cadangan | 200.000 | 2% |
-| **Total** | **8.200.000** | **100%** |
+| Ajakan teman lewat WA dan komunitas (kanal utama) | 820.000 | ±55% |
+| Lapak + Google Maps | 310.000 | ±21% |
+| Instagram + TikTok | 120.000 | 8% |
+| Cadangan | 250.000 | ±17% |
+| Iklan berbayar | 0 | 0% |
+| **Total** | **1.500.000** | |
 
-Uang untuk IG/TikTok hampir sebesar kanal utama karena kanal itu adalah bukti yang dibuka teman yang diajak. Boost dan kreator tetap bersyarat: kalau tidak membawa tamu, dananya pindah ke kanal utama.
-
-**Biaya yang tidak tercatat:** sekitar 1 jam per hari waktu founder untuk konten, membalas WA, dan membalas review. Jangan menambah anggaran di luar model sebelum mengecek batas di bagian 12.
+**Biaya yang tidak tercatat:** waktu founder sekitar 3 jam per minggu di luar malam buka (konten terjadwal, balas WA, balas review), ditambah story pada malam buka. Jangan menambah anggaran di luar model sebelum mengecek batas di §12.
 
 ---
 
 ## 12. Batas biaya untuk memenangkan satu pelanggan
 
-**Rumus:** kontribusi per kunjungan × jumlah kunjungan per pelanggan.
+**Rumus:** kontribusi per kunjungan × kunjungan per pelanggan.
 
-- **Kontribusi per kunjungan: Rp23.594.** Ini belanja rata-rata Rp40.000 dikurangi biaya variabel Rp16.406 (`cfo.md`).
-- **Kunjungan per pelanggan, angka lantai: 1,4 di bulan pertama.** Di panel v2: 17 pembelian ÷ 12 pembeli = 1,42.
+- **Kontribusi per kunjungan: Rp14.105** (`cfo.md`: belanja Rp28.000 dikurangi biaya variabel Rp13.895).
+- **Kunjungan per pelanggan, angka lantai: 1,7 di bulan 1** (panel lapak: 17 pembelian ÷ 10 pembeli). Tanpa tiga pemburu promo, angkanya tetap 1,71 (12 ÷ 7).
+- **Kartu cap tidak mengurangi angka bulan 1,** karena hampir tidak ada yang mencapai 5 cap sebelum minggu ke-4 atau ke-5.
 
 ```
-Batas keras = Rp23.594 × 1,4 = Rp33.031,6  →  Rp33.000
+Batas keras = Rp14.105 × 1,7 = Rp23.978,5  →  dibulatkan ke bawah: Rp23.900
 ```
 
-Membayar Rp33.000 untuk satu pelanggan baru hanya balik modal dari kunjungan bulan pertamanya, tanpa sisa untuk sewa dan gaji. Jadi angka ini **batas atas, bukan target.**
+Membayar Rp23.900 untuk satu pelanggan baru hanya balik modal dari kunjungan bulan pertamanya, tanpa sisa untuk sewa, helper, atau gas. Jadi ini **batas atas, bukan target.**
+
+*Cek silang dengan offer v3 yang ditulis paralel:* `numbers.json` v3 memakai belanja Rp29.000 dan kontribusi Rp13.768, yang sudah termasuk kartu cap. Dengan angka itu, batasnya Rp13.768 × 1,7 = Rp23.405, dibulatkan menjadi **Rp23.400**. Selisihnya kecil, dan keputusan di bawah tidak berubah.
 
 **Rentang 6 bulan.** Ini asumsi eksplisit yang belum terbukti, karena panel hanya ditanya soal bulan pertama.
 
-| Skenario | Kunjungan dalam 6 bulan | Hitungan | Nilai kontribusi |
-|---|---:|---|---:|
-| Rendah: datang lagi sekali | 2 | 23.594 × 2 | Rp47.188 |
-| Tengah: 1,4 kali di bulan 1, lalu sekitar sekali tiap dua bulan (≈0,5 × 5 bulan) | 4 | 23.594 × 4 | Rp94.376 |
-| Tinggi: geng nongkrong rutin, 2 kali di bulan 1 (panel), lalu ±1,2 kali per bulan | 8 | 23.594 × 8 | Rp188.752 |
+| Skenario | Asumsi | Kunjungan dalam 6 bulan | Kontribusi kotor (× Rp14.105) | Kartu cap | Nilai bersih |
+|---|---|---:|---:|---|---:|
+| Lantai | Data panel, hanya bulan 1 | 1,7 | Rp23.979 | 0 (belum 5 cap) | **Rp23.979** |
+| Rendah | 3 dari 10 datang sekali lagi di bulan 2–6 | 2,0 | Rp28.210 | 0 | **Rp28.210** |
+| Tengah | 1,7 di bulan 1, lalu ±0,5 per bulan × 5 bulan | 4,2 | Rp59.241 | 0–1 gelas (HPP Rp6.890) | **Rp52.351–59.241** |
+| Tinggi | Geng nongkrong rutin: 2 di bulan 1, lalu 2 per bulan | 12 | Rp169.260 | 2 gelas: HPP Rp13.780; terburuk Rp44.000 | **Rp125.260–155.480** |
 
-Asumsi ini diganti dengan data nyata: persentase tamu yang kembali dalam 14 hari, dari pop-up dan dari minggu 1–4.
-
-**Cek silang:**
-- Sepertiga nilai skenario tengah adalah 94.376 ÷ 3 = Rp31.459, hampir sama dengan batas keras Rp33.000.
-- Artinya, kalaupun kunjungan 6 bulan sebaik skenario tengah, batas Rp33.000 masih menyisakan dua pertiga kontribusi untuk biaya tetap.
-- **Batasnya tetap Rp33.000** sampai data nyata menunjukkan tingkat kembali yang lebih tinggi.
-
-**Rencana dibandingkan dengan batas:**
-- Anggaran 30 hari Rp8,2 juta ÷ ±493 tamu baru yang dibutuhkan ramp CFO bulan 1 (23 tamu/hari × 30 ÷ 1,4) = **±Rp16.600 per tamu baru**, kira-kira separuh batas.
-- Kalau tamu baru hanya separuh dari ramp (±246 orang), biayanya ±Rp33.300, tepat di batas.
-
-**Dua catatan:**
-- **Tanpa tiga pemburu promo**, pembeli yang bertahan rata-rata datang 14 ÷ 9 = 1,56 kali, setara ±Rp36.700. Tetap pakai Rp33.000 sampai ada data nyata.
-- **Pemburu promo yang datang sekali hanya untuk satu es kopi susu setengah harga** menyumbang sekitar Rp11.000 − Rp8.442 (bahan) = ±Rp2.558. Uang berapa pun yang dikeluarkan untuk menarik mereka adalah rugi. Karena itu promo tidak pernah menjadi judul iklan.
+- **Batasnya tetap Rp23.900** sampai angka mingguan #3 (kembali dalam 14 hari) membuktikan skenario yang lebih tinggi.
+- **Cek silang:** Rp23.900 adalah ±40% dari nilai skenario tengah. Kalaupun skenario tengah benar, membayar sampai batas masih menyisakan sekitar 60% kontribusi untuk biaya tetap.
+- **Rencana dibandingkan dengan batas:**
+  - Rp1,5 juta ÷ 100 pelanggan baru di bulan 1 = **±Rp15.000 per orang** (63% dari batas).
+  - Batas tercapai jika hanya ±63 pelanggan baru di bulan 1, atau ±15 per minggu.
+  - Di bawah itu, hentikan pengeluaran yang bisa ditunda (jamuan komunitas, cetak ulang, kreator) dan jalan dengan kanal gratis saja.
+- **Pemburu promo yang datang sekali hanya untuk minuman setengah harga** menyisakan ±Rp5.280. Uang berapa pun untuk menarik mereka adalah rugi. Itu sebabnya promo tidak pernah menjadi judul.
 
 ---
 
 ## 13. Tiga angka mingguan
 
-**Cara mencatat** (tugas `/founder-ops`): untuk setiap transaksi, kasir mencatat di catatan POS atau lembar tally di bar. Butuh sekitar 5 detik per transaksi.
+**Cara mencatat** (tugas `/founder-ops`): lembar tally di bar, sekitar 5 detik per tamu.
 - **Baru atau kembali.**
-- **Tahu dari mana:** teman, Google Maps, IG/TikTok, lewat depan, kantor/kampus, atau lainnya.
-- **Jumlah orang di meja.**
-- **Membawa Kartu Ajak Teman atau tidak.**
+- **Tahu dari mana:** teman, lewat depan, Maps, IG/TikTok, kampus/kantor, atau lainnya.
+- **Datang bersama tamu yang sudah pernah ke sini?**
+- **Minuman pertama >10 menit?**
+- **Grup yang batal karena penuh.**
 
-Nama atau nomor tamu untuk menghitung angka kembali hanya dicatat dengan izin.
+Saat memberi cap kedua, lihat tanggal cap pertama di kartu. Jika jaraknya ≤14 hari, beri tanda "K14" di minggu kartu itu dibuat. Malam hujan dan malam libur (24–25 Des, 31 Des–1 Jan) ditandai terpisah.
+
+Angka-angka ini terikat ke break-even: **21 tamu bayar/malam** di belanja Rp28.000, atau **omzet ±Rp588.000 per malam** (Rp609.000 dengan belanja Rp29.000 di offer v3).
 
 | # | Angka | Cara hitung | Target | Ubah sesuatu jika | Yang diubah |
 |---|---|---|---|---|---|
-| 1 | **Tamu baru per minggu** (sekaligus biaya per tamu baru) | Jumlah tamu yang ditandai "baru". Anggaran Rp8,2 juta ÷ 4,3 minggu = ±Rp1,9 juta per minggu | ≥115 per minggu, setara ±Rp16.600 per tamu baru (ramp CFO bulan 1) | **Di bawah 90 per minggu dua minggu berturut-turut** (volume −20%, titik yang disebut CFO berbahaya). **Hentikan boost dan kreator jika di bawah 58 per minggu**, karena biaya per tamu baru sudah di atas Rp33.000 | Hentikan pos dengan tamu paling sedikit (lihat "tahu dari mana") dan pindahkan dananya ke kanal yang menghasilkan. Tambah undangan tuan rumah |
-| 2 | **Persentase tamu baru yang kembali dalam 14 hari** | Dari tamu baru minggu X, berapa yang datang lagi dalam 14 hari | ≥40%. Di panel, 5 dari 12 pembeli berencana datang 2 kali; ini simulasi dan batas atas | **Di bawah 25%** | Ini masalah pengalaman, bukan iklan. Baca semua review, cek waktu tunggu jam 19.00, porsi makanan, dan parkir (pembalik P007, P008, P018). **Tahan boost** sampai diperbaiki, karena tamu baru akan bocor lagi |
-| 3 | **Persentase tamu baru yang datang karena diajak teman** | Jawaban "tahu dari mana" ditambah Kartu Ajak Teman yang terkumpul | ≥50% | **Di bawah 30%** | Kanal utama tidak berjalan. Tanya 5 tuan rumah kenapa mereka tidak mengajak, tulis ulang template B, dan beri tuan rumah prioritas meja. Kalau di H+16 masih di bawah 30%, uji ulang apakah segmennya benar |
-
-**Kapan angka pertama terbaca:** angka #1 dan #3 di H+7. Angka #2 di H+14, untuk tamu yang datang di H-1 dan H.
+| 1 | **Tamu bayar per malam buka** (rata-rata minggu itu; Rabu–Kamis dan Jumat–Sabtu dipisah) | Qasir atau tally ÷ jumlah malam buka | Minggu 1–2 (9–19 Des): **≥10** (ramp CFO). Minggu 3–4 (23 Des–2 Jan, libur): ≥10, dibaca terpisah. Minggu 5 (6–9 Jan): **≥15**. Minggu 6–8 (13–30 Jan): **≥21** | **Di bawah target dua minggu non-libur berturut-turut.** **Merah: minggu 5 di bawah 15** (21 × 0,7, skenario CFO "tamu −30%"). Ambang 2 Feb hampir pasti gagal, jadi diagnosis dimulai saat itu juga, bukan 2 Feb. **Jika tamu ≥21 tetapi omzet per malam di bawah Rp588.000,** belanja per tamu yang turun, dan break-even belum tercapai | Lihat "tahu dari mana": sumber mana yang kering. Jumat–Sabtu penuh tetapi Rabu–Kamis kosong: dorong Rabu–Kamis (H4 "lebih lega", arahkan tahan bangku ke Rabu–Kamis). Semua malam sepi: cek apakah spanduk terbaca dari jalan, tambah undangan tuan rumah, dan baru setelah itu pertimbangkan pindah ke Jl. Pemuda (`lapak-malam.md`). **Jangan menambah malam buka** |
+| 2 | **Tamu baru per minggu** (sekaligus biaya per pelanggan baru) | Tanda "baru" di tally. Kartu cap baru menjadi cek silang | Minggu 1–4: **≥25 per minggu** (±100 di bulan 1). Minggu 5–8: **≥40 per minggu**. Model kasar [Menebak]: pada tingkat kembali 25%, 21 tamu/malam butuh ±40 tamu baru per minggu; pada 40%, ±30 | **Di bawah 25 per minggu (minggu 1–4) atau 40 (minggu 5–8), dua minggu berturut-turut.** **Di bawah 15 per minggu:** biaya per pelanggan baru sudah di atas Rp23.900, jadi hentikan pengeluaran yang bisa ditunda | Tambah tuan rumah baru. Kirim ulang template B lewat tuan rumah yang paling aktif (lihat siapa yang paling sering mendapat cap bonus). Pakai hook dengan simpan/DM tertinggi di papan dan story. **Bukan** iklan berbayar |
+| 3 | **Persentase tamu baru yang kembali dalam 14 hari** | Tanda K14 ÷ kartu baru di minggu yang sama. Pertama terbaca 23 Des untuk kohort minggu 1 | **≥25%** (ambang 2 Feb), sasaran 40% | **Di bawah 25%.** **Di bawah 15%:** tahan semua pengeluaran akuisisi, karena tamu baru akan bocor lagi | Ini masalah pengalaman, bukan iklan. Cek waktu tunggu (>20% tamu malam solo menunggu >10 menit: tambah helper Kamis atau tutup Kamis, sesuai board Product C6), kursi, penuh, parkir, dan semua review. Tanya 5 tamu yang tidak kembali kenapa |
 
 **Cek pendukung (bukan tiga angka utama):**
-- Tamu per hari dibandingkan ramp CFO (bulan 1: 23 per hari).
-- Jumlah dan rating review di Google Maps.
-- Penurunan tamu setelah H+13. Jika minggu 3 turun lebih dari 30% dari minggu 2, promo lebih banyak menarik pemburu promo.
-- Waktu penyajian es kopi susu di jam sibuk.
+- **Belanja per tamu ≥Rp28.000.** Di Rp27.000, break-even naik ke 22. Di Rp26.000, naik ke 24.
+- **Persentase tamu baru yang datang karena diajak teman ≥30%** (ambang 2 Feb). Jika di bawah itu, kanal utama tidak berjalan: tanya 5 tuan rumah kenapa mereka tidak mengajak.
+- **Persentase tamu yang menunggu minuman pertama >10 menit**, dan **grup yang batal karena penuh.** ≥3 grup per malam Jumat–Sabtu berarti aturan tahan bangku atau tata kursi di dalam persil perlu diubah.
+- **Review Google:** jumlah, rating, dan waktu balas. Target ≥10 di 9 Jan dan ≥20 di 2 Feb.
+- **Pelanggan tetap** (kartu dengan dua tanggal berbeda dalam 30 hari): target ≥40 di 2 Feb (board).
+- **Hadiah kartu cap yang ditukar per bulan,** dibandingkan dengan perkiraan ±Rp595 per kunjungan. Jika jauh di atasnya, pindah ke varian 6 cap untuk kartu baru.
+- **Malam hujan dan malam libur** dicatat terpisah, supaya tidak dibaca sebagai tren.
 
 ---
 
 ## 14. Aturan untuk semua materi
 
 - **Tidak ada review palsu.**
-  - Founder, keluarga, staf, dan kreator tidak menulis review Google Maps.
-  - Tidak ada imbalan apa pun untuk review, termasuk diskon atau minuman gratis. Google melarangnya.
-  - Minta review ke semua tamu, bukan hanya yang tampak puas.
-- **Tidak ada angka follower**, "viral", "ramai dibicarakan", "as seen on", atau foto keramaian yang direkayasa.
-- **Tidak ada testimoni di iklan selama 30 hari pertama.**
-  - Kutipan panel (P001–P020) adalah simulasi dan tidak pernah dipakai di materi publik.
-  - Story tamu hanya di-repost dengan izin, tanpa diubah, dan tidak dijadikan iklan berbayar.
-- **Kerja sama berbayar wajib diungkap.** Tulis "#iklan" atau "kerja sama berbayar" di awal caption, ditambah label kemitraan berbayar dari platform. Aturan ini berlaku juga untuk produk gratis. Etika Pariwara Indonesia meminta iklan bisa dikenali sebagai iklan.
+  - Founder, keluarga, helper, kreator, dan tuan rumah yang dijamu gratis tidak menulis review Google.
+  - Tidak ada imbalan apa pun untuk review, termasuk diskon, minuman, atau cap.
+  - Minta review ke semua tamu, bukan hanya yang tampak puas. Jangan meminta bintang tertentu, isi tertentu, atau nama barista disebut.
+- **Kutipan panel adalah riset, bukan testimoni.** P001–P020 adalah pembeli simulasi dan tidak pernah dikutip di spanduk, post, pesan WA, atau iklan. Story tamu hanya di-repost dengan izin, tanpa diubah, dan tidak dijadikan iklan.
+- **Tidak ada angka follower**, "viral", "ramai dibicarakan", "as seen on", atau foto keramaian rekayasa.
+- **Kerja sama berbayar wajib diungkap.** Tulis "#iklan" atau "kerja sama berbayar" di awal caption, ditambah label kemitraan berbayar dari platform, juga untuk imbalan berupa produk (Etika Pariwara Indonesia: iklan harus bisa dikenali sebagai iklan).
 - **Tidak ada klaim kesehatan.**
-  - Dilarang: "kopi menghilangkan stres", "kopi sehat", "bikin fokus", "detoks".
-  - "Tempat melepas lelah bareng teman" boleh karena itu tentang tempatnya. "Kopi yang melepas lelah" tidak boleh.
-- **Tidak ada superlatif tanpa bukti** ("terbaik", "nomor 1", "termurah di Rawamangun"), dan tidak menyebut atau menyindir kafe lain.
-- **Urgensi dan kelangkaan hanya yang nyata.**
-  - Ajak Teman berakhir H+13. Tanggalnya ditulis sejak hari pertama dan tidak diperpanjang.
-  - Jumlah meja Sesi Ngobrol Jumat–Sabtu sesuai jumlah meja fisik. "Tinggal 2 meja!" hanya boleh ditulis kalau memang benar saat itu.
-- **Klaim yang harus dibuktikan dulu:** "3 menit" (lihat bagian 7). Parkir hanya disebut setelah lokasi pasti.
-- **Harga di materi publik ditulis "belum termasuk PBJT 10%"** selama CFO memakai asumsi itu (`cfo.md`). Kalau founder memilih harga yang sudah termasuk pajak, angka CFO berubah dan materi ikut diubah.
-- **Daftar siaran WA hanya untuk yang sudah setuju** (UU No. 27 Tahun 2022 tentang Pelindungan Data Pribadi). Paling banyak satu pesan per minggu, dengan cara berhenti yang jelas ("balas STOP").
-- **Ini bukan nasihat hukum.** Periksa ulang aturan iklan sebelum memakai iklan berbayar dalam skala besar.
+  - Dilarang: "kopi menghilangkan stres", "kopi sehat", "bikin fokus", "detoks", "aman untuk lambung".
+  - "Tempat melepas penat bareng teman" boleh, karena itu tentang tempatnya. "Kopi yang melepas penat" tidak boleh.
+- **Tidak ada klaim halal atau logo halal** sebelum sertifikat (atau *self-declare* SEHATI) benar-benar terbit (`lapak-malam.md` §5).
+- **Tidak ada kelangkaan palsu.**
+  - Kartu cap tidak punya tanggal berakhir.
+  - Status kursi hanya angka yang benar saat itu.
+  - "Tinggal sedikit" hanya boleh ditulis jika memang benar.
+- **Klaim yang harus dibuktikan dulu:** "3 menit" (≥9/10 di stopwatch), menit tunggu V60, info parkir, dan kursi bersandaran.
+- **Jam di semua materi sama dengan jam yang lolos uji pemasangan** (19.00 atau 19.30 untuk Rabu–Kamis), termasuk di Google Maps dan jam khusus hari libur.
+- **Tidak ada superlatif tanpa bukti** ("terbaik", "nomor 1", "termurah di Rawamangun"). Tidak menyebut atau menyindir Hulu, YO'KOPI, warkop, atau kafe lain.
+- **Daftar siaran WA hanya untuk yang sudah setuju** (UU 27/2022 PDP). Paling banyak satu pesan per minggu, dengan "balas STOP". Wajah tamu di konten hanya dengan izin.
+- **Semua materi fisik di dalam batas persil.** Tidak ada spanduk di fasilitas umum atau papan di trotoar.
+- **Ini bukan nasihat hukum.** Cek aturan iklan sebelum memakai iklan berbayar dalam skala apa pun.
 
 ---
 
-## 15. Syarat board dan langkah berikutnya
+## 15. Serah-terima dan keputusan
 
-| Syarat | Status di dokumen ini |
-|---|---|
-| **C3** satu segmen dan satu kanal | **Terjawab.** Segmen: nongkrong rutin sepulang kerja. Kanal: ajakan teman lewat WhatsApp. Google Maps dan IG/TikTok menjadi bukti pendukung |
-| **C7** 100 pelanggan pertama dan biayanya, lewat komunitas | **Ada rencananya.** ±Rp2,07 juta (±Rp20.700 per orang), dari tuan rumah, acara mingguan, dan komunitas lokal, tanpa perang harga. **Masih harus dibuktikan di pop-up** |
-| C5 bukan bersaing di harga | Dijaga: promo tidak jadi judul, tidak ada beli-1-gratis-1 |
-| C8 uji nyata sebelum sewa | Hook diuji di pop-up lebih dulu (bagian 7) |
-| C2 Coffee Story tanpa AI | Kartu beans menjadi konten (H9) |
-| C11 Yogyakarta keluar dari rencana | Tidak ada aktivitas marketing untuk Yogyakarta |
+**Tiga keputusan untuk founder:**
+1. **Kartu Cap Yok menggantikan Ajak Teman** (rekomendasi), atau berjalan bersama Ajak Teman (kartu tetap dimulai malam pertama, Ajak Teman berakhir Sel 22 Des pukul 24.00).
+2. **Sebagian besar tempat duduk berupa kursi bersandaran**, bukan tikar. Ini mengubah daftar belanja startup. Tanpa ini, hook H2 tidak boleh dipakai.
+3. **Buka atau tutup pada 24–25 Des** (dan 31 Des–1 Jan). Putuskan sebelum Minggu 20 Des, supaya jam khusus di Google Maps benar.
 
-**Untuk `/founder-brand`:**
-- Nama final dan handle. Cek ketersediaan handle sebelum H-14.
-- Desain Kartu Ajak Teman, kartu meja, dan papan depan (H3, H7).
-- Sudut foto. P005, P010, dan P011 menunggu tempat yang "cakep buat foto".
-- Gaya bahasa yang hangat dan jujur ("kami baru"), tanpa superlatif.
-
-**Untuk `/founder-launch`:**
-- Tanggal nyata untuk H.
-- Jadwal pop-up dan uji hook.
-- Hari tetap untuk Seduh Bareng.
-- Syarat lengkap Ajak Teman.
-- Uji 3 menit.
+**Untuk `/founder-cfo`:**
+- Hadiah kartu cap ±Rp595 per kunjungan [Menebak]. Di `numbers.json` v3 garisnya Rp560, jadi selisihnya +Rp35. Di `cfo.md`, kartu ini belum dihitung, dan break-even menjadi 21,0 (22 jika dibulatkan ke atas) kecuali belanja naik ≥Rp100.
+- Diskon Ajak Teman tidak pernah ada di model. Jika founder tetap memakainya, catat ±Rp200–250 ribu.
 
 **Untuk `/founder-ops`:**
-- Lembar tally di kasir.
-- SOP membalas review paling lambat 24 jam.
-- Reservasi lewat WA.
-- Info parkir.
+- Lembar tally dan tanda K14.
+- SOP kartu cap: nomor, stempel, dan tanggal.
+- Aturan tahan bangku (maksimal 2 meja Jumat–Sabtu pukul 19.00–22.00).
+- Info parkir yang diverifikasi.
+- Kursi bersandaran.
+- Izin alamat untuk Google di perjanjian tempat.
+- Balas review paling lambat 24 jam.
 
-**Berikutnya:** `/founder-brand`, lalu `/founder-launch`.
+**Untuk `/founder-brand`:**
+- Spanduk dengan jam dua baris, terbaca dari ±20 m dan disinari lampu.
+- Desain Kartu Cap Yok, kartu meja, dan papan tulis status.
+- Ikon 32px untuk WA, IG, dan TikTok.
+
+**Untuk `/founder-launch`:**
+- Gerbang nama (24 Nov) dan gerbang tempat (29 Nov).
+- Uji solo Rab 2 Des.
+- Malam latihan Jum 4 dan Sab 5 Des, dengan stopwatch.
+- Seduh Bareng setiap Sabtu pukul 20.00.
+- Rapat bulan 2 Minggu 27 Des.
+
+**Untuk `/founder-consumer --quick`:** uji ulang pitch dengan Kartu Cap Yok menggantikan Ajak Teman, sebelum 9 Des jika sempat.
+
+**Berikutnya:** `/founder-brand` untuk touchpoint lapak, lalu `/founder-launch`.

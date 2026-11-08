@@ -27,15 +27,15 @@ Rentang lengkap ada di [pricing-curve-lapak.md](pricing-curve-lapak.md):
 | IPP | Rp18.000 |
 | PME | Rp27.000 |
 
-## 2. Margin di beberapa belanja per tamu (alat CFO, `numbers.json`)
+## 2. Margin di beberapa belanja per tamu (alat CFO, `numbers.json` dengan biaya nyata dari `ops.md`)
 
-| Belanja rata-rata per tamu | Kontribusi/tamu | Break-even/malam | Margin di 28 tamu/malam | Tahun 1 |
+| Belanja rata-rata per tamu | Kontribusi/tamu | Break-even/malam (kapasitas ±30) | Margin di 28 tamu/malam | Tahun 1 |
 |---:|---:|---:|---:|---:|
-| Rp26.000 | Rp10.733 (41%) | 27 | +2,3% | −Rp11,1 jt |
-| **Rp29.000 (rencana v3)** | **Rp13.733 (47%)** | **21** | **+12,4%** | **+Rp2,1 jt** |
-| Rp32.000 | Rp16.733 (52%) | 17 | +20,6% | +Rp15,2 jt |
+| Rp26.000 | Rp10.733 (41%) | 33 (di atas kapasitas) | −7,1% | −Rp24,9 jt |
+| **Rp29.000 (rencana v3)** | **Rp13.733 (47%)** | **26** | **+4,0%** | **−Rp11,8 jt** |
+| Rp32.000 | Rp16.733 (52%) | 22 | +13,0% | +Rp1,3 jt |
 
-Rp29.000 = minuman pertama rata-rata Rp17.650 + 35% gelas kedua Rp12.000 + 75% makanan rata-rata Rp9.000 [estimasi].
+Rp29.000 = minuman pertama rata-rata Rp17.650 + 35% gelas kedua Rp12.000 + 75% makanan rata-rata Rp9.000 [estimasi]. **Target nyata belanja per tamu adalah ≥Rp32.000**, lewat paket, gelas kedua, dan makanan, bukan lewat menaikkan harga V60. Di Rp26.000, break-even melewati kapasitas. Versi hemat ada di `cfo.md`.
 
 ## 3. Tangga
 
@@ -48,7 +48,7 @@ Rp29.000 = minuman pertama rata-rata Rp17.650 + 35% gelas kedua Rp12.000 + 75% m
 
 ## 4. Penawaran pembukaan
 
-- **Kartu Cap Yok, sejak malam pertama dan tanpa tanggal berakhir:** 1 cap per malam belanja ≥Rp25.000, 5 cap = gelas ke-6 gratis, cap bonus untuk yang membawa teman baru. Biayanya ±Rp595/kunjungan (`marketing-lapak.md`). Kartu ini **menggantikan** promo Ajak Teman 2 minggu, yang hanya menarik pemburu promo dan terlewat oleh penunggu review (panel lapak, P017).
+- **Kartu Cap Yok, sejak malam pertama dan tanpa tanggal berakhir:** 1 cap per malam belanja ≥Rp25.000, 5 cap = gelas ke-6 gratis, cap bonus untuk yang membawa teman baru. Biayanya ±Rp595/kunjungan (`marketing.md`). Kartu ini **menggantikan** promo Ajak Teman 2 minggu, yang hanya menarik pemburu promo dan terlewat oleh penunggu review (panel lapak, P017).
 - **Tidak ada beli-1-gratis-1 atau cashback e-wallet.** Pemburu promo 3/3 hanya datang selama promo, di panel kafe maupun panel lapak.
 
 ## 5. Yang diuji dengan pembeli nyata

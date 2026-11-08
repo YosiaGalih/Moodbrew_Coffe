@@ -4,6 +4,9 @@
 >
 > **Cara baca label:** [Pasti] = bukti kuat; [Kemungkinan Besar] = inferensi kuat; [Menebak] = estimasi saya. Semua angka keuangan dihitung dengan `unit_economics.py` dari `numbers-lapak.json` dan `numbers-jogja.json`. Riset sumber ada di `research/nama-yok.md`, `research/lokasi-rawamangun.md`, dan `research/opsi-jogja.md`. Riset lokasi dan nama hanya berasal dari cuplikan pencarian; halaman asli banyak yang terblokir. Ini bukan nasihat hukum, pajak, atau keuangan.
 
+
+> **Pembaruan angka (setelah `ops.md` dan offer v3):** tabel di bagian 4 adalah perhitungan awal. Angka terbaru ada di [`cfo.md`](cfo.md). Dengan biaya nyata, break-even naik menjadi **26 tamu/malam** (kapasitas ±30) dan tahun 1 **−Rp11,8 juta**. Dengan penghematan dari tuan rumah dan belanja ≥Rp32.000/tamu, break-even 18 dan tahun 1 +Rp13,2 juta. Jadwal rinci ada di [`launch.md`](launch.md), menu dan kartu cap di [`offer.md`](offer.md), operasi di [`ops.md`](ops.md), marketing di [`marketing.md`](marketing.md), dan nama serta tampilan di [`brand.md`](brand.md).
+
 ## Kebenaran yang tidak nyaman lebih dulu
 
 1. **Berjualan di trotoar atau badan jalan di Jakarta dilarang.** [Kemungkinan Besar]
@@ -77,7 +80,7 @@ Dari `research/nama-yok.md`. Semua hanya berdasarkan pencarian publik; PDKI, Ins
 | V60 single origin, diseduh di depan tamu, dengan kartu beans | **Rp22.000** | Di atas IPP panel (Rp18.020), di bawah median kompetitor kafe (Rp26.000–27.500) |
 | Es kopi susu (dari cold brew, tanpa listrik) | **Rp17.000** | Dekat median "murah" panel (Rp15.000). Bisa disiapkan dalam ≤3 menit dari konsentrat |
 | Kopi tubruk | **Rp8.000** | Pintu masuk untuk yang hemat. Bersaing dengan warkop, bukan andalan |
-| Makanan angkringan (nasi kucing, gorengan, sate, roti bakar dengan kompor gas) | Rp3.000–12.000 | Panel v1 menunjukkan "capek dan lapar" adalah alasan menolak nomor satu. **Buat sendiri sebanyak mungkin.** Titipan bermargin tipis (`ops.md` §11) |
+| Makanan angkringan (nasi kucing, gorengan, sate, roti bakar dengan kompor gas) | Rp3.000–12.000 | Panel v1 menunjukkan "capek dan lapar" adalah alasan menolak nomor satu. **Buat sendiri sebanyak mungkin.** Titipan bermargin tipis (`ops-kafe.md` §11) |
 
 - **Belanja rata-rata per tamu: ±Rp28.000** [Menebak: 1,25 minuman + 70% tamu membeli makanan].
 - Tetap pakai **Cicip Dulu** dan **garansi seduh ulang**. Biayanya kecil dan menjawab keberatan "nggak ngerti kopi".
@@ -162,12 +165,12 @@ Di rencana ruko, uji pop-up dibutuhkan sebelum mempertaruhkan Rp300 juta lebih. 
 | Setelah 3 bulan untung berturut-turut | Baru pertimbangkan kios kecil (break-even 26 tamu/malam) atau opsi Jogja |
 
 **Yang tetap berlaku dari dokumen sebelumnya:**
-- `marketing.md`: positioning "untuk ngobrol, bukan kerja", kanal ajakan teman lewat WhatsApp + Google Maps, dan tidak memakai GoFood atau beli-1-gratis-1.
+- `marketing-kafe.md`: positioning "untuk ngobrol, bukan kerja", kanal ajakan teman lewat WhatsApp + Google Maps, dan tidak memakai GoFood atau beli-1-gratis-1.
 - `offer.md`: Cicip Dulu, garansi, kartu beans, gelas kedua, dan Sesi Ngobrol (sesuaikan harganya ke format lapak).
-- `ops.md`: SOP V60, cara menolak laptop, dan daftar risiko.
-- `brand.md`: suara brand (hangat, jujur, tenang) dan kartu "HP boleh, laptop tidak".
+- `ops-kafe.md`: SOP V60, cara menolak laptop, dan daftar risiko.
+- `brand-kafe.md`: suara brand (hangat, jujur, tenang) dan kartu "HP boleh, laptop tidak".
 
-**Yang tidak berlaku:** sewa ruko, 3 staf, renovasi, PBJT, dan tanggal buka 20 April 2027 di `launch.md`.
+**Yang tidak berlaku:** sewa ruko, 3 staf, renovasi, PBJT, dan tanggal buka 20 April 2027 di `launch-kafe.md`.
 
 ## 8. Tiga keputusan untukmu
 

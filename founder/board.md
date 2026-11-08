@@ -84,12 +84,12 @@ Keduanya bisa didamaikan: paket memakai makanan siap saji, dan menu lengkap hany
 ## Syarat gabungan rapat kedua (checklist)
 
 - [ ] **D1. Satu paket inti sebelum 9 Des** dengan target belanja rata-rata ≥Rp30.000. → `offer.md`, `cfo.md`
-- [ ] **D2. Pangkas menu malam solo.** Dua beans V60, es kopi susu dari konsentrat, tubruk, dan makanan siap saji. Jangan menerima tamu sebelum lampu, kursi, dan air panas siap. Jika pemasangan solo lewat 19.00, Rabu–Kamis buka 19.30 dan jam itu yang ditulis. → `ops-lapak.md`
-- [ ] **D3. Naskah lima menit untuk satu orang**, diuji dengan stopwatch: tamu disapa ≤10 detik, minuman atau tegukan di tangan ≤5 menit, waktu tunggu V60 disebut sebelum bayar. → `ops-lapak.md`
-- [ ] **D4. Perjanjian tempat tertulis:** atap atau rencana hujan, toilet, air, titip gerobak, jangka minimal 6 bulan, dan klausul eksklusif kopi malam. → `ops-lapak.md`
+- [ ] **D2. Pangkas menu malam solo.** Dua beans V60, es kopi susu dari konsentrat, tubruk, dan makanan siap saji. Jangan menerima tamu sebelum lampu, kursi, dan air panas siap. Jika pemasangan solo lewat 19.00, Rabu–Kamis buka 19.30 dan jam itu yang ditulis. → `ops.md`
+- [ ] **D3. Naskah lima menit untuk satu orang**, diuji dengan stopwatch: tamu disapa ≤10 detik, minuman atau tegukan di tangan ≤5 menit, waktu tunggu V60 disebut sebelum bayar. → `ops.md`
+- [ ] **D4. Perjanjian tempat tertulis:** atap atau rencana hujan, toilet, air, titip gerobak, jangka minimal 6 bulan, dan klausul eksklusif kopi malam. → `ops.md`
 - [ ] **D5. Petakan pesaing malam per titik** (jarak jalan kaki, 19.00–24.00) dan verifikasi lokasi YO'KOPI sebelum mengunci tempat. → survei founder
-- [ ] **D6. Satu segmen dan satu kanal untuk titik pertama.** Pekerja pulang di Balai Pustaka, atau mahasiswa di depan UNJ. → `marketing-lapak.md`
-- [ ] **D7. Nama dicek di PDKI sebelum posting publik.** → `brand-lapak.md`
+- [ ] **D6. Satu segmen dan satu kanal untuk titik pertama.** Pekerja pulang di Balai Pustaka, atau mahasiswa di depan UNJ. → `marketing.md`
+- [ ] **D7. Nama dicek di PDKI sebelum posting publik.** → `brand.md`
 - [x] **D8. Panel format lapak dibaca sebelum malam pertama.** Hasil: 10/20 beli, rentang harga Rp10.067–27.000. → `panel/results.md`, `pricing.md`
 - [ ] **D9. Review 2 Feb 2027, ambangnya tidak diturunkan.**
   - Ambang dasar: ≥21 tamu bayar/malam, belanja ≥Rp28.000, ≥25% kembali dalam 14 hari.

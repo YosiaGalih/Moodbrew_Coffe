@@ -1,785 +1,809 @@
-# Operasional: Kopiyo (Rawamangun, Jakarta Timur)
+# Operasional Lapak Malam: Lapak Yok (Rawamangun)
 
 > **Cara membaca dokumen ini**
-> - Disusun 8 Nov 2026 untuk founder, CFO, dan `/founder-launch`. Semua angka dalam Rupiah.
-> - Harga sewa, UMP, BPJS, beans, susu, cup, filter, peralatan, QRIS, POS, listrik, PBJT, PPh, dan izin dasar diambil dari [research/cost-inputs.md](research/cost-inputs.md). Riset itu tidak saya ulang.
-> - Fakta baru (roaster, titip jual, SLHS, halal, BPJS, royalti musik, kerja malam, paruh waktu, pop-up, asuransi) dari **cuplikan hasil pencarian (WebSearch) tanggal 8 Nov 2026**. Halaman sumbernya tidak saya buka langsung (WebFetch sudah diblokir di sesi riset biaya, jadi tidak saya coba lagi). Harga dan aturan bisa sudah berubah. **Cek ulang tautannya sebelum dipakai untuk keputusan.**
-> - **[estimasi]** = perkiraan saya, bukan fakta. *(hitungan)* = hitungan saya dari angka bersumber.
-> - **Bukan nasihat hukum atau pajak.** Aturan berbeda per tempat dan sering berubah. Setiap izin, pajak, dan aturan ketenagakerjaan di bawah harus dikonfirmasi founder ke instansinya (OSS, Bapenda DKI, Sudinkes Jakarta Timur, BPJPH, BPJS, PLN, LMKN) atau ke konsultan/akuntan.
-> - Saya tidak mengubah `numbers.json`. Angka yang perlu diubah ada di bagian terakhir, **"Perubahan angka untuk CFO"**.
-
-## Ringkasan
-
-- **Orang di jam 19.00–22.00: 3 orang pada volume rencana (60 tamu/hari).** Dua orang cukup selama rata-rata harian di bawah sekitar 40 tamu, yaitu bulan 1–4 menurut ramp CFO. Hitungannya ada di bagian 3.
-- **Rencana dasar 3 staf hanya cukup sampai bulan 4.** Tiga staf bekerja 5 hari × 8 jam, sehingga hanya ada 2 orang per hari ditambah 1 shift ekstra per minggu. Mulai bulan 5, perlu tenaga paruh waktu di jam ramai (±Rp2,4 juta/bulan) atau founder ikut di bar.
-- **Biaya baru yang belum ada di `numbers.json`:**
-  - royalti musik LMKN (±Rp300 ribu/bulan);
-  - paruh waktu jam ramai (bulan 5 dst.);
-  - gaji pelatihan sebelum buka (±Rp10,2 juta, sekali);
-  - makan staf dan antar-jemput untuk pekerja perempuan yang pulang lewat pukul 23.00 (wajib menurut UU Ketenagakerjaan, besarannya [estimasi]).
-  - Cicip Dulu lebih tepat dimodelkan sebagai biaya harian tetap (±Rp0,87 juta/bulan).
-- **Risiko margin terbesar yang ditemukan ops: makanan titip jual.** Kalau semua makanan dititip UMKM dan Kopiyo hanya mengambil sekitar 30%, HPP makanan menjadi ±70%, bukan 38%. Break-even kasar naik dari 56 ke ±67 tamu/hari. **Saran:** roti bakar, pisang goreng, dan mie dibuat sendiri. Rice bowl saja yang dititip.
-- **Tiga izin paling penting:**
-  1. NIB lewat OSS (KBLI rumah minum/kafe), lalu SLHS dari Dinas Kesehatan;
-  2. sertifikat halal, yang **sudah wajib sejak 18 Okt 2026**; jalur gratis *self-declare* kemungkinan tidak berlaku untuk kedai;
-  3. pendaftaran PBJT 10% di Bapenda DKI begitu omzet mendekati Rp42 juta/bulan.
-- **Tiga risiko teratas:**
-  1. janji "3 menit" gagal di jam 19.00;
-  2. barista utama keluar;
-  3. bulan sepi lebih lama dari ramp.
-- **Syarat board yang dijawab di sini:**
-  - C1: MoodBrew dibekukan; pakai POS siap pakai dan Google Sheets HPP (bagian 5).
-  - C9: naskah "lima menit pertama" (SOP-02) dan cara menolak laptop (SOP-06).
-  - C10: peran dan rekrutmen tim (bagian 3). Nama barista dan pengalaman F&B founder masih harus diisi founder.
+> - Disusun 8 Nov 2026 untuk founder, CFO, dan `/founder-launch`. Format: **lapak malam** di teras ruko/rumah yang tutup sore (`lapak-malam.md`). Dokumen ini **menggantikan `ops-kafe.md` untuk format lapak**. `ops-kafe.md` tetap berlaku untuk rencana kafe/ruko.
+> - Dipakai: `numbers.json` versi **offer v3** (diperbarui 06.12: belanja Rp29.000/tamu, gelas kedua Rp12.000, kartu cap), `offer.md` v3, `pricing.md` v3, syarat board rapat kedua di `board.md`. Syarat **D2, D3, dan D4** ditujukan ke dokumen ini dan dijawab di bagian 2, 7, dan 9.
+> - Fakta baru berasal dari **cuplikan hasil pencarian (WebSearch) 8 Nov 2026**. Halaman sumbernya **tidak dibuka**: sesi riset sebelumnya mencatat WebFetch diblokir, jadi saya tidak mencobanya lagi. Harga marketplace adalah harga tayang yang bisa sudah berubah, dan beberapa cuplikan tidak menunjukkan halaman persisnya (ditandai "cuplikan"). **Cek ulang tautan sebelum membeli.**
+> - **[estimasi]** = perkiraan saya, bukan fakta. *(hitungan)* = hitungan saya dari angka bersumber. **[aturan internal]** = aturan yang saya usulkan, bukan regulasi.
+> - **Bukan nasihat hukum, pajak, atau ketenagakerjaan.** Aturan berbeda per tempat dan bisa berubah. Konfirmasi ke instansinya (OSS/PTSP Kec. Pulo Gadung, kelurahan Rawamangun, BPJPH, Bapenda DKI, BPJS) atau ke profesional.
+> - Saya **tidak mengubah** `numbers.json`. Semua angka yang perlu diubah ada di bagian terakhir.
 
 ---
 
-## 1. Siklus harian
+## 1. Ringkasan
 
-Buka setiap hari **16.00–24.00**. Persiapan mulai ±15.00 (bisa 14.00 di hari terima barang besar). Tutup selesai ±00.45.
+1. **Bisa dijalankan, tetapi break-even naik.** Kalau biaya nyata malam lapak dimasukkan (jam helper yang benar, es untuk cooler, air galon, gas dua kompor), biaya tetap naik dari Rp4,83 juta ke **±Rp5,98 juta/bulan**. Menurut alat CFO (dijalankan pada salinan, bukan file asli), **break-even naik dari 21 ke ±26 tamu/malam** dan tahun 1 menjadi **−Rp11,6 juta**. Ada jalan kembali ke ±21: helper 18.00–23.30, air cuci dari keran tuan rumah, dan es dibeli sendiri di jalan (bagian 11).
+2. **Kapasitas 37 tamu/malam terlalu optimistis.** Angka itu hanya tercapai kalau ada ≥16 kursi, tamu duduk ≤2,5 jam, dan 20% pesanan dibawa pulang. Kalau tamu duduk 3 jam, kapasitas rata-rata turun ke ±29. **Saya sarankan CFO memakai 30** [estimasi]. Rencana 28 tamu/malam masih muat, tetapi hampir tanpa ruang cadangan.
+3. **Throughput tanpa listrik** (giling tangan, kompor gas) [estimasi, ukur di malam latihan]:
+   - **V60:** 5–7 gelas/jam kalau founder sendirian dan juga mengurus kasir, makanan, dan sapa. 10–12 gelas/jam kalau helper memegang semua tugas lain.
+   - **Es kopi susu:** 20–30 detik per gelas dari *base* yang sudah dicampur. Realistisnya 15–25 gelas/jam sendirian dan 30–40 gelas/jam dengan helper.
+   - **Janji "es kopi susu ≤3 menit" bisa dipegang**, asal *base* dicampur sebelum buka dan es kopi susu selalu menyalip antrean V60. **V60 tidak masuk janji 3 menit.** Waktu tunggunya disebut sebelum bayar (syarat D3): sekitar 5 menit, ditambah ±3 menit untuk setiap V60 yang sudah antre.
+4. **Alat yang dibeli:**
+   - **±Rp12,6 juta** untuk teras beratap dengan gerobak. Rentangnya Rp8,8–13,3 juta tergantung listing.
+   - `numbers.json` mencatat Rp11,75 juta, jadi selisihnya +Rp0,86 juta.
+   - Tenda Rp2,25 juta bisa dihapus kalau terasnya beratap, sesuai syarat board "satu titik beratap". Tikar diganti kursi bersandaran (offer v3).
+   - Tanpa gerobak (pakai meja koper): ±Rp10,3 juta.
+5. **Cold brew tanpa listrik:** rendam **di kulkas rumah** 13–24 jam dua kali seminggu (Selasa dan Kamis), lalu bawa ke lapak dalam cooler bag dengan es gel. Di lapak, semua yang dingin disimpan di cooler dengan es. *Base* yang berisi susu dan susu yang sudah dibuka **dibuang saat tutup**.
+6. **Jumat 18.00 adalah titik lemah.** Helper membuka lapak sebelum founder tiba, padahal konsentrat masih di tas founder. Ada tiga solusi di bagian 2d. Yang terbaik: titip konsentrat di kulkas toko tuan rumah pada pagi hari.
+7. **Jam kerja founder sekitar 85–90 jam/minggu** [estimasi], lebih tinggi dari "±75 jam" di `lapak-malam.md`, karena perjalanan, bongkar-pasang, belanja, dan konsentrat ikut dihitung. Studi WHO/ILO mengaitkan kerja ≥55 jam/minggu dengan risiko stroke 35% lebih tinggi. Aturan pengaman ada di bagian 6.
+8. **Tiga risiko teratas:**
+   1. hujan dan tempat ditarik tuan rumah;
+   2. founder sakit atau lembur di kantor (tidak ada pengganti);
+   3. bulan pertama sepi di musim hujan.
 
-Kolom "Tamu lihat?" menandai langkah yang dilihat atau dirasakan tamu.
+**Apa yang berubah dibanding `ops-kafe.md` (kafe):**
 
-| Jam | Langkah | Siapa | Tamu lihat? |
-|---|---|---|:-:|
-| 14.00–15.00 | *(Hanya Selasa & Jumat, hari terima barang besar.)* Terima biji kopi, susu karton, gula aren, filter. Cek tanggal sangrai, jumlah, label halal, dan kedaluwarsa. Lihat SOP-09. | Founder, atau shift P maju 1 jam (lembur) | Tidak |
-| 15.00 | Shift P datang. Buka kunci, nyalakan listrik bar, cek suhu chiller dan catat di log. Saring konsentrat cold brew yang diseduh semalam, timbang hasilnya, beri label tanggal dan jam. | P | Tidak |
-| 15.00–15.40 | *Dial-in* 3 beans aktif: seduh V60 sesuai resep (SOP-04), cicipi, sesuaikan gilingan. Isi kartu beans di meja. | P (barista) | Tidak |
-| 15.30 | Es batu datang (10 kg/hari). Rice bowl titip datang: hitung, cek suhu, label halal, dan tanggal produksi, lalu tanda tangani nota titip. | P | Tidak |
-| 15.45 | Shift T datang. Atur meja dan kartu "Dipesan" sesuai reservasi WhatsApp. Pasang papan "HP boleh, laptop tidak". Atur musik setara suara ngobrol dan lampu. | T | Ya (suasana) |
-| 15.55 | Seduh "teko cicip" pertama (3 beans, SOP-04). Briefing 5 menit: menu yang habis, beans aktif, reservasi malam ini, target malam. | P + T | Tidak |
-| **16.00** | **Buka pintu.** | – | **Ya** |
-| 16.00–18.30 | Layanan sore, biasanya sepi. Sambil melayani: iris roti, siapkan pisang, isi ulang botol susu dan gula aren, cuci server. | P + T | Ya |
-| 18.00–19.00 | Istirahat bergiliran: P 18.00–18.30, T 18.30–19.00. | – | Tidak |
-| 18.30 | **Siapkan jalur cepat untuk jam ramai:** campur "base kopi susu" (konsentrat + susu + gula aren) di botol 1 L berlabel jam. Seduh teko cicip kedua pukul 19.00. | P | Tidak |
-| **19.00–22.00** | **Jam ramai.** Tidak ada istirahat kecuali bergilir. Prioritas: (1) sapa tamu baru dalam 10 detik, (2) es kopi susu ≤3 menit, (3) V60, (4) makanan, (5) bereskan meja. | Semua | **Ya** |
-| Kamis 19.30–20.00 | "Kamis Seduh Bareng": acara gratis 30 menit, dipandu barista. | Barista utama/founder | Ya |
-| 22.00–23.00 | Layanan malam. Istirahat P 22.00–22.30, T 22.30–23.00. **Dapur last order 23.00.** | P + T | Ya |
-| 23.30 | **Last order minuman**, diumumkan dengan sopan ke setiap meja. | T | Ya |
-| 23.45 | Musik diturunkan, lampu sedikit lebih terang. Mulai beres-beres yang tidak mengganggu tamu. | P + T | Ya |
-| **24.00** | **Pintu ditutup.** Hitung kas berdua, cetak laporan Z dari POS, foto ke grup WhatsApp founder. | P + T | Ya (pintu) |
-| 24.00–00.45 | Bersih-bersih (SOP-08). Seduh konsentrat cold brew untuk besok (rendam 14–16 jam di chiller). Buang base kopi susu yang tersisa. Catat suhu chiller, buang sampah, kunci. P pulang 24.00, T pulang 00.45. | T (P sampai 24.00) | Tidak |
-
-**Siklus mingguan dan bulanan**
-
-| Kapan | Apa |
-|---|---|
-| Senin 15.00–16.00 | Hitung stok dan pesan barang (SOP-09). Senin adalah hari paling sepi. |
-| Selasa & Jumat | Biji kopi, susu karton, dan barang kering datang. |
-| Setiap hari | Es batu, makanan titip, dan uang kas kecil. |
-| Rabu | Bersih dalam grinder dan filter air. |
-| Kamis | Kamis Seduh Bareng. |
-| Minggu | Founder mengirim laporan mingguan: tamu/hari, belanja/tamu, % es kopi susu ≤3 menit, klaim garansi, keluhan, selisih stok. |
-| Paling lambat tanggal 10 | Bayar dan lapor PBJT bulan sebelumnya, kalau sudah wajib ([DPP DKI](https://dpp.jakarta.go.id/berita/jangan-sampai-terlewat-ini-batas-waktu-bayar-dan-lapor-pajak-pbjt-di-jakarta)). |
-| Bulanan | Gaji, iuran BPJS, PPh Final 0,5%, kunjungan pest control (kalau dikontrak), rekonsiliasi titip jual, review HPP di Sheets. |
-| Tahunan | Royalti musik LMKN, perpanjangan sewa, THR. |
-
----
-
-## 2. Pemasok
-
-**Prinsip:** minimal dua pemasok untuk setiap bahan inti. Pembayaran tunai atau transfer di muka dulu; minta tempo pembayaran (TOP) setelah 2–3 bulan order rutin. Semua harga di bawah adalah **harga eceran atau tayang**. Harga grosir hanya bisa didapat lewat penawaran tertulis (masuk ke "Pertanyaan terbuka").
-
-### 2a. Biji kopi
-
-**Kebutuhan** *(hitungan)*:
-
-| | Bulan 1 (23 tamu/hari) | Rencana (60 tamu/hari) |
-|---|---:|---:|
-| Single origin (V60 15 g, teko cicip, dial-in, garansi) | ±2,4 kg/minggu | ±5,0 kg/minggu |
-| House blend untuk konsentrat (±16,7 g per es kopi susu) | ±1,8 kg/minggu | ±4,6 kg/minggu |
-
-Asumsinya: 1,3 minuman per tamu, setengah V60 dan setengah es kopi susu, sesuai estimasi CFO.
-
-**Aturan beans Kopiyo** (aturan internal, bukan regulasi):
-
-- Pakai beans 7–30 hari setelah tanggal sangrai. Jangan pernah lewat 30 hari: panel menyebut roast date lebih dari sebulan membuat pecinta kopi pergi (`offer.md`).
-- Tiga beans aktif sekaligus: satu "segar-asam", satu "manis-cokelat", satu "tengah".
-- Pesan setiap Senin, jumlahnya untuk satu minggu ditambah cadangan 3 hari.
-
-| Pemasok | Lokasi | Harga publik | Min. order / lead time / pembayaran | Sumber | Catatan |
-|---|---|---|---|---|---|
-| **Otten Coffee** | Jakarta (distributor resmi Hario dll.) | Gayo Atu Lintang Rp389.000/kg (diskon Rp361.770). House blend Gayo komersil Rp246.000/kg | **Minta penawaran.** Otten punya tim B2B (lowongan *B2B Sales Specialist*), tetapi harga partai tidak publik | [Otten SO](https://ottencoffee.co.id/coffee-beans/kopi-arabica-gayo-atu-lintang) · [Otten kategori](https://ottencoffee.co.id/categories/coffee-beans) · [Glints: tim B2B Otten](https://glints.com/id/companies/pt-otten-coffee-indonesia/85d540fa-9a58-436b-a385-caf36910122e) | Satu pintu untuk beans, filter, dan alat. Cocok sebagai pemasok utama atau cadangan. |
-| **Murrell Coffee** | Jakarta Barat (roaster) | Toraja/Kintamani Rp387.639/kg; Java Preanger Rp398.619/kg | Beli lewat Tokopedia (bayar di muka; kurir 1–2 hari, atau instan dalam kota). Harga grosir: minta penawaran | [Tokopedia Murrell 1 kg](https://www.tokopedia.com/murrell-coffee/etalase/kemasan-1-kilogram) | Calon pemasok utama single origin. |
-| **Sakha Roastery** | Bekasi (bersebelahan dengan Jaktim) | Gayo Natural Rp411.900–414.900/kg; Kintamani Rp409.900/kg | Tokopedia. Grosir: minta penawaran | [Tokopedia Gayo 1 kg](https://www.tokopedia.com/find/kopi-gayo-1kg) · [Kintamani 1 kg](https://www.tokopedia.com/find/kopi-kintamani-1kg) | Dekat, jadi pengiriman cepat. |
-| **Kenal (Gayo Espresso)** | Tokopedia | Rp2.809.680 per 10 × 1 kg (≈Rp281/g) | Paket 10 kg | [Tokopedia Gayo 1 kg](https://www.tokopedia.com/find/kopi-arabica-aceh-gayo-1-kg) | Pembanding harga volume untuk house blend konsentrat. |
-| **Viverri Specialty Coffee Roasters** | Jl. Rawamangun Muka Timur 74B, Pulo Gadung | **Tidak ditemukan** | Tidak ditemukan. **Status operasi belum terverifikasi** (data Des 2022) | [Jakarta Post, Des 2022](https://www.thejakartapost.com/paper/2022/12/15/twenties-jakartas-roasteries-for-getting-your-caffeine-jolt.html) | Roaster di Rawamangun. Kalau masih buka, kuat untuk cerita lokal di kartu beans. **Datangi langsung.** |
-| **Anomali Coffee** | Jakarta | **Tidak ditemukan** | Tidak ditemukan. Sejak 2008 menjual biji ke kafe, restoran, dan hotel; pernah disebut memasok >150 klien (data lama) dan melatih barista klien | [detikFinance](https://finance.detik.com/solusiukm/d-3601280/pengalaman-bos-anomali-coffee-lawan-sistem-ijon-di-petani-kopi) · [SWA](https://swa.co.id/read/163158/diversifikasi-bisnis-memacu-laju-bisnis-anomali-coffee) | Tanyakan paket beans + pelatihan barista. |
-| Kopi Bemo | Pasar Rawamangun | **Tidak ditemukan** | ±30 jenis kopi Indonesia; pemilik berencana menyangrai sendiri (Sep 2025) | [Berita Jakarta](https://www.beritajakarta.id/en/read/60328/potret-jakarta) | Catatan: Kopi Bemo juga kompetitor (`competitors.md`). Bisa jadi mitra cerita lokal, bisa juga tidak. |
-
-Pemasok lain yang disebut menjual grosir, tanpa rincian syarat: [Expat. Roasters](https://whatsnewindonesia.com/jakarta/feature/dine-and-drink/expat-roasters-expands-indonesias-capital) dan [Tanamera](https://exquisite-taste-magazine.com/journey-tanamera-coffee-elevating-indonesias-specialty-coffee-global-acclaim/). Keduanya perlu dihubungi langsung.
-
-### 2b. Susu, gula aren, es, air
-
-**Kebutuhan pada volume rencana** *(hitungan)*: susu ±33 L/minggu (±3 karton isi 12 × 1 L), gula aren cair ±4 L/minggu, es ±7 kg/hari.
-
-| Bahan | Pemasok | Harga | Min. order / lead time | Sumber | Catatan |
-|---|---|---|---|---|---|
-| Susu UHT full cream | Alfamart / Indomaret (ritel) | Diamond 1 L Rp22.500; Greenfields 950 ml Rp25.700 | Tanpa minimum, ambil sendiri | [Alfamart/Kontan](https://momsmoney.kontan.co.id/news/katalog-promo-alfamart-gantung-gajian-untung-periode-25-31-agustus-2026) · [Klik Indomaret](https://www.klikindomaret.com/xpress/uht-milk-5) | Batas atas harga; dipakai CFO (Rp23/ml). |
-| Susu UHT karton 12 × 1 L | Penjual B2B Jakarta (Indotrading) | Greenfields Low Fat Rp239.000/karton (≈Rp19,9/ml) | Per karton. **Data Sep 2024 (lama)**, penjual menyebut harga bisa berubah | [Indotrading](https://en.indotrading.com/jayautamasantikah/greenfields-uht-low-p587935.aspx) | Indikasi bahwa harga distributor bisa lebih murah. **Minta penawaran *foodservice*** ke distributor Greenfields/Diamond. |
-| Gula aren cair | Mahorahora / Verlin (Tokopedia) | Rp60.000–62.000/L | Tokopedia, 1–2 hari | [Mahorahora](https://www.tokopedia.com/find/gula-aren-mahorahora-cair) · [Verlin](https://www.tokopedia.com/find/gula-aren-cair-1-kg) | Pilih yang berlabel halal. |
-| Es batu kristal | CoolFresh (Pulogadung, satu kecamatan) | Rp9.950/5 kg | Kurir instan, **maks. 20 kg per pesanan** | [Tokopedia CoolFresh](https://www.tokopedia.com/espugautama/es-batu-kristal-jakarta-timur-100-halal-5kg) | Pesan harian ±15.00. Cadangan: [penjual lain Rp12–16 rb/5 kg](https://www.tokopedia.com/find/es-kristal-5-kg). |
-| Air untuk seduh | Paket RO di bar (lihat 2e) | Rp6–7,5 juta sekali beli | – | `cost-inputs.md` §4 | Ganti filter sesuai jadwal pabrik. |
-
-### 2c. Filter, cup, kartu beans
-
-| Bahan | Pemasok | Harga | Sumber |
-|---|---|---|---|
-| Filter Hario V60 02 (100 lembar) | Otten (distributor resmi) | Rp85.000 (≈Rp850/lembar) | [Otten](https://ottencoffee.co.id/filters/hario-paper-filter-vcf-02-100w) |
-| Cup PET 14 oz + tutup (take-away es) | BBC (termurah) / Starindo | Rp730–1.576/set | [BBC](https://www.tokopedia.com/bbcenter/plastik-cup-pet-14-oz-oval-tutup-flat-dome-sippy-strawless-murah-50pcs-1729866484696516428) · [Starindo](https://www.tokopedia.com/find/cup-pet-14-oz-starindo) |
-| Paper cup 8 oz + tutup | Tokopedia | ≈Rp565–700/set | [gelas kertas](https://www.tokopedia.com/find/gelas-kertas-kopi) · [tutup](https://www.tokopedia.com/thong88/etalase/tutup-cup) |
-| Kartu beans (cetak) | Percetakan digital lokal | **Minta penawaran** (CFO memakai Rp400/kartu [estimasi]) | – |
-
-Kebutuhan filter pada volume rencana: ±50 lembar/hari, atau ±4 pak per minggu *(hitungan)*.
-
-### 2d. Makanan: buat sendiri atau titip jual?
-
-Ini temuan ops yang paling penting untuk margin.
-
-**Masalahnya.** `offer.md` dan `cfo-sources.md` memakai HPP makanan **38%**, dengan asumsi rice bowl dititip dan roti bakar, pisang goreng, serta mie dibuat sendiri. Brief ops menyebut *seluruh* menu makanan dititip dari UMKM. Dalam titip jual, pemilik barang memberi komisi kepada penjual. Tidak ada angka baku untuk kafe. Satu-satunya angka publik yang ditemukan bersifat umum: komisi **20–60% dari harga jual** ([Gramedia](https://www.gramedia.com/best-seller/?p=26130)). Kalau Kopiyo hanya mengambil sekitar 30%, HPP makanan titip menjadi sekitar **70%**.
-
-**HPP per item** *(hitungan; bahan bersumber, sisanya [estimasi])*:
-
-| Item | Cara | Bahan utama (bersumber) | HPP/porsi | Harga jual | HPP % |
-|---|---|---|---:|---:|---:|
-| Roti bakar | Buat sendiri (griddle) | Roti tawar kupas 15 lembar Rp21.000 ([Indomaret/Kontan](https://momsmoney.kontan.co.id/news/promo-indomaret-harga-spesial-16-29-juni-2026-nugget-skincare-diskon-hingga-30)), 2 lembar = Rp2.800; mentega dan topping Rp2.500 [estimasi] | ±Rp5.300 | Rp15.000 | ±35% |
-| Mie | Buat sendiri (kompor) | Indomie goreng Rp16.000/5 bungkus normal ([Alfamart/Kontan](https://momsmoney.kontan.co.id/news/katalog-promo-alfamart-gantung-spesial-idul-adha-periode-26-mei-2-juni-2026-1)) = Rp3.200; telur dan pelengkap Rp3.000 [estimasi] | ±Rp6.200 | Rp18.000 | ±34% |
-| Pisang goreng | Buat sendiri | Harga pisang kepok **tidak ditemukan**. Tanya Pasar Induk Kramat Jati / Pasar Rawamangun | ±Rp5.250 [estimasi] | Rp15.000 | ±35% [estimasi] |
-| Rice bowl | **Titip** dari UMKM | Bagian Kopiyo 25–30% [perlu negosiasi] | ±Rp20.160 | Rp28.000 | ±72% |
-
-- **Campuran** [estimasi porsi pesanan: roti bakar 30%, pisang 25%, mie 20%, rice bowl 25%]: **HPP makanan ±49%**. Biaya makanan per tamu menjadi ±Rp5.880 (CFO: Rp4.560).
-- **Jika semua makanan dititip** (Kopiyo mengambil 30%): ±70%, atau Rp8.400 per tamu.
-
-**Rekomendasi ops:**
-
-1. **Roti bakar, pisang goreng, dan mie dibuat sendiri.** Alatnya sudah ada di anggaran CFO (dapur sederhana Rp8 juta), resepnya sederhana, dan HPP-nya sekitar 35%.
-2. **Rice bowl saja yang dititip.** Mulai dengan titip jual untuk menguji permintaan. Begitu penjualannya stabil (misalnya >8 porsi/hari selama 4 minggu), ubah ke **jual putus** dengan harga beli tetap. Pola "titip dulu, lalu jual putus kalau laku" dipakai ritel UMKM ([detikBali](https://www.detik.com/bali/bisnis/d-7698836/dua-pola-the-keranjang-gaet-produk-umkm-di-bali)).
-3. **Isi perjanjian titip jual tertulis**, bukan sekadar nota ([kontrakhukum.com](https://kontrakhukum.com/article/skema-titip-jual-dalam-draft-perjanjian-konsinyasi-surabaya-bagi-umkm/)):
-   - harga mitra dan harga jual;
-   - siapa menanggung sisa yang tidak laku;
-   - jadwal setor dan laporan mingguan;
-   - jam antar (15.30) dan standar porsi/berat;
-   - **sertifikat halal mitra** (wajib, lihat bagian 6);
-   - label tanggal produksi;
-   - penggantian kalau mitra tidak mengantar.
-
-   Penelitian UMKM juga mencatat masalah keterlambatan pembayaran dalam konsinyasi ([etheses IAIN Kediri](https://etheses.iainkediri.ac.id/24602/)).
-
-**Mencari mitra UMKM:**
-
-- **Nama mitra spesifik tidak ditemukan di pencarian.** Tidak ada daftar publik pemasok rice bowl untuk kafe di Jakarta Timur.
-- **Jalur yang realistis:**
-  - dapur rumahan dengan rating baik di GoFood/GrabFood sekitar Rawamangun, Utan Kayu, dan Pisangan;
-  - UMKM binaan **Jakpreneur** (platform UMKM Pemprov DKI; Jakarta Timur peringkat 2 pendapatan peserta 2025): [Berita Jakarta](https://m.beritajakarta.id/en/read/150782/150-jakpreneurs-receive-support-to-strengthen-food-businesses), [GoodStats](https://data.goodstats.id/statistic/ini-jenis-umkm-terbanyak-di-jakarta-2025-kuliner-mendominasi-zkF8P);
-  - pedagang Pasar Rawamangun.
-- **Uji rasa minimal 3 calon mitra sebelum tanda tangan.**
-- Pemasok frozen food grosir juga tidak ditemukan dengan harga publik ([IDN Times](https://www.idntimes.com/business/economy/ainal-zahra-1/mau-jadi-agen-frozen-food-ini-daftar-supplier-terbaik) hanya memuat sosis dan bakso). Pasar Induk Kramat Jati di Jakarta Timur adalah tempat yang paling masuk akal untuk bertanya langsung.
-
-**Gas LPG.** Harga agen Bright Gas 12 kg di Jawa **Rp218.000** (15 Agu 2026, [Bisnis.com](https://ekonomi.bisnis.com/read/20260815/44/1996598/pertamina-turunkan-harga-bright-gas-ini-rinciannya)); harga di pangkalan bisa sekitar Rp245.000 ([CNBC, cek lapangan Tangsel](https://cnbcindonesia.com/news/20260803130310-4-756048/resmi-harga-lpg-3-kg-55-12-kg-di-agen-pangkalan-per-3-agustus-2026)). Anggaran CFO Rp400.000/bulan setara ±1,6–1,8 tabung, masuk akal untuk dapur sederhana.
-
-### 2e. Peralatan
-
-Paket A dari `cost-inputs.md` (±Rp18,5 juta, sudah dipakai CFO). Pemasoknya:
-
-| Alat | Pemasok | Harga | Sumber |
-|---|---|---|---|
-| Grinder Latina 600N (flat 60 mm) | Tokopedia | Rp3.793.840–4.036.000 | [Tokopedia](https://www.tokopedia.com/find/grinder-latina-600n) |
-| 2× kettle Timemore Fish Smart | Tokopedia | Rp1.220.000–1.349.000/unit | [Tokopedia](https://www.tokopedia.com/find/timemore-fish-smart-kettle) |
-| 3× dripper Hario V60 02 | Tokopedia / Otten | Rp136.550–160.000/unit | [Tokopedia](https://www.tokopedia.com/find/hario-v60-dripper-02?page=2) |
-| 2× timbangan Timemore Basic 2 | Tokopedia | Rp645.000–695.000/unit | [Tokopedia](https://www.tokopedia.com/find/timemore-black-mirror-basic-2) |
-| Paket filter air RO | Seno Filter / Elmira | Rp6.000.000–7.500.000 (belum termasuk instalasi) | [Tokopedia](https://www.tokopedia.com/senofilter/paket-air-ro-untuk-cafe-resto-coffee-shop-bandung-dan-sekitarnya) |
-| Showcase chiller / under counter 2 pintu | Indotrading (RSA) / Tokopedia (GEA) | Rp3.745.958 / Rp10.175.000 | [Indotrading](https://en.indotrading.com/hansmesingeagetrarsa/chiller/) · [Tokopedia](https://www.tokopedia.com/find/under-counter-chiller) |
-| Kompor, griddle, wajan penggoreng, freezer kecil | Toko horeca lokal | **Minta penawaran** (CFO: Rp8 juta [estimasi]) | – |
-| Wadah cold brew 5 L, saringan, botol 1 L berlabel | Toko horeca | **Minta penawaran** [estimasi kecil] | – |
-
-Grinder, kettle, dripper, dan timbangan bisa dibeli **sebelum pop-up**, dipakai di pop-up, lalu dibawa ke kedai. Uangnya tidak hilang (lihat bagian 8).
-
-### 2f. Kebersihan, hama, utilitas
-
-| Kebutuhan | Pemasok | Harga | Sumber / catatan |
-|---|---|---|---|
-| Pest control (kontrak bulanan) | Rentokil Indonesia (kantor Jakarta), penyedia lokal | **Hanya lewat survei dan penawaran.** Rentokil menyatakan harga tergantung jenis hama, luas, dan jenis perawatan | [Rentokil: harga pest control](https://www.rentokil.com/id/layanan-kami/pengendalian-hama/harga-pest-control). Minta 2–3 penawaran tertulis. Bisa masuk pos "Perawatan Rp1 juta" milik CFO. |
-| Sabun, sanitizer food grade, lap, kantong sampah | Grosir / Tokopedia | Masuk pos CFO "Perawatan, kebersihan Rp1 juta" [estimasi] | – |
-| Listrik B-2 | PLN | Rp1.444,70/kWh | `cost-inputs.md` §7 |
-| Tambah daya di atas 5.500 VA | PLN | **Tidak ditemukan.** Tambah daya online lewat PLN Mobile tampaknya hanya sampai 5.500 VA; di atasnya harus diajukan langsung ke PLN | [Metro TV](https://www.metrotvnews.com/read/KZmCQWPM-cek-lengkap-biaya-tambah-daya-listrik-pln-berdasarkan-daya-awal). **Pilih tempat yang sudah ≥6.600 VA** (bagian 7). |
-
----
-
-## 3. Orang
-
-### 3a. Berapa orang di jam 19.00–22.00?
-
-Perkiraan beban kerja per jam pada volume rencana. **Semua waktu tugas adalah [estimasi] dan harus diukur di pop-up.**
-
-- 60 tamu/hari, sekitar 50% datang pukul 19–22 [estimasi], jadi sekitar 10 tamu/jam.
-- **Bar ±39 menit/jam:** 6–7 V60 (±2,5 menit efektif per gelas dengan 2 dripper paralel), 6–7 es kopi susu (±1 menit), 3 Cicip Dulu (±2 menit), dan menyajikan plus cerita beans.
-- **Host/kasir ±42 menit/jam:** menyapa dan mengantar 4 grup, mencatat pesanan dan pembayaran 10 tamu, WhatsApp reservasi, membereskan meja.
-- **Dapur ±43 menit/jam:** ±6 porsi makanan (±5 menit) dan mencuci gelas serta server.
-- **Total ±124 menit kerja per jam, setara 2,1 orang pada utilisasi 100%.** Supaya janji 3 menit tahan saat lonjakan (utilisasi ±70–75%), dibutuhkan **±3 orang**.
-- Dengan 2 orang, kapasitas wajar sekitar 6–7 tamu/jam di jam ramai, atau **±40 tamu/hari**.
-
-| Situasi | Orang di 19.00–22.00 |
-|---|:-:|
-| Bulan 1–4 (ramp CFO 23–40 tamu/hari) | **2** |
-| Bulan 5 dst. (≥45 tamu/hari) dan volume rencana 60 | **3** |
-| Sabtu malam pada volume rencana | 3, mungkin 4. Ukur dari data POS bulan 3–4. |
-
-### 3b. Peran
-
-| Peran | Tugas | Profil |
+| Topik | `ops-kafe.md` (kafe) | `ops.md` (lapak) |
 |---|---|---|
-| **Barista utama (B1)** | Pemilik resep dan *dial-in*, kualitas, pelatihan, pemesanan beans bersama founder, pemandu Kamis Seduh Bareng | ≥2 tahun manual brew di kedai specialty, bisa menjelaskan kopi dengan bahasa awam, suka ngobrol dengan tamu, bersedia kerja malam. **Ini syarat board C10. Nama belum ada.** |
-| **Barista (B2)** | Bar dan host, bisa semua tugas B1 di hari B1 libur | ≥1 tahun barista, keramahan lebih penting dari teknik |
-| **Helper (H)** | Kasir/host, jalur cepat es kopi susu, dapur (roti bakar, pisang goreng, mie, rice bowl), cuci, membereskan meja | Pengalaman dapur atau kasir F&B. Dilatih V60 dasar sampai bulan 3 sebagai cadangan. |
-| **Paruh waktu (R)**, mulai bulan 5 | Host, jalur cepat, membereskan meja di jam ramai | Mahasiswa atau pekerja sekitar, minimal 18 tahun |
-| **Founder** | Belanja, rekonsiliasi kas, marketing dan komunitas, izin, hubungan pemasok, laporan mingguan. **Bulan 1: hadir sebagai tuan rumah 19.00–22.00 minimal 4 malam/minggu**, juga di rencana dasar, untuk belajar dan mengumpulkan umpan balik | Pengalaman F&B founder **belum tercatat** (syarat board C10) |
+| Listrik | Kettle listrik, chiller, RO, grinder Latina | **Tidak ada.** Giling tangan, kompor LPG + kompor gas kaleng, cooler + es, lampu baterai |
+| Konsentrat | Direndam di chiller kafe setiap malam | Direndam di kulkas rumah 2×/minggu dan dibawa ke lapak |
+| Orang | 3 staf penuh waktu (UMP + BPJS) | Founder sendiri Rabu–Kamis; helper per jam Jumat–Sabtu (UMP ÷ 126) |
+| Jam | Setiap hari 16.00–24.00 | Rabu–Kamis 19.00 (atau 19.30), Jumat–Sabtu 18.00, tutup 24.00 |
+| Makanan | Dapur sendiri (roti bakar, pisang, mie), rice bowl titip | Rabu–Kamis **hanya siap saji** (titip/beli putus). Jumat–Sabtu ditambah roti bakar dan sate di kompor kedua |
+| Izin utama | NIB, SLHS, halal reguler, PBJT, LMKN | NIB (KBLI 56304/56306), **halal SEHATI**, SKU RT/RW, **perjanjian tertulis tuan rumah**, larangan trotoar (Perda 8/2007) |
+| Air | PAM + RO | Galon untuk seduh, keran tuan rumah atau jerigen untuk cuci, sistem 3 baskom |
+| Musik | Royalti LMKN | **Tanpa musik dari speaker**: tidak ada royalti, dan keluhan bising lebih kecil |
 
-Semua orang harus bisa membuat es kopi susu dan menjalankan kasir.
-
-### 3c. Asumsi upah
-
-**Per staf penuh waktu:**
-
-| Komponen | Per bulan |
-|---|---:|
-| UMP DKI 2026 | Rp5.729.876 |
-| BPJS pemberi kerja 10,24% | Rp586.739 |
-| THR/12 | Rp477.490 |
-| **Total** | **Rp6.794.105** |
-
-Ini sama dengan angka CFO (`cfo-sources.md`; sumber UMP [Katadata](https://katadata.co.id/amp/berita/industri/694bb57d97fa5/ump-jakarta-2026-resmi-naik-jadi-rp-5-72-juta/), BPJS [TK](https://www.bpjsketenagakerjaan.go.id/artikel/18913/artikel-berapa-besaran-iuran-jht,-jkk,-jkm,-jp-dan-jkp) dan [Kesehatan](https://www.bpjs-kesehatan.go.id/bpjs/index.php/pages/detail/2014/13)).
-
-**Hal yang harus dicek akuntan atau konsultan ketenagakerjaan:**
-
-1. **Pengecualian UMP untuk usaha mikro dan kecil BELUM TERVERIFIKASI.** PP 36/2021 Pasal 36 pernah membolehkan upah di bawah UMP untuk usaha mikro dan kecil, berdasarkan kesepakatan dan dengan batas bawah tertentu ([DDTC](https://news.ddtc.co.id/berita/nasional/28040/usaha-mikro-kecil-boleh-bayar-upah-lebih-rendah-dari-ump), [Hukumonline](https://www.hukumonline.com/klinik/a/apakah-perusahaan-boleh-menggaji-di-bawah-ump-lt5118a676ad68c)). Sumbernya dari 2021, dan status pasal itu setelah PP 49/2025 belum dipastikan. **Jangan gaji di bawah UMP sebelum dicek.** Rencana ini tetap memakai UMP penuh.
-2. **Program BPJS menurut skala usaha.** Perpres 109/2013 mewajibkan usaha **mikro** minimal JKK dan JKM, dan usaha **kecil** JKK, JHT, dan JKM. Jaminan Pensiun (2%) tidak termasuk kewajiban keduanya ([Hukumonline](https://www.hukumonline.com/berita/a/3-regulasi-ini-perlu-dibenahi-agar-selaras-sjsn-lt582fda8100641/), [kajian DJSN](https://djsn.go.id/files/dokumen/Dokumen%20Kajian/202109011058KA%20Skala%20Usaha%20Mikro.pdf)). Ada usulan revisi yang statusnya belum jelas. CFO tetap memakai 10,24%, yang konservatif.
-3. **Jam kerja dan lembur.**
-   - Jam kerja 8 jam × 5 hari atau 7 jam × 6 hari (40 jam/minggu).
-   - Lembur maksimal 4 jam/hari dan 18 jam/minggu, dengan persetujuan tertulis.
-   - Upah sejam = 1/173 × upah sebulan = **Rp33.121**. Lembur jam pertama 1,5× (Rp49.681), jam berikutnya 2× (Rp66.241) ([Hukumonline](https://www.hukumonline.com/klinik/a/cara-hitung-upah-lembur-per-jam-ini-rumusnya!-lt4b7e3965556d3/), [DDTC](https://news.ddtc.co.id/berita/nasional/1798791/begini-dasar-penghitungan-upah-lembur-yang-harus-anda-tahu)).
-   - Istirahat minimal 30 menit setelah 4 jam kerja terus-menerus.
-4. **Paruh waktu.** Upah per jam tidak boleh di bawah **upah sebulan ÷ 126**, yaitu **Rp45.475/jam** untuk UMP DKI. Upah per jam hanya untuk pekerja kurang dari 7 jam/hari dan kurang dari 35 jam/minggu (PP 36/2021 Pasal 16; [Bisnis.com/Kemenaker](https://ekonomi.bisnis.com/read/20210302/12/1362701/kemenaker-tegaskan-upah-per-jam-hanya-untuk-pekerja-paruh-waktu), [Gadjian](https://www.gadjian.com/blog/2023/02/23/cara-menghitung-gaji-karyawan-part-time/)).
-5. **Kerja malam pekerja perempuan** (UU 13/2003 Pasal 76; [Hukumonline](https://www.hukumonline.com/klinik/a/aturan-lembur-untuk-pekerja-perempuan-lt50eb906629072), [Talenta](https://www.talenta.co/blog/aturan-shift-malam-perempuan/)):
-   - Pekerja perempuan yang bekerja antara pukul 23.00 dan 07.00 wajib diberi **makanan dan minuman bergizi**, dan keamanannya dijaga.
-   - Yang **berangkat atau pulang antara 23.00 dan 05.00 wajib diberi angkutan antar-jemput.**
-   - Perempuan di bawah 18 tahun dilarang bekerja pada jam itu.
-
-   Kopiyo tutup 00.45, jadi semua shift penutup kena aturan ini. Status rumusan pasal setelah UU Cipta Kerja belum dicek.
-
-### 3d. Shift
-
-Semua shift penuh waktu adalah 8 jam kerja dan 1 jam istirahat (2 × 30 menit), 5 hari per minggu.
-
-| Kode | Jam | Istirahat | Jam kerja |
-|---|---|---|---:|
-| **P** (pembuka) | 15.00–24.00 | 18.00–18.30 dan 22.00–22.30 | 8 |
-| **T** (penutup) | 15.45–00.45 | 18.30–19.00 dan 22.30–23.00 | 8 |
-| **M** (tengah, hari ramai) | 16.45–00.45 | 20.45–21.15 dan 23.30–24.00 | 7 |
-| **R** (paruh waktu jam ramai) | 18.30–22.30 | tanpa istirahat | 4 |
-
-**Pada hari dengan 2 orang (P + T):**
-
-| Jam | Orang di lantai |
-|---|---|
-| 15.00–15.45 | 1 (persiapan) |
-| 15.45–18.00 | 2 |
-| 18.00–19.00 | 1 (istirahat bergilir) |
-| 19.00–22.00 | **2** |
-| 22.00–23.00 | 1 (istirahat bergilir) |
-| 23.00–24.00 | 2 |
-| 24.00–00.45 | 1, dengan pintu terkunci |
-
-**Kalau penutup sendirian terasa tidak aman**, P ikut sampai 00.45. Itu lembur 45 menit, sekitar Rp37.300 per malam *(hitungan)*.
-
-### 3e. Rota (a): rencana dasar, 3 staf
-
-**Bulan 1–4** (sepi; 2 orang di jam ramai sudah cukup):
-
-| Staf | Sen | Sel | Rab | Kam | Jum | Sab | Min | Jam/minggu |
-|---|:-:|:-:|:-:|:-:|:-:|:-:|:-:|---:|
-| B1 Barista utama | P | – | – | P | P | P | T | 40 |
-| B2 Barista | T | P | P | – | – | T | P | 40 |
-| H Helper | – | T | T | T | T | M | – | 39 |
-| **Orang di 19.00–22.00** | 2 | 2 | 2 | 2 | 2 | **3** | 2 | |
-
-- Setiap hari selalu ada minimal satu barista.
-- Di hari H libur (Minggu–Senin), satu barista memegang bar dan satu lagi memegang kasir dan dapur.
-- Bulan 1: founder hadir 19.00–22.00, terutama Kamis dan Jumat.
-
-**Bulan 5 dst.** (≥45 tamu/hari): tambah paruh waktu **R pada Kamis, Jumat, dan Minggu** (3 shift/minggu). Jam ramai menjadi 3 orang di Kamis–Minggu.
-
-- Biaya: 3 × 4 jam × Rp45.475 × 52/12 ≈ **Rp2,36 juta/bulan**, ditambah iuran BPJS minimal *(hitungan)*.
-- Kalau data POS menunjukkan Senin–Rabu rata-rata >40 tamu, tambah shift R ke-4 (Rabu): ≈Rp3,15 juta/bulan.
-- **Alternatif lebih mahal:** hari ke-6 untuk staf penuh waktu dibayar sebagai lembur hari istirahat (pengali ≥2×, sekitar ≥Rp530 ribu per shift 8 jam *(hitungan)*). Paruh waktu jauh lebih murah.
-
-### 3f. Rota (b): rencana ramping, founder di bar + 2 staf
-
-| Orang | Sen | Sel | Rab | Kam | Jum | Sab | Min | Jam/minggu |
-|---|:-:|:-:|:-:|:-:|:-:|:-:|:-:|---:|
-| F Founder | – | P | P | T | M | M | T | ±52 (hadir) |
-| S1 Barista | P | – | – | P | P | P | P | 40 |
-| S2 Helper | T | T | T | – | T | T | – | 40 |
-| **Orang di 19.00–22.00** | 2 | 2 | 2 | 2 | **3** | **3** | 2 | |
-
-- **Founder bekerja 6 hari, sekitar 52 jam.** Ini inti penghematan versi ramping, sekaligus risiko kelelahan. Satu hari libur penuh (Senin) tidak boleh dilanggar.
-- Siapkan daftar 2–3 barista lepas sebagai cadangan kalau founder sakit.
-- **Bulan 5 dst.:** tambah R pada Kamis dan Minggu (2 shift/minggu), ≈**Rp1,58 juta/bulan** *(hitungan)*.
-
-### 3g. Bulan pertama dan sebelum buka
-
-- **Dua minggu sebelum buka: pelatihan berbayar.**
-  - Minggu 1: resep, *dial-in*, SOP.
-  - Minggu 2: dua sampai tiga "malam uji" untuk teman dan keluarga, dengan stopwatch untuk janji 3 menit.
-  - Biaya: 3 staf × setengah bulan × Rp6,79 juta ≈ **Rp10,2 juta** (ramping: 2 staf ≈ Rp6,8 juta). **Belum ada di `numbers.json`.**
-  - Daftarkan BPJS sebelum hari pertama pelatihan.
-- **Rekrut barista utama 6–8 minggu sebelum buka**, dan ajak dia menjalankan pop-up (bagian 8). Kalau ia tidak cocok, lebih baik ketahuan sebelum sewa ditandatangani.
-- **Bulan 1:** jam buka tetap penuh supaya kebiasaan pelanggan terbentuk, dan rota tetap 2 orang per hari. Kelebihan tenaga di sore yang sepi dipakai untuk prep, membersihkan, dan menyapa calon tamu di depan kedai.
+**Yang tetap dipakai dari `ops-kafe.md`:**
+- resep V60 (SOP-04);
+- rasio konsentrat dan resep es kopi susu (SOP-03);
+- garansi seduh ulang (SOP-05);
+- kalimat menolak laptop (SOP-06);
+- cara menangani keluhan (SOP-07);
+- pemasok beans, susu, filter, dan cup (bagian 2a–2c);
+- template Google Sheets HPP/stok (bagian 5).
 
 ---
 
-## 4. SOP
+## 2. Siklus harian
 
-Satu halaman per SOP. Cetak, laminasi, dan tempel di bar.
+### 2a. Di mana alat disimpan
 
-### SOP-01 Buka (15.00–16.00)
+**Prinsip:** barang besar menginap di tempat tuan rumah, di dalam gerobak yang dikunci atau di dalam toko sesuai perjanjian tertulis (syarat D4). Barang mahal dan yang mudah basi dibawa founder.
 
-1. 15.00 Buka kunci. Nyalakan lampu bar, kettle, chiller, RO. Cek suhu chiller dan catat di log. Kalau suhu tidak dingin, lapor founder sebelum memakai susu.
-2. Saring konsentrat cold brew semalam, timbang hasilnya, tuang ke botol berlabel "KONSENTRAT tgl/jam". Buang konsentrat yang umurnya lebih dari 7 hari (lihat SOP-03).
-3. Isi botol susu dan pompa gula aren. Cek stok es; pesan es kalau kurang dari 5 kg.
-4. *Dial-in* 3 beans: seduh 1 V60 per beans (resep SOP-04), cicipi, sesuaikan gilingan, catat setelan di papan bar.
-5. 15.30 Terima es dan rice bowl titip (cek jumlah, suhu, label halal, tanggal; tanda tangani nota).
-6. Siapkan dapur: iris roti, siapkan pisang, isi minyak, nyalakan kompor saat pesanan pertama.
-7. 15.45 (T datang) Atur meja, kartu beans, kartu "Dipesan", papan "HP boleh, laptop tidak". Atur musik setara suara ngobrol. Lap toilet.
-8. Buka WhatsApp Business: konfirmasi reservasi malam ini dengan template pesan.
-9. 15.55 Seduh teko cicip. Briefing 5 menit: yang habis, beans aktif, reservasi, siapa memegang bar dan siapa memegang kasir/dapur.
-10. 16.00 Buka pintu, nyalakan papan "BUKA". Buka shift di POS dengan kas awal yang dihitung berdua.
+| Menginap di tempat tuan rumah (gerobak terkunci / dalam toko) | Dibawa founder setiap malam |
+|---|---|
+| Gerobak (bar), 16 kursi bertumpuk, 4 meja plastik | Grinder tangan, timbangan, 2 dripper V60, server, kettle leher angsa (kalau tidak mau ditinggal) |
+| Kompor LPG 1 tungku + regulator, tabung Bright Gas 5,5 kg (**hanya jika tuan rumah setuju tertulis**), kompor gas kaleng | Toples dosis beans (15 g per toples, ditimbang di rumah), kartu beans |
+| 2 cooler box (kosong dan kering), ceret 3 L, termos 2 L, wajan roti bakar | Konsentrat cold brew dalam cooler bag + es gel |
+| 24 cangkir blirik, 24 gelas kaca, 3 baskom cuci, 2 jerigen, jerigen keran cuci tangan | Uang kas awal dan HP (Qasir) + powerbank |
+| APAR (selalu bersama kompor), X-banner, kartu meja, standee QRIS | 2 lampu dan powerbank untuk diisi ulang di rumah atau kantor (2 lampu cadangan tetap di gerobak) [estimasi durasi baterai; cek spesifikasi] |
+| Stok kering: susu UHT karton (tahan suhu ruang sebelum dibuka), gula aren tertutup, filter, cup take-away, kantong sampah | – |
 
-### SOP-02 Lima menit pertama: tiga teman datang pukul 19.30
+Kalau tuan rumah **tidak** mengizinkan barang menginap, biaya angkut di `numbers.json` (Rp400 rb/bulan) tetap diperlukan, dan pemasangan hampir pasti lewat 30 menit. **Jadikan ini syarat tempat, bukan nego belakangan.**
 
-Tujuan: dalam 5 menit mereka sudah duduk, merasa disambut, tahu aturannya tanpa merasa dimarahi, dan sudah memegang minuman atau tegukan cicip.
+### 2b. Rutinitas mingguan di rumah (konsentrat dan dosis)
+
+| Kapan | Apa | Waktu |
+|---|---|---|
+| **Selasa 06.00** (sebelum kantor) | Rendam konsentrat batch 1 di kulkas rumah (resep di 2e) | 10 menit |
+| **Selasa 19.00–20.00** (malam libur) | Saring batch 1 (±13–14 jam), botolkan 1 L, beri label tanggal dan jam. Timbang **dosis V60 15 g** ke toples kecil untuk Rabu–Kamis (±20 toples). Isi kartu beans | 60 menit |
+| **Kamis 06.00** | Rendam batch 2 | 10 menit |
+| **Jumat 01.00–06.00** | Saring batch 2 (19–24 jam), botolkan. Timbang dosis untuk Jumat–Sabtu | 30–45 menit |
+| **Rabu, Kamis, Jumat 06.00** | Pindahkan botol malam itu ke cooler bag dengan es gel beku. Bawa ke kantor dan simpan di kulkas kantor kalau ada (pertanyaan terbuka) | 5 menit |
+| **Sabtu siang** | Belanja roti dan bahan sate untuk Jumat–Sabtu berikutnya; cek stok | 1–2 jam |
+
+### 2c. Rabu–Kamis menit per menit (founder sendiri)
+
+Asumsi perjalanan kantor → lapak **45 menit** [estimasi; founder isi angka nyata]. Kolom **Tamu lihat?** menandai langkah yang dilihat tamu atau tetangga.
+
+| Jam | Langkah | Tamu lihat? |
+|---|---|:-:|
+| 17.30 | Keluar kantor. Ambil cooler bag konsentrat dari kulkas kantor | – |
+| 17.30–18.15 | Perjalanan. Di jalan: pesan **es kristal 10 kg** lewat kurir instan, tiba 18.30 (bagian 2f). WhatsApp pemasok makanan titip: antar 18.30. Posting story IG/WA: "Buka 19.00 di [titik]" | – |
+| 18.15 | Tiba. Sapa tuan rumah atau tetangga, cek lantai (genangan, hujan), cuci tangan | ✓ (tetangga) |
+| 18.15–18.20 | Buka kunci gerobak dan dorong ke tanda lakban di lantai, **di dalam batas persil, tidak menyentuh trotoar** ([Perda DKI 8/2007 Pasal 25(2)](https://www.hukumonline.com/klinik/a/sanksi-berjualan-di-fasilitas-umum-perumahan-lt51c11b74eca70/)). Taruh APAR di sebelah titik kompor | ✓ |
+| 18.20–18.25 | Pasang regulator, **tes bocor dengan air sabun**, nyalakan kompor LPG, ceret 3 L di atas api | – |
+| 18.25–18.32 | Turunkan 16 kursi dan 4 meja (4 kursi per meja), nyalakan 4 lampu | ✓ |
+| 18.30 | Es datang. Cooler besar: **es minum dalam kantong bersih tersendiri** + es pendingin + botol susu/konsentrat. Cooler kecil: *base* dan susu terbuka | – |
+| 18.32–18.37 | Stasiun cuci (3 baskom), jerigen keran + sabun untuk cuci tangan, 2 ember sampah. Makanan titip datang: hitung, **cek label halal dan jam produksi di nota**, tanda tangan. Tata di bawah tudung saji dengan kartu harga | ✓ |
+| 18.37–18.43 | Bar: grinder, timbangan, 2 dripper + filter, toples dosis, 2 kartu beans, 2 toples cium bubuk. Air mendidih masuk termos dan kettle leher angsa; cek suhu dengan termometer | ✓ |
+| 18.43–18.47 | X-banner, kartu meja "HP boleh, laptop tidak", standee QRIS, papan menu dengan baris "**V60 ±5 menit per gelas**". Buka shift di Qasir dan hitung kas awal | ✓ |
+| 18.47–18.52 | Campur **base kopi susu 1 L** (SOP-L4), cicip konsentrat. Makan malam singkat (nasi kucing) dan minum air | – |
+| 18.52–19.00 | Cadangan waktu. **Syarat D2: jangan menerima tamu sebelum lampu, kursi, dan air panas siap.** | – |
+| **19.00** | **Buka** (atau **19.30** sesuai aturan D2 di bawah) | **✓** |
+| 19.00–23.30 | Layanan. Jam ramai biasanya 19.30–21.30 [estimasi]. Prioritas: (1) sapa ≤10 detik, (2) es kopi susu ≤3 menit, (3) V60, (4) makanan, (5) cuci gelas saat sepi | ✓ |
+| 21.00 | Cek jam produksi makanan (aturan 4 jam, bagian 5c), isi ulang termos, cuci satu gelombang gelas | ✓ |
+| 23.30 | **Last order**, disampaikan pelan ke setiap meja | ✓ |
+| 23.45 | Mulai beres-beres yang tidak mengganggu tamu (stasiun makanan, kursi kosong) | ✓ |
+| **24.00** | **Tutup.** Tamu dipersilakan menghabiskan minuman | ✓ |
+| 24.00–00.35 | Bongkar (SOP-L9) | ✓ (tetangga) |
+| 00.35–00.45 | Hitung kas, tutup shift Qasir, foto laporan ke Sheets | – |
+| 00.45–01.05 | Pulang (ojek online lebih aman dari motor sendiri saat lelah [aturan internal]) | – |
+| 01.05–01.30 | Botol konsentrat sisa masuk kulkas (kalau masih memenuhi aturan 2e), isi daya lampu dan powerbank, tidur | – |
+
+**Aturan D2 untuk jam buka:** ukur waktu pemasangan di 4 malam latihan (30 Nov–8 Des). **Kalau satu saja lewat 19.00, jam resmi Rabu–Kamis menjadi 19.30** dan jam itu yang ditulis di Google Maps, IG, dan papan. Lebih baik buka tepat 19.30 daripada "19.00" yang sering telat.
+
+### 2d. Jumat–Sabtu (dengan helper)
+
+| Jam | Helper | Founder | Tamu lihat? |
+|---|---|---|:-:|
+| 17.30 | Datang, buka gerobak (kunci atau akses dari tuan rumah, tertulis di perjanjian). Jalankan SOP-L1 | Jumat: masih di jalan. Sabtu: datang 17.00 membawa roti dan bahan sate | ✓ |
+| 17.45 | Terima es (**15 kg**) dan makanan titip | Jumat: pesan es dari jalan | – |
+| **18.00** | **Buka.** Menu sementara: tubruk, makanan siap saji, air putih | – | ✓ |
+| ±18.15–18.30 | – | Jumat: tiba dengan konsentrat. Mulai V60 dan es kopi susu | ✓ |
+| 18.30–23.30 | Kasir/host, es kopi susu, tubruk, makanan, roti bakar dan sate di kompor kedua, cuci | Bar V60, Sesi Bareng, cicip, cerita beans, reservasi grup | ✓ |
+| ±21.00 | Istirahat 30 menit (setelah 4 jam kerja terus-menerus, lihat `ops-kafe.md` §3c) | Pegang semua | – |
+| 23.30 | Last order | | ✓ |
+| 24.00–00.15 | Cuci, susun kursi, sampah | Kas, gas, gerobak | ✓ |
+| **00.15** | **Pulang** (6,75 jam: di bawah batas 7 jam/hari untuk upah per jam). Kalau helper perempuan: antar-jemput disediakan (bagian 6) | Selesai ±00.40 | – |
+
+**Masalah Jumat 18.00: konsentrat masih di tas founder.** Pilihan, urut dari yang terbaik:
+
+1. **Titip di kulkas toko tuan rumah pada pagi hari.** Toko tuan rumah buka di siang hari. Founder mampir pagi sebelum kantor, kalau rutenya masuk akal. Tulis di perjanjian (bagian 9).
+2. **Rendam batch Jumat di cooler lapak.** Kamis 24.00, konsentrat tertutup masuk cooler dengan es baru 10 kg dan termometer. Jumat 17.30, helper cek suhunya. Pakai hanya kalau **≤5°C** [aturan internal]; kalau lebih, buang. **Uji dulu 2 kali di malam latihan** sebelum dipakai.
+3. **Jumat 18.00–18.30 menu tanpa es kopi susu dan V60.** Tulis di papan: "Es kopi susu & V60 mulai 18.30". Paling jujur, tetapi Paket Pulang Kerja belum bisa dijual 30 menit pertama.
+
+### 2e. Cold brew tanpa listrik dan keamanan pangannya
+
+**Pilihan tempat merendam:**
+- **Kulkas rumah (dipilih).** Panduan kopi menyebut kulkas sebagai pilihan utama. Suhu ruang hanya "boleh" sekitar 12 jam di dapur yang sejuk 18–24°C ([Complete Home Barista: suhu ruang vs kulkas](https://completehomebarista.com/faqs/brewing-methods/cold-brew/room-temp-vs-fridge-brew-time/)). Suhu ruang Jakarta lebih panas dari itu, jadi **jangan merendam di suhu ruang** [aturan internal].
+- **Risikonya:** cold brew tidak pernah dipanaskan. Penelitian University of Georgia menemukan bakteri patogen yang sengaja dimasukkan **tidak tumbuh** di cold brew, tetapi **tetap hidup 9–12 hari** ([UGA Field Report](https://fieldreport.caes.uga.edu/can-cold-brew-coffee-make-you-sick/)). Jadi kebersihan wadah dan suhu dingin tetap penting.
+- **Lama rendam:** 12–24 jam di kulkas masih dalam rentang yang umum dipakai ([Complete Home Barista: 12, 24, atau 48 jam](https://completehomebarista.com/faqs/brewing-methods/cold-brew/steep-time-12-24-48-hours/)). Jadwal 2b memakai 13–24 jam.
+
+**Resep (dari `ops-kafe.md` SOP-03):** perbandingan 1 : 5 (kopi house blend digiling kasar : air), hasil ±60% dari berat air.
+
+| | Per malam pada 28 tamu | Per batch (2 malam, dengan cadangan) |
+|---|---:|---:|
+| Gelas es kopi susu | ±19 *(hitungan: 45% minuman pertama + ±2/3 dari gelas kedua 35% [estimasi])* | ±42 (kapasitas 35 tamu) |
+| Konsentrat (50 ml/gelas) | ±0,95 L | ±2,1–2,4 L |
+| Kopi + air | – | **±700–800 g kopi + 3,5–4 L air**, muat di toples kaca 5,3 L |
+
+**Aturan simpan** [aturan internal, lebih ketat dari blog kopi; `ops-kafe.md` SOP-03]:
+- Konsentrat murni: maksimal 7 hari di kulkas, rasa terbaik hari 1–3. Di lapak selalu di atas es.
+- Sisa konsentrat murni yang **tetap di atas es** sepanjang malam boleh kembali ke kulkas rumah dan dipakai malam berikutnya kalau umurnya ≤3 hari. Kalau esnya habis atau botol hangat, buang.
+- *Base* yang berisi susu dan susu UHT yang sudah dibuka: **dibuang saat tutup**, berapa pun sisanya.
+- Perjalanan ke kantor: cooler bag + 4 es gel beku. Panduan menyebut es gel di cooler mobil bertahan sekitar 4–7 jam ([my-best: ice pack](https://id.my-best.com/186)), sedangkan founder pergi ±11 jam. **Tanpa kulkas kantor, bekukan satu botol konsentrat semalam** supaya berfungsi sebagai es, dan ukur suhunya saat tiba di lapak [estimasi; uji di malam latihan].
+
+### 2f. Es
+
+- **Kebutuhan** [estimasi]:
+  - es minum ±150 g per es kopi susu, sekitar 3 kg/malam;
+  - es pendingin cooler ±6–8 kg/malam;
+  - pesan **10 kg** Rabu–Kamis dan **15 kg** Jumat–Sabtu.
+- **Pemasok:** CoolFresh, Pulogadung (satu kecamatan dengan Rawamangun). Es kristal Rp9.950/5 kg, kurir instan, **maksimal 20 kg per pesanan** ([Tokopedia CoolFresh](https://www.tokopedia.com/espugautama/es-batu-kristal-jakarta-timur-100-halal-5kg)). Ongkir kurir belum dicari, jadi biayanya masuk [estimasi].
+- **Cadangan:** penjual lain Rp11.999–16.000/5 kg ([Tokopedia](https://www.tokopedia.com/find/es-kristal-5-kg), dari `research/cost-inputs.md`). Saat survei, cari juga agen es dekat titik.
+- **Hanya es kristal kemasan pabrik yang terdaftar** (contoh es kristal dengan nomor izin edar MD di [productlist.id](https://productlist.id/products/es-kristal-md-221622000100046)). **Jangan memakai es balok untuk minuman.** Di Jakarta pernah ada kasus es balok tercemar ([Jakarta Post, 2015](https://www.thejakartapost.com/news/2015/03/30/city-bpom-play-blame-game-over-tainted-ice)).
+- **Es minum dan es pendingin dipisah** [aturan internal]. Es minum tetap di kantongnya dan diambil dengan sekop, tidak pernah dengan tangan atau gelas. Es yang menyentuh botol tidak masuk minuman.
+- **Kalau es habis:** stop es kopi susu. Tawarkan V60, tubruk, atau es kopi susu "tanpa es tambahan" dari *base* yang masih dingin. Catat di log. Penyebab biasanya pesanan terlalu kecil di malam ramai, jadi naikkan pesanan malam serupa minggu depan.
+
+### 2g. Air dan mencuci gelas tanpa air mengalir
+
+- **Air seduh dan air minum:** galon air mineral 19 L. Harga Aqua isi ulang Rp17.000–20.000 (Juni 2025), Rp24.000 di Indomaret/Alfamart ([harga.web.id](https://harga.web.id/harga-produk-aqua-galon-19-liter-dan-refill.info)). Harga galon isi ulang di Jakarta naik Rp1.000 pada April 2026 ([CNBC Indonesia](https://www.cnbcindonesia.com/news/20260428151251-4-730609/jangan-kaget-harga-air-galon-tiba-tiba-naik-rp1000-ada-apa/amp)).
+  - Pemakaian ±10–12 L/malam [estimasi: V60 ±340 ml termasuk bilas filter, tubruk ±150 ml, cicip, air minum].
+  - Satu galon cukup untuk ±1,5 malam. Galon kosong Aqua Rp34.900–37.290 ([harga.web.id, Jun 2025](https://harga.web.id/harga-galon-kosong-aqua-dan-vit.info)).
+  - Rasa air galon berbeda dengan RO di `ops-kafe.md`. **Dial-in ulang resep V60 dengan air galon.**
+- **Air cuci:** ±30–40 L/malam [estimasi]. **Pilihan 1:** keran tuan rumah (wajib ditanyakan, syarat D4). **Pilihan 2:** 2 jerigen 20 L diisi di keran tuan rumah atau depo air setempat.
+- **Sistem 3 baskom.** Pedagang makanan sebaiknya mencuci dengan minimal tiga bak: guyur, sabun, bilas. Air diganti begitu kotor ([Jurnal Poltekkes Palu](https://jurnal.poltekkespalu.ac.id/index.php/bjkl/article/download/2922/816/12672)). Survei yang sama menemukan 70% pedagang tidak memakai sabun.
+  1. Buang sisa makanan dan minuman ke ember sampah cair.
+  2. **Baskom 1:** guyur.
+  3. **Baskom 2:** sabun.
+  4. **Baskom 3:** bilas.
+  5. Tiriskan terbalik di nampan bersih.
+  6. Ganti air baskom 3 paling sering.
+- **Supaya cuci tidak mengganggu layanan:** punya **24 cangkir dan 24 gelas**, lalu cuci di jeda sepi, bukan saat jam ramai. Ini salah satu kunci throughput solo (bagian 3).
+- **Air limbah** dibuang ke saluran milik tuan rumah (dengan izin), **tidak ke trotoar atau got depan** [aturan internal]. Genangan dan bau adalah bahan keluhan tetangga.
+
+### 2h. Sampah
+
+- Pisahkan [aturan internal]:
+  1. **organik basah** (ampas kopi, sisa makanan) di kantong yang diikat;
+  2. **kemasan** (cup, plastik, nota).
+- Buang ke tempat sampah tuan rumah atau TPS sesuai kesepakatan dengan RT. Ada pos "Iuran kebersihan/warga Rp150 rb, dengan kuitansi" di `numbers.json`.
+- **Jangan meninggalkan kantong sampah di trotoar semalaman.**
+- Ampas kopi boleh ditawarkan ke warga untuk tanaman. Ini gestur baik dengan tetangga, bukan kewajiban.
+
+### 2i. Kas
+
+Ringkasnya di SOP-L9:
+- kas awal ±Rp200–300 rb pecahan kecil [estimasi];
+- tutup shift Qasir, hitung tunai, cocokkan mutasi QRIS di aplikasi bank, foto ke Sheets "Kas Harian";
+- **uang tidak pernah ditinggal di lapak**, disetor atau ditransfer setiap minggu.
+
+---
+
+## 3. Uji kenyataan throughput tanpa listrik
+
+### 3a. Patokan yang bersumber
+
+| Hal | Angka | Sumber |
+|---|---|---|
+| Giling 15 g di Timemore C2, setelan pour-over | ±25–30 detik (estimasi panduan, bukan uji); lebih lama di gilingan halus dan roast terang | [Complete Home Barista: setelan Timemore C2](https://completehomebarista.com/guides/timemore-c2-grind-settings/) |
+| Waktu seduh V60 satu gelas | 2:30–3:30 (Blue Bottle); resep rumah 2:45–3:15 (`ops-kafe.md` SOP-04) | [Blue Bottle](https://bluebottlecoffee.com/us/eng/brew-guides/pour-over) |
+| Pour-over di kedai ramai | Waktu persiapan adalah hambatan terbesar | [Perfect Daily Grind](https://perfectdailygrind.com/2025/01/overcoming-challenges-with-pour-over-coffee-wait-times/) |
+| Es kopi susu dari *base* | ±20 detik; tanpa *base* ±45–60 detik | `ops-kafe.md` SOP-03 [estimasi] |
+| Aroma bubuk setelah digiling | Turun nyata dalam 15–60 menit. Angka populer "60% dalam 15 menit" tidak jelas sumbernya | [Ratio Coffee](https://ratiocoffee.com/blogs/coffee-guides/the-flavor-difference-between-a-fresh-grind-and-a-fresh-brew) · [Crema](https://crema-coffee.com/blogs/coffee-101/coffee-myths-is-grinding-fresh-really-that-much-better) |
+
+**Grinder founder belum diketahui modelnya.** Ukur sendiri: giling 15 g beans yang akan dijual, dengan setelan V60, 5 kali, lalu catat rata-ratanya.
+
+### 3b. Beban kerja per item (menit kerja tangan) [estimasi, ukur di malam latihan]
+
+| Tugas | Menit | Catatan |
+|---|---:|---|
+| Sapa + catat pesanan + sebut waktu tunggu V60 + bayar (per grup ±2,5 orang) | 1,5 | QRIS statis lebih cepat dari kembalian tunai |
+| **V60** (dosis sudah ditimbang): giling 0,5–0,75 + bilas filter 0,5 + tuang 1,5 + sajikan dan cerita 0,5 | **±3,25** | Waktu tunggu tamu ±5 menit kalau bar kosong. Jeda antar-tuangan dipakai untuk es kopi susu |
+| **Es kopi susu** dari *base* | **±0,4** | Es, tuang 185 ml, aduk, sajikan |
+| Tubruk (bubuk sudah jadi) | 0,5 | Air dari termos |
+| Makanan siap saji | 0,2 | Ala angkringan: tamu ambil sendiri, disebut saat bayar |
+| Roti bakar / sate (Jumat–Sabtu) | 1–1,5 | Di kompor kedua, oleh helper |
+| Cicip malam solo (cium bubuk 2 beans) | 0,3 | Jumat–Sabtu: tegukan kecil dari teko cicip |
+| Cuci per gelas | 0,5 | **Bisa ditunda ke jeda sepi** |
+| Isi ulang ceret/termos | 1 per ±4 V60 | – |
+
+**Contoh jam ramai solo:**
+- 12 tamu datang dalam satu jam (5 grup), memesan 5 V60, 7 es kopi susu, 3 tubruk, dan 9 makanan siap saji.
+- Beban kerja: 7,5 (sapa) + 16,3 (V60) + 2,8 (es kopi susu) + 1,5 (tubruk) + 1,8 (makanan) + 0,9 (cicip) + 1,5 (air) + 3,8 (separuh cuci) = **±36 menit/jam (60%)** *(hitungan)*.
+- **Di 15 tamu/jam bebannya ±45 menit (75%).** Di atas itu janji tidak bisa dipegang.
+
+### 3c. Hasil
+
+| | Founder sendiri (Rabu–Kamis) | Founder + helper (Jumat–Sabtu) |
+|---|---|---|
+| **V60/jam** | **5–7** realistis, karena founder juga memegang kasir, sapa, dan makanan. Batas ±8 sebelum waktu tunggu lewat 10 menit | **10–12** (founder hanya menyeduh; helper memegang sisanya). Teoretis ±15–18 kalau hanya V60, tetapi giling tangan 20+ dosis per malam melelahkan [estimasi] |
+| **Es kopi susu/jam** | **15–25** (dibatasi kasir dan sapa, bukan pembuatannya) | **30–40** |
+| **Tamu/jam di jam ramai** | **±12–15** | **±18–22** |
+
+**Kebijakan giling (pre-grinding):**
+1. **Es kopi susu:** tidak ada gilingan di lapak, karena konsentrat dibuat di rumah.
+2. **Tubruk:** pakai **bubuk jadi** dari roaster, dibeli mingguan dan disimpan rapat. Contoh beans bubuk dijual roaster: Javanegra Flores Bajawa *grounds* 200 g Rp110.000 ([Tokopedia](https://www.tokopedia.com/javanegra/javanegra-flores-bajawa-grounds-200gr)). Untuk tubruk Rp8.000 pakai house blend yang lebih murah. Menggiling halus dengan tangan terlalu lama.
+3. **V60:**
+   - **Giling per gelas** (standar).
+   - Yang disiapkan sebelumnya hanya **timbangan dosis beans utuh** di toples 15 g, sehingga timbang ulang tidak perlu.
+   - **Pengecualian Jumat–Sabtu:** kalau antre ≥3 V60, helper boleh menggiling **paling banyak 2 dosis di depan** ke toples tertutup, dipakai **≤15 menit** [aturan internal, mengikuti sumber aroma di 3a].
+   - **Tidak pernah menggiling sebelum buka.**
+4. **Grinder kedua** (Timemore Chestnut S3, tercantum Rp1,4 juta di toko Timemore Indonesia, model dan tanggal belum pasti; [Tokopedia](https://www.tokopedia.com/timemore-coffee-indonesia/timemore-manual-coffee-grinder-chesnut-s3-grinder-kopi-manual-1732373490369856534)) **tidak dibeli sekarang**. Pertimbangkan setelah 4 minggu kalau Jumat–Sabtu rutin ≥10 V60/jam.
+
+**Janji 3 menit:**
+- **Es kopi susu ≤3 menit: bisa dipegang**, dengan tiga syarat:
+  1. *base* dicampur sebelum buka;
+  2. es kopi susu selalu menyalip V60;
+  3. founder membuatnya di jeda antar-tuangan V60.
+- **V60 tidak dijanjikan 3 menit.** Sebut sebelum bayar (D3): "V60 sekitar 5 menit. Kalau ada 2 V60 di depan, sekitar 10–12 menit. Mau es kopi susu dulu sambil nunggu?"
+- **Ambang board D9:** kalau >20% tamu malam solo menunggu minuman pertama >10 menit, tambah helper Kamis atau tutup Kamis. Catat waktu pesanan dan waktu minuman pertama di log malam (bagian 8).
+
+### 3d. Apakah kapasitas 37 tamu/malam bertahan?
+
+**Rumus** [estimasi]: kursi × jam buka × okupansi 80% ÷ lama duduk, lalu dibagi 0,8 karena 20% tamu membawa pulang (pos cup di `numbers.json`).
+
+| 16 kursi bersandaran (4 meja × 4) | Duduk 2,5 jam | Duduk 3 jam |
+|---|---:|---:|
+| Rabu–Kamis 19.00–24.00 (5 jam) | 32 | 27 |
+| Rabu–Kamis 19.30–24.00 (4,5 jam) | 29 | 24 |
+| Jumat–Sabtu 18.00–24.00 (6 jam) | 38 | 32 |
+| **Rata-rata 4 malam (buka 19.00)** | **35** | **29** |
+| Rata-rata dengan 15 kursi | 33 | 27,5 |
+
+*(hitungan)* Panel lapak menyebut tamu duduk 2–3 jam (`offer.md`). `launch-kafe.md` memakai 2,5 jam untuk kafe.
+
+**Kesimpulan:**
+- **37 hanya tercapai di ujung optimistis.**
+- **Kursi dan lama duduk** membatasi lebih dulu daripada bar, kecuali saat tiga grup datang bersamaan di malam solo.
+- Pakai **30** untuk perencanaan [estimasi]. Rencana 28 masih di bawahnya, tetapi itu berarti meja penuh hampir sepanjang malam.
+- **Kalau lama duduk ternyata 3 jam, tambah 2–4 kursi** (selama masih di dalam batas persil) sebelum menambah malam.
+
+---
+
+## 4. Daftar alat
+
+### 4a. Sudah dimiliki founder (konfirmasi, jangan beli dobel)
+
+| Barang | Yang perlu dicek |
+|---|---|
+| Grinder tangan | Model? Waktu giling 15 g (bagian 3a) |
+| Dripper V60 (perlu 2) dan server | Jumlah |
+| Timbangan dengan timer | Baterai cadangan |
+| **Kettle leher angsa** | **Kettle listrik tidak bisa dipakai.** Kalau milik founder listrik, beli versi kompor: Rp130.000–522.500 ([Tokopedia: ketel leher angsa](https://www.tokopedia.com/find/ketel-leher-angsa) · [vivcoffee Rp185.000](https://www.tokopedia.com/vivcoffee/teko-leher-angsa-550ml-gooseneck-coffee-kettle)). Belum masuk total di bawah |
+| HP untuk Qasir, powerbank | – |
+
+### 4b. Yang dibeli
+
+Harga dari cuplikan hasil pencarian 8 Nov 2026. "Anggaran" memakai pilihan tengah atau atas supaya konservatif.
+
+| # | Barang | Jumlah | Harga tayang | Anggaran | Sumber | Catatan |
+|---|---|---:|---|---:|---|---|
+| 1 | **Tenda lipat 3×3** | 0 | Rp480.150–741.000; dengan dinding mika 3 sisi Rp1.620.000 | **Rp0** | [Tokopedia: tenda 3x3](https://www.tokopedia.com/find/tenda-3x3) · [tenda jualan 3x3](https://www.tokopedia.com/find/tenda-jualan-3x3-full-set) | **Pilih teras beratap** (board). Kalau tidak beratap: +Rp741 rb s.d. Rp1,62 jt, dan pemasangan solo jadi lebih lama |
+| 2 | **Gerobak angkringan** (bar + lemari terkunci) | 1 | Rp2.000.000 (mahoni, Klaten), Rp2.450.000 (jati), sampai Rp3.500.000 | **Rp3.000.000** | [Tokopedia: gerobak angkringan](https://www.tokopedia.com/find/gerobak-angkringan) · [IDN Times: Rp3–5 jt](https://www.idntimes.com/business/economy/segini-modal-usaha-angkringan-serta-tips-dan-peralatannya-00-qftxr-gn4q17) | Ongkir dari Klaten belum diketahui, jadi minta penawaran. Anggaran memberi ruang ±Rp0,5–1 jt untuk ongkir [estimasi]. Alternatif: 2 meja lipat koper 120×60 @Rp363.690 ([Tokopedia, cuplikan](https://www.tokopedia.com/find/meja-lipat-jualan)) kalau tuan rumah punya ruang simpan tertutup |
+| 3 | **Kursi plastik bersandaran** (bisa ditumpuk) | 16 | Napolly BIG 209 Rp60.735–113.000; NG 100 Rp95.000 | Rp1.520.000 | [Tokopedia: kursi napolly](https://www.tokopedia.com/find/kursi-plastik-napoli-original) · [kursi plastik sandaran](https://www.tokopedia.com/find/kursi-plastik-sandaran) | Menggantikan tikar (offer v3: duduk di tikar 2–3 jam pegal) |
+| 4 | Meja plastik | 4 | Napolly BIG 7550 Rp153.500; motif rotan Rp179.999 | Rp614.000 | [Tokopedia: meja plastik napolly](https://www.tokopedia.com/find/meja-plastik-napolly) | – |
+| 5 | Cooler box besar | 1 | Soleil 45 L Rp749.900–899.900 | Rp899.900 | [Ruparupa](https://www.ruparupa.com/soleil-45-ltr-cooler-box-biru-muda.html) | Es minum + botol. Marina tidak ada ukuran 45 L di hasil pencarian |
+| 6 | Cooler box kecil | 1 | Marina 18S 16 L Rp473.005–538.110 | Rp538.110 | [Tokopedia Lion Star Marina 18S](https://www.tokopedia.com/lionstarindonesia/lion-star-kotak-pendingin-marina-cooler-box-18s-16-liter-i-17-1730862486830941300) | *Base* + susu terbuka |
+| 7 | Cooler bag + 4 es gel | 1 set | Tas Rp39.541–280.600; gel 400 ml Rp1.342–6.000 | Rp304.600 | [Tokopedia: ice pack gel](https://www.tokopedia.com/find/ice-pack-gel-tahan-lama) · [GabaG](https://www.tokopedia.com/gabag/etalase/tmt_24552) | Untuk membawa konsentrat dari rumah |
+| 8 | Kompor gas 1 tungku | 1 | Rinnai RI-301S Rp155.000–245.000 | Rp245.000 | [Tokopedia: rinnai 1 tungku](https://www.tokopedia.com/find/rinnai-1-tungku) · [Pricebook](https://pricebook.co.id/article/market_issue/11889/kompor-gas-1-tungku-murah) | Untuk ceret/kettle |
+| 9 | Regulator + selang SNI | 1 paket | Rp136.803–208.000 | Rp208.000 | [Tokopedia: selang regulator](https://www.tokopedia.com/find/selang-regulator-gas-3kg) · [Winn Gas W900](https://www.tokopedia.com/find/regulator-gas-winn-w900) | Pastikan label SNI |
+| 10 | Tabung Bright Gas 5,5 kg + isi (perdana) | 1 | Rp326.000 (harga promo saat peluncuran, tanggal tidak jelas); isi ulang Rp102.000 (agen Jawa, sejak 15 Agu 2026) | Rp326.000 | [ESDM Migas](https://migas.esdm.go.id/post/dirjen-migas-hadiri-peluncuran-bright-gas-5,5-kg) · [Bisnis.com](https://ekonomi.bisnis.com/read/20260815/44/1996598/pertamina-turunkan-harga-bright-gas-ini-rinciannya) | **Bukan LPG 3 kg.** Pembelian LPG 3 kg untuk usaha mikro mensyaratkan NIB dan pendaftaran di pangkalan ([Bisnis.com](https://ekonomi.bisnis.com/read/20250203/44/1836261/beli-lpg-3-kg-di-pangkalan-ada-kuotanya-simak-ketentuannya)), dan mulai 2026 direncanakan memakai NIK ([Kompas TV](https://www.kompas.tv/info-publik/613813/mulai-2026-beli-lpg-3-kg-wajib-pakai-ktp-ini-kelompok-yang-berhak-dan-dilarang)) |
+| 11 | Kompor portabel gas kaleng (kompor kedua) + 2 kaleng | 1 + 2 | Hi-Cook Rp100.000–120.000 (artikel 2025); kaleng 230 g Rp23.500–25.300 | Rp170.600 | [Viva](https://techno.viva.co.id/elektronik/14809-suka-camping-ini-5-pilihan-kompor-portable-murah-terbaik-2025) · [Tokopedia: gas kaleng](https://www.tokopedia.com/find/gas-kaleng-portable) | Roti bakar dan sate Jumat–Sabtu, sekaligus cadangan |
+| 12 | Ceret stainless 3 L | 1 | Rp46.800–249.900 | Rp249.900 | [Ruparupa Krischef 3 L](https://www.ruparupa.com/krischef-ketel-air-3-ltr.html) · [Lazada](https://www.lazada.co.id/trending/Stove-Kettles-Top-AddToCart/514068533) | Rebus air banyak, lalu pindah ke kettle leher angsa |
+| 13 | Termos 2 L | 1 | Lion Star 2 L (plastik) Rp124.000–134.000; stainless Thermos 2 L Rp559.440 | Rp134.000 | [Tokopedia: termos air panas](https://www.tokopedia.com/find/termos-air-panas) | Air panas untuk tubruk dan bilas filter |
+| 14 | Termometer digital | 1 | TP300 Rp29.900–59.000 | Rp59.000 | [Tokopedia TP300](https://www.tokopedia.com/emarket-id/termometer-digital-tp300-thermometer-makanan-kopi-bbq-minyak-dapur) | Suhu air seduh **dan** suhu cooler |
+| 15 | Wajan roti bakar | 1 | Rp50.000–250.000 | Rp250.000 | [Tokopedia: panggangan roti bakar](https://www.tokopedia.com/find/panggangan-roti-bakar) · [wajan roti bakar](https://www.tokopedia.com/find/wajan-roti-bakar-alat) | Jumat–Sabtu |
+| 16 | Tudung saji | 2 | Rp19.000–69.900 | Rp139.800 | [Tokopedia: tudung saji](https://www.tokopedia.com/find/tudung-saji) | Makanan siap saji tidak terbuka |
+| 17 | Lampu LED baterai | 4 | TaffLED 10 W Rp39.900; AOKI 18650 Rp145.306; AOKI + powerbank Rp198.000 | Rp581.200 | [Tokopedia AOKI](https://www.tokopedia.com/aoki-official/etalase/lampu-camping) · [lampu tenda camping](https://www.tokopedia.com/find/lampu-tenda-camping) | 2 di bar, 2 di area duduk. Warna hangat |
+| 18 | Cangkir enamel blirik 8 cm | 24 | Rp21.052–35.000 | Rp840.000 | [Tokopedia: cangkir enamel lurik](https://www.tokopedia.com/find/cangkir-enamel-lurik-8cm) | V60, tubruk |
+| 19 | Gelas kaca (set 6) | 4 set | ±Rp23.419/set | Rp93.700 | Cuplikan pencarian Tokopedia, halaman persis tidak pasti ([contoh toko](https://www.tokopedia.com/gelas5saudara/etalase/sold)) | Es kopi susu dine-in |
+| 20 | **APAR powder 3 kg** | 1 | Rp299.000–390.000 | Rp390.000 | [Tokopedia: APAR 3 kg dry powder](https://www.tokopedia.com/find/apar-3kg-dry-powder) | **Wajib**, selalu di samping kompor |
+| 21 | X-banner 60×160 + tiang | 1 | Rp45.000–65.000 | Rp65.000 | [Tokopedia](https://www.tokopedia.com/gamblangmediapromo/x-banner-60x160-korcin-440-free-desain-murah-dan-berkualitas-flexi-280) | Papan ≤1 m² yang menempel di bangunan dikecualikan pajak reklame (bagian 9) |
+| 22 | Spanduk flexi ±3 m² | 1 | Rp28.000/m² | Rp84.000 | [Tokopedia](https://www.tokopedia.com/gamblangmediapromo/cetak-spanduk-print-banner-baliho-online-murah-flexy-korcin-440) | – |
+| 23 | Jerigen HDPE 20 L food grade | 2 | Rp75.000 | Rp150.000 | [Tokopedia: jerigen 20 liter](https://www.tokopedia.com/find/jerigen-air-20-liter) | Air cuci kalau tidak ada keran |
+| 24 | Jerigen dengan keran 10 L | 1 | Rp206.800 | Rp206.800 | Sama | Cuci tangan |
+| 25 | Baskom 52 cm | 3 | Rp34.000 | Rp102.000 | [Tokopedia](https://www.tokopedia.com/tokoanekaplastikspj/product) | Sistem 3 baskom |
+| 26 | Galon kosong 19 L | 1 | Rp34.900–47.000 | Rp47.000 | [harga.web.id](https://harga.web.id/harga-galon-kosong-aqua-dan-vit.info) · [Tokopedia](https://www.tokopedia.com/find/galon-air-kosong) | Pompa galon manual: harga belum dicari |
+| 27 | Container box 100 L beroda | 2 | Rp188.000–200.800 | Rp401.600 | Cuplikan pencarian Tokopedia ([Shinpo](https://www.tokopedia.com/miraclestar/etalase/shinpo)) | Stok kering, gelas |
+| 28 | Kantong sampah 60×100 + ember bertutup 20 L | 2 pak + 2 | Rp12.083/pak isi 16; ember Rp40.000–59.000 | Rp142.200 | [Tokopedia: kresek hitam besar](https://www.tokopedia.com/find/kresek-hitam-besar) · [ember plastik](https://www.tokopedia.com/find/ember-plastik-besar) | Sampah dan sampah cair |
+| 29 | Toples kaca 5,3 L (rendam cold brew) | 1 | Rp99.900 | Rp99.900 | [Ruparupa Picas 5,3 L](https://www.ruparupa.com/p/toples-makanan-kaca-bulat-5-3-ltr.html) | Di rumah |
+| 30 | Barang kecil: gembok + rantai, nampan, saringan cold brew, 4 botol 1 L, toples dosis, lap, sabun, sanitizer food grade, P3K | – | **Belum dicari** | **Rp500.000 [estimasi]** | – | Cari harga saat belanja |
+| | **Total anggaran** | | | **±Rp12.606.000** *(hitungan, dibulatkan per pos di bagian 11)* | | Termurah (listing paling murah): ±Rp8,8 jt. Termahal: ±Rp13,3 jt |
+
+### 4c. Dibanding pos startup di `numbers.json`
+
+| Pos `numbers.json` | Lama | Usulan | Alasan |
+|---|---:|---:|---|
+| Tenda lipat 3×3 | Rp2.250.000 | **Rp0** (Rp741 rb–1,62 jt kalau tidak beratap) | Teras beratap; harga nyata lebih murah dari estimasi |
+| Gerobak/meja bar | Rp3.000.000 | Rp3.000.000 | Harga Rp2,0–3,5 jt + ongkir |
+| Bangku, meja, tikar | Rp2.300.000 | Rp2.134.000 | 16 kursi bersandaran + 4 meja; tikar dihapus |
+| Cooler 2 unit | Rp1.000.000 | **Rp1.745.000** | Cooler 45 L + 16 L + cooler bag dan gel |
+| Kompor + tabung | Rp600.000 | **Rp950.000** | Dua kompor (air dan makanan), tabung 5,5 kg perdana, regulator SNI |
+| Lampu + powerbank | Rp600.000 | Rp600.000 | 4 lampu Rp581 rb |
+| Gelas, cangkir, nampan | Rp1.000.000 | Rp1.000.000 | Rp934 rb + nampan |
+| APAR | Rp300.000 | Rp390.000 | Powder 3 kg |
+| Banner, papan nama | Rp700.000 | **Rp300.000** | X-banner + spanduk Rp149 rb + kartu meja |
+| *Baru:* air & cuci, ceret/termos/termometer, wajan + tudung, container box, sampah, toples, barang kecil | – | Rp2.487.000 | Rincian di 4b |
+| **Total alat** | **Rp11.750.000** | **±Rp12.606.000** (+Rp856 rb) | Tanpa gerobak: ±Rp10,3 jt. Tanpa atap: +Rp0,74–1,62 jt |
+
+**Pemasok bahan** tetap dari `ops-kafe.md` §2a–2c: beans Otten/Murrell/Sakha, house blend Otten Rp246.000/kg, susu UHT Diamond 1 L Rp22.500, gula aren Mahorahora Rp60.000/L, filter Hario Rp85.000/100, cup PET BBC Rp730/set. Ada dua perubahan:
+- **susu harus UHT karton** (tahan suhu ruang sebelum dibuka), bukan susu segar;
+- **tubruk memakai bubuk jadi**.
+
+---
+
+## 5. Makanan
+
+### 5a. Menu menurut malam (dari `offer.md` v3, syarat D2)
+
+| | Rabu–Kamis (solo) | Jumat–Sabtu (dengan helper) |
+|---|---|---|
+| Makanan | **Hanya siap saji:** nasi kucing, gorengan, kue/roti | Ditambah **roti bakar dan sate** di kompor kedua |
+| Paket | Pulang Kerja Rp25.000 (es kopi susu + nasi kucing + gorengan) | Ditambah Sesi Bareng Rp75.000 |
+
+### 5b. Buat sendiri atau titip, dan dampaknya ke margin
+
+**Kenyataan jadwal:** founder bekerja kantor Senin–Jumat dan tidak punya waktu memasak di rumah pada hari lapak. **Semua yang dibuat sendiri harus dirakit di lapak** (roti bakar, sate dibakar) **atau disiapkan Sabtu siang.**
+
+| Item | Cara | Harga pembanding | HPP | Catatan |
+|---|---|---|---|---|
+| Nasi kucing | **Titip atau beli putus** dari pembuat lokal | Jakarta Selatan Rp5.000–7.500/porsi ([IDN Times](https://www.idntimes.com/food/dining-guide/angkringan-di-jakarta-selatan-c1c2-01-3ln1w-68kmbj)); BSD Rp4.000 ([Prasetiya Mulya, 2026](https://elib.prasetiyamulya.ac.id/1583/)); Jogja Rp2.000–2.500 ([detik, 2023](https://www.detik.com/jogja/kuliner/d-7088744/20-menu-angkringan-favorit-dan-sejarahnya-sebagai-ikon-jogja/amp)) | ±70–80% [estimasi] | Komisi titip jual umum 20–60% dari harga jual ([Gramedia](https://www.gramedia.com/best-seller/?p=26130)). Tarif khusus angkringan tidak ditemukan |
+| Gorengan, kue/roti | Titip atau beli putus | Gorengan Jogja Rp500–1.000 (detik, 2023). Harga Jakarta tidak ditemukan | ±70–80% [estimasi] | Survei 3 penjual di sekitar titik |
+| Sate (usus, telur puyuh, ati ampela) | Beli matang/bumbu dari pemasok, **bakar di lapak** (Jumat–Sabtu) | Sate mulai Rp1.500 di Jakarta Selatan ([IDN Times](https://www.idntimes.com/food/dining-guide/angkringan-di-jakarta-selatan-c1c2-01-3ln1w-68kmbj)) | ±55–65% [estimasi] | Panaskan sampai panas sebelum disajikan |
+| Roti bakar | **Buat sendiri di lapak** (Jumat–Sabtu) | Bahan ±Rp5.300/porsi (`ops-kafe.md` §2d) | ±44–53% pada harga Rp10.000–12.000 *(hitungan)* | Margin terbaik di menu makanan |
+
+**Dampak ke margin:**
+- `numbers.json` memakai **HPP makanan ±62%**: malam solo ±72% (siap saji/titip), Jumat–Sabtu ±55%. Itu konsisten dengan tabel di atas, jadi **tidak perlu diubah sekarang.**
+- **Risikonya:** kalau semua makanan dititip (±72%), kontribusi turun ±Rp1.040/tamu dan break-even naik ±2 tamu/malam (`offer.md` mencatat skenario ini).
+- **Ganti ke beli putus** begitu satu item laku stabil (misalnya >15 porsi/malam selama 4 minggu). Pola "titip dulu, jual putus kalau laku" dari `ops-kafe.md` §2d.
+- **Perjanjian titip tertulis** ([kontrakhukum.com](https://kontrakhukum.com/article/skema-titip-jual-dalam-draft-perjanjian-konsinyasi-surabaya-bagi-umkm/)) memuat:
+  - harga mitra;
+  - siapa menanggung sisa;
+  - **jam antar (18.30 atau 17.45) dan jam masak tertulis di nota**;
+  - sertifikat halal mitra;
+  - pengganti kalau mitra tidak datang.
+
+### 5c. Keamanan pangan tanpa kulkas
+
+- **Nasi matang dan Bacillus cereus.** Bakteri ini bertahan dalam bentuk spora saat nasi dimasak, dan racunnya tahan panas, sehingga dipanaskan ulang pun tidak selalu aman ([detikHealth](https://health.detik.com/diet/d-8278034/salah-kaprah-memanaskan-nasi-sisa-tidak-bau-bukan-jaminan-masih-aman) · [FSANZ](https://www.foodstandards.gov.au/consumer/safety/foodborne-illness/bacillus-cereus)).
+- **Berapa lama boleh di suhu ruang?** Sumber berbeda:
+  - FDA/CDC (dikutip [Halodoc](https://www.halodoc.com/artikel/waspada-suhu-zona-bahaya-makanan-agar-tetap-aman-dikonsumsi) dan [Popmama](https://www.popmama.com/life/health/berapa-lama-makanan-boleh-disimpan-di-suhu-ruang-00-h1fg6-tx69rd)): makanan matang ≤2 jam di suhu ruang, **≤1 jam di atas 32°C**.
+  - BPOM memakai batas **4 jam setelah dimasak** untuk makanan siap saji program MBG ([detikHealth](https://health.detik.com/berita-detikhealth/d-8662789/kepala-bpom-sebut-mbg-lewat-4-jam-basi-sppg-nakal-siap-siap-ditutup)).
+  - Kemenkes (menurut detikHealth): sajian panas ≥60°C, simpan dingin ≤4°C.
+- **Aturan internal Lapak Yok:**
+  1. Makanan titip **diantar paling lama 1 jam sebelum buka**, dengan **jam masak tertulis di nota**. Tanpa jam masak, tolak.
+  2. **Dijual paling lama 4 jam setelah dimasak** (patokan BPOM). Pesan dalam 2 gelombang di malam ramai (18.30 dan ±21.00) supaya tidak ada nasi yang dipajang lebih dari 4 jam.
+  3. Sisa yang lewat batas **dibuang dan dicatat** di Sheets "Waste". **Tidak pernah dijual besok, tidak pernah dipanaskan ulang untuk dijual.**
+  4. Pajang di bawah tudung saji, di tempat teduh, **tidak di dekat kompor atau lampu panas**.
+  5. Sate dan roti bakar dipanaskan sampai panas saat dipesan.
+  6. Susu UHT yang sudah dibuka dan *base* kopi susu: di atas es, dibuang saat tutup.
+  7. Cuci tangan di jerigen keran sebelum memegang makanan. Penjamah tidak memegang uang dan makanan bergantian tanpa cuci tangan (QRIS membantu).
+- **Penelitian di Malioboro** menemukan pedagang angkringan yang ikut kursus higiene sanitasi punya angka kuman alat makan lebih rendah (cuplikan pencarian riset Poltekkes Yogyakarta). **Founder dan helper sebaiknya ikut pelatihan penjamah pangan** kalau tersedia murah atau gratis di Sudinkes/puskesmas (pertanyaan terbuka).
+
+**Halal untuk makanan titip.** Kewajiban halal berlaku untuk makanan dan minuman termasuk di lapak PKL sejak 18 Okt 2026 (bagian 9). **Setiap pemasok titip harus punya sertifikat halal sendiri.** Banyak pembuat nasi kucing rumahan mungkin belum punya. Tanyakan sejak survei, dan bantu arahkan mereka ke SEHATI (gratis).
+
+---
+
+## 6. Orang
+
+### 6a. Helper Jumat–Sabtu
+
+| Hal | Isi |
+|---|---|
+| **Tugas** | Pasang lapak (SOP-L1), kasir/host, es kopi susu, tubruk, makanan, roti bakar dan sate, cuci, bongkar. Dilatih V60 dasar sebagai cadangan mulai bulan 2 |
+| **Jam** | **17.30–00.15 (6,75 jam)**, istirahat 30 menit ±21.00. Di bawah 7 jam/hari dan 35 jam/minggu, syarat upah per jam |
+| **Upah minimal** | UMP DKI 2026 **Rp5.729.876** ([Katadata](https://katadata.co.id/amp/berita/industri/694bb57d97fa5/ump-jakarta-2026-resmi-naik-jadi-rp-5-72-juta/)) ÷ 126 = **Rp45.475/jam**. Upah per jam hanya untuk pekerja <7 jam/hari dan <35 jam/minggu (PP 36/2021 Pasal 16; [Bisnis.com/Kemenaker](https://ekonomi.bisnis.com/read/20210302/12/1362701/kemenaker-tegaskan-upah-per-jam-hanya-untuk-pekerja-paruh-waktu) · [Gadjian](https://www.gadjian.com/blog/2023/02/23/cara-menghitung-gaji-karyawan-part-time/)) |
+| **Per malam** | 6,75 × Rp45.475 = **Rp306.958** *(hitungan)* |
+| **Per bulan** | × 8,67 malam (2 × 52 ÷ 12) = **Rp2.660.300** *(hitungan)*. `numbers.json` mencatat Rp1,97 jt untuk 5 jam (18.00–23.00), tetapi rencana `lapak-malam.md` sendiri menyuruh helper memasang dari 17.30 |
+| **BPJS** | Usaha mikro wajib minimal JKK dan JKM ([Hukumonline, Perpres 109/2013](https://www.hukumonline.com/berita/a/3-regulasi-ini-perlu-dibenahi-agar-selaras-sjsn-lt582fda8100641/)). Besarnya ±0,54% upah [estimasi: JKK kelompok risiko terendah 0,24% + JKM 0,30%; cek di [BPJS TK](https://www.bpjsketenagakerjaan.go.id/artikel/18913/artikel-berapa-besaran-iuran-jht,-jkk,-jkm,-jp-dan-jkp)] ≈ Rp14.400/bulan |
+| **Kalau helper perempuan** | Bekerja antara 23.00 dan 07.00: wajib diberi makan-minum bergizi dan dijaga keamanannya. Pulang antara 23.00 dan 05.00: **wajib antar-jemput** (UU 13/2003 Pasal 76; [Hukumonline](https://www.hukumonline.com/klinik/a/aturan-lembur-untuk-pekerja-perempuan-lt50eb906629072) · [Talenta](https://www.talenta.co/blog/aturan-shift-malam-perempuan/)). Perempuan di bawah 18 tahun dilarang bekerja di jam itu. Biaya: ojek ±Rp20–30 rb + makan ±Rp15 rb per malam [estimasi] ≈ **+Rp0,3–0,39 jt/bulan** |
+| **Usia** | Minimal 18 tahun [aturan internal; wajib untuk perempuan di jam malam] |
+| **Kontrak** | Tertulis: jam, upah per jam, cara bayar (mingguan), tugas, masa coba 2 malam berbayar, pemberitahuan 1 minggu sebelum berhenti. Status setelah UU Cipta Kerja: tanya konsultan |
+
+**Cara mencari:**
+1. **Mahasiswa UNJ.** Kampus UNJ ada di Rawamangun ([Antara](https://kupang.antaranews.com/berita/82489/tingkatkan-keahlian-mahasiswa-unj-resmi-miliki-sangsang-univ-zone)). Jalur yang realistis: grup info loker mahasiswa dan akun kemahasiswaan. Lowongan khusus UNJ tidak ditemukan dalam pencarian.
+2. Portal lowongan (Glints, KitaLulus, Indeed) dengan filter Jakarta Timur.
+3. Tulisan "Dicari helper Jumat–Sabtu" di lapak saat malam latihan, dan rekomendasi warga lewat RT.
+4. **Siapkan 2 cadangan** yang sudah ikut 1 malam latihan berbayar.
+
+**Pelatihan sebelum 9 Des:**
+- 2 malam latihan berbayar (±Rp614 rb *(hitungan)*);
+- SOP-L1, L4, L7, L9;
+- keselamatan gas dan cara memakai APAR;
+- aturan makanan 4 jam;
+- naskah sapa.
+
+### 6b. Rota mingguan
+
+| | Sen | Sel | Rab | Kam | Jum | Sab | Min |
+|---|---|---|---|---|---|---|---|
+| Founder: kantor | 07.30–17.30 | 07.30–17.30 | 07.30–17.30 | 07.30–17.30 | 07.30–17.30 | – | – |
+| Founder: lapak | – | Konsentrat + dosis 19.00–20.00 | 17.30–01.00 | 17.30–01.00 | 17.30–01.00 | 16.00–01.00 | **Libur penuh** |
+| Helper | – | – | – | – | 17.30–00.15 | 17.30–00.15 | – |
+| Orang di jam ramai | – | – | 1 | 1 | 2 | 2 | – |
+
+**Bulan pertama (sepi):** rota tetap sama. Jangan memotong helper Jumat–Sabtu untuk berhemat. Alasan board untuk helper adalah keamanan (gas, kas, 20+ tamu), bukan volume.
+
+### 6c. Jam kerja founder dan peringatan kelelahan
+
+| Kegiatan | Jam/minggu |
+|---|---:|
+| Kantor Senin–Jumat 07.30–17.30 | 50 |
+| Lapak Rabu, Kamis, Jumat (17.30–01.00, termasuk perjalanan) | 22,5 |
+| Lapak Sabtu (16.00–01.00, termasuk belanja dan persiapan) | 9 |
+| Konsentrat, dosis, kartu beans (Selasa, Kamis pagi, Jumat dini hari) | ±2 |
+| Belanja mingguan, Sheets, media sosial, pesan pemasok | ±4 [estimasi] |
+| **Total** | **±87** (belum termasuk perjalanan pagi ke kantor) |
+
+**Tidur pada malam Rabu→Kamis dan Kamis→Jumat sekitar 4,5 jam** (01.30–06.00).
+
+**Peringatan:**
+- WHO dan ILO memperkirakan kerja **≥55 jam/minggu** dikaitkan dengan **risiko stroke ±35% lebih tinggi** dan **risiko meninggal karena penyakit jantung iskemik ±17% lebih tinggi**, dibanding 35–40 jam ([WHO, 17 Mei 2021](https://www.who.int/news/item/17-05-2021-long-working-hours-increasing-deaths-from-heart-disease-and-stroke-who-ilo)).
+- Rencana ini sekitar 1,6× ambang itu.
+- Ini bukan diagnosis, tetapi alasan kuat untuk membuat aturan pengaman sejak awal.
+
+**Aturan pengaman** [aturan internal]:
+1. **Minggu libur penuh, Senin–Selasa tanpa lapak.** Tidak ada "tambah malam" sebelum review 2 Feb 2027 (board D10, D11).
+2. **Tidak memasak di rumah pada hari kantor.** Menu solo siap saji (D2) sekaligus melindungi jam tidur.
+3. **Aturan sakit:** demam, pusing, atau kurang tidur 2 malam berturut-turut → **tutup**, umumkan sebelum 16.00 di IG/WA dan Google Maps. Satu malam tutup lebih murah dari satu minggu sakit.
+4. **Pulang dengan ojek online, bukan menyetir motor sendiri**, pada malam ketika merasa sangat lelah.
+5. **Satu minggu libur setiap 8 minggu.** Misalnya setelah review 2 Feb, dan saat Idul Fitri (sudah direncanakan di `lapak-malam.md`).
+6. **Pemicu helper Kamis:** syarat D9 (>20% tamu solo menunggu minuman pertama >10 menit), **atau** founder tidur <5 jam lebih dari 2 malam per minggu selama 3 minggu.
+7. **Cek kontrak kerja kantor** soal usaha sampingan dan konflik kepentingan (`lapak-malam.md`).
+
+---
+
+## 7. SOP (satu halaman per SOP; cetak, laminasi, simpan di gerobak)
+
+### SOP-L1 Pasang lapak (target ≤30 menit)
+
+1. **Cek tempat:** genangan, hujan, ada barang tetangga? Cuci tangan.
+2. **Gerobak** ke tanda lakban. **Semua barang di dalam batas persil.** Tidak ada kursi, ember, atau kabel di trotoar.
+3. **APAR** di samping titik kompor, pin terpasang, jarum di hijau.
+4. **Gas:**
+   - pasang regulator;
+   - **tes bocor**: oleskan air sabun di sambungan; muncul gelembung = bocor, jangan dinyalakan;
+   - nyalakan, ceret di atas api.
+5. **Kursi, meja, lampu.** Lorong antar-meja cukup untuk jalan.
+6. **Es datang:** es minum di kantong tersendiri, es pendingin di sekitar botol. Termometer di cooler.
+7. **Stasiun cuci** 3 baskom + jerigen keran + sabun. Ember sampah dan ember sampah cair.
+8. **Makanan:** cek halal dan jam masak di nota, hitung, tanda tangan, tata di bawah tudung saji, kartu harga.
+9. **Bar:** grinder, timbangan, 2 dripper, filter, toples dosis, 2 kartu beans, 2 toples cium bubuk. Air mendidih masuk termos dan kettle leher angsa; cek 92–94°C.
+10. **Tanda:** X-banner, kartu meja "HP boleh, laptop tidak", standee QRIS, papan menu dengan waktu V60.
+11. **Qasir:** buka shift, hitung kas awal.
+12. **Base kopi susu 1 L** (SOP-L4).
+13. **Sebelum menerima tamu (D2):** lampu menyala, kursi tertata, air panas siap. Kalau belum, jangan buka. **Catat jam selesai pasang** di log.
+
+### SOP-L2 Lima menit pertama: grup bertiga datang pukul 19.30, Kamis, founder sendiri
+
+Tujuan (syarat D3, diuji dengan stopwatch): **disapa ≤10 detik**, **minuman atau tegukan di tangan ≤5 menit**, **waktu tunggu V60 disebut sebelum bayar**. Founder sedang menuang V60 tamu lain.
 
 | Menit | Yang dilakukan | Kalimat (contoh, sesuaikan gaya sendiri) |
 |---|---|---|
-| 0:00 | Orang terdekat dengan pintu (host; kalau sibuk, barista dari bar) menatap dan menyapa **dalam 10 detik**, meski sedang membuat minuman. | "Malam, Kak! Selamat datang di Kopiyo. Bertiga ya? Sudah reservasi?" |
-| 0:15 | Tawarkan pilihan tempat duduk. Jangan pilihkan meja dekat bar untuk grup yang mau ngobrol, kecuali mereka minta. | "Mau dekat bar biar lihat kopinya diseduh, atau di pojok yang lebih tenang buat ngobrol?" |
-| 0:45 | Saat memberi menu, sampaikan aturan **sekali, dengan senyum, sebagai alasan baik**. Kalau ada tas laptop, tunjukkan tempat menaruhnya. | "Satu info kecil ya, Kak: di sini **HP boleh, laptop kami minta disimpan**, biar semua meja enak buat ngobrol. Tasnya aman di bawah meja." |
-| 1:00 | Tawarkan dua jalan, mulai dari yang paling mudah. | "Kalau capek dan mau cepat, **es kopi susu kami keluar dalam 3 menit**. Kalau mau coba kopi seduh tapi bingung, ada **Cicip Dulu**: tiga tegukan kecil dari tiga beans, gratis, nanti saya bantu pilih." |
-| 1:20 | Makanan dan paket, singkat. | "Lapar? Ada roti bakar, pisang goreng, mie, rice bowl. Bertiga juga pas buat **Sesi Ngobrol**: satu teko dua beans plus camilan, Rp85.000 bertiga." |
-| 1:30–2:30 | Catat pesanan di POS (*open bill* per meja), **sebutkan ulang pesanannya**. Mulai hitung waktu 3 menit sejak pesanan masuk POS. | "Dua es kopi susu, satu Cicip Dulu, satu pisang goreng ya, Kak." |
-| 2:30–4:00 | Es kopi susu dibuat di jalur cepat (SOP-03) dan diantar. Barista membawa 3 tegukan cicip dan kartu beans, lalu bertanya 2 hal. | "Kakak lebih suka yang segar-asam kayak buah, atau yang manis-cokelat? Mau hitam saja atau pakai susu?" |
-| 5:00 | Cek singkat, lalu **tinggalkan mereka ngobrol**. Kalau kartu beans di meja dibalik, artinya tamu tidak mau diceritakan soal kopi; hormati. | "Aman, Kak? Nanti kalau mau nambah gelas kedua cuma Rp15.000." |
+| 0:00–0:10 | Angkat kepala dan senyum, **tanpa menghentikan tuangan**. Tunjuk meja kosong | "Malam, Kak! Yok, duduk dulu di sana. Sebentar ya, saya selesaikan seduhan ini, satu menit." |
+| 0:10–1:00 | Selesaikan tuangan. Ambil 3 gelas kecil **air putih gratis** dari galon dan antar | "Ini air dulu, Kak. Pulang kerja ya?" |
+| 1:00–1:30 | Beri menu. Sampaikan aturan **sekali, dengan senyum** | "Satu info kecil: di sini **HP boleh, laptop kami minta disimpan**, biar semua meja enak buat ngobrol." |
+| 1:30–2:15 | Tawarkan jalan tercepat dulu. **Sebut waktu V60 sebelum bayar** | "Kalau mau cepat, **es kopi susu keluar 3 menit**, atau **Paket Pulang Kerja** Rp25 ribu: es kopi susu, nasi kucing, gorengan. Kalau mau kopi seduh, **V60 sekitar 5 menit, tapi ada satu di depan, jadi kira-kira 8–10 menit**. Mau cium dulu dua beans-nya?" |
+| 2:15–2:45 | Kalau ada yang ragu memilih V60: sodorkan **2 toples cium bubuk** (cicip malam solo) dan tanya 1 hal | "Yang ini segar kayak buah, yang ini manis cokelat. Kakak suka yang mana?" |
+| 2:45–3:15 | Ulangi pesanan, catat di Qasir, **bayar di depan** (QRIS atau tunai). Mulai hitung 3 menit | "Dua Paket Pulang Kerja, satu V60 yang manis cokelat ya, Kak." |
+| 3:15–4:30 | Buat 2 es kopi susu dari *base* (±40 detik) dan antar. Ambil makanan atau tunjukkan tudung saji: "silakan ambil sendiri, nanti disebut" | "Ini es kopi susunya. Nasi kucing dan gorengan silakan pilih di sini." |
+| 4:30–5:00 | Mulai giling V60 ketiga. Cek singkat lalu **tinggalkan mereka ngobrol** | "V60-nya saya antar sekitar 6 menit lagi ya." |
+| 9:00–11:00 | Antar V60 dengan kartu beans. Cerita **satu kalimat** saja, kecuali ditanya | "Ini Gayo, manis kayak gula merah. Kalau nggak cocok di tegukan pertama, bilang ya, saya seduh ulang." |
 
-Kalau grup belum reservasi dan meja penuh: tawarkan waktu tunggu yang jujur ("kira-kira 20 menit"), catat nomor WhatsApp, dan kabari begitu meja kosong.
+- **Kalau 3 grup datang bersamaan:** sapa semua dalam 10 detik ("Sebentar ya, Kak, saya ke sana satu-satu"), antar air putih ke semua meja, lalu layani **urut kedatangan**. **Es kopi susu dulu, V60 terakhir.**
+- **Kalau meja penuh:** "Lagi penuh, Kak, kira-kira 20 menit. Boleh saya catat nomor WA, nanti saya kabari?"
+- **Ukur:** selama 4 malam latihan dan minggu pertama, catat waktu sapa, waktu minuman pertama, dan apakah waktu V60 disebut. **Target: ≥90% memenuhi D3.**
 
-### SOP-03 Es kopi susu 3 menit (jalur cepat) dan konsentrat
+### SOP-L3 V60 di lapak
 
-**Konsentrat cold brew** (diseduh setiap malam saat tutup):
-
-1. Giling house blend **kasar**. Perbandingan **1 : 5**, misalnya 400 g kopi + 2.000 g air RO. Takaran harian: bulan 1 ±250 g kopi, volume rencana ±650 g.
-2. Aduk, tutup, rendam **14–16 jam di chiller** (00.15 → 15.00).
-3. Saring (SOP-01), timbang hasilnya (±60% dari berat air karena diserap ampas), beri label tanggal dan jam.
-4. **Umur simpan:** konsentrat tanpa campuran **maksimal 7 hari** di chiller tertutup; rasa terbaik 1–3 hari. Campuran yang **mengandung susu dibuang saat tutup hari itu juga**. Rujukan umum (blog kopi, bukan regulator) menyebut konsentrat murni ±7–14 hari dan campuran susu ±1–2 hari ([Breville](https://www.breville.com/us/en/blog/coffee-and-espresso/how-long-does-cold-brew-last.html), [Complete Home Barista](https://completehomebarista.com/guides/cold-brew-shelf-life/)). Aturan 7 hari dan 1 shift di sini sengaja lebih ketat.
-
-**Resep 1 gelas** (gelas 14 oz):
-
-| Bahan | Takaran |
-|---|---|
-| Es | 150 g |
-| Gula aren cair | 15 ml |
-| Susu UHT full cream | 120 ml |
-| Konsentrat | 50 ml (≈16,7 g kopi) |
-
-Diaduk atau dikocok. Waktu membuat ±45–60 detik.
-
-**Jam ramai (mulai 18.30):** campur "base kopi susu" di botol 1 L (konsentrat 50 : susu 120 : gula aren 15). Satu gelas = es + 185 ml base, ±20 detik. Buang sisa base saat tutup.
-
-**Aturan antrean:**
-
-1. Es kopi susu **selalu menyalip** antrean V60.
-2. Jalur cepat ada di sebelah kasir dan dipegang host. Barista V60 tidak perlu berhenti.
-3. Kalau dalam 2 menit pesanan belum dibuat, siapa pun yang kosong langsung membuatnya.
-4. Catat waktu (jam pesanan masuk POS dan jam diantar) untuk 10 gelas pertama setiap malam pukul 19–21. **Target: ≥90% ≤3 menit.**
-5. Kalau sebuah gelas lewat 3 menit, katakan terus terang ("Maaf Kak, tadi agak antre, ini es kopi susunya") dan catat di log. Kalau lebih dari 2 kali dalam seminggu, bahas penambahan orang di jam ramai.
-
-### SOP-04 Layanan V60, resep, dan Cicip Dulu
-
-**Resep V60 Kopiyo (ditimbang setiap gelas):**
+**Resep** (dari `ops-kafe.md` SOP-04, ditimbang setiap gelas). Dial-in ulang dengan **air galon**.
 
 | Parameter | Nilai |
 |---|---|
-| Dosis | **15 g** (sama dengan asumsi CFO) |
-| Air | **240 g** (rasio 1 : 16), air RO |
-| Suhu | **92–94°C** |
-| Gilingan | Medium-fine (seperti garam meja). Setelan per beans dicatat di papan bar. |
-| Waktu total | **2:45–3:15** |
-
-Rujukan umum: 15 g : ±250 g, 93–95°C, medium-fine, selesai sekitar 3 menit ([Hario UK](https://hario.co.uk/brew-guides/v60/intermediate), [Honest Coffee Guide](https://honestcoffeeguide.com/brew-recipes/basic-hario-v60-recipe/)). Angka di atas adalah resep rumah Kopiyo dan boleh disesuaikan barista utama per beans, **asal ditulis**.
+| Dosis | 15 g (sudah di toples dosis) |
+| Air | 240 g (1 : 16) |
+| Suhu | 92–94°C. Air mendidih dari ceret dituang ke kettle leher angsa, lalu cek termometer |
+| Gilingan | Medium-fine; setelan per beans ditulis di kartu kecil di gerobak |
+| Waktu total | 2:45–3:15 |
 
 **Langkah:**
+1. Tunjukkan toples dosis dan kartu beans ke tamu.
+2. **Giling di depan tamu** (bagian dari pertunjukan, bukan hambatan).
+3. Bilas filter dengan air termos, buang airnya. Panaskan server dan cangkir.
+4. Bloom 40 g (0:00–0:35), sampai 150 g pada 1:00, sampai 240 g pada 1:45.
+   - Turun lebih cepat dari 2:30 dan rasanya asam/tipis: haluskan gilingan.
+   - Lebih lama dari 3:30 dan rasanya pahit: kasarkan.
+5. **Di jeda antar-tuangan:** buat es kopi susu yang sedang antre (SOP-L4). **Jangan meninggalkan dripper lebih dari 30 detik.**
+6. Sajikan di cangkir blirik dengan kartu beans (roastery + tanggal sangrai; offer v3).
+7. **Sesi Bareng (Jumat–Sabtu):** dua V60 20 g : 320 g dari dua beans, di dua server, 4 cangkir.
+8. **Teko cicip Jumat–Sabtu:** 2 beans × 10 g : 160 g pukul 18.30. Buang setelah 60 menit (`ops-kafe.md` SOP-04).
 
-1. Sapa tamu di bar, tunjukkan beans yang dipilih dan kartunya.
-2. Bilas filter dengan air panas, buang airnya. Panaskan server dan cangkir.
-3. Masukkan 15 g kopi, ratakan, *tare* timbangan, jalankan timer.
-4. **Bloom** 40 g air, 0:00–0:35.
-5. Tuang sampai 150 g pada 1:00, lalu sampai 240 g pada 1:45, dengan tuangan memutar pelan.
-6. Air habis turun pada 2:45–3:15.
-   - Lebih cepat dari 2:30 dan rasanya asam/tipis: gilingan dihaluskan.
-   - Lebih lama dari 3:30 dan rasanya pahit/kering: gilingan dikasarkan.
-7. Sajikan server dan cangkir bersama kartu beans. Cerita satu kalimat saja, kecuali tamu bertanya lagi ("Ini Gayo dari Aceh, rasanya manis kayak gula merah").
+### SOP-L4 Es kopi susu ≤3 menit
 
-**Sesi Ngobrol (2–4 orang):** dua V60 terpisah, masing-masing **20 g : 320 g**, dari dua beans berbeda, disajikan di dua server, dengan 4 cangkir dan piring camilan berbagi.
+**Resep 1 gelas** (`ops-kafe.md` SOP-03): es 150 g · gula aren cair 15 ml · susu UHT full cream 120 ml · konsentrat 50 ml.
 
-**Cicip Dulu:**
+1. **Sebelum buka:** campur **base 1 L** di botol bersih berlabel jam (konsentrat 50 : susu 120 : gula aren 15). Simpan di cooler kecil di atas es.
+2. **Satu gelas:** gelas + 150 g es minum (sekop) + 185 ml base → aduk → sajikan. **±20–30 detik.**
+3. **Es kopi susu selalu menyalip antrean V60.**
+4. **Base habis** → campur 1 L lagi. Jangan mencampur lebih dari 1 L sekaligus kecuali Jumat–Sabtu pukul 19.00–21.00 [aturan internal].
+5. **Saat tutup:** **semua base dan susu yang sudah dibuka dibuang.** Konsentrat murni mengikuti aturan 2e.
+6. **Catat waktu** (pesanan masuk Qasir → gelas di meja) untuk 10 gelas pertama setiap malam. **Target ≥90% ≤3 menit.** Kalau lewat, katakan terus terang ("Maaf Kak, tadi agak antre") dan catat.
+7. **Gelas kedua Rp12.000** (es kopi susu atau tubruk). Tawarkan saat gelas pertama tinggal seperempat, **sekali saja**.
 
-1. Seduh "teko cicip" kecil **2 kali sehari** (15.55 dan 19.00): untuk tiap beans aktif, **10 g : 160 g**, dengan resep yang sama. Simpan di server tertutup. Buang setelah 60 menit.
-2. Sajikan 3 gelas kecil (±15 ml) dengan tiga kartu beans. Tanya 2 hal (lihat SOP-02), lalu rekomendasikan satu beans.
-3. Satu Cicip Dulu per tamu per kunjungan. Catat di POS sebagai item Rp0 supaya bisa dihitung.
+### SOP-L5 Garansi seduh ulang
 
-### SOP-05 Garansi seduh ulang
+Janji (offer v3): *tidak cocok di tegukan pertama, diseduh ulang dengan beans lain, gratis* (sekali per gelas).
 
-Janji: *tidak cocok di tegukan pertama, kami seduh ulang dengan beans lain, gratis* (sekali per gelas).
-
-1. Berlaku kalau tamu bilang tidak cocok di awal (gelas masih hampir penuh). **Jangan berdebat, jangan minta alasan panjang.**
+1. Berlaku kalau tamu bilang di awal (gelas masih hampir penuh). **Jangan berdebat.**
 2. Tanya satu hal: "Kurang cocoknya di mana, Kak: terlalu asam, terlalu pahit, atau terlalu ringan?"
-3. Pilih beans dengan arah sebaliknya (asam → manis-cokelat; pahit → yang lebih segar). Tawarkan dulu tegukan dari teko cicip kalau masih ada.
-4. Seduh ulang dengan resep SOP-04 dan antar dengan kartu beans baru. Ambil gelas lama.
-5. Catat di POS (item "Garansi" Rp0) **dan** di log waste Sheets (beans, gram, alasan). Ini data penting: kalau satu beans sering diklaim, keluarkan dari menu.
-6. Kalau yang kedua masih tidak cocok: minta maaf, tawarkan tukar ke es kopi susu tanpa tambahan biaya (keputusan barista yang bertugas, maksimal sekali). Catat.
-7. Biaya garansi sudah di model CFO (±Rp171/tamu pada klaim 5%). Kalau klaim mingguan lebih dari 10% gelas V60, laporkan ke founder.
+3. Pilih beans arah sebaliknya. **Malam solo hanya ada 2 beans**, jadi pilihannya beans yang satu lagi.
+4. **Sebut waktunya** ("sekitar 5 menit ya, Kak"). Kalau antrean panjang, tawarkan es kopi susu sebagai ganti, tanpa biaya.
+5. Seduh ulang dengan SOP-L3. Ambil gelas lama.
+6. Catat di Qasir (item "Garansi" Rp0) dan di Sheets "Waste" (beans, gram, alasan). Satu beans sering diklaim → keluarkan dari menu.
+7. Yang kedua masih tidak cocok: minta maaf, tukar ke es kopi susu atau tubruk tanpa biaya. Catat.
 
-### SOP-06 Tamu membuka laptop
+### SOP-L6 Tamu membuka laptop
 
-**Pencegahan (lebih penting daripada teguran):**
+**Pencegahan:**
+- Kartu "HP boleh, laptop tidak" ada di setiap meja, papan menu, Google Maps, IG, dan pesan reservasi.
+- **Lapak tidak punya colokan listrik**, dan itu sudah mencegah sebagian besar kasus.
 
-- Tulisan "HP boleh, laptop tidak" ada di pintu, di menu, di kartu meja, di deskripsi Google Maps dan Instagram, dan di pesan konfirmasi reservasi.
-- Aturan disampaikan sekali saat menyambut (SOP-02).
+**Kalau tetap terjadi:** kalimat dari `ops-kafe.md` SOP-06, nama diganti.
+1. Tunggu jeda. Datangi sendiri, bicara pelan, jangan dari gerobak dan jangan di depan meja lain.
+   > "Kak, maaf ganggu sebentar ya. Di Lapak Yok semua meja kami jaga buat ngobrol, jadi laptopnya kami minta disimpan dulu. HP aman kok, kalau perlu balas kerjaan sebentar."
+2. Kalau harus bekerja:
+   > "Paham banget, Kak. Kalau memang perlu kerja pakai laptop, minumannya bisa saya pindah ke cup take-away, tanpa biaya cup."
+3. Terima kasih begitu laptop disimpan. Jangan diungkit lagi.
+4. Menolak setelah teguran kedua: tawarkan **pengembalian uang untuk minuman yang belum diminum** dan cup take-away. **Jangan mempermalukan, memotret, atau menyentuh laptopnya.**
+5. Catat di log keluhan.
 
-**Kalau tetap ada yang membuka laptop:**
+Pengecualian yang boleh: laptop atau tablet untuk menunjukkan foto ke teman beberapa menit.
 
-1. Tunggu sampai ada jeda; jangan memotong di tengah kalimat. Datangi sendiri, **jangan berteriak dari bar**, dan jangan di depan meja lain.
-2. Bicara pelan, sambil sedikit membungkuk:
-   > "Kak, maaf ganggu sebentar ya. Di Kopiyo semua meja kami jaga buat ngobrol, jadi laptopnya kami minta disimpan dulu. HP aman kok, kalau perlu balas kerjaan sebentar."
-3. Kalau tamu bilang harus menyelesaikan pekerjaan:
-   > "Paham banget, Kak. Kalau memang perlu kerja pakai laptop, minumannya bisa kami pindahkan ke cup take-away, tanpa biaya cup. Atau Kakak selesaikan dulu 5 menit, terus kami tunggu ngobrolnya."
-4. Ucapkan terima kasih ketika laptop sudah disimpan. Jangan diungkit lagi, tetap ramah.
-5. Kalau tamu menolak setelah teguran kedua: panggil barista utama atau founder. Tawarkan **pengembalian uang untuk minuman yang belum diminum** dan cup take-away. **Jangan pernah mempermalukan tamu, jangan memotret, jangan menyentuh laptopnya.**
-6. Catat kejadiannya di log keluhan. Kalau kejadian di kedai lebih dari 3 kali per minggu, perjelas tulisan di pintu dan di Google Maps.
+### SOP-L7 Rencana hujan (musim hujan Desember–Februari)
 
-Pengecualian yang **boleh**: tablet atau laptop untuk menunjukkan foto atau video ke teman selama beberapa menit (bagian dari ngobrol), dan kurir atau tamu yang menunggu sebentar.
+**Konteks:**
+- BMKG memperkirakan musim hujan 2026/2027 mulai bertahap November–Desember, dengan **puncak Desember 2026 sampai Februari 2027**. Waktunya berbeda per daerah ([InfoPublik](https://infopublik.id/kategori/nasional-sosial-budaya/990317/bmkg-ungkap-prediksi-musim-hujan-2026-2027-mulai-november-puncak-desember) · [Metro TV](https://www.metrotvnews.com/read/b3JC54vB-bmkg-ingatkan-pemda-waspada-ancaman-bencana-di-akhir-2026)). Prakiraan khusus Jakarta tidak ditemukan.
+- **Uji 9 Des–2 Feb jatuh tepat di puncak hujan.**
 
-### SOP-07 Menangani keluhan
+**Pencegahan:**
+- **Teras beratap** adalah syarat tempat (D4). Cek di malam hujan saat survei: dari arah mana tampias masuk, dan di mana air menggenang.
+- Kalau atap pendek: tirai plastik/terpal samping [harga belum dicari], atau tenda dengan dinding mika 3 sisi (Rp1.620.000, [Tokopedia](https://www.tokopedia.com/find/tenda-jualan-3x3-full-set)).
 
-1. **Dengarkan sampai selesai.** Tatap tamunya, jangan memotong, jangan membela diri.
-2. **Minta maaf atas pengalamannya**: "Maaf ya, Kak, harusnya tidak begitu."
-3. **Tawarkan solusi saat itu juga.** Setiap staf **boleh langsung** membuat ulang item, mengganti dengan item lain, atau menggratiskan **satu item sampai Rp25.000** tanpa izin. Di atas itu, hubungi founder lewat WhatsApp.
-4. **Selesaikan dan kembali** 5 menit kemudian: "Sekarang sudah pas, Kak?"
-5. **Catat** di log keluhan (tanggal, jam, meja, masalah, solusi, nilai kompensasi, siapa yang menangani). Founder meninjaunya setiap Minggu.
-6. Masalah keamanan pangan (rambut, benda asing, makanan basi): tarik item, ganti, simpan sisanya untuk diperiksa, dan beri tahu mitra titip jual kalau itemnya dari mitra.
-7. **Ulasan online:** founder membalas dalam 24 jam. Isinya terima kasih, minta maaf atas hal spesifik, sebutkan apa yang sudah diperbaiki, dan ajak kembali. Jangan berdebat di publik, jangan membuka data tamu.
+**Prosedur:**
 
-### SOP-08 Tutup (23.00–00.45)
+| Kapan | Langkah |
+|---|---|
+| Pukul 16.00 | Cek prakiraan dan peringatan dini di [BMKG](https://www.bmkg.go.id) atau aplikasinya |
+| Hujan ringan | Buka seperti biasa. Kursi digeser ke area paling dalam. Kapasitas berkurang, jadi **kurangi pesanan makanan titip ±30%** [estimasi] |
+| Hujan deras tanpa angin | Buka. Kurangi kursi ke area yang benar-benar kering. Matikan kompor kalau percikan air sampai ke api |
+| **Angin kencang, petir, atau genangan masuk teras** | **Tutup atau tunda buka.** Umumkan di IG/WA story dan Google Maps ("Malam ini hujan badai, kita libur dulu. Ketemu besok ya"). Jangan memasang tenda di angin kencang |
+| Hujan mulai saat buka | Pindahkan kompor dan bar menjauh dari tampias, tutup makanan, tawarkan take-away |
+| Setelah hujan | Lap kursi dan meja sebelum tamu duduk, keringkan lantai, cek sambungan gas |
 
-1. 23.00 Dapur last order. Matikan kompor setelah pesanan terakhir; bersihkan griddle selagi hangat.
-2. 23.30 Umumkan last order minuman dengan sopan ke setiap meja.
-3. 23.45 Musik diturunkan, lampu dinaikkan sedikit. Kumpulkan gelas dari meja yang sudah selesai.
-4. 24.00 Pintu dikunci; tamu yang masih ada dipersilakan menghabiskan minuman.
-5. **Hitung kas berdua (P + T):** cetak laporan Z dari POS, cocokkan tunai dan QRIS, isi formulir kas, foto formulir dan laporan Z, kirim ke grup WhatsApp founder. Uang tunai masuk brankas atau setor besok.
-6. Buang sisa base kopi susu dan teko cicip. Cuci server, dripper, kettle, timbangan.
-7. Bersihkan grinder (sikat burr, buang sisa bubuk). Rabu: bersih dalam.
-8. **Seduh konsentrat untuk besok** (SOP-03) dan beri label.
-9. Simpan susu, makanan, dan bahan dengan label tanggal. Rice bowl titip yang tidak laku: catat di Sheets "Titip jual" dan ikuti perjanjian (retur atau buang).
-10. Lap meja dan kursi, sapu dan pel, kosongkan semua tempat sampah, keluarkan kantong sampah.
-11. Catat suhu chiller dan isi checklist tutup. Matikan semua yang tidak perlu (kettle, lampu, AC). Cek kompor dan regulator gas.
-12. Kunci, pasang alarm (kalau ada). P pulang 24.00 dan T pulang 00.45 dengan transport yang sudah diatur (bagian 3c).
+**Catat malam hujan terpisah** di log (syarat D9), supaya angka 8 minggu tidak salah dibaca.
 
-### SOP-09 Pesan ulang mingguan (Senin 15.00–16.00)
+### SOP-L8 Satpol PP atau keluhan tetangga
 
-1. Hitung fisik semua bahan di daftar Sheets "Stok Mingguan": beans per jenis, house blend, susu, gula aren, filter, cup, roti, mie, minyak, gas, bahan kebersihan.
-2. Masukkan angka ke Sheets. Sheets menghitung:
-   - pemakaian aktual dan pemakaian teoretis (dari penjualan POS × resep);
-   - selisih;
-   - **jumlah pesan = par level − stok** (par = pemakaian harian rata-rata × (lead time + 3 hari)).
-3. Selisih stok lebih dari 5% untuk satu bahan: tandai, dan tanyakan di briefing (salah takar, waste tidak dicatat, atau hilang).
-4. Founder menyetujui pesanan sebelum 17.00. Kirim pesanan lewat WhatsApp atau Tokopedia ke pemasok utama. Kalau pemasok utama kosong, pakai cadangan dari bagian 2.
-5. **Beans:** pastikan tanggal sangrai akan masuk jendela 7–30 hari saat dipakai. Minta roaster menyangrai sesuai jadwal pesanan.
-6. Jadwal datang: Selasa/Rabu 14.00–16.00. Es dan makanan titip tetap harian.
-7. **Saat barang datang:**
-   - cocokkan nota dengan pesanan (jumlah, harga);
-   - cek tanggal sangrai, kedaluwarsa, label halal, suhu susu;
-   - tolak yang rusak dan foto;
-   - simpan dengan prinsip yang pertama masuk dipakai pertama.
-8. Simpan foto nota di Sheets "Pembelian". Bayar sesuai syarat (transfer di muka atau tempo kalau sudah disepakati).
-9. Perbarui harga di Sheets "Bahan" kalau berubah. HPP dan harga minimum ikut berubah otomatis (bagian 5).
+**Pencegahan (lebih penting dari reaksi):**
+- Semua barang di **dalam batas persil**. Perda DKI 8/2007 Pasal 25(2) melarang berdagang di jalan dan trotoar, dengan ancaman kurungan 10–60 hari atau denda ([Hukumonline](https://www.hukumonline.com/klinik/a/sanksi-berjualan-di-fasilitas-umum-perumahan-lt51c11b74eca70/)). Penertiban diperketat pada 2026 ([Republika](https://ekonomi.republika.co.id/berita/t9viee416/pramono-tertibkan-pkl-di-trotoar-jakarta)), dan barang sitaan dibawa ke gudang Satpol PP Cakung ([iNews](https://www.inews.id/playlists/peringatan-tak-digubris-satpol-pp-tertibkan-lapak-pkl-dan-pos-ojol-di-senen-jakpus)).
+- **Map dokumen di gerobak** (fotokopi + foto di HP): NIB, perjanjian tertulis tuan rumah, pengantar RT/RW dan SKU, surat pernyataan tidak berjualan di trotoar, bukti pendaftaran halal.
+- Tidak ada speaker musik. Baku tingkat kebisingan kawasan permukiman adalah **55 dB(A)** menurut Kepmen LH 48/1996 ([CNBC Indonesia](https://www.cnbcindonesia.com/tech/20240815165651-37-563372/viral-ibu-ibu-siram-speaker-begini-aturan-batas-kebisingan-di-ri)). Ukur dengan aplikasi desibel di batas persil pukul 22.00 saat malam latihan [cara ukur kasar].
+- **Motor tamu** tidak menutup jalan atau pintu tetangga. Tunjukkan tempat parkir yang disepakati.
+- Perkenalkan diri ke tetangga kiri-kanan sebelum malam pertama, dan beri nomor WA untuk keluhan.
+
+**Kalau Satpol PP datang:**
+1. Tenang dan sopan. Sapa, perkenalkan diri, **jangan berdebat di depan tamu**.
+2. Tunjukkan map dokumen dan batas persil.
+3. Kalau petugas menunjuk barang yang melewati batas: **langsung pindahkan.**
+4. Kalau diminta tutup: **tutup malam itu.** Catat nama, satuan, jam, dasar aturan yang disebut, dan minta arahan tertulis kalau bisa.
+5. Besoknya: lapor ke tuan rumah dan RT/RW, lalu datangi kelurahan atau PTSP Kecamatan Pulo Gadung untuk klarifikasi.
+6. **Jangan membayar "uang damai" atau "uang keamanan"** ke siapa pun tanpa dasar dan kuitansi. Pungli Rp250 rb pernah terjadi di Jaktim ([iNews](https://www.inews.id/playlists/2-preman-di-bkt-jaktim-palak-pkl-rp250000-modus-uang-kebersihan)). Laporkan ke Polsek atau kelurahan.
+
+**Kalau tetangga mengeluh** (bising, parkir, sampah, bau):
+1. Dengarkan sampai selesai dan minta maaf atas gangguannya (`ops-kafe.md` SOP-07). Tetangga bisa menempuh jalur hukum atas gangguan bising usaha sebelah ([Hukumonline](https://www.hukumonline.com/klinik/a/terganggu-suara-bising-usaha-tetangga-tempuh-langkah-ini-lt50746c4ceafdb/)). **Lebih baik selesai di teras.**
+2. Perbaiki malam itu juga: pelankan suara (minta tamu dengan sopan), pindahkan motor, atau bereskan sampah.
+3. Datangi lagi besok sore dengan satu kopi gratis dan tanya apakah sudah lebih baik.
+4. Catat di log keluhan. **Keluhan yang sama 2 kali dalam sebulan** → bahas dengan tuan rumah dan RT. Pilihannya last order lebih awal (23.00) atau pindah titik.
+
+### SOP-L9 Bongkar, sampah, dan kas
+
+1. **23.30** last order. **23.45** bereskan stasiun makanan dan kursi kosong.
+2. **24.00** tutup. Tamu yang masih ada dipersilakan menghabiskan minuman (maksimal 15 menit).
+3. **Gas:** tutup **katup tabung dulu**, biarkan api habis, lalu matikan kompor. Lepas regulator kalau tabung disimpan terpisah.
+4. Sambil kompor dan ceret mendingin: **cuci semua gelas** dengan 3 baskom, tiriskan, dan keringkan dengan lap bersih.
+5. **Buang:** *base* kopi susu, susu yang sudah dibuka, teko cicip, dan makanan yang lewat 4 jam. Catat di Sheets "Waste".
+6. **Konsentrat murni** yang masih dingin masuk cooler bag (aturan 2e).
+7. **Sampah:** pisahkan organik dan kemasan, ikat, buang sesuai kesepakatan. Air limbah ke saluran tuan rumah. **Tidak ada kantong sampah di trotoar.**
+8. Lap meja dan kursi, tumpuk, masukkan ke gerobak/box, kunci. **Cek batas persil bersih**, dan foto tempat yang sudah bersih ke WA tuan rumah (opsional, membangun kepercayaan).
+9. APAR disimpan bersama gerobak. Cek katup tabung sekali lagi.
+10. **Kas:**
+    - tutup shift di Qasir;
+    - hitung tunai dan cocokkan dengan laporan;
+    - buka aplikasi bank, cocokkan mutasi QRIS malam ini;
+    - isi Sheets "Kas Harian" (tunai, QRIS, selisih, jumlah tamu, malam hujan ya/tidak) dan foto laporan;
+    - uang tunai **dibawa pulang**, tidak pernah ditinggal di lapak.
+11. Selisih kas >Rp20.000 [aturan internal]: catat penyebabnya (salah kembalian, item tidak tercatat), bahas dengan helper esok harinya, tanpa menyalahkan.
+12. Pulang. Isi ulang lampu dan powerbank. Konsentrat ke kulkas.
 
 ---
 
-## 5. Alat (stack terkecil)
+## 8. Alat kerja (stack terkecil)
 
-**MoodBrew AI dibekukan, sesuai syarat board C1.** Tidak ada Customer App, tidak ada POS buatan sendiri, dan tidak ada biaya pengembangan di tahun 1. Pemesanan dilakukan lewat percakapan dengan barista.
+**MoodBrew tetap dibekukan** (board C1). Tidak ada aplikasi pelanggan; memesan dilakukan lewat percakapan.
 
-| Kebutuhan | Alat | Harga publik | Mengapa |
+| Kebutuhan | Alat | Harga | Mengapa |
 |---|---|---|---|
-| POS + QRIS (kedai) | **Majoo Starter** (pilihan utama, setelah demo) | Rp249.000/outlet/bulan, belum PPN, **minimal langganan 12 bulan** | Halaman resmi mencantumkan pencatatan resep, stok, harga modal, dan **pembayaran QRIS** di paket Starter ([majoo.id/harga](https://majoo.id/harga), [FAQ](https://majoo.id/faq), [detail](https://majoo.id/harga/detail)). |
-| POS (alternatif termurah) | Qasir Pro | Rp699.000/12 bulan (≈Rp58.250/bulan), belum pajak | Menu bahan baku dan resep ada, otomatisasinya disarankan di Pro/Pro Plus ([blog Qasir](https://blog.qasir.id/en/tips/kini-menu-bahan-baku-resep-bisa-diakses-langsung-di-aplikasi-qasir?region=id), [harga](https://www.qasir.id/en/pricing)). **Dukungan QRIS Qasir tidak terverifikasi.** |
-| POS (pembanding) | Moka Basic | Rp299.000/outlet/bulan, +Rp10.000/slot karyawan ([Moka](https://www.mokapos.com/en/pricing)) | Dipakai CFO. Satu ulasan menyebut manajemen bahan baku ada di paket **Pro Rp499.000** ([HashMicro](https://www.hashmicro.com/id/blog/review-aplikasi-moka-pos/)), jadi Basic mungkin tidak cukup. Tanyakan saat demo. |
-| POS untuk pop-up | Versi gratis Qasir atau majoolite + **QRIS statis** dari bank | Gratis. QRIS statis contohnya [Livin' Merchant Mandiri](https://www.bankmandiri.co.id/livin-merchant/terima-pembayaran-qris-statis). MDR 0% untuk transaksi ≤Rp100.000 ([BI](https://www.bi.go.id/id/publikasi/ruang-media/cerita-bi/Pages/mdr-qris.aspx)) | Jangan terikat kontrak 12 bulan sebelum lokasi pasti. |
-| Pembukuan | Laporan POS + Google Sheets, ditambah akuntan bulanan | Mekari Jurnal punya aplikasi buku kas **gratis** ([jurnal.id](https://www.jurnal.id/id/aplikasi-buku-kas)); paket berbayar tidak ditemukan harganya | Untuk satu outlet, Sheets cukup sampai ada akuntan. |
-| Stok + HPP | **Google Sheets**, template di bawah | Gratis | Sesuai board C1: spreadsheet HPP, bukan software. |
-| Rota, reservasi, komunikasi tim | Google Sheets (rota, buku reservasi) + WhatsApp Business (reservasi, grup tim) | Gratis | Reservasi meja lewat WhatsApp sudah ada di offer. |
+| Kasir | **Qasir**: mulai dengan versi dasar gratis, naik ke **Pro Rp699.000/12 bulan** (≈Rp58.250/bulan) kalau perlu resep/bahan baku | [qasir.id/pricing](https://www.qasir.id/en/pricing) · versi dasar gratis (`research/cost-inputs.md` §5) | Ringan di HP, tanpa kontrak 12 bulan. **Fitur QRIS bawaan Qasir tidak terverifikasi**, jadi QRIS dicatat manual sebagai metode bayar |
+| Pembayaran | **QRIS statis** dari bank (contoh [Livin' Merchant Mandiri](https://www.bankmandiri.co.id/livin-merchant/terima-pembayaran-qris-statis)), dicetak di standee + tunai | MDR **0% untuk transaksi ≤Rp100.000** di semua kategori merchant; usaha mikro 0% sampai Rp500.000, berlaku 1 Okt 2026 ([BI](https://www.bi.go.id/id/publikasi/ruang-media/cerita-bi/Pages/mdr-qris.aspx)) | Tanpa listrik dan tanpa mesin EDC. Cek mutasi di aplikasi bank saat tutup |
+| HPP, stok, kas | **Google Sheets**, template dari `ops-kafe.md` §5 | Gratis | Sesuai board C1 |
+| Reservasi grup Jumat–Sabtu, pemasok, helper | WhatsApp Business | Gratis | Reservasi meja grup (offer v3) |
 
-**Kriteria memilih POS saat demo:**
-
-- QRIS terintegrasi (wajib);
-- *open bill* per meja, supaya harga gelas kedua Rp15.000 bisa diterapkan di kunjungan yang sama;
-- item Rp0 untuk Cicip Dulu dan Garansi;
-- laporan penjualan per item yang bisa diekspor ke CSV;
-- akun per staf;
-- cetak struk dengan baris "PBJT 10%" begitu sudah wajib.
-
-Resep di POS bagus kalau ada, tapi tidak wajib, karena HPP dan stok ada di Sheets.
-
-**Biaya QRIS untuk tagihan grup.** Transaksi di atas Rp100.000 dikenai MDR 0,7% untuk usaha kecil ke atas, atau 0% sampai Rp500.000 untuk usaha mikro ([BI](https://www.bi.go.id/id/publikasi/ruang-media/cerita-bi/Pages/mdr-qris.aspx)). Meja 4 orang dengan Sesi Ngobrol dan makanan bisa lewat Rp100.000. Dampaknya kecil, tapi bukan nol.
-
-### Template Google Sheets: stok + HPP
-
-Mengikuti rumus PRD founder:
-
-- **HPP = Σ(qty × biaya satuan) + kemasan + cadangan waste**
-- **Harga = HPP ÷ (1 − target margin − biaya variabel)**
-
-| Tab | Kolom | Rumus kunci (contoh baris 2) |
-|---|---|---|
-| **Bahan** | Kode · Nama · Satuan beli · Isi per kemasan (g/ml/pcs) · Harga per kemasan · **Harga per satuan** · Pemasok utama · Pemasok cadangan · Lead time (hari) · Min. order · Tanggal harga · Link sumber | `F2 = E2/D2` |
-| **Resep** | Menu · Kode bahan · Qty · Harga per satuan · **Biaya** | `D2 = XLOOKUP(B2, Bahan!A:A, Bahan!F:F)` · `E2 = C2*D2` |
-| **HPP & Harga** | Menu · Biaya bahan · Kemasan · Waste % · **HPP** · Biaya variabel % · Target margin % · **Harga minimum** · Harga jual · **Margin aktual** · Status | `B2 = SUMIF(Resep!A:A, A2, Resep!E:E)` · `E2 = B2 + C2 + B2*D2` · `H2 = E2/(1-G2-F2)` · `J2 = 1 - E2/I2 - F2` · `K2 = IF(J2<G2, "UBAH HARGA/RESEP", "OK")` |
-| **Penjualan** | Tanggal · Menu · Qty (tempel ekspor POS mingguan) | – |
-| **Stok Mingguan** | Kode · Stok awal · Masuk · Stok akhir (hitung fisik) · Pakai aktual · Pakai teoretis · Selisih % · Par level · **Jumlah pesan** | `E2 = B2 + C2 - D2` · `F2 = SUMPRODUCT(SUMIF(Penjualan!B:B, Resep menu, Penjualan!C:C) × qty resep)` (atau tab bantu per menu) · `G2 = (E2-F2)/F2` · `H2 = (E2/7) * (lead time + 3)` · `I2 = MAX(0, ROUNDUP((H2-D2)/isi kemasan, 0))` |
-| **Waste** | Tanggal · Bahan · Qty · Alasan (kedaluwarsa / salah buat / garansi / teko cicip / dial-in) | Dijumlah per minggu ke Stok Mingguan |
-| **Pembelian** | Tanggal · Pemasok · Bahan · Qty · Harga · Foto nota | – |
-| **Titip jual** | Tanggal · Mitra · Item · Dititip · Terjual · Sisa · Harga mitra · Harga jual · Bagian Kopiyo · Utang ke mitra | `Utang = Terjual × Harga mitra` |
-
-Biaya variabel % adalah PPh Final 0,5% ditambah MDR QRIS (0% untuk ≤Rp100.000). **PBJT 10% tidak dimasukkan** kalau menu menulis "harga belum termasuk PBJT 10%". Kalau harga menu sudah termasuk PBJT, tambahkan 10/110 ≈ 9,09% ke biaya variabel.
-
-**Contoh terisi** *(hitungan dari harga di bagian 2 dan `cost-inputs.md`)*:
-
-| Menu | Bahan | HPP | Harga | Margin aktual | Harga minimum |
-|---|---|---:|---:|---:|---:|
-| V60 (dine-in) | Kopi 15 g × Rp400 = Rp6.000; filter Rp850; air Rp200 → Rp7.050; waste 5% Rp353 | Rp7.403 | Rp25.000 | 1 − 7.403/25.000 − 0,5% = **69,9%** | Target 65%: 7.403 ÷ (1 − 0,65 − 0,005) = **Rp21.458** |
-| Es kopi susu (dine-in) | Konsentrat 16,7 g × Rp263 = Rp4.392; susu 120 ml × Rp23 = Rp2.760; gula aren 15 ml × Rp60 = Rp900; es 150 g × Rp1,99 = Rp299 → Rp8.351; waste 5% Rp418 | Rp8.769 | Rp22.000 | **59,6%** | Target 60%: **Rp22.200**, sedikit di atas harga sekarang |
-| Es kopi susu (take-away) | Sama, ditambah cup PET Rp1.576 | Rp10.345 | Rp22.000 | 52,5% | – |
-
-Catatan: angka harga per satuan memakai harga eceran. Begitu penawaran grosir masuk, ganti di tab Bahan, dan semua HPP ikut berubah otomatis.
-
-### Kapan bagian back-office MoodBrew boleh dibangun
-
-Hanya **back-office** (stok dan HPP), **tidak pernah Customer App**, dan baru dipertimbangkan setelah **minimal 6 bulan data operasi nyata**. Syaratnya, minimal satu dari ini terbukti mahal **dua bulan berturut-turut** (kriteria saya, bukan aturan board):
-
-- admin Sheets dan rekonsiliasi lebih dari 5 jam/minggu;
-- selisih stok yang tidak terjelaskan lebih dari 5% dari biaya bahan;
-- waste di atas target meski SOP dijalankan;
-- atau Kopiyo sudah untung dan membuka outlet kedua (board C11).
-
-**Sebelum membangun, cek dulu** apakah paket POS yang lebih tinggi (misalnya Majoo Advance Rp499.000 atau Moka Pro Rp499.000) sudah menyelesaikan masalahnya. Biaya 12 bulan langganan itu hampir pasti lebih murah daripada membangun software.
+**Tab Google Sheets:**
+- **Dipakai dari `ops-kafe.md`:** Bahan, Resep, HPP & Harga, Penjualan, Stok Mingguan, Waste, Pembelian, Titip jual.
+- **Baru:**
+  - **Log Malam:** tanggal, jam selesai pasang, jam buka, tamu bayar, belanja per tamu, % paket, lama duduk (sampel 5 meja), waktu minuman pertama malam solo (untuk D9), es kopi susu ≤3 menit, malam hujan ya/tidak, sisa es saat tutup, galon dan gas terpakai.
+  - **Kas Harian:** tunai, QRIS, selisih, foto laporan.
+  - **Jam Makanan:** pemasok, item, jam masak di nota, jam tiba, jumlah, sisa, dibuang.
+  - **Jam Helper:** datang, pulang, istirahat, upah, transport.
+  - **Suhu Cooler:** pukul 18.30, 21.00, 24.00 (bulan pertama).
+- **Perbarui harga bahan** di tab Bahan setiap kali nota berubah. HPP dan harga minimum ikut berubah otomatis.
 
 ---
 
-## 6. Izin, pajak, dan asuransi (daftar periksa)
+## 9. Izin dan perjanjian (daftar periksa; bukan nasihat hukum)
 
-**Bukan nasihat hukum.** Aturan berbeda per daerah dan sering berubah. Setiap baris harus dikonfirmasi ke instansinya atau ke konsultan/akuntan. Sumber yang saling bertentangan ditulis apa adanya.
-
-| # | Apa | Yang diketahui dari sumber | Halaman untuk konfirmasi | Kapan |
+| # | Apa | Yang diketahui | Halaman untuk konfirmasi | Kapan |
 |---|---|---|---|---|
-| 1 | **Bentuk usaha dan NPWP** | PPh Final 0,5% (PP 20/2026) hanya untuk orang pribadi dan PT Perorangan dengan omzet ≤Rp4,8 M/tahun. CV dan PT biasa tidak lagi berhak. Skala usaha (mikro atau kecil) juga menentukan kewajiban BPJS (bagian 3c). | [DJP: PP 20/2026](https://www.pajak.go.id/en/node/119950) | Sebelum NIB. **Tanya akuntan.** |
-| 2 | **NIB lewat OSS** | Gratis. KBLI rumah minum/kafe **56303**; kedai minuman **56304**. Tambah KBLI makanan kalau perlu. **Sejak 16 Jun 2026, OSS memakai KBLI 2025 untuk pendaftaran baru** (sumber komersial). Tingkat risiko antarsumber tidak konsisten: rendah (cukup NIB) vs menengah rendah (NIB + Sertifikat Standar). | [oss.go.id](https://oss.go.id) · [kbli.co.id 56303](https://kbli.co.id/56303) · [Unpad KBLI 2025: 56304](https://dpb.unpad.ac.id/kbli2025/56304/) · [Hukumonline](https://www.hukumonline.com/klinik/a/izin-usaha-untuk-kafe-lt618ca69caa623) | Sebelum pop-up. Pop-up juga butuh identitas usaha. |
-| 3 | **Sertifikat halal** | **Wajib** untuk produk makanan dan minuman usaha mikro dan kecil **sejak 18 Okt 2026**, tanpa penundaan lagi. **Jalur gratis SEHATI/*self-declare*** (kuota 2026: 1,35 juta) **kemungkinan tidak berlaku untuk kedai.** Beberapa sumber menyebut produk usaha restoran, kantin, katering, dan kedai/warung makan dikecualikan, dan ada syarat sudah berproduksi minimal 1 tahun ([Republika](https://ekonomi.republika.co.id/berita/rm06a9349/begini-caranya-ukm-bisa-self-declare-halal), [NU Online](https://nu.or.id/nasional/cara-mendapatkan-sertifikasi-halal-bagi-pengusaha-makanan-dan-minuman-Mh4vY)). Sumber lain menyebut kafe UMK bisa *self-declare* ([Smartlegal](https://smartlegal.id/perizinan/2024/05/14/restoran-dkk-juga-wajib-ada-sertifikat-halal/)). **Rencanakan jalur reguler**: tarif UMK Rp650.000 (Rp300.000 pendaftaran + Rp350.000 pemeriksaan LPH), ditambah kemungkinan biaya transport auditor ([Kontan](https://nasional.kontan.co.id/news/simak-rincian-aturan-tarif-sertifikasi-halal-bagi-umk)). **Setiap makanan titip harus punya sertifikat halal mitranya sendiri.** | [BPJPH](https://bpjph.halal.go.id/read/kabar-gembira-bpjph-buka-kuota-1-35-juta-sertifikasi-halal-gratis-2026-bagi-umk) · [SIHALAL](https://ptsp.halal.go.id) · [BPJPH: wajib Okt 2026](https://bpjph.halal.go.id/read/sambut-wajib-halal-oktober-2026-kepala-bpjph-serukan-tertib-halal-sebagai-strategi-penguatan-bisnis) | Ajukan **segera setelah NIB**, sebelum buka. Untuk pop-up, jual minuman dan makanan titip bersertifikat saja. |
-| 4 | **SLHS** (Sertifikat Laik Higiene Sanitasi) | Diajukan lewat OSS sebagai PB-UMKU, dengan acuan PMK 17/2024. Butuh **sertifikat pelatihan penjamah pangan**, lolos **inspeksi kesehatan lingkungan (nilai minimal 80)**, dan biasanya uji air. Untuk restoran berisiko menengah rendah, satu dokumen menyebut SLHS paling lambat **1 tahun setelah beroperasi** (mungkin aturan lama). Satu SOP daerah (Lumajang) menyebut masa berlaku 3 tahun. Prosedur khusus DKI tidak ditemukan; Dinkes DKI sedang memprioritaskan SLHS dapur MBG. | [Kemenkes: SE percepatan SLHS](https://kemkes.go.id/id/kemenkes-terbitkan-surat-edaran-percepatan-penerbitan-slhs) · [Antara: SLHS lewat OSS](https://jatim.antaranews.com/berita/981913/kemenkes-percepat-proses-penerbitan-slhs) · [BPS: nilai IKL 80](https://sirusa.bps.go.id/metadata/variabel/331268) · [Kemenparekraf KBLI 56101 (PDF)](https://sisupar.kemenparekraf.go.id/wasdal/uploads/kbli/9.%2056101RESTORAN.pdf) | Pelatihan penjamah untuk semua staf saat pelatihan pra-buka. Tanya **Sudinkes Jakarta Timur** atau PTSP Kecamatan Pulogadung. |
-| 5 | **PBJT makanan & minuman 10%** (dulu pajak restoran) | Wajib kalau omzet **>Rp42 juta/bulan**. Rencana CFO Rp72 juta/bulan, jadi wajib. Bayar dan lapor paling lambat tanggal 10 bulan berikutnya. Daftar objek pajak secara online lewat pajakonline.jakarta.go.id. **Pengecualian Rp42 juta tidak berlaku untuk penjualan insidental**, sehingga penjualan di bazar atau pop-up mungkin tetap kena pajak (tafsiran, belum dikonfirmasi). | [Bapenda: PBJT](https://bapenda.jakarta.go.id/jenis/pajak-restoran) · [Manual daftar WP online (Bapenda)](https://bapenda.jakarta.go.id/peraturan-perpajakan/unduh/manual-cara-daftar-wp-pajak-online) · [DDTC: cara daftar objek](https://news.ddtc.co.id/literasi/tips-trik/1806104/cara-daftarkan-tempat-usaha-sebagai-objek-pajak-restoran-di-jakarta) · [DDTC: lapor SPTPD](https://news.ddtc.co.id/literasi/tips-trik/1819975/cara-lapor-sptpd-untuk-pbjt-makananminuman-secara-online-di-jakarta) · [DDTC: insidental](https://news.ddtc.co.id/berita/daerah/1799846/threshold-pajak-restoran-di-dki-jakarta-naik-jadi-rp42-juta-per-bulan) | Daftar begitu omzet mendekati Rp42 juta (sekitar bulan 3 menurut ramp). Tulis "harga belum termasuk PBJT 10%" sejak hari pertama. **Pisahkan 10% omzet ke rekening terpisah setiap minggu.** |
-| 6 | **BPJS Ketenagakerjaan + Kesehatan** (pemberi kerja) | Daftar sebagai pemberi kerja dengan NIB/izin usaha, NPWP, dan KTP; bisa online atau di kantor cabang. Kartu peserta terbit ±7 hari setelah iuran dibayar (satu sumber). Program wajib tergantung skala usaha (bagian 3c). | [CNN Indonesia: cara daftar](https://www.cnnindonesia.com/edukasi/20260730120122-561-1386547/cara-daftar-kepesertaan-bpjs-ketenagakerjaan-simak-tahapannya) · [BPJS TK](https://www.bpjsketenagakerjaan.go.id) · [BPJS Kesehatan](https://www.bpjs-kesehatan.go.id) | Sebelum staf mulai pelatihan. |
-| 7 | **Royalti musik (LMKN)** | Kafe dan restoran yang memutar musik membayar royalti. Tarif yang paling sering disebut **Rp120.000/kursi/tahun** (Rp60.000 hak cipta + Rp60.000 hak terkait). Bayar online lewat SIDRAMA. UMKM bisa mengajukan **keringanan atau pembebasan** (mekanismenya belum seragam). | [izin.co.id: panduan 2026](https://izin.co.id/blog/cara-bayar-royalti-lagu/) · [Popbela](https://www.popbela.com/career/working-life/kafe-dan-restoran-wajib-bayar-royalti-musik-00-6sk7r-g15k6h) · [Bisnis.com: lisensi online](https://ekonomi.bisnis.com/read/20251104/12/1925904/cara-dan-syarat-urus-lisensi-musik-di-lmkn-secara-online) · [DDTC: keringanan usaha mikro](https://news.ddtc.co.id/berita/nasional/29062/tarif-royalti-musik-yang-digunakan-usaha-mikro-bakal-diringankan) | Sebelum buka. Ajukan keringanan. |
-| 8 | **Papan nama / reklame** | Papan nama usaha **≤1 m²** yang menempel di bangunan dikecualikan dari pajak reklame (dengan syarat lain). Di luar itu kena pajak reklame. Perlu tidaknya izin pemasangan papan kecil **tidak ditemukan**. | [Pergub DKI 29/2024 (DDTC)](https://perpajakan.ddtc.co.id/id/sumber-hukum/peraturan-daerah/peraturan-gubernur-provinsi-dki-jakarta-29-tahun-2024) · [DDTC News](https://news.ddtc.co.id/berita/daerah/1820178/pasang-reklame-pengenal-usaha-tak-kena-pajak-perhatikan-aturan-ini) | Sebelum memesan signage. Tanya Bapenda/PTSP. |
-| 9 | **Proteksi kebakaran (APAR)** | Perda DKI 8/2008 dan aturan teknisnya (Pergub 72/2021, Permenaker 04/1980) mengatur APAR: mudah dilihat, mudah dijangkau, sesuai kelas kebakaran. **Jumlah dan jenis untuk kafe kecil tidak ditemukan.** | [ESDM: penempatan APAR](https://www.esdm.go.id/id/berita-unit/direktorat-jenderal-minyak-dan-gas-bumi/tingkatkan-kesiagaan-ditjen-migas-gelar-pelatihan-apar) · [Katadata: Gempar, Perda 8/2008](https://katadata.co.id/amp/info/691c13804738c/tangani-kebakaran-jakarta-punya-gempar-dan-pos-damkar-baru/) | Tanya Dinas Gulkarmat DKI saat fit-out. Dapur dengan LPG minimal 1 APAR di dekat kompor (praktik umum, belum dikonfirmasi). |
-| 10 | **Bangunan dan sewa** | Pastikan fungsi bangunan ruko (PBG/IMB) membolehkan usaha makanan dan minuman, dan pemilik mengizinkan F&B, gas, exhaust, dan papan nama. | Tanya PTSP dan minta salinan dokumen dari pemilik | Sebelum tanda tangan sewa (bagian 7). |
-| 11 | **Ketenagakerjaan** | Kontrak kerja tertulis, upah ≥UMP (bagian 3c), lembur dengan persetujuan tertulis, kewajiban kerja malam perempuan, THR. | Konsultan atau Sudinakertrans Jakarta Timur | Sebelum rekrut. |
-| 12 | **QRIS** | Daftar merchant lewat bank atau penyedia POS. Kategori UMI vs usaha kecil menentukan MDR di atas Rp100.000. | [BI: MDR QRIS](https://www.bi.go.id/id/publikasi/ruang-media/cerita-bi/Pages/mdr-qris.aspx) | Sebelum pop-up. |
-| 13 | **Asuransi** (tidak wajib, disarankan) | Tarif asuransi kebakaran menurut kelas risiko OJK: rendah 0,05–0,10%, sedang 0,10–0,20%, tinggi 0,20–0,35% dari nilai pertanggungan, ditambah PPN dan biaya admin. Contoh produk ruko (Simas Ruko): premi minimum Rp200.000; **stok bahan mudah terbakar tidak dijamin**. Asuransi mikro BRI Insurance Rp40.000/tahun dengan santunan ±Rp5 juta (terlalu kecil untuk isi kafe). | [IDX Channel: tarif OJK](https://www.idxchannel.com/milenomic/jangan-asal-punya-poperti-begini-cara-menghitung-premi-asuransi-rumah/all) · [Sinarmas: RIPLAY Simas Ruko](https://www.sinarmas.co.id/property/9622093/RIPLAY-Umum-Simas-Ruko.pdf) · [Jawa Pos: asuransi mikro](https://www.jawapos.com/ekonomi/2307200182/mulai-rp-40-ribu-per-tahun-brins-sediakan-asuransi-mikro-kerusakan-tempat-usaha-bagi-umkm) | Minta 2–3 penawaran sebelum buka, untuk isi kedai, fit-out, dan alat. |
+| 1 | **NIB lewat OSS** (gratis) | **KBLI 56304 Kedai Minuman** (titik tetap) atau **56306 Penyediaan Minuman Keliling/Tempat Tidak Tetap**. 56306 disebut tidak untuk bentuk tetap seperti kafe. Lapak ini **satu titik tetap tetapi dibongkar setiap malam**, jadi tergolong abu-abu. Tingkat risiko 56304 berbeda antarsumber. OSS memakai **KBLI 2025** untuk pendaftaran baru sejak 16 Jun 2026. Kalau menjual makanan, tambahkan KBLI makanan | [oss.go.id](https://oss.go.id) · [Unpad KBLI 2025: 56304](https://dpb.unpad.ac.id/kbli2025/56304/) · [Unpad: 56306](https://dpb.unpad.ac.id/kbli2025/56306/) · [kbli.co.id (KBLI 2025)](https://kbli.co.id/56303) · [UKM Indonesia](https://ukmindonesia.id/baca-deskripsi-posts/izin-usaha-cafe-kecil-untuk-umkm-melalui-oss-begini-ketentuannya) | Minggu ini. **Tanyakan KBLI ke PTSP Kec. Pulo Gadung.** NIB skala mikro juga dibutuhkan untuk SEHATI |
+| 2 | **Sertifikat halal (SEHATI, gratis)** | **Wajib sejak 18 Okt 2026, tanpa penundaan** ([RCTI+/iNews](https://www.rctiplus.com/news/detail/inews/5490438/wajib-halal-mulai-18-oktober-2026--pemerintah-pastikan-tak-ada-penundaan)), **termasuk lapak PKL**, dan SEHATI ditujukan antara lain untuk penjual minuman ([JawaPos](https://www.jawapos.com/nasional/2510220191/wajib-halal-berlaku-pada-17-oktober-2026-pedagang-kaki-lima-tak-perlu-takut-karena-ada-layanan-sertifikasi-gratis)). Kuota SEHATI 2026: 1,35 juta. Kriteria menurut [BPJPH](https://bpjph.halal.go.id/read/ini-kriteria-pelaku-umk-yang-dapat-mengajukan-sertifikat-halal-gratis-program-sehati-2026) dan ringkasan [UKM Indonesia (15 kriteria)](https://ukmindonesia.id/baca-deskripsi-posts/15-kriteria-umk-yang-bisa-ajukan-sertifikasi-halal-gratis-di-program-sehati-2026): NIB skala mikro/kecil, bahan yang sudah dipastikan halal, satu fasilitas produksi dan satu outlet, verifikasi oleh pendamping PPH. Kategori non-warteg **maksimal 10 nama produk** ([Suara Surabaya](https://www.suarasurabaya.net/?p=836933)) | [SIHALAL ptsp.halal.go.id](https://ptsp.halal.go.id) · [BPJPH](https://bpjph.halal.go.id/read/kabar-gembira-bpjph-buka-kuota-1-35-juta-sertifikasi-halal-gratis-2026-bagi-umk) | **Segera setelah NIB.** Tanyakan ke BPJPH apakah boleh berjualan selama proses (`lapak-malam.md`) |
+| 3 | **Pengantar RT/RW dan Surat Keterangan Usaha (SKU)** | Diawali pengantar RT, disahkan RW, **resminya gratis**. Dokumen yang sering diminta: **surat pernyataan tidak berjualan di badan jalan/trotoar**, pernyataan tidak mengganggu, foto lokasi, perjanjian tempat (`research/lokasi-rawamangun.md` §2d) | [Popbela](https://www.popbela.com/career/working-life/contoh-surat-keterangan-usaha-dari-desa-00-xbhyx-sgq0qz) · [Klikpajak](https://klikpajak.id/blog/cara-membuat-surat-keterangan-usaha-dari-desa/) | Setelah perjanjian tempat, sebelum malam latihan |
+| 4 | **Perjanjian tertulis dengan tuan rumah** (syarat D4) | Isi minimal di bawah tabel ini | Ditandatangani pemilik sah (kalau penyewa, persetujuan pemilik) | Sebelum membeli gerobak |
+| 5 | **Larangan trotoar** | Perda DKI 8/2007 Pasal 25(2); penegakan 2026 diperketat | [Hukumonline](https://www.hukumonline.com/klinik/a/sanksi-berjualan-di-fasilitas-umum-perumahan-lt51c11b74eca70/) · [Republika](https://ekonomi.republika.co.id/berita/t9viee416/pramono-tertibkan-pkl-di-trotoar-jakarta) | Setiap malam (SOP-L1) |
+| 6 | **PBJT 10%** | Belum wajib selama omzet ≤Rp42 jt/bulan. Rencana 28 tamu × Rp29.000 × 17 malam ≈ Rp13,8 jt *(hitungan)*. Pengecualian ini tidak berlaku untuk penjualan insidental (bazar) | [Bapenda DKI](https://bapenda.jakarta.go.id/jenis/pajak-restoran) · [DDTC](https://news.ddtc.co.id/berita/daerah/1799846/threshold-pajak-restoran-di-dki-jakarta-naik-jadi-rp42-juta-per-bulan) | Pantau bulanan. Tanyakan apakah PBJT tuan rumah ikut menghitung omzet lapak (`research/lokasi-rawamangun.md` §5b) |
+| 7 | **PPh Final 0,5%** | Orang pribadi: omzet Rp500 jt pertama per tahun tidak kena PPh (PP 20/2026) | [DJP](https://www.pajak.go.id/en/node/119950) | Tanya akuntan atau KPP |
+| 8 | **Papan nama** | Papan ≤1 m² yang menempel di bangunan/area usaha dikecualikan dari pajak reklame (dengan syarat lain) | [DDTC](https://news.ddtc.co.id/berita/daerah/1820178/pasang-reklame-pengenal-usaha-tak-kena-pajak-perhatikan-aturan-ini) | Sebelum mencetak spanduk. Spanduk 3 m² mungkin kena pajak; tanya Bapenda |
+| 9 | **Musik** | Usaha yang memutar musik membayar royalti LMKN (`ops-kafe.md` §6) | [izin.co.id](https://izin.co.id/blog/cara-bayar-royalti-lagu/) | **Tidak memutar musik** dari speaker. Tidak ada royalti, keluhan bising lebih kecil |
+| 10 | **Keselamatan gas** | Loksem JT 23 Rawamangun terbakar karena bocor gas. Kaleng gas rusak atau terlalu panas dan pemasangan miring adalah penyebab umum ledakan kompor portabel | [Berita Jakarta: JT 23](https://m.beritajakarta.id/en/read/55212/four-loksem-jt-23-kiosks-burned-in-fire-caused-by-gas-leak) · [Popmama](https://www.popmama.com/life/home-and-living/penyebab-kompor-portable-meledak-00-8jnbb-6wqvzc) · [Berita Jakarta: tips LPG](https://m.beritajakarta.id/en/read/21588/here-are-tips-how-to-use-lpg-gas-stoves-safely) | Setiap malam: tes sabun, APAR, kaleng tidak di bawah sinar panas, satu kaleng satu kompor |
+| 11 | **Ketenagakerjaan helper** | Upah ≥UMP ÷ 126 per jam; aturan kerja malam perempuan; BPJS minimal JKK + JKM | Bagian 6a | Sebelum malam latihan |
 
-**Urutan yang disarankan:**
-
-1. Bentuk usaha dan NPWP (akuntan).
-2. NIB.
-3. QRIS dan POS gratis.
-4. Pop-up.
-5. Halal (reguler) diajukan.
-6. Sewa ditandatangani.
-7. BPJS dan kontrak staf.
-8. Pelatihan penjamah dan pelatihan pra-buka.
-9. LMKN.
-10. Buka.
-11. Daftar PBJT saat omzet mendekati Rp42 juta.
-12. SLHS selesai secepatnya, paling lambat sesuai batas yang berlaku.
-
----
-
-## 7. Checklist memilih tempat
-
-Isi checklist ini untuk setiap calon tempat. Angka ambang di bawah adalah **usulan saya [estimasi]**; sesuaikan dengan data pop-up.
-
-| # | Kriteria | Cara cek | Lulus kalau |
-|---|---|---|---|
-| 1 | **Parkir motor** | Hitung slot motor legal dalam 50 m pada Jumat pukul 19.00. Tanya pemilik soal juru parkir dan tarifnya. | ≥15 motor tanpa memakan trotoar atau mengganggu tetangga. Ada titik turun ojol. Parkir adalah keluhan nomor 3 di kompetitor (`competitors.md`). |
-| 2 | **Keramaian malam** | Hitung orang dan motor yang lewat dan melambat selama 30 menit pada Selasa dan Jumat, pukul 18.00–21.00. Catat usaha tetangga yang buka sampai malam. | Jalan hidup sampai ±22.00 (warung, minimarket, kos). Bukan jalan gelap dan sepi. |
-| 3 | **Dekat TransJakarta / koridor Jl. Pemuda** | Jalan kaki dari halte. Halte **Pemuda Rawamangun** (Koridor 4) di Jl. Pemuda terhubung dengan **LRT Velodrome** lewat jembatan ([Wikipedia](https://en.wikipedia.org/wiki/Pemuda_Rawamangun_(Transjakarta)), [Merah Putih](https://www.merahputih.com/post/read/lrt-stasiun-velodrome-resmi-terintegrasi-dengan-transjakarta-halte-pemuda)). | ≤10 menit jalan kaki dari halte atau stasiun. |
-| 4 | **Kebisingan** | Duduk di dalam pukul 19.00 dan coba ngobrol dengan suara normal. Cek tetangga (karaoke, bengkel). Tanya RT/RW apakah buka sampai 24.00 akan dikeluhkan warga. | Ngobrol nyaman tanpa menaikkan suara. Tidak ada tetangga rumah tinggal yang menempel dinding. |
-| 5 | **Daya listrik ≥6.600 VA** | Lihat meteran dan rekening PLN. Beban kasar [estimasi, cek ke teknisi]: 2 kettle, chiller, freezer, 2 AC, griddle, grinder, lampu, RO. | **Sudah ≥6.600 VA (golongan B-2)**, atau pemilik mengizinkan dan menanggung tambah daya. Di atas 5.500 VA harus diajukan langsung ke PLN; biaya dan waktunya belum diketahui. |
-| 6 | **Air** | Cek sambungan PAM (bukan hanya sumur), tekanan air, saluran buang, dan kemungkinan memasang penangkap lemak. | Air PAM tersedia (dibutuhkan untuk RO, wastafel, uji air SLHS). Saluran tidak mampet. |
-| 7 | **Pemilik mengizinkan F&B** | Tulis di kontrak: usaha kafe, kompor LPG, exhaust, papan nama di fasad, jam operasi sampai 01.00, renovasi. Minta salinan sertifikat dan PBG/IMB. | Semua tertulis. Fungsi bangunan sesuai usaha. Pemilik adalah pemilik sah. |
-| 8 | **Sewa dibayar tahunan** | Hitung kas: sewa setahun di muka + deposit Rp25–75 juta (`cost-inputs.md` §1). Negosiasikan pembayaran 6 bulanan, opsi perpanjangan dengan batas kenaikan, dan syarat pengembalian deposit. | Total kas awal masuk anggaran founder (CFO: ±Rp292–376 juta dengan sewa setahun di muka). **Hindari kontrak 3 tahun dibayar di muka sebelum pop-up membuktikan permintaan.** |
-| 9 | **Ukuran dan tata letak** | Ukur lantai dasar. Bar harus terlihat dari pintu. Ada toilet, gudang kecil, dan tempat dapur sederhana. | Cukup untuk 24–30 kursi di lantai dasar. Tamu bisa melihat V60 diseduh. |
-| 10 | **Riwayat banjir dan keamanan** | Tanya tetangga dan RT soal banjir musim hujan (Nov–Feb) dan pencurian. | Tidak ada riwayat banjir masuk bangunan. |
-| 11 | **Jarak dari pesaing** | Petakan jarak ke Hulu Coffee dan Pukul Satu Kopi (`competitors.md`). | Tidak bersebelahan dengan kafe WFC besar yang menarik orang berlaptop. |
+**Isi perjanjian tertulis dengan tuan rumah** (syarat D4, ditambah `research/lokasi-rawamangun.md` §5b):
+1. Para pihak; **pemilik sah** (atau persetujuan tertulis pemilik kalau tuan rumah penyewa).
+2. **Batas area** yang boleh dipakai (sketsa + foto). Semua di dalam persil, tidak di trotoar atau di atas saluran.
+3. **Hari dan jam:** Rabu–Sabtu 17.30–00.45. Siapa membuka pagar; akses untuk helper Jumat–Sabtu.
+4. **Jangka minimal 6 bulan**, dengan masa coba 1 bulan dan **pemberitahuan berhenti minimal 30 hari** [estimasi wajar].
+5. **Atap atau rencana hujan:** area beratap mana yang boleh dipakai saat hujan.
+6. **Toilet:** boleh dipakai founder, helper, dan tamu?
+7. **Air:** boleh memakai keran untuk cuci gelas? Berapa kontribusinya?
+8. **Titip gerobak dan barang** semalaman, termasuk **izin menyimpan tabung gas** atau tidak.
+9. **Kompor gas portabel:** diizinkan; Lapak Yok membawa APAR.
+10. (Opsional) **Titip 2 botol di kulkas toko** setiap pagi Jumat (bagian 2d).
+11. **Klausul eksklusif kopi malam:** tuan rumah tidak menyewakan teras malam ke penjual kopi lain selama perjanjian.
+12. **Biaya:** sewa tetap per bulan atau bagi hasil %, tanggal bayar, kuitansi.
+13. **Kebersihan, sampah, dan air limbah:** dibuang ke mana; standar bersih setelah tutup.
+14. **Kerusakan dan kehilangan:** siapa menanggung.
+15. **Kebisingan dan parkir motor:** area parkir; jam tenang.
+16. **PBJT:** apakah usaha tuan rumah terdaftar PBJT, dan apakah omzet lapak terpisah.
 
 ---
 
-## 8. Kit pop-up (untuk uji sebelum sewa, syarat board C8)
-
-**Format yang disarankan: "ambil alih malam".** Pakai tempat di Rawamangun yang tutup sore (kafe siang, toko roti, toko buku, galeri, atau warung makan yang sepi malam) untuk menjalankan Kopiyo pukul 18.00–23.00, dengan meja tanpa laptop. Format ini menguji konsep yang persis (sepulang kerja, duduk, ngobrol) lebih baik daripada booth bazar.
-
-**Peralatan.** Semua bisa dibawa ke kedai nanti; ini adalah paket A milik CFO.
-
-| Barang | Jumlah | Harga | Sumber |
-|---|---|---|---|
-| Grinder Latina 600N | 1 | Rp3,79–4,04 juta | [Tokopedia](https://www.tokopedia.com/find/grinder-latina-600n) |
-| Kettle Timemore Fish Smart | 2 | Rp1,22–1,35 juta/unit | [Tokopedia](https://www.tokopedia.com/find/timemore-fish-smart-kettle) |
-| Dripper V60 02 | 3 | Rp136.550–160.000/unit | [Tokopedia](https://www.tokopedia.com/find/hario-v60-dripper-02?page=2) |
-| Timbangan Timemore Basic 2 | 2 | Rp645.000–695.000/unit | [Tokopedia](https://www.tokopedia.com/find/timemore-black-mirror-basic-2) |
-| **Subtotal alat** | | **±Rp7,9–8,6 juta** *(hitungan)* | |
-| Filter V60 | 200 lembar | Rp170.000 | [Otten](https://ottencoffee.co.id/filters/hario-paper-filter-vcf-02-100w) |
-| Konsentrat cold brew (diseduh di rumah atau dapur tuan rumah sehari sebelumnya), botol 1 L, cooler box | – | Bahan sesuai HPP | SOP-03 |
-| Es kristal | 10–20 kg/sesi | Rp9.950/5 kg | [CoolFresh](https://www.tokopedia.com/espugautama/es-batu-kristal-jakarta-timur-100-halal-5kg) |
-| Cup PET 14 oz / paper cup 8 oz (kalau tuan rumah tidak punya gelas) | – | Rp730–1.576/set; ±Rp565–700/set | bagian 2c |
-| Meja lipat sebagai bar portabel, taplak, server, termos air panas cadangan | 1 set | **Pinjam dari tuan rumah, atau minta penawaran** | – |
-| POS gratis + **QRIS statis cetak** | – | Gratis | bagian 5 |
-| Papan "HP boleh, laptop tidak", papan menu, kartu beans, formulir daftar WhatsApp | – | Cetak lokal [estimasi kecil] | – |
-| Higiene: jeriken air cuci tangan, sabun, sanitizer, lap, kantong sampah | – | [estimasi kecil] | – |
-
-**Listrik:**
-
-- Dua kettle listrik adalah beban terbesar. Daya kettle tidak saya temukan; cek label (kettle gooseneck listrik umumnya ±1.000–1.200 W [estimasi]).
-- **Minta tuan rumah menyediakan 2 stopkontak di sirkuit berbeda.**
-- Alternatif tanpa listrik: kompor gas portabel + kettle gooseneck kompor + termometer.
-- *Power station* seperti EcoFlow Delta 2 (1.024 Wh/1.800 W, tercantum Rp10,79 juta di Tokopedia resmi, tanggal tidak jelas; [Tokopedia](https://www.tokopedia.com/ecoflow-id/ecoflow-delta-2-1024wh-1800w-power-station-solar-generator-lfp-camping-genset-baterai-pembangkit-listrik-hybrid-dan-offgrid-berdaya-besar-untuk-rumah-camping-bis-rv-van-1731625066755687659)) **tidak disarankan** untuk uji: mahal dan tidak kuat menyalakan dua kettle semalaman.
-- Genset sewa berisik, butuh operator, dan biasanya minimal sewa 3 hari menurut sumber lama ([detikFinance](https://finance.detik.com/energi/d-3345073/pln-punya-i-power-bank-i-segede-mobil)). Itu bertentangan dengan suasana ngobrol.
-
-**Pilihan kesepakatan dengan tuan rumah.** Tarif sewa booth dan persentase bagi hasil untuk pop-up **tidak ditemukan** di sumber publik; semua harus dinegosiasikan.
-
-| Opsi | Cara | Cocok kalau |
-|---|---|---|
-| A. Sewa tetap per sesi | Kopiyo membayar biaya tetap per malam, semua penjualan milik Kopiyo | Tempat sudah ramai, tuan rumah mau pasti |
-| B. Bagi hasil % dari penjualan Kopiyo | Tuan rumah mendapat persentase omzet Kopiyo. Usulan saya untuk membuka negosiasi 10–15% (**bukan angka pasar**) | Tempat tutup malam: tuan rumah dapat uang dari jam yang kosong |
-| C. Saling jual | Tuan rumah menjual makanannya, Kopiyo menjual minuman, masing-masing menyimpan omzetnya sendiri | Tuan rumah adalah warung atau toko roti. Sekaligus menguji kombinasi kopi + makanan tanpa titip jual. |
-| D. Barter | Gratis. Tuan rumah mendapat promosi dan trafik baru | Tempat baru atau komunitas (toko buku, galeri) |
-
-**Izin dan kewajiban untuk pop-up** (konfirmasi masing-masing):
-
-1. **Perjanjian tertulis dengan tuan rumah:** tanggal, jam, listrik dan air, bagi hasil, kebersihan, kerusakan, siapa yang menanggung royalti musik (sebaiknya tuan rumah, kalau musiknya milik mereka), parkir.
-2. **NIB Kopiyo** (gratis) dan QRIS atas nama usaha.
-3. **Halal:** sejak 18 Okt 2026 produk makanan dan minuman UMK wajib bersertifikat. Ajukan secepatnya. Untuk pop-up, makanan hanya dari mitra yang sudah bersertifikat (atau makanan tuan rumah, opsi C).
-4. **PBJT:** pengecualian Rp42 juta/bulan tidak berlaku untuk penjualan insidental. Tanyakan ke Bapenda apakah pop-up beberapa malam termasuk insidental, dan apakah tuan rumah yang sudah terdaftar PBJT memungut pajak atas penjualan di tempatnya. Kalau ragu, tulis "harga belum termasuk PBJT 10%".
-5. Kalau di ruang publik (bukan di dalam tempat usaha tuan rumah): izin dari pengelola atau kelurahan. Tidak saya teliti; **hindari di uji pertama.**
-
-**Kriteria tuan rumah:**
-
-- di Rawamangun, dekat Jl. Pemuda atau TransJakarta;
-- 16–24 kursi;
-- kosong atau tutup pukul 18.00–23.00;
-- bukan tempat yang ramai orang berlaptop, dan mau aturan "tanpa laptop" selama sesi;
-- 2 stopkontak, air, toilet, parkir motor.
-
-**Yang diukur di setiap sesi** (untuk `/founder-launch`):
-
-- tamu per sesi;
-- % es kopi susu vs V60;
-- **% es kopi susu ≤3 menit** (stopwatch, SOP-03);
-- pengambilan Cicip Dulu dan berapa yang lanjut membeli;
-- belanja per tamu;
-- lama duduk;
-- % gelas kedua dan % pesan makanan;
-- kejadian laptop;
-- jumlah nomor WhatsApp yang didapat dan **% yang kembali dalam 14 hari**;
-- waktu tugas nyata, untuk mengganti estimasi beban kerja di bagian 3a;
-- uji harga dari `pricing.md` (V60 Rp25.000 vs Rp28.000; Sesi Rp75.000 vs Rp95.000).
-
----
-
-## 9. Daftar risiko (10 yang paling mungkin)
+## 10. Daftar risiko (10 yang paling mungkin)
 
 | # | Risiko | Kemungkinan | Dampak | Tanda awal | Rencana: cegah / saat terjadi |
 |---|---|:-:|:-:|---|---|
-| 1 | **Barista utama keluar** | Sedang | Tinggi | Sering telat, mengeluh jadwal, tawaran dari kafe lain | **Cegah:** resep tertulis dan ditimbang (SOP-04) supaya rasa tidak bergantung pada satu orang; minimal 2 orang bisa V60 (B2, lalu H di bulan 3); jadwal adil dan makan staf; masa pemberitahuan di kontrak. **Saat terjadi:** founder atau B2 mengambil alih bar; panggil barista lepas dari daftar cadangan; menu sementara 2 beans; rekrut dengan masa tumpang tindih 1–2 minggu. |
-| 2 | **Beans habis atau tanggal sangrai terlalu tua** | Sedang | Sedang–Tinggi (pecinta kopi pergi) | Stok di bawah par, roaster telat konfirmasi | **Cegah:** par level di Sheets (SOP-09), 2 roaster (utama + cadangan), pesan setiap Senin, jendela 7–30 hari, tanggal sangrai tertulis di kartu beans. **Saat terjadi:** beli dari Otten atau Tokopedia dengan kurir instan dalam kota; kurangi ke 2 beans; jangan pernah menyajikan beans >30 hari. |
-| 3 | **"3 menit" gagal saat ramai pukul 19.00** | **Tinggi** (4 pembeli panel sudah meragukannya) | Tinggi (janji pertama yang dirasakan tamu) | Log SOP-03 di bawah 90% ≤3 menit | **Cegah:** base kopi susu dicampur pukul 18.30; jalur cepat terpisah dari V60 dan dipegang host; es kopi susu menyalip antrean; orang ke-3 di jam ramai mulai bulan 5; uji di pop-up dengan stopwatch. **Saat terjadi:** jujur ke tamu; kalau lebih dari 2 kali seminggu, tambah shift R. Kalau tetap gagal, ubah janji di pitch ("cepat") sebelum review buruk menulisnya. |
-| 4 | **Mitra makanan titip tidak andal** | Sedang | Sedang | Telat antar, porsi berubah, tagihan tidak sesuai | **Cegah:** hanya rice bowl yang dititip (bagian 2d); perjanjian tertulis; 2 calon mitra yang sudah lolos uji rasa; cek setiap pengiriman pukul 15.30. **Saat terjadi:** tulis "rice bowl habis hari ini"; roti bakar, pisang goreng, dan mie tetap jalan karena dibuat sendiri; aktifkan mitra cadangan. |
-| 5 | **Listrik atau air mati** | Sedang (musim hujan Nov–Feb) | Sedang | Pemberitahuan PLN/PAM, hujan deras | **Cegah:** QRIS statis cetak (POS mati tetap bisa bayar), POS di HP + hotspot, lampu darurat, stok 5–10 galon air, kompor gas + kettle kompor sebagai cadangan kettle listrik. **Saat terjadi:** menu darurat (konsentrat + V60 dengan kettle kompor); susu yang lebih dari 2 jam tidak dingin dibuang [aturan internal]; catat suhu chiller; kalau lebih dari 2 jam, tutup dapur dan beri tahu tamu dengan jujur. |
-| 6 | **Ulasan buruk** | **Tinggi** (tempat baru, sedikit ulasan) | Sedang (masalah reputasi adalah keberatan utama panel) | Rating Google turun, keluhan di log berulang | **Cegah:** SOP-02 dan SOP-07, log keluhan ditinjau setiap Minggu, minta tamu yang puas menulis ulasan. **Saat terjadi:** founder membalas dalam 24 jam, perbaiki akar masalahnya, undang kembali. Jangan berdebat di publik. |
-| 7 | **Kejutan PBJT atau pajak** | Sedang | Tinggi (10% omzet) | Omzet bulanan mendekati Rp42 juta; surat dari Bapenda | **Cegah:** "harga belum termasuk PBJT 10%" di menu sejak hari pertama; daftar sebelum melewati ambang; sisihkan 10% omzet setiap minggu; PPh Final 0,5% bulanan; akuntan memeriksa bentuk usaha (PP 20/2026). **Saat terjadi:** bayar dan lapor sebelum tanggal 10; minta akuntan menghitung tunggakan. |
-| 8 | **Konflik dengan tamu berlaptop** | **Tinggi** (budaya WFC di Rawamangun, `competitors.md`) | Rendah–Sedang (satu ulasan marah) | Orang datang membawa tas laptop dan bertanya soal colokan | **Cegah:** aturan di pintu, Google Maps, dan konfirmasi reservasi; tidak menyediakan colokan di meja. **Saat terjadi:** SOP-06: pelan, pribadi, tawarkan take-away atau pengembalian uang; jangan mempermalukan. |
-| 9 | **Bulan sepi lebih lama dari ramp** | **Tinggi** (ramp CFO masih tebakan) | Tinggi (kas) | Rata-rata 7 hari di bawah ramp 2 minggu berturut-turut | **Cegah:** uji pop-up dulu; cadangan kas minimal 3 bulan biaya tetap; mulai tanpa paruh waktu. **Saat terjadi:** tunda shift R; founder mengambil lebih banyak shift; dorong Sesi Ngobrol untuk kantor sekitar dan Kamis Seduh Bareng; jangan memotong waktu seduh atau kualitas (peringatan board). Evaluasi jam buka Senin–Selasa hanya dengan data. |
-| 10 | **Masalah dengan pemilik ruko** | Sedang | Tinggi | Pemilik menunda dokumen, menolak papan nama atau tambah daya | **Cegah:** checklist bagian 7; kontrak notaris yang mencantumkan izin F&B, jam buka, papan nama, tambah daya, perpanjangan dengan batas kenaikan, pengembalian deposit; cek kepemilikan sah. **Saat terjadi:** rujuk kontrak; siapkan calon tempat kedua dari hasil survei; jangan menambah renovasi sebelum masalah selesai. |
+| 1 | **Hujan** (uji jatuh di puncak hujan Des–Feb) | **Tinggi** | Sedang–Tinggi (malam sepi, alat basah) | Prakiraan BMKG, langit gelap pukul 16.00 | **Cegah:** teras beratap (D4), tirai samping, kursi plastik tahan air, makanan titip dikurangi saat hujan. **Saat terjadi:** SOP-L7; tutup kalau angin/petir; malam hujan dicatat terpisah (D9) |
+| 2 | **Tuan rumah menarik izin** | Sedang | **Tinggi** (lapak berhenti, gerobak harus pindah) | Tuan rumah mengeluh soal sampah, bising, atau "ada yang mau sewa" | **Cegah:** perjanjian 6 bulan + pemberitahuan 30 hari + klausul eksklusif; foto tempat bersih setiap malam; bayar tepat waktu; jaga hubungan dengan tetangga. **Saat terjadi:** simpan 2 calon titik cadangan dari survei; gerobak beroda mudah dipindah; umumkan pindah di IG/WA |
+| 3 | **Satpol PP / penertiban** | Sedang (kalau barang meluber ke trotoar); Rendah (kalau di dalam persil) | Tinggi (barang disita ke Cakung) | Spanduk larangan PKL, patroli di ruas itu | **Cegah:** batas persil ditandai lakban; map dokumen; SKU dan pernyataan tidak di trotoar. **Saat terjadi:** SOP-L8; jangan bayar "uang damai"; klarifikasi ke kelurahan besoknya |
+| 4 | **Gas bocor atau kebakaran** | Rendah | **Sangat tinggi** (cedera, kerusakan, kehilangan tempat) | Bau gas, api kuning/tidak stabil, selang retak | **Cegah:** regulator dan selang SNI, tes sabun setiap malam, APAR 3 kg di samping kompor, kompor jauh dari kursi dan tudung saji, tabung tegak dan teduh, **satu orang terlatih APAR di setiap malam**. **Saat terjadi:** tutup katup tabung, jauhkan tamu, APAR (tarik pin, arahkan ke pangkal api), telepon 112 / Damkar |
+| 5 | **Founder sakit atau lembur di kantor** | **Tinggi** (±87 jam/minggu) | Tinggi (malam batal; Rabu–Kamis tanpa pengganti) | Kurang tidur berturut-turut, lembur kantor diumumkan sore | **Cegah:** aturan pengaman 6c; helper cadangan belajar V60 dasar bulan 2. **Saat terjadi:** lembur → buka 19.30 atau tutup, umumkan sebelum 17.00; sakit → tutup (lebih baik dari kualitas buruk). Jumat–Sabtu, helper boleh buka dengan menu tubruk, es kopi susu, dan makanan saja kalau sudah terlatih |
+| 6 | **Helper tidak datang** | Sedang | Sedang–Tinggi (Jumat–Sabtu ramai sendirian) | Telat membalas WA, sering izin | **Cegah:** konfirmasi WA Kamis malam; 2 helper cadangan yang sudah ikut malam latihan; upah dibayar tepat waktu. **Saat terjadi:** panggil cadangan; kalau tidak ada, buka 19.00 dengan menu solo (D2), tanpa roti bakar, sate, dan Sesi Bareng |
+| 7 | **Barang dicuri** dari gerobak atau saat ramai | Sedang | Sedang (grinder dan kas paling mahal) | Gembok rusak, orang asing mengamati | **Cegah:** grinder, timbangan, kas, dan HP selalu dibawa pulang; gerobak dikunci dengan rantai; minta tuan rumah menyimpan di dalam toko; QRIS mengurangi tunai. **Saat terjadi:** lapor RT dan Polsek; daftar alat dengan foto dan harga di Sheets |
+| 8 | **Es habis** | Sedang | Sedang (es kopi susu, produk utama, berhenti) | Es <2 kg pukul 21.00 di malam ramai | **Cegah:** pesan 15 kg Jumat–Sabtu; es minum dan es pendingin dipisah; cooler tertutup rapat dan teduh; catat sisa es di Log Malam. **Saat terjadi:** pesan ulang kurir (maks. 20 kg per pesanan), tawarkan V60 atau tubruk, jujur ke tamu |
+| 9 | **Tetangga mengeluh bising, parkir, atau sampah** | Sedang | Tinggi (bisa berujung izin ditarik) | Wajah tidak ramah, teguran lisan, kabar dari RT | **Cegah:** tanpa speaker; ukur dB di batas persil; parkir motor yang disepakati; tidak ada sampah di trotoar; perkenalan ke tetangga sebelum buka. **Saat terjadi:** SOP-L8; keluhan berulang → last order 23.00 atau pindah |
+| 10 | **Bulan pertama sepi** (ramp CFO mulai 10 tamu/malam, ditambah hujan) | **Tinggi** | Tinggi (kas, semangat founder) | Rata-rata 7 hari di bawah ramp 2 minggu berturut-turut | **Cegah:** malam latihan dengan teman, Ajak Teman 2 minggu (offer v3), reservasi grup, satu malam ritual (board). **Saat terjadi:** kurangi pesanan makanan titip (waste), **jangan memotong waktu seduh atau helper** (keselamatan), jangan menambah malam; perbaiki offer sebelum menurunkan harga (D10); baca hasil di review 2 Feb |
 
----
-
-## 10. Pertanyaan terbuka (hanya jawaban nyata yang bisa menutupnya)
-
-1. **Harga grosir beans:** daftar harga B2B, minimum order, jadwal sangrai, lead time, dan tempo pembayaran dari Otten (tim B2B), Murrell, Sakha, Anomali. Cek juga apakah Viverri (Rawamangun) masih beroperasi.
-2. **Susu foodservice:** penawaran distributor Greenfields/Diamond per karton. Apakah bisa di bawah Rp23/ml (indikasi B2B lama ±Rp19,9/ml)?
-3. **Mitra rice bowl:** 3 calon mitra, harga mitra, bagian Kopiyo, sertifikat halal, kemampuan mengantar harian pukul 15.30. Juga harga pisang kepok di Pasar Induk Kramat Jati.
-4. **Demo POS:** Majoo Starter (resep, QRIS, *open bill*, ekspor), Qasir Pro (QRIS?), Moka Basic (bahan baku ada atau tidak di Basic?).
-5. **Halal:** apakah kedai seperti Kopiyo bisa memakai *self-declare*/SEHATI, atau wajib reguler? Tanyakan ke PTSP Halal atau pendamping PPH. Berapa biaya total jalur reguler di Jakarta?
-6. **SLHS di DKI:** langkah, penyedia pelatihan penjamah pangan dan biayanya, biaya uji air, dan batas waktu untuk kafe baru. Tanyakan ke Sudinkes Jakarta Timur atau PTSP Kecamatan Pulogadung.
-7. **KBLI** yang tepat di KBLI 2025 (56303 vs 56304, dan perlu tidaknya KBLI makanan) serta tingkat risikonya di OSS.
-8. **Akuntan:**
-   - bentuk usaha (orang pribadi vs PT Perorangan) dan dampaknya ke PPh;
-   - skala usaha (mikro atau kecil) dan program BPJS yang wajib (JP?);
-   - status pengecualian UMP untuk usaha mikro/kecil setelah PP 49/2025;
-   - kewajiban pelaporan ketenagakerjaan lain.
-9. **LMKN:** tarif pasti untuk 24–30 kursi dan cara mengajukan keringanan UMKM.
-10. **Pest control dan asuransi:** 2–3 penawaran tertulis masing-masing.
-11. **Calon tempat:** daya terpasang, biaya dan waktu tambah daya PLN di atas 5.500 VA, PBG/IMB, riwayat banjir.
-12. **APAR:** jumlah dan jenis untuk kafe kecil dengan LPG (Dinas Gulkarmat DKI).
-13. **Pop-up:** tuan rumah, bentuk kesepakatan, dan status PBJT untuk penjualan insidental (Bapenda).
-14. **Transport pulang malam:** jenis kelamin staf penutup, tarif ojek untuk rute pulang staf, atau opsi antar-jemput lain. Harga makan staf per shift.
-15. **Daya kettle** untuk kebutuhan listrik pop-up (label alat).
-16. **Tim (board C10):** siapa barista utamanya dan berapa gajinya (pasar Rp3,3–7,5 juta, `cost-inputs.md` §2; barista berpengalaman mungkin minta tunjangan di atas UMP). Apa pengalaman F&B founder?
+**Pertanyaan terbuka** (hanya jawaban nyata yang bisa menutupnya):
+1. Waktu tempuh nyata kantor → titik pukul 17.30, dan apakah kantor punya kulkas.
+2. Model grinder dan kettle founder: waktu giling 15 g; kettle bisa di kompor atau tidak?
+3. Tuan rumah: atap, toilet, keran, kulkas, izin menyimpan tabung gas, akses helper, biaya.
+4. Pemasok nasi kucing, gorengan, dan sate yang **punya sertifikat halal**, harga titip vs beli putus, kesanggupan antar 17.45/18.30 dengan jam masak di nota.
+5. Ongkir kurir es ke titik; agen es terdekat.
+6. Harga tabung Bright Gas 5,5 kg perdana saat ini (angka Rp326.000 tanggalnya tidak jelas).
+7. KBLI 56304 vs 56306 (PTSP Kec. Pulo Gadung); kelayakan SEHATI untuk lapak; boleh berjualan selama sertifikat diproses (BPJPH).
+8. Iuran warga atau kebersihan dan aturan jam dari RT/RW; sensitivitas tetangga terhadap obrolan sampai 24.00.
+9. Pelatihan penjamah pangan gratis atau murah di Sudinkes Jakarta Timur atau puskesmas.
+10. Jenis kelamin dan domisili calon helper (menentukan biaya antar-jemput).
+11. Ukur di malam latihan: waktu pasang, waktu giling, V60 dan es kopi susu per jam, suhu cooler pukul 18.30/21.00/24.00, sisa es, galon dan gas per malam, dB di batas persil.
 
 ---
 
 ## 11. Perubahan angka untuk CFO
 
-Saya **tidak** mengubah `numbers.json` atau `numbers-lean.json`. CFO perlu menjalankan ulang alat dengan perubahan di bawah. Hitungan break-even di kolom catatan **kasar**, hanya untuk menunjukkan arah. Angka resminya dari alat CFO.
+Saya **tidak** mengubah `numbers.json`. Pembanding di bawah memakai `numbers.json` versi **offer v3** (diperbarui 06.12, belanja Rp29.000/tamu, kontribusi Rp13.768). CFO perlu menjalankan ulang alat dengan perubahan ini.
 
 ### A. Angka yang sebaiknya diubah atau ditambahkan
 
-| # | Item | Angka lama (`numbers.json`) | Angka baru | Sumber | Catatan |
-|---|---|---|---|---|---|
-| 1 | **Royalti musik LMKN** (biaya tetap baru) | Tidak ada | **Rp300.000/bulan** (30 kursi × Rp120.000/tahun ÷ 12). Ramping (24 kursi): **Rp240.000/bulan** | [izin.co.id](https://izin.co.id/blog/cara-bayar-royalti-lagu/) · [Popbela](https://www.popbela.com/career/working-life/kafe-dan-restoran-wajib-bayar-royalti-musik-00-6sk7r-g15k6h) | Bisa turun kalau keringanan UMKM disetujui ([DDTC](https://news.ddtc.co.id/berita/nasional/29062/tarif-royalti-musik-yang-digunakan-usaha-mikro-bakal-diringankan)). |
-| 2 | **Paruh waktu jam ramai** (biaya tetap baru, **mulai bulan 5**) | Tidak ada (3 staf) | Dasar: **±Rp2,38 juta/bulan** (3 shift × 4 jam × Rp45.475 × 52/12, ditambah BPJS minimal). Kalau 4 shift: ±Rp3,15 juta. Ramping: **±Rp1,58 juta/bulan** (2 shift) | PP 36/2021 Pasal 16: upah per jam ≥ upah sebulan ÷ 126 ([Bisnis.com](https://ekonomi.bisnis.com/read/20210302/12/1362701/kemenaker-tegaskan-upah-per-jam-hanya-untuk-pekerja-paruh-waktu), [Gadjian](https://www.gadjian.com/blog/2023/02/23/cara-menghitung-gaji-karyawan-part-time/)); UMP Rp5.729.876 | Tanpa ini, rencana dasar hanya punya 2 orang di jam ramai (bagian 3a, 3e). Alat CFO tidak bisa memodelkan biaya tetap yang naik di tengah tahun; pakai skenario terpisah atau tambahkan penuh agar konservatif. |
-| 3 | **Gaji pelatihan sebelum buka** (startup baru) | Tidak ada | Dasar **±Rp10,2 juta** (3 staf × ½ bulan × Rp6.794.105). Ramping **±Rp6,8 juta** | *(hitungan)* dari angka gaji CFO (`cfo-sources.md`) | 2 minggu pelatihan dan malam uji (bagian 3g). |
-| 4 | **Makan staf + antar-jemput pulang malam** (biaya tetap baru) | Tidak ada | **[estimasi] ±Rp2,2–2,8 juta/bulan** kalau semua staf penutup perempuan: makan ±Rp0,9 juta (±2 staf × 30 malam × Rp15.000 [estimasi]) + transport ±Rp1,3–1,9 juta (±2 staf × 30 malam × Rp20.000–30.000 [estimasi tarif ojek]). Lebih rendah kalau sebagian staf laki-laki dan pulang sendiri (makan staf tetap disarankan untuk retensi). | Kewajiban: UU 13/2003 Pasal 76 ([Hukumonline](https://www.hukumonline.com/klinik/a/aturan-lembur-untuk-pekerja-perempuan-lt50eb906629072), [Talenta](https://www.talenta.co/blog/aturan-shift-malam-perempuan/)). Besarannya **estimasi** | Status pasal setelah UU Cipta Kerja perlu dicek. |
-| 5 | **Cicip Dulu**: ubah dari variabel ke tetap | Rp300/tamu (30% tamu × Rp1.000) [estimasi] | **±Rp29.100/hari ≈ Rp873.000/bulan, tetap**: 2 teko cicip/hari × 3 beans × (10 g × Rp400 + filter Rp850). Hapus Rp300 dari biaya variabel. | *(hitungan)* dari harga beans Rp400/g dan filter Rp850 (`cost-inputs.md`, [Otten](https://ottencoffee.co.id/filters/hario-paper-filter-vcf-02-100w)); resep SOP-04 | Teko cicip dibuang setelah 60 menit, berapa pun tamunya. Di 60 tamu/hari setara ±Rp485/tamu; di bulan 1 jauh lebih tinggi per tamu. |
-| 6 | **HPP makanan** (uji sensitivitas wajib) | Rp7.600/porsi (38%), jadi Rp4.560/tamu [estimasi] | **±49% (±Rp5.880/tamu)** kalau hanya rice bowl dititip dan sisanya dibuat sendiri. **±70% (±Rp8.400/tamu)** kalau semua makanan dititip dengan bagian Kopiyo 30% | Roti tawar 15 lembar Rp21.000 ([Kontan](https://momsmoney.kontan.co.id/news/promo-indomaret-harga-spesial-16-29-juni-2026-nugget-skincare-diskon-hingga-30)); Indomie Rp16.000/5 ([Kontan](https://momsmoney.kontan.co.id/news/katalog-promo-alfamart-gantung-spesial-idul-adha-periode-26-mei-2-juni-2026-1)); komisi titip jual umum 20–60% ([Gramedia](https://www.gramedia.com/best-seller/?p=26130)). Porsi pesanan, topping, dan bagian titip = **[estimasi]** | Kasar: kontribusi turun ke ±Rp22.270 (break-even ±59/hari) atau ±Rp19.750 (±67/hari). Ganti dengan nota mitra nyata. |
-| 7 | **POS** | Moka Basic Rp299.000/bulan | **Majoo Starter Rp249.000 + PPN/bulan** (minimal 12 bulan; resep dan QRIS termasuk), atau Qasir Pro Rp699.000/tahun (≈Rp58.250/bulan) | [majoo.id/harga](https://majoo.id/harga) · [majoo FAQ](https://majoo.id/faq) · [qasir.id](https://www.qasir.id/en/pricing) | Moka Basic mungkin tanpa bahan baku; Moka Pro Rp499.000 ([HashMicro](https://www.hashmicro.com/id/blog/review-aplikasi-moka-pos/)). Selisihnya kecil, keputusan setelah demo. |
-| 8 | **Asuransi kebakaran** (biaya tetap baru, disarankan) | Tidak ada | **±Rp30.000–52.000/bulan** *(hitungan)*: isi kedai, fit-out, dan alat ±Rp160 juta × 0,20–0,35%/tahun + PPN 11% | Tarif OJK per kelas risiko ([IDX Channel](https://www.idxchannel.com/milenomic/jangan-asal-punya-poperti-begini-cara-menghitung-premi-asuransi-rumah/all)) | Minta penawaran nyata. |
+| # | Item | Lama | Baru | Sumber |
+|---|---|---:|---:|---|
+| 1 | **Helper Jumat–Sabtu** (biaya tetap) | Rp1.970.000 (5 jam, 18.00–23.00) | **Rp2.675.000** (6,75 jam 17.30–00.15 × 8,67 malam × Rp45.475 = Rp2.660.300, + BPJS JKK/JKM ±Rp14.400 [estimasi]). **+Rp0,3–0,39 jt** kalau helper perempuan (antar-jemput + makan, [estimasi]) | UMP ([Katadata](https://katadata.co.id/amp/berita/industri/694bb57d97fa5/ump-jakarta-2026-resmi-naik-jadi-rp-5-72-juta/)) ÷ 126 ([Bisnis.com](https://ekonomi.bisnis.com/read/20210302/12/1362701/kemenaker-tegaskan-upah-per-jam-hanya-untuk-pekerja-paruh-waktu)); jam dari `lapak-malam.md` ("helper menyiapkan dari 17.30"); UU 13/2003 Ps. 76 ([Hukumonline](https://www.hukumonline.com/klinik/a/aturan-lembur-untuk-pekerja-perempuan-lt50eb906629072)) |
+| 2 | **Gas** (biaya tetap) | Rp250.000 (LPG kettle) | **Rp400.000** [estimasi]: LPG 5,5 kg 1–1,5 isi ulang/bulan × Rp102.000 + gas kaleng kompor kedua ±1 kaleng per malam Jumat–Sabtu × Rp23.500–25.300 | [Bisnis.com: Bright Gas Rp102.000](https://ekonomi.bisnis.com/read/20260815/44/1996598/pertamina-turunkan-harga-bright-gas-ini-rinciannya) · [Tokopedia: gas kaleng](https://www.tokopedia.com/find/gas-kaleng-portable). Jumlah pemakaian [estimasi], ganti setelah 4 minggu data |
+| 3 | **Es untuk cooler + ongkir** (biaya tetap baru) | Tidak ada (es minum sudah di HPP) | **Rp450.000** [estimasi]: es pendingin ±6 kg × Rp1.990/kg × 17 malam ≈ Rp203.000 + ongkir kurir ±Rp15.000 × 17 ≈ Rp255.000 (tarif ongkir belum dicari). Turun ke ±Rp200.000 kalau es dibeli sendiri di jalan | [Tokopedia CoolFresh Rp9.950/5 kg](https://www.tokopedia.com/espugautama/es-batu-kristal-jakarta-timur-100-halal-5kg) |
+| 4 | **Air galon untuk seduh dan minum** (biaya tetap baru) | Tidak ada (HPP V60 memakai air RO Rp200) | **Rp250.000** [estimasi]: ±12 L/malam ≈ 0,63 galon × Rp17.000–24.000 × 17 malam ≈ Rp183–257 rb. **Rp0 tambahan** untuk air cuci kalau keran tuan rumah masuk perjanjian | [harga.web.id](https://harga.web.id/harga-produk-aqua-galon-19-liter-dan-refill.info) · [CNBC Indonesia](https://www.cnbcindonesia.com/news/20260428151251-4-730609/jangan-kaget-harga-air-galon-tiba-tiba-naik-rp1000-ada-apa/amp) |
+| 5 | **Angkut/titip alat** (biaya tetap) | Rp400.000 [estimasi] | **Rp0**, **hanya jika** titip gerobak tertulis di perjanjian (syarat D4). Kalau tidak, tetap Rp400.000 | Bagian 2a, 9 |
+| 6 | **Kapasitas per malam** | 37 | **30** [estimasi]. Rentang 27–35, tergantung lama duduk 2,5–3 jam dan 15–16 kursi | Hitungan bagian 3d; lama duduk dari `offer.md` dan `launch-kafe.md` |
+| 7 | **Tenda lipat 3×3** (startup) | Rp2.250.000 | **Rp0** (teras beratap). Kalau tidak beratap: Rp741.000–1.620.000 | [Tokopedia: tenda 3x3](https://www.tokopedia.com/find/tenda-3x3) · [tenda jualan 3x3](https://www.tokopedia.com/find/tenda-jualan-3x3-full-set) |
+| 8 | **Bangku, meja, tikar** (startup) | Rp2.300.000 | **Rp2.134.000** (16 kursi bersandaran × Rp95.000 + 4 meja × Rp153.500; tikar dihapus) | [Tokopedia: kursi napolly](https://www.tokopedia.com/find/kursi-plastik-napoli-original) · [meja napolly](https://www.tokopedia.com/find/meja-plastik-napolly); offer v3 |
+| 9 | **Cooler** (startup) | Rp1.000.000 | **Rp1.745.000** (Soleil 45 L Rp899.900 + Marina 16 L Rp538.110 + cooler bag dan gel Rp304.600) | [Ruparupa](https://www.ruparupa.com/soleil-45-ltr-cooler-box-biru-muda.html) · [Tokopedia Marina](https://www.tokopedia.com/lionstarindonesia/lion-star-kotak-pendingin-marina-cooler-box-18s-16-liter-i-17-1730862486830941300) · [ice pack](https://www.tokopedia.com/find/ice-pack-gel-tahan-lama) |
+| 10 | **Kompor + tabung** (startup) | Rp600.000 | **Rp950.000** (Rinnai 1 tungku Rp245.000 + regulator SNI Rp208.000 + Bright Gas 5,5 kg perdana Rp326.000 + Hi-Cook + 2 kaleng Rp170.600) | [Tokopedia Rinnai](https://www.tokopedia.com/find/rinnai-1-tungku) · [regulator](https://www.tokopedia.com/find/selang-regulator-gas-3kg) · [ESDM Migas](https://migas.esdm.go.id/post/dirjen-migas-hadiri-peluncuran-bright-gas-5,5-kg) · [Viva](https://techno.viva.co.id/elektronik/14809-suka-camping-ini-5-pilihan-kompor-portable-murah-terbaik-2025) |
+| 11 | **APAR** (startup) | Rp300.000 | **Rp390.000** (powder 3 kg, batas atas) | [Tokopedia](https://www.tokopedia.com/find/apar-3kg-dry-powder) |
+| 12 | **Banner dan papan nama** (startup) | Rp700.000 | **Rp300.000** (X-banner Rp65.000 + spanduk 3 m² Rp84.000 + kartu meja/menu [estimasi]) | [Tokopedia X-banner](https://www.tokopedia.com/gamblangmediapromo/x-banner-60x160-korcin-440-free-desain-murah-dan-berkualitas-flexi-280) · [spanduk](https://www.tokopedia.com/gamblangmediapromo/cetak-spanduk-print-banner-baliho-online-murah-flexy-korcin-440) |
+| 13 | **Peralatan air dan cuci** (startup baru) | Tidak ada | **Rp510.000** (2 jerigen 20 L, jerigen keran, 3 baskom, galon kosong) | Bagian 4b, #23–26 |
+| 14 | **Ceret, termos, termometer** (startup baru) | Tidak ada | **Rp443.000** | Bagian 4b, #12–14 |
+| 15 | **Wajan roti bakar + tudung saji** (startup baru) | Tidak ada | **Rp390.000** | Bagian 4b, #15–16 |
+| 16 | **Container box 2 × 100 L** (startup baru) | Tidak ada | **Rp402.000** | Bagian 4b, #27 |
+| 17 | **Sampah + wadah cold brew** (startup baru) | Tidak ada | **Rp242.000** (Rp142.000 + Rp99.900) | Bagian 4b, #28–29 |
+| 18 | **Barang kecil** (startup baru) | Tidak ada | **Rp500.000 [estimasi]** (gembok, nampan, saringan, botol, lap, sabun, sanitizer, P3K; harga belum dicari) | – |
+| 19 | **Gaji 2 malam latihan helper** (startup baru) | Tidak ada | **Rp614.000** (2 × 6,75 jam × Rp45.475) *(hitungan)* | Bagian 6a |
+| 20 | **Kettle leher angsa versi kompor** (startup, bersyarat) | Rp0 (alat seduh dimiliki) | **Rp0–522.500**: hanya kalau kettle founder listrik | [Tokopedia: ketel leher angsa](https://www.tokopedia.com/find/ketel-leher-angsa) |
 
-### B. Angka yang diperiksa dan **tidak perlu diubah sekarang**
+**Total:**
+- Biaya tetap: **Rp4.828.250 → ±Rp5.983.250/bulan** (+Rp1,16 jt; dengan titip gerobak sehingga angkut Rp0).
+- Startup alat: **Rp11,75 jt → ±Rp12,61 jt**. Total startup **Rp19,55 jt → ±Rp21,0 jt** (termasuk gaji latihan Rp614 rb).
 
-| Item | Angka lama | Temuan | Sumber | Keputusan |
-|---|---|---|---|---|
-| Gula aren + es per es kopi susu | Rp700 [estimasi] | ±Rp1.200 (15 ml × Rp60 + 150 g × Rp1,99). Tapi konsentrat cold brew memakai ±16,7 g kopi, bukan 18 g (−Rp342). **Bersih ±+Rp160 per gelas.** | [Mahorahora](https://www.tokopedia.com/find/gula-aren-mahorahora-cair) · [CoolFresh](https://www.tokopedia.com/espugautama/es-batu-kristal-jakarta-timur-100-halal-5kg) | Abaikan; ubah hanya kalau CFO ingin presisi. |
-| BPJS pemberi kerja | 10,24% (termasuk JP 2%) | Bisa 8,24% (usaha kecil: JP tidak wajib) atau sekitar 4,54% (mikro: JKK + JKM + Kesehatan), hemat sampai ±Rp114.600/staf/bulan | [Hukumonline (Perpres 109/2013)](https://www.hukumonline.com/berita/a/3-regulasi-ini-perlu-dibenahi-agar-selaras-sjsn-lt582fda8100641/) | **Jangan diubah sebelum akuntan memastikan skala usaha dan aturan terbaru.** |
-| Susu | Rp23/ml (ritel) | Indikasi B2B Rp19,9/ml (Greenfields 12 × 1 L Rp239.000, **data Sep 2024**) | [Indotrading](https://en.indotrading.com/jayautamasantikah/greenfields-uht-low-p587935.aspx) | Tunggu penawaran distributor. |
-| Gas LPG | Rp400.000/bulan [estimasi] | Bright Gas 12 kg Rp218.000 (agen Jawa, 15 Agu 2026), sekitar Rp245.000 di pangkalan. Setara ±1,6–1,8 tabung | [Bisnis.com](https://ekonomi.bisnis.com/read/20260815/44/1996598/pertamina-turunkan-harga-bright-gas-ini-rinciannya) · [CNBC](https://cnbcindonesia.com/news/20260803130310-4-756048/resmi-harga-lpg-3-kg-55-12-kg-di-agen-pangkalan-per-3-agustus-2026) | Wajar, tetap. |
-| Perizinan | Rp3.000.000 [estimasi] | Halal reguler UMK resmi Rp650.000 (+ kemungkinan biaya auditor); pelatihan penjamah dan uji air belum diketahui | [Kontan](https://nasional.kontan.co.id/news/simak-rincian-aturan-tarif-sertifikasi-halal-bagi-umk) | Kemungkinan cukup; cek setelah penawaran SLHS. |
-| QRIS | 0% | 0% untuk ≤Rp100.000; 0,7% untuk transaksi >Rp100.000 kalau masuk kategori usaha kecil (tagihan meja grup) | [BI](https://www.bi.go.id/id/publikasi/ruang-media/cerita-bi/Pages/mdr-qris.aspx) | Dampak kecil, tetap 0%. |
-| Lembur kalau persiapan mulai 14.00 | – | Rp49.681 per jam pertama lembur (1,5 × Rp33.121), hanya di hari terima barang | [Hukumonline](https://www.hukumonline.com/klinik/a/cara-hitung-upah-lembur-per-jam-ini-rumusnya!-lt4b7e3965556d3/) | Kecil (±Rp0,4 juta/bulan kalau 2 kali seminggu); masuk pos perawatan atau founder yang menerima barang. |
+### B. Dampaknya (alat CFO, dijalankan pada salinan di scratchpad, bukan pada `numbers.json`)
 
-**Langkah berikutnya:** CFO menjalankan ulang `numbers.json` dan `numbers-lean.json` dengan bagian A, lalu lanjut ke `/founder-launch`, yang memakai kit pop-up di bagian 8 dan daftar ukur di akhir bagian itu.
+| Skenario | Biaya tetap/bulan | Break-even/malam | Margin di 28 tamu | Tahun 1 (operasional) | Kas dibutuhkan |
+|---|---:|---:|---:|---:|---:|
+| `numbers.json` sekarang | Rp4,83 jt | 20,6 | +12,5% | +Rp2,2 jt | Rp25,7 jt |
+| **Semua usulan A** (titip gerobak, angkut Rp0) | Rp5,98 jt | **25,6** | +4,1% | **−Rp11,6 jt** | Rp33,6 jt |
+| A tanpa titip gerobak (angkut Rp400 rb) | Rp6,38 jt | 27,3 | +1,2% | −Rp16,4 jt | Rp37,2 jt |
+| A + helper perempuan (antar-jemput + makan) | Rp6,37 jt | 27,2 | +1,3% | −Rp16,3 jt | Rp37,1 jt |
+| A, helper hanya 18.00–23.30 (5,5 jam; founder memasang dan membongkar sendiri) | Rp5,49 jt | 23,4 | +7,7% | −Rp5,7 jt | Rp30,2 jt |
+| A, air cuci dari keran tuan rumah, galon dimasukkan sewa, es dibeli sendiri | Rp5,48 jt | 23,4 | +7,8% | −Rp5,6 jt | Rp30,1 jt |
+| **A + dua penghematan di atas** | Rp4,99 jt | **21,3** | +11,3% | +Rp0,3 jt | Rp27,3 jt |
+
+Startup di semua baris skenario A: Rp20,4 jt (belum termasuk gaji latihan Rp614 rb).
+
+**Cara membacanya:**
+- Biaya menjalankan lapak tanpa listrik (es, air, gas dua kompor, jam helper yang sebenarnya) **menaikkan break-even sekitar 5 tamu/malam**, ke ±26, dari kapasitas realistis ±30.
+- Dua tuas ops mengembalikannya ke ±21, **tanpa menyentuh harga** (board D10):
+  1. jam helper dipendekkan ke 18.00–23.30, artinya founder memasang Jumat sendirian;
+  2. air dan es diurus lewat tuan rumah dan belanja sendiri.
+- Tuas ketiga ada di offer: setiap +Rp3.000 belanja per tamu menurunkan break-even 4–6 tamu (`pricing.md`).
+- Hasil alat bergantung pada estimasi es, galon, dan gas. **Ganti dengan angka Log Malam setelah 4 minggu.**
+
+### C. Diperiksa dan tidak perlu diubah sekarang
+
+| Item | Angka sekarang | Temuan | Keputusan |
+|---|---|---|---|
+| HPP makanan ±62% | Rp4.190/tamu | Konsisten dengan titip ±70–80% di malam solo dan roti bakar sendiri ±44–53% di Jumat–Sabtu (bagian 5b) | Tetap. Uji sensitivitas "semua titip" sudah ada di `offer.md` |
+| Cicip + garansi | Rp250/tamu | Malam solo hanya cium bubuk (hampir tanpa biaya). Teko cicip Jumat–Sabtu 2 × (10 g × Rp400 + filter Rp850) ≈ Rp9.700/malam ≈ Rp84 rb/bulan *(hitungan)*, setara ±Rp175/tamu di 28 tamu × 17 malam | Tetap |
+| Es minum di HPP es kopi susu | Termasuk di Rp7.900 | 150 g × Rp1,99 ≈ Rp299 (`ops-kafe.md` §5) | Tetap. Es pendingin ditambahkan terpisah (A3) |
+| Qasir Pro | Rp58.250/bulan | Versi dasar gratis bisa dipakai 8 minggu pertama | Tetap (konservatif); boleh Rp0 sampai review |
+| Lampu, gelas, gerobak | Rp600 rb, Rp1 jt, Rp3 jt | Harga nyata Rp581 rb, Rp934 rb, Rp2,0–3,5 jt + ongkir | Tetap |
+| QRIS | 0% | 0% untuk ≤Rp100.000; usaha mikro 0% sampai Rp500.000 sejak 1 Okt 2026 ([BI](https://www.bi.go.id/id/publikasi/ruang-media/cerita-bi/Pages/mdr-qris.aspx)) | Tetap |
+| Iuran warga | Rp150.000 | Tidak ada tarif resmi untuk lahan privat; bayar hanya dengan kuitansi (`research/lokasi-rawamangun.md` §2d) | Tetap |
+
+**Langkah berikutnya:** CFO menjalankan ulang `numbers.json` dengan bagian A, lalu `/founder-launch` memakai malam latihan 30 Nov–8 Des untuk mengukur angka [estimasi] di dokumen ini (daftar ukur di bagian 10).

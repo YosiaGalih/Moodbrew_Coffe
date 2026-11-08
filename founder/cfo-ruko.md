@@ -1,6 +1,6 @@
 # Catatan CFO: Kopiyo
 
-> Semua angka dalam Rupiah (`$` di tabel alat di bawah berarti Rp). Setiap angka berasal dari output `unit_economics.py` atau input yang tercatat di [cfo-sources.md](cfo-sources.md) dan [ops.md](ops.md) bagian 11. Banyak input masih **estimasi**, terutama kapasitas, renovasi, porsi makanan, dan ramp. Ini bukan nasihat keuangan, pajak, atau hukum. **Minta akuntan memeriksa struktur usaha, gaji/BPJS, PBJT, dan PPh sebelum uang keluar.**
+> Semua angka dalam Rupiah (`$` di tabel alat di bawah berarti Rp). Setiap angka berasal dari output `unit_economics.py` atau input yang tercatat di [cfo-sources.md](cfo-sources.md) dan [ops-kafe.md](ops-kafe.md) bagian 11. Banyak input masih **estimasi**, terutama kapasitas, renovasi, porsi makanan, dan ramp. Ini bukan nasihat keuangan, pajak, atau hukum. **Minta akuntan memeriksa struktur usaha, gaji/BPJS, PBJT, dan PPh sebelum uang keluar.**
 >
 > **Versi 2 (setelah `/founder-ops`).** Biaya baru yang ditemukan ops sudah dimasukkan, dan **hasilnya lebih buruk dari versi pertama**:
 > - royalti musik LMKN;
@@ -100,7 +100,7 @@ Every number below comes from the input file. Nothing is looked up or guessed.
 | Price | $40,000.00 |
 | Minuman pertama: bahan rata-rata (V60/es kopi susu, termasuk cup take-away & waste) | -$8,442.00 |
 | Gelas kedua Rp15.000 (30% tamu) x bahan Rp8.442 | -$2,533.00 |
-| Makanan (60% tamu) x HPP ±49% (roti bakar, pisang goreng, mie buat sendiri; rice bowl titip UMKM) [ops.md, sebagian estimasi] | -$5,880.00 |
+| Makanan (60% tamu) x HPP ±49% (roti bakar, pisang goreng, mie buat sendiri; rice bowl titip UMKM) [ops-kafe.md, sebagian estimasi] | -$5,880.00 |
 | Garansi seduh ulang (5% klaim x 50% V60 x Rp6.850) [estimasi klaim] | -$171.00 |
 | Kartu beans cetak (50% tamu x Rp400) [estimasi] | -$200.00 |
 | PPh Final UMKM 0,5% dari belanja | -$200.00 |
@@ -109,7 +109,7 @@ Every number below comes from the input file. Nothing is looked up or guessed.
 
 ## The margin that matters
 
-Fixed costs: $45,240,390 a month (Sewa ruko ±100-150 m2 Rawamangun (Rp150 jt/tahun) $12,500,000, 3 staf (2 barista + 1 helper/kasir) x Rp6,79 jt (UMP DKI 2026 + BPJS pemberi kerja + THR/12) $20,370,000, Listrik B-2 ±1.250 kWh x Rp1.444,7 [estimasi beban] $1,800,000, Air, galon, internet [estimasi] $800,000, POS Majoo Starter Rp249.000 + PPN 11% (ops.md) $276,390, Marketing rutin [estimasi] $2,000,000, Perawatan, kebersihan, perlengkapan kecil [estimasi] $1,000,000, Gas LPG dapur sederhana [estimasi] $400,000, Royalti musik LMKN (Rp120.000/kursi/tahun) (ops.md) $300,000, Paruh waktu jam ramai (dimasukkan penuh 12 bulan agar konservatif; ops.md: mulai bulan 5) $2,380,000, Makan staf + antar pulang malam (UU 13/2003 Ps. 76) [estimasi tengah Rp2,2-2,8 jt] $2,500,000, Cicip Dulu: 2 teko/hari x 3 beans (ops.md, tetap) $873,000, Asuransi kebakaran (±Rp160 jt x 0,2-0,35%/th + PPN) [estimasi tengah] $41,000).
+Fixed costs: $45,240,390 a month (Sewa ruko ±100-150 m2 Rawamangun (Rp150 jt/tahun) $12,500,000, 3 staf (2 barista + 1 helper/kasir) x Rp6,79 jt (UMP DKI 2026 + BPJS pemberi kerja + THR/12) $20,370,000, Listrik B-2 ±1.250 kWh x Rp1.444,7 [estimasi beban] $1,800,000, Air, galon, internet [estimasi] $800,000, POS Majoo Starter Rp249.000 + PPN 11% (ops-kafe.md) $276,390, Marketing rutin [estimasi] $2,000,000, Perawatan, kebersihan, perlengkapan kecil [estimasi] $1,000,000, Gas LPG dapur sederhana [estimasi] $400,000, Royalti musik LMKN (Rp120.000/kursi/tahun) (ops-kafe.md) $300,000, Paruh waktu jam ramai (dimasukkan penuh 12 bulan agar konservatif; ops-kafe.md: mulai bulan 5) $2,380,000, Makan staf + antar pulang malam (UU 13/2003 Ps. 76) [estimasi tengah Rp2,2-2,8 jt] $2,500,000, Cicip Dulu: 2 teko/hari x 3 beans (ops-kafe.md, tetap) $873,000, Asuransi kebakaran (±Rp160 jt x 0,2-0,35%/th + PPN) [estimasi tengah] $41,000).
 
 - **Break-even: 67 tamu (rata-rata belanja per kunjungan)s a day.** Below that you lose money every month.
 - **Profit margin at your plan** (60 a day): **-6%** of every sale, after every cost.
@@ -165,7 +165,7 @@ Every number below comes from the input file. Nothing is looked up or guessed.
 | Price | $40,000.00 |
 | Minuman pertama: bahan rata-rata (V60/es kopi susu, termasuk cup take-away & waste) | -$8,442.00 |
 | Gelas kedua Rp15.000 (30% tamu) x bahan Rp8.442 | -$2,533.00 |
-| Makanan (60% tamu) x HPP ±49% (roti bakar, pisang goreng, mie buat sendiri; rice bowl titip UMKM) [ops.md, sebagian estimasi] | -$5,880.00 |
+| Makanan (60% tamu) x HPP ±49% (roti bakar, pisang goreng, mie buat sendiri; rice bowl titip UMKM) [ops-kafe.md, sebagian estimasi] | -$5,880.00 |
 | Garansi seduh ulang (5% klaim x 50% V60 x Rp6.850) [estimasi klaim] | -$171.00 |
 | Kartu beans cetak (50% tamu x Rp400) [estimasi] | -$200.00 |
 | PPh Final UMKM 0,5% dari belanja | -$200.00 |
@@ -174,7 +174,7 @@ Every number below comes from the input file. Nothing is looked up or guessed.
 
 ## The margin that matters
 
-Fixed costs: $33,923,723 a month (Sewa ruko ±100-150 m2 Rawamangun (Rp150 jt/tahun) $8,833,333, 2 staf + founder di bar (tanpa gaji founder) $13,580,000, Listrik B-2 ±1.250 kWh x Rp1.444,7 [estimasi beban] $1,800,000, Air, galon, internet [estimasi] $800,000, POS Majoo Starter Rp249.000 + PPN 11% (ops.md) $276,390, Marketing rutin [estimasi] $2,000,000, Perawatan, kebersihan, perlengkapan kecil [estimasi] $1,000,000, Gas LPG dapur sederhana [estimasi] $400,000, Royalti musik LMKN (Rp120.000/kursi/tahun) (ops.md) $240,000, Paruh waktu jam ramai (dimasukkan penuh 12 bulan agar konservatif; ops.md: mulai bulan 5) $1,580,000, Makan staf + antar pulang malam (UU 13/2003 Ps. 76) [estimasi tengah Rp2,2-2,8 jt] $2,500,000, Cicip Dulu: 2 teko/hari x 3 beans (ops.md, tetap) $873,000, Asuransi kebakaran (±Rp160 jt x 0,2-0,35%/th + PPN) [estimasi tengah] $41,000).
+Fixed costs: $33,923,723 a month (Sewa ruko ±100-150 m2 Rawamangun (Rp150 jt/tahun) $8,833,333, 2 staf + founder di bar (tanpa gaji founder) $13,580,000, Listrik B-2 ±1.250 kWh x Rp1.444,7 [estimasi beban] $1,800,000, Air, galon, internet [estimasi] $800,000, POS Majoo Starter Rp249.000 + PPN 11% (ops-kafe.md) $276,390, Marketing rutin [estimasi] $2,000,000, Perawatan, kebersihan, perlengkapan kecil [estimasi] $1,000,000, Gas LPG dapur sederhana [estimasi] $400,000, Royalti musik LMKN (Rp120.000/kursi/tahun) (ops-kafe.md) $240,000, Paruh waktu jam ramai (dimasukkan penuh 12 bulan agar konservatif; ops-kafe.md: mulai bulan 5) $1,580,000, Makan staf + antar pulang malam (UU 13/2003 Ps. 76) [estimasi tengah Rp2,2-2,8 jt] $2,500,000, Cicip Dulu: 2 teko/hari x 3 beans (ops-kafe.md, tetap) $873,000, Asuransi kebakaran (±Rp160 jt x 0,2-0,35%/th + PPN) [estimasi tengah] $41,000).
 
 - **Break-even: 51 tamu (rata-rata belanja per kunjungan)s a day.** Below that you lose money every month.
 - **Profit margin at your plan** (60 a day): **9%** of every sale, after every cost.

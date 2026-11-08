@@ -4,7 +4,7 @@ Score: 5/10 | Vote: FUND IF
 ## Yang berubah sejak rapat pertama
 1. Aplikasi AI dibekukan: **terpenuhi** (Qasir dan QRIS statis).
 2. Celah "ngobrol tanpa laptop, barista dikenal": **sebagian.** `competitors.md` menemukan celah yang sempit, tapi dipetakan untuk format kafe. Pesaing malam format lapak belum dihitung per jalan.
-3. 100 pelanggan pertama dan uji yang membuktikan orang kembali: **sebagian.** Rencana ±Rp20.700/orang ada di `marketing.md`, tapi ditulis untuk ruko dengan pop-up. Review 2 Feb mengukur ≥25% kembali; buktinya belum ada.
+3. 100 pelanggan pertama dan uji yang membuktikan orang kembali: **sebagian.** Rencana ±Rp20.700/orang ada di `marketing-kafe.md`, tapi ditulis untuk ruko dengan pop-up. Review 2 Feb mengukur ≥25% kembali; buktinya belum ada.
 4. Harga dari angka CFO, beda lewat komunitas: **sebagian.** Ada batas bawah kontribusi Rp10.000/tamu, tapi format angkringan mengundang perbandingan dengan warkop.
 5. Yogyakarta ditunda: **terpenuhi** (dihitung, rugi, beku sampai 3 bulan untung).
 

@@ -1,408 +1,353 @@
-# Brand: Meja Pelan (usulan pengganti nama kerja "Kopiyo")
+# Brand untuk lapak malam: Lapak Yok
 
-> **Sumber:** `idea.md`, `marketing.md` (posisi dan kampanye), `competitors.md`, `offer.md`, `pitch-v2-kafe.md`, `panel-v2/results.md`, `board.md`. Riset nama dilakukan 8 November 2026.
+> **Sumber:** `brand-kafe.md` (brief brand kafe: suara, palet, huruf, kartu "HP boleh, laptop tidak"), `research/nama-yok.md` (riset nama "Yok …"), `lapak-malam.md` (rencana v3), `pitch.md`, `panel/results.md` dan `panel/answers/` (panel pembeli simulasi untuk pitch lapak), `numbers-lapak.json`, `marketing-kafe.md` §10 (template). Ditulis 8 November 2026.
 >
-> - **Hanya pencarian publik.** Saya memakai cuplikan hasil mesin pencari. Basis data merek DJKI (PDKI), RDAP/WHOIS domain, dan Instagram tidak bisa dibuka langsung dari sesi ini (rincian di bagian 4.5). **Tidak ditemukan di pencarian bukan berarti tersedia.**
-> - **Ini bukan nasihat hukum.** Yang bisa memastikan sebuah nama aman adalah **Konsultan KI terdaftar** di DJKI. **Tidak ada nama yang terlindungi sebelum terdaftar di DJKI**, dan Indonesia memakai sistem *first-to-file*: yang lebih dulu mengajukan, bukan yang lebih dulu memakai, yang didahulukan.
-> - Semua harga di materi publik ditulis "belum termasuk PBJT 10%", mengikuti `marketing.md`.
+> **Cara baca label:** [Pasti] = bukti kuat atau hasil hitungan · [Kemungkinan Besar] = inferensi kuat · [Menebak] = estimasi saya, harus diuji.
+>
+> - **Hanya pencarian publik.** Lima pencarian cepat hari ini, khusus "Lapak Yok" dan "Yok Leyeh" (bagian 1.5). PDKI, Instagram, TikTok, domain, GoFood/Grab, dan Google Maps tidak dibuka langsung. **Tidak ditemukan bukan berarti tersedia.**
+> - **Ini bukan nasihat hukum.** Yang bisa memastikan sebuah nama aman dan bisa didaftarkan adalah **Konsultan KI terdaftar** di DJKI. Indonesia memakai sistem *first-to-file*: nama baru terlindungi setelah diajukan, dan yang lebih dulu mengajukan yang didahulukan.
+> - Riset merek "Kopiyo" tidak diulang di sini. Lihat `brand-kafe.md` §3.
 
 ## Ringkasan
 
-- **Temuan terpenting: "Kopiyo" bertabrakan dengan Kopi Yor.** Kopi Yor (ditulis **"kopiyor"** di domain dan akun Instagramnya) adalah jaringan kopi susu kekinian dengan lebih dari 100 outlet. Salah satu outletnya ada di **Jl. Pemuda No.130 D, Jati, Kec. Pulo Gadung (Rawamangun)**, di jalur pulang kerja yang menjadi sasaran kita. Outlet lain ada di Pulo Gebang dan AEON Mall Jakarta Garden City (Cakung). Sumber: [daftar outlet kopiyor.com](https://kopiyor.com/our-outlet-locations/), [Kopi Yor Pulo Gadung Rawamangun di RestaurantGuru](https://restaurantguru.com/Kopi-Yor-Pulo-Gadung-Rawamangun-East-Jakarta) (rating 4,8 dari 117 ulasan menurut cuplikan).
-  - "Kopiyo" dan "Kopiyor" hanya beda satu huruf. Diucapkan, keduanya hampir sama.
-  - Teman yang diajak lewat WA lalu mengetik "kopiyo rawamangun" di Google Maps bisa diarahkan ke Kopi Yor Jl. Pemuda, yaitu kopi susu *to go*, kebalikan dari posisi kita.
-  - Nama "Kopiyo" juga dekat dengan **Kopiko** milik Mayora (kopi, kelas 30). Selain itu, "Kopiyo" sudah dipakai kafe di Amerika Serikat dan gerobak kopi di Filipina.
-  - **Rekomendasi: jangan pakai "Kopiyo" sebagai nama usaha.**
-- **"Ngopi-yo" juga tidak cocok sebagai nama:**
-  - "Ngopi" adalah kata umum, yang berisiko ditolak sebagai merek.
-  - Akun **@ngopiyo** sudah dipakai sebuah kedai kopi.
-  - Tanda hubung tidak bisa dipakai di handle Instagram, TikTok, maupun X.
-  - Frasa ini **tetap boleh dipakai sebagai kalimat kampanye** "Pulang kerja, ngopi-yo."
-- **Nama yang direkomendasikan: Meja Pelan.**
-  - *Meja* adalah yang dijual: meja tanpa laptop, meja yang dipesan lewat WA, dan meja Sesi Ngobrol.
-  - *Pelan* adalah slowbar dan malam yang tidak terburu-buru.
-  - Dari pencarian publik, tidak ditemukan usaha bernama "Meja Pelan".
-  - Shortlist cadangannya: **Sepulang** dan **Larut** (detail di bagian 4).
-- **Janji:** *Meja buat ngobrol, kopi yang diseduh di depanmu, dan malam yang nggak perlu buru-buru, setiap hari sampai 24.00.*
-- **Tagline utama:** *Ngobrol sampai larut.*
-- **Suara brand:** hangat, jujur, tenang.
-- **Warna:** Biru Malam `#232647`, Lampu `#F0A83C`, Kertas `#F7EFE1`. Semua pasangan teks yang dipakai lulus WCAG AA, dengan rasio 7,20:1 sampai 12,77:1.
-- **Huruf (gratis, lisensi SIL OFL):** Fraunces untuk judul dan Plus Jakarta Sans untuk teks.
-- **Yang harus dikerjakan founder minggu ini** (detail di bagian 4.6):
-  1. Cari "Meja Pelan", "Sepulang", dan "Larut" di [PDKI](https://pdki-indonesia.dgip.go.id) di kelas 43, 30, dan 35.
-  2. Minta pendapat Konsultan KI. Bawa juga pertanyaan soal Kopi Yor dan Kopiko.
-  3. Amankan handle dan domain.
-  4. Ajukan merek di kelas 43 **sebelum post publik pertama (H-14)**.
+- **Nama: Lapak Yok** (cadangan: Yok Leyeh). Untuk format ini Lapak Yok menang di tiga uji yang paling penting selama delapan minggu pertama: terbaca di spanduk malam dari 20 m, alami sebagai ajakan WA ("Yok, ke Lapak Yok."), dan langsung memberi tahu orang yang lewat bahwa ini tempat jualan. Yok Leyeh lebih kuat sebagai merek dan lebih netral kalau nanti pindah format, tetapi bertabrakan dengan LL Coffee (@leyehleyehcoffee) justru di Jogja. **Syaratnya:** Konsultan KI menilai "Lapak Yok" bisa didaftarkan sebagai **kata + logo** di kelas 43, dan uji 10 orang lolos.
+- **Janji:** *Rabu sampai Sabtu malam, lampu Lapak Yok nyala sampai 24.00: kursi buat duduk lama, kopi yang diseduh di depanmu, dan nggak ada yang nyuruh buru-buru.*
+- **Tagline utama:** *Pulang kerja, yok nongkrong dulu.* Dua lainnya: *Lampu udah nyala. Yok.* dan *Bawa gengmu, yok. Kursinya kami siapin.*
+- **Suara tetap hangat, jujur, tenang** (dari `brand-kafe.md`).
+- **Palet tetap:** Biru Malam `#232647`, Lampu `#F0A83C`, Kertas `#F7EFE1`. Yang berubah adalah porsinya: tanpa listrik, papan tidak bisa menyala sendiri, jadi **bidang spanduk memakai Kertas** (memantulkan cahaya ±40× Biru Malam) dengan huruf Biru Malam. Semua pasangan teks yang dipakai lulus WCAG AA, dan malah naik kontrasnya di bawah lampu hangat: 7,20–12,77:1 standar, ±9,19–13,62:1 di 2700K (perkiraan).
+- **Spanduk:** "LAPAK YOK" + gelembung "yok", di bawahnya "KOPI SEDUH · ANGKRINGAN". Ukuran 300 × 75 cm, tinggi huruf nama 27 cm, bahan doff, diterangi dua lampu batang LED hangat.
+- **Menjawab keraguan panel:** semua 15 kursi bersandaran, bukan tikar (P007, P008, P018). Satu sudut foto yang jujur: seduhan V60 di bawah satu lampu, dengan panel gelap di belakangnya supaya uapnya terlihat (P005, P010, P011). Papan antrean V60 ditulis tangan (P001, P018, P020). Kartu reservasi WA untuk rombongan (P004, P007, P014). Info parkir hanya setelah lokasi pasti (P003, P004, P010).
+- **Minggu ini (9–15 Nov):** cek PDKI, amankan @lapakyok, uji nama ke 10 orang, temui Konsultan KI. **Ajukan merek kelas 43 paling lambat Selasa 24 Nov 2026**, sebelum post publik pertama (H-14, Rabu 25 Nov).
 
----
+### Yang dipakai ulang dari `brand-kafe.md` dan yang berubah
 
-## 1. Brief yang dipakai
-
-| Hal | Isi | Sumber |
+| Hal | Status untuk lapak | Kenapa |
 |---|---|---|
-| Posisi | Untuk geng yang rutin nongkrong sepulang kerja di Rawamangun–Pulogadung: slowbar sore–malam yang dibuat untuk ngobrol, bukan untuk kerja | `marketing.md` §2 |
-| Audiens pertama | "Nongkrong rutin sepulang kerja": 4 dari 4 membeli di panel v2 dan menyumbang 8 dari 17 pembelian | `marketing.md` §1 |
-| Kenapa mereka datang | Buka sampai malam, ada makanan, bisa duduk 2–3 jam, dan diajak teman yang sudah pesan meja | `panel-v2/results.md` |
-| Kenapa mereka ragu | Belum ada review, belum ada yang posting, sudah punya langganan, "slowbar pasti lama", dan tempatnya "nggak kelihatan cakep buat foto" | `panel-v2/results.md`, `offer.md` §5 |
-| Kanal utama | Ajakan teman lewat WhatsApp. Google Maps dan IG/TikTok dibuka teman yang diajak sebagai bukti | `marketing.md` §4 |
-| Syarat board untuk brand | C2: Coffee Story tanpa AI (kartu beans). C9: cara menolak laptop dengan sopan, cahaya, dan suasana | `board.md` |
-| Yang harus dihindari | Nama dan tampilan kompetitor: Psswrd, Hulu, Kopi Bemo, Kalea, Anastomosis, Kopi Nako, Jung, Pukul Satu, Glasmacher, Kopi Kenangan, dan lainnya. Ditambah **Kopi Yor**, yang tidak ada di `competitors.md` | `competitors.md` + riset ini |
-
-**Tugas brand dalam satu kalimat:** orang yang diajak teman harus langsung paham, dari nama, papan, dan Instagram, bahwa ini tempat ngobrol malam yang hangat, bukan kafe laptop dan bukan kopi susu *to go*.
-
----
-
-## 2. Sepuluh kandidat nama
-
-Kolom "Temuan" berasal dari pencarian publik 8 Nov 2026, dan isinya hanya indikasi.
-
-| # | Nama | Gaya | Yang dikatakan | Diucapkan ("Ke ___ yuk") | Di papan / ikon 32px | Risiko dan temuan |
-|---|---|---|---|---|---|---|
-| 1 | **Kopiyo** (usulan founder) | Rekaan: *kopi* + "yo" (ajakan) | Ajakan ngopi yang ceria | Mudah: "Ke Kopiyo yuk" | Pendek dan rapi. Ikon "K" | **Merah.** Hampir sama dengan **Kopi Yor/"kopiyor"**, yang punya outlet di Jl. Pemuda Rawamangun. Dekat dengan **Kopiko** (Mayora, kelas 30). Sudah dipakai kafe di AS (@kopiyo_official) dan Filipina (@kopiyo.cafe). Nadanya juga lebih mirip kopi susu jaringan daripada slowbar yang tenang. Lihat bagian 3 |
-| 2 | **Ngopi-yo** (usulan founder) | Ajakan sehari-hari | "Ayo ngopi" | Mudah, tapi di WA jadi "ngopi yuk" biasa | Tanda hubung merepotkan di papan dan tidak bisa dipakai di handle | **Merah.** "Ngopi" adalah kata umum. @ngopiyo dipakai kedai kopi lain. Banyak merek "Ngopi…". Bunyinya juga dekat dengan Kopi Yor. Bagus sebagai **kalimat kampanye**, bukan nama |
-| 3 | **Meja Pelan** | Evokatif-deskriptif | Meja untuk ngobrol, malam yang tidak buru-buru, slowbar | "Ke Meja Pelan yuk, gue udah pesen meja." Alami | Dua kata pendek (4+5 huruf) yang bisa ditumpuk. Ikon: meja bundar dilihat dari atas | **Hijau-kuning.** Tidak ditemukan usaha dengan nama ini. Risikonya: "pelan" bisa dibaca sebagai "pelayanannya lambat", padahal keberatan "slowbar lama" sudah muncul di panel. Ini dijawab lewat suara brand (bagian 5) dan jalur cepat 3 menit |
-| 4 | **Sepulang** | Evokatif (momen) | Saat pulang kerja | "Ketemu di Sepulang jam 8." Agak janggal tapi bisa | Satu kata (8 huruf). Ikon "S" | **Kuning.** Ada "sepulang coffe" di Jombang (@sepulangcoffe, buka 08.00–00.00). "Pulang Ke Rumah Coffee" di Cipayung, Jakarta Timur, juga buka sore–malam dengan unsur "pulang" yang sama |
-| 5 | **Larut** | Evokatif, makna ganda | *Larut malam*, sekaligus *larut* dalam obrolan | "Ke Larut yuk." Singkat | 5 huruf, sangat kuat di papan. Ikon "L" | **Kuning.** Ada Larut Malam Kopi di Bandung (kecil) dan Larut Coffee and Space (zona WITA, ramah kerja) |
-| 6 | **Ngaso** | Kata lokal Jakarta (*ngaso* = rehat) | Melepas lelah | Sangat Jakarta | 5 huruf | **Merah.** Ramai dipakai: Ngaso Dulu Ah (Kebayoran Lama, Jakarta, buka malam), NGASO.ID, Kopi Ngaso, Ngaso Kopi. Bunyinya juga mirip "Nako" (Kopi Nako, Rawamangun) |
-| 7 | **Pulang Pelan** | Evokatif, aliterasi | Pulang kerja, lalu pelan-pelan dulu | Enak diucapkan | Dua kata. Ikon "PP" | **Kuning.** Unsur "Pulang" sudah dipakai Pulang Coffee (Semarang, Wonosari) dan Pulang Ke Rumah Coffee (Cipayung, Jakarta Timur) |
-| 8 | **Teko Teman** | Deskriptif (teko Sesi Ngobrol) | Seteko untuk berbagi dengan teman | Aliterasi T-T | Ikon teko | **Merah.** Ramai: jaringan "TEMAN" (@tokokopiteman.id, 20+ cabang), Kopi Teko, Teko Tenang, dan lain-lain. "Teko" juga terasa seperti teh |
-| 9 | **Mangun** | Tempat (dari "Rawa*mangun*"; Jawa *mangun* = membangun) | Akar lokal | "Ke Mangun yuk." Netral | 6 huruf | **Kuning.** Tidak ditemukan kedai bernama Mangun di Jakarta (yang terdekat "Mangopi" di Tangsel). Tapi artinya tidak langsung terasa, dan tidak bercerita apa-apa soal ngobrol atau malam |
-| 10 | **"[Nama panggilan founder] & Teman"** | Nama founder | Tuan rumah yang dikenal | Akrab | Tergantung nama | **Belum bisa dicek** karena nama founder tidak ada di dokumen. Membangun kesan "barista/tuan rumah yang dikenal" (moat komunitas di `board.md`), tetapi melekat ke satu orang. Sulit dijual atau dititipkan nanti |
-
-Yang juga dicek, tetapi tidak masuk daftar:
-- **Cengkerama:** ramai dipakai (Bandung, Bekasi Utara).
-- **"MoodBrew":** nama aplikasi internal. Ada merek minuman "Mood Brew" di AS (moodbrew.co, menurut cuplikan pencarian). Namanya berbahasa Inggris dan berbau aplikasi, jadi tidak cocok untuk tamu.
-- **"Seduh Pelan":** sudah dipakai sebagai tagline JOS Cafe ([joscafe.com](https://joscafe.com/sajian-kopi-dunia/)).
-- **Nama berunsur jam ("Pukul …"):** dihindari karena terlalu dekat dengan Pukul Satu Kopi.
+| Suara hangat, jujur, tenang | **Dipakai** | Cocok dengan angkringan malam yang tidak terburu-buru |
+| Palet tiga warna | **Dipakai, porsinya diubah** | Papan kafe menyala dari dalam. Spanduk lapak hanya disinari lampu baterai, jadi bidang terangnya harus Kertas |
+| Fraunces + Plus Jakarta Sans (OFL) | **Dipakai** | Gratis untuk pemakaian komersial. Fraunces tebal terasa seperti huruf cat gerobak |
+| Kartu "HP boleh, laptop tidak" | **Dipakai, teksnya disesuaikan** | Di lapak memang tidak ada colokan, jadi aturannya jadi fakta, bukan larangan |
+| Kartu beans | **Dipakai** | Ukuran huruf dinaikkan karena dibaca di bawah lampu redup |
+| Nama Meja Pelan, tagline "Ngobrol sampai larut" | **Tidak dipakai** | Founder memilih nama dari ajakan "yok". Meja Pelan tetap jadi jalan keluar kalau kedua nama "yok" gagal (`research/nama-yok.md` §4 langkah 9) |
+| "Harga belum termasuk PBJT 10%" | **Tidak ditulis** | PBJT belum berlaku di omzet lapak (`lapak-malam.md` §4). Harga yang ditulis adalah harga final. Konfirmasi ke akuntan atau KPP; tulis ulang kalau omzet naik |
+| Jam 16.00–24.00 setiap hari | **Diganti** | Rabu–Kamis 19.00–24.00, Jumat–Sabtu 18.00–24.00 |
 
 ---
 
-## 3. Temuan soal "Kopiyo" dan "Ngopi-yo"
+## 1. Memo keputusan nama: Lapak Yok atau Yok Leyeh
 
-### Kopiyo
+**Pertanyaannya:** nama mana yang paling bekerja untuk lapak tenda malam tanpa listrik, ±15 kursi, di teras ruko Rawamangun, yang tamunya datang karena diajak teman lewat WhatsApp, dan yang mungkin pindah ke kios atau ke Jogja nanti.
 
-| Temuan | Di mana | Bukti | Artinya |
+### 1.1 Empat uji
+
+| Uji | Lapak Yok | Yok Leyeh | Unggul |
 |---|---|---|---|
-| **Kopi Yor ("kopiyor")**, jaringan es kopi susu kekinian (kopi + kelapa kopyor), dikelola PT Otewe Maju Bersama. 100+ outlet di 20+ kota | **Jl. Pemuda No.130 D, Jati, Pulo Gadung (Rawamangun)**; Jl. Rawa Kuning, Pulo Gebang; AEON Mall JGC, Cakung | [kopiyor.com/our-outlet-locations](https://kopiyor.com/our-outlet-locations/) (halaman ±655 hari, perlu dicek ulang di Google Maps) · [RestaurantGuru: Kopi Yor Pulo Gadung Rawamangun](https://restaurantguru.com/Kopi-Yor-Pulo-Gadung-Rawamangun-East-Jakarta) · [@kopiyor.pulogebang](https://www.instagram.com/kopiyor.pulogebang/) · [industry.co.id](https://www.industry.co.id/read/80726/kopi-yor-memadukan-konsep-menikmati-kopi-campur-kopyor) | **Risiko kebingungan paling besar.** Lokasinya sama, kategorinya sama, dan bunyinya hampir sama. Sebagai jaringan kemitraan, Kopi Yor kemungkinan punya merek terdaftar. **Ini belum saya verifikasi**, jadi cek di PDKI. Jika terdaftar, permohonan "Kopiyo" bisa ditolak karena "persamaan pada pokoknya" (Pasal 21 UU 20/2016) |
-| **Kopiko** (Mayora): permen kopi dan minuman kopi, dijual di 100+ negara | Nasional | [Kopiko (Wikipedia)](https://en.wikipedia.org/wiki/Kopiko_(brand)) · [Mayora Indah](https://en.wikipedia.org/wiki/Mayora_Indah) | KOPI**K**O dan KOPI**Y**O hanya beda satu huruf, dan barangnya sama-sama kopi (kelas 30). Merek terkenal mendapat perlindungan lebih luas. Tanyakan ke Konsultan KI |
-| **Kopiyo Pando** (@kopiyo_official): espresso, bubble tea, es krim; TikTok @kopiyo_official | Flowood, Mississippi, AS | [instagram.com/kopiyo_official](https://www.instagram.com/kopiyo_official/) | Bukan bentrokan merek di Indonesia, tetapi hasil pencarian dan handle terbagi |
-| **KOPI-YO CAFE** (@kopiyo.cafe): gerobak kopi, ±3.954 pengikut | Pasig City, Filipina | [instagram.com/kopiyo.cafe](https://www.instagram.com/kopiyo.cafe/) | Sama seperti di atas |
-| Pencarian "Kopiyo" di mesin pencari dibelokkan ke **Kopiko** | — | Pencarian "kopiyo" OR "kopiyo.com" mengembalikan halaman Kopiko di urutan atas | Teman yang "cek dulu" lewat Google bisa nyasar |
-| Tidak ditemukan kafe atau merek bernama persis "Kopiyo" di Indonesia | — | Beberapa pencarian (kota besar, Tokopedia/Shopee, PDKI) | Bukan jaminan. PDKI belum dicek langsung |
+| **Spanduk tenda malam, dibaca dari 10–20 m** | Dua kata yang sangat dikenal (5 + 3 huruf). Bentuk hurufnya beragam: L, A, P, K, Y, O punya diagonal dan lubang terbuka yang tetap berbeda saat buram. Kata yang dikenal terbaca dari jarak lebih jauh daripada kata asing, karena mata melengkapi sisanya [Kemungkinan Besar] | "LEYEH" berisi E-Y-E-H. Huruf E dan H sama-sama dari batang tegak dan garis datar, jadi di cahaya redup mudah menyatu ("LEVEH", "LEYEN"). Kata ini juga kurang dikenal di Jakarta, jadi mata tidak bisa menebak | **Lapak Yok** |
+| **Ajakan WA "Yok, ke ___"** | "Yok, ke Lapak Yok." Gema "yok" terasa alami, dan "lapak" langsung terbaca sebagai nama tempat. Teman yang diajak bisa mengetik "lapak yok rawamangun" | "Yok, ke Yok Leyeh." tersandung di "yok, ke yok". Orang cenderung menyingkat jadi "ke Leyeh", lalu mencari "leyeh" dan bisa menemukan LL Coffee (@leyehleyehcoffee) atau Leha Leha Cafe di Jatiwaringin. Ejaan yang didengar juga bisa salah ("leye", "leyé") (`research/nama-yok.md` §3.2) | **Lapak Yok** |
+| **Ikon 32 px** | Gelembung chat berisi "yok" | Gelembung chat berisi "yok" | **Seri.** Ikon tidak menentukan |
+| **Pindah ke kios kecil** | Kios tetap sebuah lapak, jadi nama tetap jujur | Netral terhadap format | Seri |
+| **Pindah ke ruko atau kafe** | Terasa kecil, tapi bisa menjadi cerita asal ("dulu lapak") | Netral terhadap format, lebih mudah naik kelas | **Yok Leyeh** |
+| **Pindah ke Jogja** | "Lapak" dan "yok" dipahami. Tidak ditemukan usaha bernama sama | Rasanya paling Jawa dan paling pas, **tetapi** LL Coffee (@leyehleyehcoffee) ada di Jl. Kaliurang km 15, wilayah Jogja | **Lapak Yok** (risiko lebih kecil) |
+| **Kekuatan sebagai merek** | **Sedang.** "Lapak" kata umum seperti "warung". Hari ini juga terlihat "Lapak Awak Cafe" di Facebook (bagian 1.5), jadi pola "Lapak ___" memang dipakai orang lain. Perlu **kata + logo** | **Lebih kuat.** "Leyeh" tidak menerangkan kopi | **Yok Leyeh** |
+| **Apa yang ditangkap orang yang lewat** | "Ada tempat jualan kecil di sini, dan ini ajakan." Format langsung jelas | Suasana santai, tapi tidak bilang ada jualan apa. Bergantung pada baris kedua | **Lapak Yok** |
 
-**Kesimpulan:** secara hukum, mungkin saja Konsultan KI menilai "Kopiyo" masih bisa didaftarkan. Tetapi **masalah praktisnya tetap ada**: Kopi Yor berjualan di Jl. Pemuda Rawamangun, di jalur pulang tamu kita. Saat ini belum ada yang dicetak dan belum ada handle yang dibuat, jadi biaya ganti nama paling murah justru sekarang.
+### 1.2 Risiko yang jujur soal "lapak"
 
-### Ngopi-yo
+Panel memakai kata yang sama dengan nada meremehkan: *"Lapak tikar di teras ruko kedengarannya biasa aja"* (P011). Kata "lapak" menurunkan harapan. Itu bisa jadi keuntungan, karena tamu datang tanpa harapan kafe lalu menemukan kursi bersandaran, lampu hangat, dan V60 diseduh di depannya. Tapi itu juga berarti **tampilan lapak harus bekerja keras** (bagian 4). Nama yang jujur tidak boleh dipasangkan dengan tikar, lampu putih, dan spanduk asal cetak.
 
-| Temuan | Bukti | Artinya |
+### 1.3 Keputusan
+
+**Pakai Lapak Yok** untuk lapak malam ini, dengan dua syarat:
+
+1. **Konsultan KI** menilai "Lapak Yok" bisa didaftarkan di kelas 43 sebagai **kata + logo**.
+2. **Uji 10 orang** (`research/nama-yok.md` §4 langkah 7) lolos: kurang dari 3 dari 10 orang yang salah eja, mengira "lapak online", atau menyebutnya "murahan".
+
+**Pindah ke Yok Leyeh** jika salah satu syarat gagal. Sebelum pindah, cek dulu apakah LL Coffee sudah mendaftarkan "Leyeh" di PDKI. **Jika keduanya gagal**, pakai nama tanpa "yok" (misalnya Meja Pelan dari `brand-kafe.md`) dan pindahkan ajakan "yok" ke tagline. Keputusan akhir tetap di tangan founder.
+
+**Kenapa uji spanduk dan WA lebih berat daripada kekuatan merek di sini:** delapan minggu pertama adalah ujinya (`lapak-malam.md` §7), dan kanal utamanya ajakan teman lewat WA (`marketing-kafe.md` §4). Nama yang lebih kuat di atas kertas tapi tersandung di setiap pesan WA akan merugikan tepat di masa uji itu.
+
+### 1.4 Uji murah sebelum mencetak apa pun
+
+| Uji | Caranya | Lolos jika |
 |---|---|---|
-| Akun **@ngopiyo**, "Lampu Merah ngopiyo!": kedai kopi untuk yang suka nongkrong, ±134 pengikut, 106 post. Lokasi tidak terlihat di cuplikan | [instagram.com/ngopiyo](https://www.instagram.com/ngopiyo/) | Handle paling wajar sudah terpakai oleh usaha kopi |
-| Banyak merek "Ngopi…": Ngopi Yuk (@ngopi.y), Yok Ngopi, Kedai Ngopi-O, Ngopi Ngopo | [@ngopi.y](https://www.instagram.com/ngopi.y/) · [Yok Ngopi](https://kitalulus.com/company/yok-ngopi-crl0) · [@kedai_ngopio](https://www.instagram.com/kedai_ngopio/) | Tidak khas |
-| "Ngopi" adalah istilah umum. Nama umum atau keterangan barang/jasa berisiko ditolak (Pasal 20 UU 20/2016) | [KontrakHukum](https://kontrakhukum.com/article/mengapa-pendaftaran-merek-kopi-kekinian-sering-ditolak-djki-akibat-menggunakan-istilah-umum-milik-publik/) (artikel firma hukum, bukan putusan) | Daya pembedanya lemah |
-| Tanda hubung tidak bisa dipakai di handle Instagram, TikTok, dan X | Aturan umum aplikasi | "Ngopi-yo" tidak bisa ditulis sama persis di semua kanal |
+| Spanduk 20 m | Cetak huruf "Y", "O", "K" setinggi 27 cm, satu huruf per lembar A3, dalam dua varian: Biru Malam di atas Kertas, dan Kertas di atas Biru Malam. Tempel di tembok malam hari, terangi dengan lampu LED yang akan dipakai, lihat dari 10 m dan 20 m bersama 3 orang | Ketiganya membaca dengan benar dari 20 m. Pilih varian yang terbaca lebih dulu |
+| Ajakan WA | Kirim "Yok, ke Lapak Yok jam 8?" ke 10 orang tanpa penjelasan | ≥8 dari 10 langsung paham itu nama tempat |
+| Ejaan | Ucapkan nama, minta 10 orang mengetiknya di HP | ≥8 dari 10 benar |
+| Ikon | Ekspor ikon 32 px dan 16 px, lihat di daftar chat WA dan lingkaran avatar IG | "yok" terbaca di 32 px |
 
-**Kesimpulan:** "Pulang kerja, ngopi-yo." **boleh tetap dipakai sebagai kalimat kampanye pembukaan**, karena di situ ia berfungsi sebagai ajakan, bukan sebagai nama. Jika Konsultan KI menilai frasa ini terlalu dekat dengan "Kopi Yor" di jalan yang sama, ganti dengan **"Pulang kerja, duduk dulu."**
+### 1.5 Cek cepat hari ini (5 pencarian, 8 Nov 2026)
 
----
+| Pencarian | Hasil |
+|---|---|
+| "yokleyeh" / "yok.leyeh" / "yok_leyeh" | Tidak ada halaman yang memuat kata ini |
+| "Yok Leyeh" + kopi/angkringan/cafe/kedai | Tidak ditemukan usaha bernama "Yok Leyeh" |
+| "lapakyok" / "lapak.yok" / "lapak_yok" | Tidak ada hasil yang terkait |
+| "Lapak Yok" + kopi/angkringan/nongkrong | Tidak ditemukan usaha bernama "Lapak Yok" |
+| Keempat nama, dibatasi ke instagram.com, tiktok.com, x.com, facebook.com, gofood.co.id, food.grab.com | Tidak ada akun @lapakyok atau @yokleyeh yang terindeks. Muncul satu video Facebook **"Lapak Awak Cafe"** (ruko di Jl. Sultan Hasanuddin / Jl. Ombak, kotanya tidak jelas dari cuplikan) yang memakai "yok" sebagai ajakan. Namanya berbeda, tapi menunjukkan pola "Lapak ___ Cafe" sudah dipakai |
 
-## 4. Shortlist tiga nama dan pengecekannya
+**Artinya:** celah di `research/nama-yok.md` (handle @yokleyeh belum dicek) sekarang sebagian tertutup. Di indeks mesin pencari tidak ada apa-apa.
 
-**Urutan: 1. Meja Pelan · 2. Sepulang · 3. Larut.** Ketiganya cocok dengan posisi "ngobrol sepulang kerja, sore–malam", tidak mirip nama kompetitor di `competitors.md`, dan bisa dipakai sebagai satu kata atau satu frasa di semua kanal.
+**Yang tetap belum bisa saya verifikasi:**
+- apakah handle @lapakyok dan @yokleyeh benar-benar kosong di Instagram, TikTok, X, dan YouTube (aplikasinya tidak bisa dibuka dari sesi ini);
+- status merek di PDKI;
+- domain lapakyok.id dan lapakyok.com;
+- merchant di aplikasi GoFood dan GrabFood;
+- usaha bernama mirip di Google Maps Rawamangun dan Jogja.
 
-| Cek | Meja Pelan | Sepulang | Larut |
-|---|---|---|---|
-| **Merek (PDKI)** | Belum dicek langsung (PDKI diblokir di sesi ini). Pencarian web tidak menemukan usaha atau merek dengan nama ini. Kedua katanya umum, tetapi gabungannya tidak menerangkan jasa kafe, jadi peluang daftarnya baik. Konsultan KI yang memastikan | Belum dicek langsung. Ada kedai kopi "sepulang coffe" di Jombang. Jika kedai itu mendaftar lebih dulu di kelas 43, kita kalah (first-to-file) | Belum dicek langsung. Ada dua kedai kecil bernama Larut (Bandung dan WITA) |
-| **Domain** | Belum bisa diverifikasi. Cek mejapelan.com, mejapelan.id, mejapelan.co.id, mejapelan.biz.id | Cek sepulang.id dan sepulang.co.id. Kata ini umum, jadi .com-nya kemungkinan besar sudah terpakai (**dugaan, bukan hasil cek**) | Cek larut.id dan kedailarut.com. Kata ini umum, .com hampir pasti sulit (**dugaan**) |
-| **Handle** | Pencarian tidak menemukan akun @mejapelan atau @meja.pelan. **Belum tentu tersedia**, cek manual | @sepulangcoffe dipakai kedai di Jombang. @sepulang belum dicek | @larutmalamkopi dan @larutcoffeespace sudah dipakai. @larut belum dicek |
-| **Kebingungan lokal** | Tidak ada nama serupa di Rawamangun. Tidak ada kompetitor yang memakai kata "meja" atau "pelan" | "Pulang Ke Rumah Coffee" (Cipayung, Jakarta Timur, sore–malam) punya konsep "pulang" yang mirip | Tidak ada di Jakarta Timur menurut pencarian |
-| **Risiko makna** | "Pelan" bisa dibaca "lambat". Dijawab lewat tagline dan jalur cepat | Sedikit janggal sebagai tujuan ("ke Sepulang") | Bisa terkesan "begadang". Netral |
-| **Status** | **Rekomendasi** | Cadangan pertama | Cadangan kedua |
+### 1.6 Langkah merek di PDKI (bukan nasihat hukum)
 
-### Kenapa Meja Pelan
+| Langkah | Kapan | Isi |
+|---|---|---|
+| 1. Cari di PDKI | Hari 1–2 (9–10 Nov) | Buka [pdki-indonesia.dgip.go.id](https://pdki-indonesia.dgip.go.id), pilih **Merek**. Ketik "lapak yok", "lapakyok", "lapak yuk", "lapak" (untuk melihat seberapa ramai unsur ini di kelas 43 dan 30), "yok", "yuk". Untuk cadangan: "yok leyeh", "leyeh", "leyeh leyeh". Simpan tangkapan layar bertanggal |
+| 2. Amankan handle | Hari 1–2 | Buat @lapakyok di Instagram, TikTok, X, YouTube, boleh dikunci dulu. Varian kalau terpakai: @lapak.yok, @lapakyok.rwm, @lapakyok_rwm (X). Nama WhatsApp Business dan profil Google Bisnis: persis "Lapak Yok", tanpa tambahan kata kunci |
+| 3. Konsultan KI | Minggu ini | Pilih yang terdaftar di DJKI. Tanyakan: (a) apakah "Lapak Yok" punya daya pembeda yang cukup di kelas 43; (b) **kata saja, kata + logo dalam satu permohonan, atau dua permohonan terpisah**; (c) kelas 30 perlu atau belum; (d) apakah tagline "Pulang kerja, yok nongkrong dulu." aman dipakai sebagai kalimat iklan; (e) risiko Yok Leyeh terhadap LL Coffee |
+| 4. Logo final dan hak cipta | Paling lambat ±20 Nov | Permohonan kata + logo butuh logo final. Desainer **mengalihkan hak cipta logo secara tertulis** ke founder. Kalau logo belum siap, tanyakan konsultan apakah kata saja boleh diajukan dulu |
+| 5. Ajukan | **Paling lambat Selasa 24 Nov 2026** | Online di [merek.dgip.go.id](https://merek.dgip.go.id). Sehari sebelum post publik pertama (H-14, Rabu 25 Nov) |
 
-1. **Nama ini menjelaskan produknya.** Yang dijual board dan offer adalah meja: meja bebas laptop, meja yang dipesan lewat WA, dan meja Sesi Ngobrol untuk 2–4 orang. Ajakan di WA jadi alami: "Gue udah pesen meja di Meja Pelan."
-2. **Kata "pelan" memberi kategori dalam bahasa sehari-hari.** Kata "slowbar" tidak dimengerti semua orang. "Pelan" langsung dimengerti, dan sekaligus menjadi lawan dari kafe kerja yang serba cepat dan penuh colokan.
-3. **Nama ini paling bersih di pencarian publik** dibanding sembilan kandidat lain.
-4. **Mudah digambar.** Meja bundar dilihat dari atas dengan beberapa cangkir di sekelilingnya tetap terbaca di ikon 32px dan tidak mirip logo kopi pada umumnya.
-5. **Risikonya bisa dikelola.** Kesan "lambat" dijawab lewat suara brand ("Yang pelan cuma obrolannya") dan lewat jalur cepat es kopi susu, yang hanya diklaim jika lolos uji 3 menit di pop-up (`marketing.md` §7).
-
-### 4.1 Merek dagang di Indonesia (DJKI)
-
-- **Tempat mencari:** [PDKI, pdki-indonesia.dgip.go.id](https://pdki-indonesia.dgip.go.id). Pilih **Merek**, lalu ketik namanya. Panduan cara mencari: [izin.co.id](https://izin.co.id/blog/cara-cek-pdki/).
-- **Tempat mengajukan:** [merek.dgip.go.id](https://merek.dgip.go.id) (permohonan online).
-- **Kelas Nice yang dicek dan diajukan:**
+**Kelas yang dicek dan diajukan:**
 
 | Kelas | Isi yang relevan | Kapan perlu |
 |---|---|---|
-| **43** | Jasa kafe, kedai kopi, restoran, penyediaan makanan dan minuman | **Wajib, ajukan pertama** |
-| **30** | Kopi, biji kopi sangrai, minuman berbahan kopi, roti, mi, makanan berbahan nasi | Jika menjual biji kopi, minuman kemasan, atau takeaway ber-merek (Fase 1 GoFood) |
-| **35** | Penjualan eceran (biji kopi, merchandise) | Hanya jika nanti menjual merchandise atau biji kopi secara eceran |
+| **43** | Jasa penyediaan makanan dan minuman, kedai kopi, warung, kafe. Ini mencakup kopi dan angkringan yang disajikan di lapak | **Wajib, ajukan pertama** |
+| **30** | Kopi, biji kopi sangrai, kopi bubuk, minuman berbahan kopi sebagai **barang** | Jika nanti menjual biji kopi, cold brew botolan, atau kemasan ber-merek |
 
-- **Yang diketik di PDKI:** namanya, variasi ejaannya, dan kata-kata yang bunyinya mirip. DJKI menilai **persamaan pada pokoknya** (bunyi, tampilan, makna), bukan hanya nama yang persis sama.
-  - **Meja Pelan:** "meja pelan", "mejapelan", "meja", "pelan".
-  - **Sepulang:** "sepulang", "pulang".
-  - **Larut:** "larut".
-  - **Kopiyo:** "kopiyo", "kopi yor", "kopiyor", "kopiko", "kopi yo".
-- **Cara membaca status di PDKI:** *Didaftar* berarti terlindungi. *Dalam proses* berarti sudah antre lebih dulu dari kita. *Ditolak* atau *Berakhir* belum tentu bebas, jadi tanyakan konsultan.
-- **First-to-file:** perlindungan dihitung dari **tanggal pengajuan**. Kalau orang lain mendaftarkan nama yang sama di kelas 43 lebih dulu, kita bisa terpaksa ganti nama walaupun sudah buka lebih dulu. Menggugat itikad tidak baik itu mahal dan lama. **Ajukan sebelum nama diumumkan** (post H-14).
-- **Yang tidak melindungi nama:** NIB atau nama usaha di OSS, nama PT, profil Google Maps, dan handle Instagram.
-- **Biaya:**
-  - Tarif resmi naik mulai **1 Agustus 2026 (PP 30/2026)**. Ringkasan firma hukum ADCO menyebut tarif umum **Rp2,8 juta per kelas**, naik dari Rp1,8 juta ([ADCO Law](https://adcolaw.com/blog/the-price-of-protection-what-gr-30-2026-means-for-trademark-applicants/); [Tilleke & Gibbins](https://www.tilleke.com/insights/indonesias-new-ip-fee-schedule-signals-greater-focus-on-ip-as-commercial-assets/2/)).
-  - Usaha mikro dan kecil mendapat tarif lebih rendah dengan dokumen UMK. **Angka pastinya belum saya verifikasi** dari tabel resmi, jadi cek di situs DJKI.
-  - Honor Konsultan KI terpisah dari tarif resmi.
-- **Logo:** sebelum logo didaftarkan, pastikan desainer **mengalihkan hak cipta logo secara tertulis** kepada founder atau badan usahanya.
-- **Bukan nasihat hukum.** Pilih Konsultan KI yang terdaftar di DJKI.
+**Soal biaya:** `numbers-lapak.json` menganggarkan Rp2,8 juta untuk satu permohonan di satu kelas (tarif umum PP 30/2026 menurut ringkasan firma hukum di `brand-kafe.md` §4.1; tarif usaha mikro lebih rendah, cek di situs DJKI). Kalau konsultan menyarankan dua permohonan (kata dan logo terpisah) atau dua kelas, biayanya berlipat. Honor konsultan terpisah. Kabari CFO.
 
-### 4.2 Domain
-
-**Yang bisa saya pastikan:** tidak ada satu pun domain yang bisa diverifikasi dari sesi ini. RDAP (rdap.verisign.com, rdap.org) diblokir, WHOIS tidak tersedia, dan DNS di sesi ini tidak me-resolve nama apa pun, termasuk google.com. Saya **tidak** menganggap domain mana pun tersedia.
-
-| Domain | Yang ditemukan lewat pencarian | Status |
-|---|---|---|
-| kopiyo.com | Tidak ada situs yang muncul. Pencarian dibelokkan ke Kopiko | **Tidak diketahui** |
-| kopiyo.id / kopiyo.co.id | Tidak ada situs yang muncul | **Tidak diketahui** |
-| **kopiyor.com** | Situs resmi Kopi Yor | **Dipakai** (bukti tambahan soal kebingungan) |
-| ngopiyo.com | Tidak ada situs yang muncul | **Tidak diketahui** |
-| mejapelan.com / mejapelan.id / mejapelan.co.id / mejapelan.biz.id | Tidak ada situs yang muncul | **Tidak diketahui, cek manual** |
-
-**Cara cek dan alternatif:**
-- Domain .com: cek di registrar mana pun.
-- Domain .id: cek di registrar resmi PANDI ([pandi.id](https://pandi.id)).
-- **.co.id** biasanya meminta dokumen badan usaha (mis. NIB atau akta), sedangkan .id dan .biz.id lebih longgar. Cek syarat terbaru di PANDI.
-- Jika mejapelan.com sudah terpakai, alternatifnya: **mejapelan.id** (prioritas), kedaimejapelan.com, atau mejapelanrwm.id.
-- **Domain bukan prioritas.** Kanal utama kita adalah WA, Google Maps, dan IG. Cukup satu halaman sederhana berisi alamat, jam buka, menu, tombol WA, dan peta.
-
-### 4.3 Handle media sosial
-
-**Yang bisa saya pastikan:** hanya apa yang muncul di cuplikan pencarian. Instagram tidak bisa dibuka langsung, karena www.instagram.com diblokir di sesi ini.
-
-| Handle | Instagram | TikTok | X | YouTube |
-|---|---|---|---|---|
-| kopiyo | @kopiyo tidak muncul. **@kopiyo_official dipakai** (AS), **@kopiyo.cafe dipakai** (Filipina) | **@kopiyo_official dipakai** (AS) | Belum dicek | Belum dicek |
-| ngopiyo | **@ngopiyo dipakai** (kedai kopi) | Belum dicek | Belum dicek | Belum dicek |
-| **mejapelan** | Tidak muncul di pencarian. **Cek manual** | Cek manual | Cek manual | Cek manual |
-
-**Aturan karakter** (aturan umum per Nov 2026; pastikan lagi di aplikasi):
-- Instagram: huruf, angka, titik, dan garis bawah, maksimal 30 karakter.
-- TikTok: huruf, angka, titik, dan garis bawah, maksimal 24 karakter.
-- X: huruf, angka, dan garis bawah, 4–15 karakter, **tanpa titik**.
-- YouTube: huruf, angka, garis bawah, tanda hubung, dan titik.
-
-**Urutan pilihan untuk Meja Pelan:**
-1. **@mejapelan** di keempat platform.
-2. Jika ada yang sudah terpakai: **@mejapelan.rwm** (Instagram dan TikTok) dan **@mejapelan_rwm** (X, 13 karakter).
-
-**Pakai handle yang sama di semua kanal.** Amankan juga:
-- **nama WhatsApp Business**;
-- **profil Google Bisnis** dengan nama persis "Meja Pelan". Pedoman Google melarang nama yang dijejali kata kunci, seperti "Meja Pelan Kopi Slowbar Rawamangun".
-
-Semua ini harus beres **sebelum H-14**.
-
-### 4.4 Kebingungan dengan kompetitor
-
-- **Meja Pelan** tidak mirip nama di `competitors.md`: Psswrd, Hulu, Kopi Bemo, Kalea, Anastomosis, Kopi Nako, Jung, Pukul Satu, Glasmacher, Kopi Kenangan, Monarki, Noesantara, Kopi Peron, Meet/N/Work, Atme, Arah, Takana, Double V, P8, dan Kedai Locale.
-- **Kopi Yor (Jl. Pemuda Rawamangun) tidak ada di `competitors.md`.** Kopi Yor adalah pesaing tidak langsung (kopi susu *to go*) di jalur pulang tamu kita. Sebaiknya ditambahkan saat `/founder-competitors` diperbarui. File itu tidak saya ubah.
-
-### 4.5 Yang tidak bisa saya cek, dan kenapa
-
-| Sumber | Status di sesi ini | Akibatnya |
-|---|---|---|
-| PDKI (pdki-indonesia.dgip.go.id) | Diblokir jaringan sesi (CONNECT 403, nama host tidak di-resolve) | Status merek semua nama belum diketahui |
-| RDAP domain (rdap.verisign.com, rdap.org), WHOIS, DNS | Diblokir atau tidak tersedia | Status domain belum diketahui |
-| Instagram dan TikTok langsung | Diblokir | Hanya akun yang terindeks mesin pencari yang terlihat. Handle yang tidak muncul **belum tentu kosong** |
-| Google Maps langsung | Tidak diakses | Data rating Kopi Yor berasal dari agregator (RestaurantGuru) dan bisa sudah usang |
-
-Jika ingin saya cek ulang secara langsung, host pdki-indonesia.dgip.go.id, rdap.verisign.com, dan www.instagram.com perlu diizinkan di pengaturan jaringan sesi.
-
-### 4.6 Daftar kerja founder (urut)
-
-1. **Hari 1–2:** cari "Meja Pelan", "Sepulang", dan "Larut" di PDKI (kelas 43, 30, 35) dengan variasinya. Catat hasilnya dengan tangkapan layar.
-2. **Hari 1–2:** cek handle @mejapelan di Instagram, TikTok, X, dan YouTube. Cek juga mejapelan.id dan mejapelan.com. **Jika tersedia, langsung amankan**: buat akun (boleh dikunci atau private dulu) dan beli domain .id. Biayanya kecil, dan nama ini bisa didahului orang lain.
-3. **Minggu 1:** bawa hasilnya ke **Konsultan KI terdaftar**. Minta pendapat tertulis singkat soal:
-   - Meja Pelan di kelas 43 dan 30;
-   - apakah "Kopiyo" bisa diselamatkan (dibandingkan dengan Kopi Yor/Kopiyor dan Kopiko);
-   - apakah frasa kampanye "ngopi-yo" aman dipakai.
-4. **Sebelum post publik pertama (H-14):** ajukan merek di kelas 43, dan di kelas 30 jika anggarannya ada.
-5. **Uji murah di pop-up** (sejalan dengan `marketing.md` §7):
-   - Tulis nama di papan A dan kartu daftar WA.
-   - Minta 10 tamu mengetik nama yang mereka dengar di HP. Catat berapa yang salah eja.
-   - Hitung berapa tamu yang berkomentar "pelan = lama ya?".
-   - Sehari kemudian, tanyakan lewat daftar WA nama tempatnya.
-   - **Jika ≥3 dari 10 salah eja atau mengira lambat, pindah ke cadangan "Sepulang"** sebelum apa pun dicetak massal.
-6. Jika founder setuju dengan nama ini, ganti nama kerja "Kopiyo" di template `marketing.md` dan `pitch-v2-kafe.md`. Saya tidak mengubah file lain.
+**Yang tidak melindungi nama:** NIB atau nama usaha di OSS, profil Google Maps, dan handle Instagram. **Jangan memakai simbol ® sebelum sertifikat terbit.**
 
 ---
 
-## 5. Janji, tagline, dan suara brand
+## 2. Janji dan tiga tagline
 
 ### Janji (yang bisa diandalkan tamu setiap kali datang)
 
-> **Meja buat ngobrol, kopi yang diseduh di depanmu, dan malam yang nggak perlu buru-buru, setiap hari sampai 24.00.**
+> **Rabu sampai Sabtu malam, lampu Lapak Yok nyala sampai 24.00: kursi buat duduk lama, kopi yang diseduh di depanmu, dan nggak ada yang nyuruh buru-buru.**
 
-Konsekuensinya untuk operasional (`/founder-ops`):
-- Tamu yang sudah duduk tidak disuruh pindah atau pulang sebelum 24.00.
-- Jika meja dipesan untuk jam tertentu, beri tahu tamu **saat ia duduk**, bukan di tengah obrolan.
-- Meja tetap bebas laptop.
-- V60 diseduh di depan tamu.
+Janji ini hanya boleh dipakai jika operasionalnya menepati (`/founder-ops`):
+- semua kursi yang dihitung punya sandaran (bagian 4.6);
+- tamu yang sudah duduk tidak disuruh pulang sebelum 24.00;
+- kalau V60 akan lebih dari 10 menit, perkiraannya disampaikan **sebelum tamu bayar** (P018 berhenti datang di atas 10 menit, P001 di atas 15 menit);
+- kalau penuh, bilang jujur dan tawarkan dikabari lewat WA;
+- kalau tutup lebih awal karena hujan, umumkan di story IG secepatnya.
 
-### Tiga tagline
+### Tiga tagline, semua dari "yok"
 
 | # | Tagline | Dipakai di mana | Catatan |
 |---|---|---|---|
-| 1 | **Ngobrol sampai larut.** | **Tagline utama**: di bawah logo, papan, dan bio IG | Tidak ditemukan sebagai tagline merek lain. Kalimat serupa hanya muncul di daftar caption ([Liputan6](https://www.liputan6.com/feeds/read/5872008/350-caption-nongkrong-di-cafe-keren-untuk-feed-instagram)) |
-| 2 | **Pulang kerja, ngopi-yo.** | Kampanye pembukaan H-14 sampai H+16 (`marketing.md`) | Hanya sebagai ajakan, bukan nama. Cadangannya: "Pulang kerja, duduk dulu." |
-| 3 | **Yang pelan cuma obrolannya.** | Papan menu, video jalur cepat, dan jawaban untuk keberatan "slowbar lama" | **Hanya dipakai jika uji 3 menit lolos** (≥9 dari 10 es kopi susu selesai ≤3 menit di jam sibuk) |
+| 1 | **Pulang kerja, yok nongkrong dulu.** | **Utama**: di bawah logo, papan berdiri, bio IG, kartu | Kalimat founder sendiri (`idea.md`). Tetap kalimat iklan, bukan merek |
+| 2 | **Lampu udah nyala. Yok.** | Story pembukaan setiap malam, papan berdiri, caption | Jujur secara harfiah: lampu nyala berarti lapak buka. Mengikat warna Lampu dan lampu baterai jadi ritual |
+| 3 | **Bawa gengmu, yok. Kursinya kami siapin.** | Kartu reservasi rombongan, pesan WA | Menjawab "takut penuh" (P004, P007, P014). **Hanya dipakai kalau reservasi WA sudah berjalan** |
 
-### Suara: hangat, jujur, tenang
+Hindari "yok ngopi" sebagai tagline utama. Frasa itu sudah menjadi nama beberapa merchant GoFood dan Grab (`research/nama-yok.md` §2a).
 
-| Sifat | Lakukan | Jangan | Contoh |
+---
+
+## 3. Suara: hangat, jujur, tenang
+
+Tiga sifatnya sama dengan `brand-kafe.md` §5. Di lapak, ketiganya diuji di saat yang lebih sulit: kursi penuh, antrean seduh, dan hujan.
+
+### 3.1 Tiga contoh khusus lapak
+
+| Sifat | Situasi | Lakukan | Jangan |
 |---|---|---|---|
-| **Hangat** (seperti tuan rumah menyambut teman) | Sapa dengan "kamu"; barista boleh memanggil "Kak". Pakai nama depan jika tamu mau dikenal. Kalimatnya mengajak duduk | Bahasa kantor ("Kami dengan bangga mempersembahkan…"). Gaya alay atau berlebihan ("kakaaa", "gemesss") | "Pulang kerja? Duduk dulu. Mejanya sudah siap." |
-| **Jujur** (mengatakan yang benar, termasuk yang kurang) | Akui "kami baru buka". Tulis harga dengan "belum termasuk PBJT 10%". Klaim hanya yang sudah terbukti. Akui kesalahan dan sebut apa yang diubah | "Terbaik di Rawamangun", "viral", "tinggal sedikit!" yang tidak benar, testimoni rekaan, atau klaim kesehatan ("kopi penghilang stres") | "Kami baru buka, belum banyak review. Kalau tegukan pertama nggak cocok, kami seduh ulang." |
-| **Tenang** (pelan, seperti suasana yang dijual) | Kalimat pendek, satu ide per kalimat, paling banyak satu tanda seru per post. Huruf kapital hanya di awal kalimat | Huruf kapital semua, "BURUAN!!!", hitung mundur palsu, FOMO, atau menyindir kafe lain | "Kamis 19.30: Seduh Bareng 30 menit. Gratis. Bawa teman." |
+| **Hangat** | Rombongan berempat datang Jumat 20.00, semua kursi terisi | "Wah, lagi penuh, Kak, maaf ya. Tulis nama sama nomor WA di sini, nanti kami kabari begitu ada kursi. Sambil nunggu, tubruk atau es kopi susu bisa duluan." | "Penuh, Kak." lalu kembali menyeduh. Atau meminta tamu yang sudah duduk pindah supaya rombongan kebagian |
+| **Jujur** | Empat V60 sudah antre, tamu baru memesan V60 | "V60 lagi antre empat gelas, kira-kira 15 menit. Es kopi susu lebih cepat. Mau yang mana?" Diucapkan **sebelum** tamu bayar | "Bentar ya, Kak." lalu 25 menit tanpa kabar. Atau menulis "selalu cepat" di story |
+| **Tenang** | Hujan deras, lapak tutup lebih awal (story IG) | "Hujan deras di Rawamangun. Malam ini lampu kami matikan jam 21.00. Maaf buat yang sudah di jalan. [Hari berikutnya] kami buka lagi jam 19.00." | "TUTUP!!! HUJAN" dengan huruf kapital semua. Atau hitung mundur "tinggal 3 kursi lagi!!!" |
 
-**Kata yang kita pakai:**
-- "tamu" (bukan "customer");
-- "meja", "seduh", "ngobrol";
-- "laptop istirahat dulu" (bukan "dilarang laptop");
-- "kami baru".
+### 3.2 Kata yang dipakai dan dihindari
 
-**Kata yang dihindari:**
-- "WFC", "healing", "viral", "aesthetic";
-- "terbaik", "nomor 1", "termurah";
-- "kopi melepas stres".
+- **Dipakai:** "lapak", "kursi", "seduh", "nongkrong", "lampu nyala", "geng", "tamu", "laptop istirahat dulu", "kami baru buka".
+- **Dihindari:** "hidden gem", "viral", "aesthetic", "instagramable", "healing", "WFC", "termurah", "terbaik", "kopi penghilang stres", dan "lesehan" sebagai janji utama.
 
-### Sebelum dan sesudah: kalimat pembuka `pitch-v2-kafe.md`
+### 3.3 Sebelum dan sesudah: kalimat pertama `pitch.md`
 
 **Sebelum:**
-> Kopiyo, slowbar baru di Rawamangun, Jakarta Timur: tempat ngobrol dan melepas lelah bareng teman sepulang kerja. Buka setiap hari 16.00–24.00. Meja bebas laptop (HP boleh).
+> Lapak Yok, lapak kopi malam bergaya angkringan di teras ruko di Rawamangun, Jakarta Timur. Buka Rabu–Sabtu 19.00–24.00 (Jumat–Sabtu mulai 18.00).
 
 **Sesudah:**
-> Meja Pelan, slowbar baru di Rawamangun. Pulang kerja, duduk dulu sama teman: kopi diseduh di depan kamu, ngobrol sampai 24.00. HP boleh, laptop istirahat.
+> Pulang kerja, yok nongkrong dulu di Lapak Yok: angkringan kopi malam di teras ruko Rawamangun. Lampunya nyala Rabu–Sabtu sampai 24.00 (Rabu–Kamis dari 19.00, Jumat–Sabtu dari 18.00).
 
 **Kenapa lebih baik:**
-- Kalimat ini dibuka dengan momen yang dikenali tamu ("pulang kerja, duduk dulu"), bukan dengan kategori.
-- "Laptop istirahat" mengubah larangan menjadi candaan yang ramah.
-- "Kopi diseduh di depan kamu" menunjukkan slowbar tanpa memakai istilah teknis.
+- Dibuka dengan momen yang dikenali tamu dan ajakan "yok", bukan dengan kategori.
+- "Lapak … lapak" yang berulang dibuang.
+- "Lampunya nyala" adalah isyarat malam yang khas brand ini, dan memang benar terjadi.
 - "Jakarta Timur" dibuang karena "Rawamangun" sudah cukup untuk orang lokal.
+- Jam ditulis per kelompok hari, jadi tidak perlu tanda kurung "mulai 18.00" yang membingungkan.
 
-**Bonus, baris garansi:**
-- Sebelum: "Tidak cocok di tegukan pertama, kami seduh ulang dengan beans lain tanpa biaya."
-- Sesudah: "Tegukan pertama nggak cocok? Bilang aja. Kami seduh ulang pakai beans lain, gratis."
+**Bonus, baris tempat duduk** (setelah kursinya benar-benar dibeli):
+- Sebelum: "Duduk di bangku dan tikar, sekitar 15 tempat duduk, …"
+- Sesudah: "Sekitar 15 kursi bersandaran, bukan lesehan, jadi duduk 2–3 jam nggak pegal. Rombongan bisa pesan kursi lewat WA."
 
----
-
-## 6. Tampilan: brief untuk desainer
-
-**Rasa yang dituju:** ruang tamu teman pada pukul delapan malam. Lampunya hangat dan rendah, mejanya penuh obrolan. **Bukan** kafe putih-minimalis penuh colokan, **bukan** kopi susu jaringan berwarna cerah, dan **bukan** cokelat-kraft yang dipakai hampir semua kedai.
-
-### Warna (3 warna inti)
-
-| Nama | Hex | Tugas | Teks di atasnya |
-|---|---|---|---|
-| **Biru Malam** | `#232647` | Warna utama: latar papan, latar ikon, dan semua teks gelap. Ini "malam" di nama dan jam buka kita | Kertas atau Lampu |
-| **Lampu** | `#F0A83C` | Aksen: huruf nama di papan malam, simbol meja, dan sorotan. Ini cahaya lampu meja | **Hanya Biru Malam** |
-| **Kertas** | `#F7EFE1` | Latar kertas: menu, kartu beans, kartu meja, gelas keramik, dan latar terang di IG | Biru Malam |
-
-**Cek kontras WCAG 2.x.** Rumus luminans relatif WCAG, dihitung dengan skrip. AA teks normal ≥4,5:1, AA teks besar ≥3:1, AAA ≥7:1.
-
-| Teks | Latar | Rasio | AA normal | AA besar | Keputusan |
-|---|---|---:|:-:|:-:|---|
-| Kertas `#F7EFE1` | Biru Malam `#232647` | **12,77:1** | lulus | lulus | Pakai (juga lulus AAA) |
-| Lampu `#F0A83C` | Biru Malam `#232647` | **7,20:1** | lulus | lulus | Pakai (juga lulus AAA) |
-| Biru Malam `#232647` | Lampu `#F0A83C` | **7,20:1** | lulus | lulus | Pakai |
-| Biru Malam `#232647` | Kertas `#F7EFE1` | **12,77:1** | lulus | lulus | Pakai (teks utama semua materi cetak) |
-| Putih `#FFFFFF` | Biru Malam `#232647` | 14,59:1 | lulus | lulus | Boleh (layar) |
-| Lampu `#F0A83C` | Kertas `#F7EFE1` | **1,77:1** | gagal | gagal | **Dilarang untuk teks.** Hanya untuk bidang atau garis dekoratif |
-| Putih `#FFFFFF` | Lampu `#F0A83C` | **2,02:1** | gagal | gagal | **Dilarang.** Teks di atas Lampu selalu Biru Malam |
-
-**Catatan cetak:**
-- Minta percetakan mencocokkan warna ke hex di atas, dengan **proof cetak**.
-- Periksa proof di bawah lampu hangat (2700K). Kuning-oranye bisa bergeser warnanya.
-- Palet kompetitor **belum saya verifikasi**. Sebelum final, bandingkan dengan akun IG kompetitor di `competitors.md` dan Kopi Yor supaya tidak mirip.
-
-### Huruf (gratis, lisensi SIL Open Font License)
-
-| Peran | Huruf | Kenapa | Tautan |
-|---|---|---|---|
-| **Judul dan nama** | **Fraunces** (serif variabel, sumbu SOFT dan opsz) | Serif lembut yang terasa hangat dan "malam". Pakai SOFT tinggi dan WONK 0 supaya tenang. Ketebalan 600–700 untuk judul | [fonts.google.com/specimen/Fraunces](https://fonts.google.com/specimen/Fraunces) |
-| **Teks** | **Plus Jakarta Sans** | Sans yang jelas di ukuran kecil. Dibuat oleh foundry Jakarta (Tokotype) untuk identitas kota Jakarta, jadi cocok dengan cerita lokal. Ketebalan 400/500/700 | [fonts.google.com/specimen/Plus+Jakarta+Sans](https://fonts.google.com/specimen/Plus+Jakarta+Sans) |
-
-**Aturan pakai:**
-- Lisensi OFL ([openfontlicense.org](https://openfontlicense.org)) membolehkan penggunaan komersial: papan, cetak, logo, dan media sosial. Yang dilarang adalah menjual file hurufnya.
-- **Jangan memakai huruf dari situs "download font gratis"** yang lisensinya tidak jelas.
-- **Ukuran minimum cetak:** teks kartu beans 8–9 pt, harga di menu 11 pt atau lebih.
-- **Nota thermal** memakai huruf bawaan printer. Hanya logonya yang dicetak sebagai gambar hitam-putih.
-
-### Logo
-
-**Yang harus dikatakan logo:** "ada meja untuk kita, dan malam ini tidak perlu buru-buru."
-
-- **Simbol:**
-  - Bentuknya meja bundar dilihat dari atas (lingkaran), dengan **tiga cangkir kecil** (titik atau lingkaran kecil) di tepinya.
-  - Posisi cangkir tidak simetris, seperti orang yang duduk sungguhan.
-  - Satu titik cahaya di tengah boleh ditambahkan sebagai lampu meja.
-  - **Tidak boleh terbaca sebagai jam:** tanpa jarum, tanpa 12 garis penanda. Ini untuk menjauh dari Pukul Satu Kopi.
-- **Wordmark:**
-  - "Meja Pelan" dari Fraunces yang disesuaikan, huruf kecil atau kapital awal.
-  - Jarak antarhuruf sedikit lebih longgar, supaya terasa "pelan".
-- **Versi yang harus ada:**
-  - horizontal (simbol + nama);
-  - bertumpuk ("Meja / Pelan" di bawah simbol);
-  - simbol saja;
-  - satu warna: Biru Malam di atas Kertas, Kertas di atas Biru Malam, dan Lampu di atas Biru Malam;
-  - versi hitam-putih untuk nota thermal dan cap.
-- **Harus bekerja di tiga tempat:**
-  1. **Papan:** nama terbaca dari seberang jalan dan dari motor.
-  2. **Gelas:** dicetak satu warna, cukup simbol dan nama kecil.
-  3. **Ikon 32px** (avatar IG/TikTok/WA, favicon): hanya simbol, Lampu di atas kotak Biru Malam. Lingkaran meja minimal ±20px, titik cangkir minimal ±4px. Uji juga di 16px dan di potongan lingkaran avatar IG.
-- **Hindari:**
-  - biji kopi, uap meliuk, cangkir berhati;
-  - laptop atau colokan dicoret (pesannya jadi negatif);
-  - garis miring di wordmark (gaya "KOP/YOR");
-  - jam;
-  - daun "eco";
-  - warna dan bentuk logo kompetitor mana pun.
-- **Konsep dengan alat gambar:** jika founder mau, saya bisa membuat beberapa **konsep** logo dengan alat gambar yang tersambung (misalnya Canva atau Figma). Konsep seperti itu **bukan logo final**: perlu digambar ulang oleh desainer, dicek kemiripannya, dan hak ciptanya dialihkan tertulis sebelum didaftarkan.
-
-### Ruang dan sudut foto
-
-Rincian ruang adalah tugas `/founder-ops` (offer S11 dan S15). Arahan dari sisi brand:
-- **Cahaya:** lampu hangat 2700K yang bisa diredupkan, dengan cahaya jatuh ke meja, bukan ke langit-langit.
-- **Musik:** tidak lebih keras dari suara ngobrol.
-- **Meja:** meja untuk 2–4 orang ditambah satu meja panjang untuk geng. Tidak ada colokan yang terlihat di meja.
-- **Sudut foto** (untuk P005, P010, dan P011 yang menunggu tempat "cakep buat foto"):
-  - Satu dinding berwarna Biru Malam dengan simbol meja yang menyala Lampu (LED hangat), tepat di atas meja panjang.
-  - Wajah dan cangkir harus kena cahaya.
-  - Jangan memakai neon berisi kutipan.
+`pitch.md` tidak saya ubah. Jika founder setuju, pitch baru ini layak diuji ulang di panel, karena empat penolak menyebut tikar dan pegal.
 
 ---
 
-## 7. Lima touchpoint pertama
+## 4. Tampilan lapak malam tanpa listrik
 
-### 7.1 Papan dan muka kedai
+**Rasa yang dituju:** dari seberang jalan, satu kotak krem yang menyala hangat di bawah atap gelap, dengan beberapa lampu kecil di meja dan uap kopi di bawah satu lampu. Seperti angkringan yang dirawat, **bukan** lapak berlampu neon putih, **bukan** kafe yang dipindah ke tenda.
 
-- **Papan nama:**
-  - Latar Biru Malam, simbol dan "Meja Pelan" dalam warna Lampu, menyala hangat (*front-lit* atau *halo*).
-  - **Tinggi huruf nama ≥20 cm** supaya terbaca dari seberang jalan dan dari motor. Patokan umum industri papan: tiap ±2,5 cm tinggi huruf, sekitar 3 m jarak baca dengan dampak terbaik.
-  - Di bawahnya, dalam warna Kertas: **"slowbar · 16.00–24.00 · Ngobrol sampai larut."**
-- **Kaca atau pintu:** stiker Kertas dengan teks Biru Malam: **"HP boleh, laptop istirahat dulu."** Tamu harus tahu aturan ini **sebelum** masuk dan memesan.
-- **Jendela:** dari luar terlihat lampu meja dan orang ngobrol, bukan layar. Jangan menempelkan poster promo yang menutup kaca.
-- **Papan A:** teks bergantian sesuai uji hook (`marketing.md` §6–7). Untuk hari H: "Pulang kerja, ngopi-yo. 16.00–24.00. Ajak Teman sampai [tanggal H+13]." Untuk hari biasa: "Lapar pulang kerja? Mie dan rice bowl dulu. Kopinya nyusul."
-- **Info parkir:** papan kecil "Parkir motor: [lokasi]", **hanya setelah lokasi pasti** (`marketing.md` §3).
+### 4.1 Warna di bawah lampu LED baterai
 
-### 7.2 Gelas dan cangkir, plus kartu beans
+**Keputusan: palet `brand-kafe.md` tetap, porsinya diubah.** Di kafe, papan Biru Malam menyala dari dalam. Di lapak, satu-satunya cahaya adalah lampu baterai yang menyinari dari depan, jadi yang terlihat dari jalan adalah bidang yang paling banyak memantulkan cahaya.
 
-- **Minum di tempat:**
-  - V60 disajikan di server kaca dan cangkir keramik warna Kertas, dengan simbol kecil Biru Malam di sisi cangkir.
-  - Es kopi susu di gelas kaca bening tanpa cetakan.
-  - Teko Sesi Ngobrol diberi gantungan kecil bertuliskan nama beans.
-- **Bawa pulang (jika ada):**
-  - Gelas kertas warna Kertas atau gelas plastik bening, **cetak satu warna Biru Malam**: simbol, "Meja Pelan", dan "Pesan meja: WA [nomor]". Satu warna supaya murah.
-  - Jangan mencetak promo di gelas.
-- **Kartu beans** (syarat board C2):
-  - Ukuran kartu nama (9 × 5,5 cm), kertas tebal warna Kertas, teks Biru Malam.
-  - Satu desain per beans, cetak ulang setiap ganti beans.
+| Nama | Hex | Tugas di lapak malam | Di bawah lampu hangat |
+|---|---|---|---|
+| **Kertas** | `#F7EFE1` | Bidang utama spanduk, papan menu, semua kartu, mug enamel | Warna paling terang. Luminans relatifnya 0,869, ±40× Biru Malam (0,022) [Pasti, hitungan]. Inilah yang terlihat dari jalan |
+| **Biru Malam** | `#232647` | Semua teks di atas Kertas, atap tenda (warna stok terdekat: "biru dongker"), badan gerobak, pita bawah spanduk, panel latar sudut seduh, latar ikon | Tampak hampir hitam, kecokelatan di foto HP. Ia menyatu dengan malam, dan memang itu tugasnya. Jangan memaksa biru yang lebih terang |
+| **Lampu** | `#F0A83C` | Gelembung "yok", teks di atas Biru Malam, dan warna cahaya itu sendiri | Makin oranye. Kontrasnya dengan Biru Malam naik |
+
+**Cek kontras WCAG 2.x** (rumus luminans relatif WCAG, dihitung dengan skrip). AA teks normal ≥4,5:1, AA teks besar ≥3:1, AAA ≥7:1.
+
+| Teks | Latar | Standar WCAG | ±3000K | ±2700K | AA normal | Keputusan |
+|---|---|---:|---:|---:|:-:|---|
+| Biru Malam `#232647` | Kertas `#F7EFE1` | **12,77:1** | 13,51:1 | 13,62:1 | lulus | **Teks utama:** nama di spanduk, menu, semua kartu |
+| Kertas `#F7EFE1` | Biru Malam `#232647` | **12,77:1** | 13,51:1 | 13,62:1 | lulus | Teks di gerobak dan panel gelap |
+| Lampu `#F0A83C` | Biru Malam `#232647` | **7,20:1** | 8,88:1 | 9,19:1 | lulus | Baris kedua spanduk, aksen di gerobak |
+| Biru Malam `#232647` | Lampu `#F0A83C` | **7,20:1** | 8,88:1 | 9,19:1 | lulus | Huruf "yok" di dalam gelembung |
+| Putih `#FFFFFF` | Biru Malam `#232647` | 14,59:1 | 15,16:1 | 15,23:1 | lulus | Boleh di layar (IG, WA) |
+| Lampu `#F0A83C` | Kertas `#F7EFE1` | **1,77:1** | 1,52:1 | 1,48:1 | **gagal** | **Dilarang untuk teks.** Makin buruk di lampu hangat |
+| Putih `#FFFFFF` | Lampu `#F0A83C` | **2,02:1** | 1,71:1 | 1,66:1 | **gagal** | **Dilarang** |
+
+**Cara menghitung kolom ±3000K dan ±2700K** [perkiraan, bukan ukuran]: nilai RGB linear tiap warna dikalikan dengan warna cahaya *blackbody* 3000K dan 2700K (dinormalkan ke luminans 1), tanpa adaptasi warna mata. Ini kasus terburuk, mirip kamera HP dengan *white balance* siang. Mata manusia beradaptasi sebagian, jadi nilai sebenarnya ada di antara kolom standar dan kolom ini. **Kesimpulannya tetap:** pasangan yang dipakai makin kontras di lampu hangat, dan pasangan yang dilarang makin buruk.
+
+**Aturan warna khusus malam:**
+- **Teks papan dan menu minimal 7:1, bukan hanya 4,5:1.** Di cahaya redup, kepekaan mata terhadap kontras turun. Semua pasangan yang dipakai di atas sudah ≥7,20:1.
+- **Lampu tidak pernah menjadi teks di atas Kertas**, dan putih tidak pernah di atas Lampu.
+- **Bahan cetak doff (matte)**, bukan glossy. Bahan glossy memantulkan titik silau dari lampu LED di depannya.
+- **Proof cetak dilihat malam hari di bawah lampu LED yang akan dipakai**, dari 10 m dan 20 m. Kuning-oranye di flexi murah bisa tercetak kecokelatan.
+- **Warna kompetitor belum saya verifikasi.** Sebelum mencetak, bandingkan dengan akun IG Kopi Yor (Jl. Pemuda) dan YO'KOPI (@yo_kopi), supaya tidak mirip.
+
+### 4.2 Huruf (gratis, lisensi SIL Open Font License)
+
+| Peran | Huruf | Dipakai di | Tautan |
+|---|---|---|---|
+| **Nama dan judul besar** | **Fraunces**, Black (900), sumbu SOFT 100, WONK 0 | "LAPAK YOK" di spanduk dan gerobak, huruf "yok" di logo, judul kartu | [fonts.google.com/specimen/Fraunces](https://fonts.google.com/specimen/Fraunces) |
+| **Semua info** | **Plus Jakarta Sans**, 500/700/800 | Baris kedua spanduk (ExtraBold, kapital), jam, menu, harga, kartu, caption | [fonts.google.com/specimen/Plus+Jakarta+Sans](https://fonts.google.com/specimen/Plus+Jakarta+Sans) |
+| Papan antrean dan "Malam ini" | **Tulisan tangan founder** dengan kapur atau spidol | Papan kecil di gerobak | Tidak butuh lisensi |
+
+- **Kenapa Fraunces tetap:** di ketebalan Black dengan SOFT tinggi, ujung hurufnya membulat seperti huruf cat tangan di gerobak lama. Di ukuran besar (27 cm) tetap jelas.
+- **Cadangan:** jika uji 20 m (bagian 1.4) menunjukkan Fraunces terbaca lebih lambat, ganti nama di spanduk ke **Plus Jakarta Sans ExtraBold**. Logo tetap memakai Fraunces.
+- **Lisensi:** OFL ([openfontlicense.org](https://openfontlicense.org)) membolehkan pemakaian komersial: spanduk, cetak, logo, media sosial. Yang dilarang adalah menjual file hurufnya. **Jangan memakai huruf dari situs "download font gratis"** yang lisensinya tidak jelas.
+- **Ukuran minimum, karena dibaca di bawah lampu redup:**
+  - teks kartu ≥10 pt (naik dari 8–9 pt di `brand-kafe.md`), judul kartu ≥14 pt;
+  - harga di papan menu tinggi huruf kapital ≥2,5 cm (dibaca dari ±3 m);
+  - papan berdiri: judul ≥6 cm, info ≥4 cm (dibaca dari ±5–8 m).
+
+### 4.3 Spanduk dan papan
+
+**Patokan ukuran huruf:** patokan umum industri papan adalah ±2,5 cm tinggi huruf untuk setiap ±3 m jarak baca dengan dampak terbaik (`brand-kafe.md` §7.1) [Kemungkinan Besar; bukan standar resmi tunggal]. Untuk malam dengan cahaya lemah saya tambah 50% [Menebak]:
+
+| Jarak | Patokan siang | Malam (×1,5) |
+|---|---:|---:|
+| 5 m | 4,2 cm | 6,2 cm |
+| 10 m | 8,3 cm | 12,5 cm |
+| 20 m | 16,7 cm | **25,0 cm** |
+
+**Spanduk utama (depan tenda):**
+
+| Hal | Spesifikasi |
+|---|---|
+| Ukuran | **300 × 75 cm**, untuk tenda 3 × 3 m. Ukur lebar rangka tenda dulu |
+| Bahan | Flexi/MMT **doff**, mata ayam tiap ±50 cm, diikat kencang ke rangka (angin) |
+| Posisi | Tepi atas depan tenda. Tepi bawah ±1,9 m atau lebih dari lantai, supaya tidak menutupi bar dan kepala tamu. **Orang yang lewat harus tetap bisa melihat lampu dan orang di dalam** |
+| Bidang atas (49 cm, Kertas) | Gelembung "yok" (tinggi ±38 cm) di kiri, lalu **"LAPAK YOK"** dalam Fraunces Black, Biru Malam, **tinggi huruf kapital 27 cm**. Lebar perkiraan ±250 cm termasuk gelembung [Menebak; desainer menyesuaikan] |
+| Pita bawah (26 cm, Biru Malam) | **"KOPI SEDUH · ANGKRINGAN"** dalam Plus Jakarta Sans ExtraBold, warna Lampu, tinggi huruf kapital 12 cm |
+| Jarak baca | Nama: ±20 m di malam hari. Baris kedua: ±10 m |
+| Yang tidak ditulis | Harga, promo, nomor HP, "viral". Semua itu ada di papan berdiri dan kartu |
+| Cahaya | Dua lampu batang LED USB hangat (2700–3000K), dijepit di rangka depan ±50 cm di depan spanduk, diarahkan supaya rata dari ujung ke ujung. Masing-masing dengan power bank 20.000 mAh (±74 Wh, ±63 Wh terpakai, kira-kira 12 jam pada 5 W [Menebak; uji di malam latihan]) |
+
+**Papan berdiri (A-board) ±60 × 90 cm**, di tepi teras pribadi, **tidak di trotoar** (Perda DKI 8/2007, `lapak-malam.md`). Bidang Kertas, teks Biru Malam:
+
+> **Lampu udah nyala. Yok.**
+> Kopi seduh · angkringan
+> Rabu–Kamis 19.00–24.00
+> Jumat–Sabtu 18.00–24.00
+> ±15 kursi bersandaran · rombongan pesan via WA [nomor]
+> Parkir motor: [lokasi] →
+
+Baris parkir **hanya ditulis setelah lokasi pasti** (P003, P004, P007, P010 menyebut parkir).
+
+### 4.4 Tenda, gerobak, dan muka bar
+
+- **Tenda:** tenda lipat 3 × 3 m (`numbers-lapak.json`), atap warna stok "biru dongker" yang paling dekat dengan Biru Malam (tidak harus persis). Dinding samping digulung. Satu sisi yang menghadap angin atau hujan bisa diturunkan. Rumbai depan boleh polos.
+- **Gerobak atau meja bar:** badan Biru Malam. **Bar menghadap tamu dan jalan, supaya seduhan V60 terlihat** (itu pertunjukannya). Di panel depannya, logo bertumpuk (gelembung di atas "LAPAK / YOK") dan satu baris dalam Kertas: **"Kopi diseduh di depan kamu."**
+- **Papan menu** digantung di bar, bidang Kertas, teks Biru Malam, disinari lampu seduh:
+
+> **V60 single origin** · Rp22.000 · dengan kartu beans
+> **Es kopi susu** · Rp17.000
+> **Kopi tubruk** · Rp8.000
+> **Angkringan** · nasi kucing, sate, gorengan, roti bakar · Rp3.000–12.000
+> Bingung pilih? **Cicip dulu, gratis.**
+> Tegukan pertama nggak cocok? Bilang aja, kami seduh ulang.
+> Bayar: tunai / QRIS
+
+"Siap 3 menit" untuk es kopi susu **baru ditulis setelah lolos uji** di malam latihan (≥9 dari 10 gelas selesai ≤3 menit di jam sibuk, aturan `brand-kafe.md` §5).
+
+- **Papan kecil "Malam ini"** (tulisan tangan, di samping bar):
+
+> Malam ini: [nama beans], disangrai [tanggal]
+> Diseduh oleh: [nama]
+> Antrean V60: __ gelas · ±__ menit
+
+Baris antrean diisi setiap ada pesanan V60. Papan ini menjawab "nunggu lama" sebelum tamu mengeluh (P001, P011, P015, P018, P020).
+
+### 4.5 Kursi: menjawab "pegal duduk di tikar"
+
+**Yang dikatakan panel:**
+- *"Duduk di tikar 2-3 jam juga pegal buat umur segini"* (P007).
+- *"Duduk lesehan di tikar atau bangku 2–3 jam itu pegal di punggung"* (P008).
+- *"Pegal duduk lesehan 2-3 jam, mending balik ke warkop langganan"* (P018).
+- *"Duduk di tikar atau bangku setelah kerja belum tentu nyaman"* (P019).
+
+**Keputusan brand:** janji "kursi buat duduk lama" tidak bisa ditepati dengan tikar dan bangku tanpa sandaran.
+
+| Tempat | Jumlah | Jenis | Untuk siapa |
+|---|---:|---|---|
+| Kursi meja | 12 | **Kursi lipat bersandaran** (kayu lipat atau kursi camping kain bersandaran), 4 meja rendah × 3 kursi | Geng 2–6 orang yang duduk 2–3 jam |
+| Kursi bar | 3 | Bangku tinggi di depan gerobak, sebaiknya dengan sandaran rendah | Tamu sendiri yang mau menonton seduhan dan ngobrol dengan barista |
+| Tikar + bantal | Opsional | Hanya kalau ada rombongan yang minta | **Tidak dihitung dalam 15 kursi dan tidak dipromosikan** |
+
+- **Syarat kursi:** sandaran sampai punggung tengah, bisa dilipat dan diangkut setiap malam, tahan lembap, warna kayu alami atau biru tua. Tinggi dudukan cocok dengan tinggi meja.
+- **Uji di malam latihan (30 Nov–8 Des):** dua jenis kursi, teman duduk 2 jam di masing-masing, beri nilai "pegal" 1–5. Pilih yang lebih rendah nilainya.
+- **Biaya:** `numbers-lapak.json` menganggarkan Rp2,3 juta untuk "bangku dan meja lipat ±15 kursi + tikar [estimasi]". Kursi bersandaran kemungkinan lebih mahal [Menebak]. Harga belum saya cek. `/founder-ops` mencari harga, CFO menghitung ulang.
+- **Komunikasi:** tulis "kursi bersandaran" di WA dan IG **hanya setelah kursinya dibeli**.
+
+### 4.6 Lampu dan satu sudut foto yang jujur
+
+**Yang dikatakan panel:** *"Nggak tahu apa yang bikin yang ini beda atau worth difoto"* (P005). *"Lebih pilih kafe yang lagi hits buat foto, bukan bangku dan tikar"* (P010). *"Nggak ada yang seru buat difoto"* (P011).
+
+**Jawabannya bukan dinding neon atau properti palsu**, tapi menyinari hal yang memang istimewa di sini: kopi yang diseduh di depan tamu.
+
+| Lampu | Jumlah | Spesifikasi | Tugas |
+|---|---:|---|---|
+| **Lampu seduh** | 1 | LED isi ulang yang bisa diarahkan, 2700–3000K, **CRI ≥90** jika ada (warna makanan dan wajah tetap wajar), digantung ±60–80 cm di atas titik seduh | Pertunjukan V60 dan sudut foto |
+| **Lampu spanduk** | 2 | Lampu batang LED USB hangat (bagian 4.3) | Spanduk terbaca dari jalan |
+| **Lampu meja** | 4–5 | Lentera LED isi ulang, cahaya hangat, bisa diredupkan. Mengingatkan pada lampu teplok angkringan **tanpa api** (sudah ada kompor gas di bawah tenda) | Wajah dan gelas kena cahaya, cahaya setinggi meja |
+| Lampu untai | Opsional, 1 | Bohlam kecil hangat (2200–2700K), redup, di tepi depan tenda | Lapak terlihat menyala dari jauh |
+
+**Dilarang:** lampu tabung putih dingin (6500K, membuat makanan abu-abu dan wajah pucat), lampu RGB berganti warna, lampu berkedip, dan neon berisi kutipan.
+
+**Sudut foto: "Meja Seduh".**
+- Panel Biru Malam (kain atau papan) di belakang titik seduh, dengan gelembung "yok" kecil warna Lampu. Hanya itu yang ber-merek di dalam bingkai.
+- Lampu seduh menyinari dari samping atau sedikit dari belakang. **Uap terlihat paling jelas jika disinari dari samping atau belakang dengan latar gelap** [Kemungkinan Besar].
+- Kartu beans berdiri di samping server kaca, ikut masuk bingkai.
+- Kartu kecil di bar: *"Boleh foto seduhannya. Wajah orang lain, izin dulu ya."* (aturan privasi `marketing-kafe.md` §14).
+
+**Yang tidak dilakukan:** menyewa orang supaya terlihat ramai, menulis "spot foto aesthetic", atau memasang properti yang tidak ada hubungannya dengan kopi.
+
+**Daya:** semua lampu memakai baterai. Isi ulang di rumah siang hari, beri label pada setiap lampu dan power bank, dan bawa satu power bank cadangan. Anggaran `numbers-lapak.json` untuk lampu dan power bank adalah Rp600 ribu [estimasi]. Daftar di atas kemungkinan melebihinya [Menebak]. Kalau anggaran terbatas, urutan belinya: (1) lampu seduh, (2) lampu spanduk, (3) lampu meja.
+
+### 4.7 Gelas, cangkir, dan kartu beans
+
+| Minuman | Wadah di tempat | Bawa pulang |
+|---|---|---|
+| V60 | Server kaca bening + **mug enamel krem atau putih dengan list biru tua** (barang stok, warna tidak harus persis). Enamel tahan banting dan terasa angkringan | Gelas kertas polos + stiker bulat 5 cm |
+| Es kopi susu | Gelas kaca bening tinggi, tanpa cetakan | Gelas plastik bening + stiker bulat 5 cm |
+| Kopi tubruk | Gelas belimbing dengan lepek | – |
+| Makanan | Bungkus daun pisang atau kertas nasi. Tanpa styrofoam | – |
+
+- **Stiker bawa pulang** (satu warna Biru Malam di atas kertas stiker krem): gelembung "yok", "Lapak Yok", "Pesan kursi: WA [nomor]". Stiker lebih murah daripada gelas bercetak untuk jumlah kecil [Kemungkinan Besar]. Tanpa promo.
+- **Kartu beans** (syarat board C2): sama dengan `brand-kafe.md` §7.2, ukuran 9 × 5,5 cm, kertas tebal Kertas, teks Biru Malam **≥10 pt**.
 
 > **Depan**
 > **[Nama beans]**
@@ -411,170 +356,239 @@ Rincian ruang adalah tugas `/founder-ops` (offer S11 dan S15). Arahan dari sisi 
 > Rasa: [tiga kata, mis. jeruk, gula aren, cokelat]
 >
 > **Belakang**
-> Diseduh oleh: __________ (barista)
-> Cerita singkat: ______________________
+> Diseduh di Lapak Yok oleh: __________, malam __________
 > Mau seduh di rumah? Rasio kami: [1:16], [92]°C, ±[3] menit.
-> Meja Pelan · Ngobrol sampai larut. · WA [nomor]
+> Lapak Yok · Pulang kerja, yok nongkrong dulu. · WA [nomor]
 
-Kartu ini dibawa pulang tamu. Tanggal sangrai **wajib diisi** (hook H9: "Tanggal sangrainya kami tulis. Silakan cek.").
+### 4.8 Kartu "HP boleh, laptop tidak"
 
-### 7.3 Konfirmasi reservasi lewat WhatsApp, plus kaki nota
-
-**Konfirmasi reservasi** (dikirim admin atau barista setelah tamu memesan meja):
-
-> Halo [nama], mejamu sudah kami catat.
->
-> [Hari], [tanggal] · jam [19.30] · [jumlah] orang
-> Meja Pelan, [alamat singkat]
-> Peta: [tautan Google Maps]
-> Pesanan awal: [Sesi Ngobrol Rp85.000 / pilih di tempat]. Harga belum termasuk PBJT 10%.
->
-> Mejanya kami tahan sampai [jam + 15 menit]. Kalau telat atau batal, balas pesan ini saja, nggak apa-apa.
->
-> Info kecil: di sini HP boleh, laptop istirahat dulu. Parkir motor: [info parkir].
->
-> Sampai ketemu.
-> [Nama], Meja Pelan
-
-Catatan: lama meja ditahan (15 menit) adalah **usulan**, yang memutuskan `/founder-ops`. Pesan ini tidak berisi promo dan tidak memasukkan tamu ke daftar siaran tanpa izin (UU PDP, `marketing.md` §14).
-
-**Kaki nota** (thermal, huruf bawaan printer):
-
-> Terima kasih sudah duduk lama-lama.
-> Kopi hari ini: [nama beans], disangrai [tgl].
-> Cerita jujurmu di Google Maps, yang enak maupun yang kurang, kami baca semua. [QR]
-> Pesan meja: WA [nomor] · 16.00–24.00
-
-### 7.4 Post Instagram pertama (H-14, hook H1)
-
-- **Format:** video vertikal 9:16, ±30 detik, cahaya lampu hangat, tanpa musik keras.
-- **Isi:** founder duduk di meja kosong. Kamera *close-up* ke dinding meja yang **tidak ada colokannya**. Video selesai pada papan nama yang menyala.
-
-**Naskah suara:**
-> "Meja ini sengaja nggak punya colokan. Kami lagi nyiapin tempat buat yang pulang kerja dan pengin ngobrol sama teman, bukan buka laptop lagi. HP boleh. Laptop istirahat dulu. Namanya Meja Pelan."
-
-**Caption:**
-> Meja ini sengaja nggak punya colokan.
->
-> Kami lagi menyiapkan Meja Pelan: slowbar kecil di Rawamangun, buka setiap hari 16.00–24.00. Buat yang pulang kerja dan pengin ngobrol sama teman, bukan kerja lagi.
->
-> HP boleh. Laptop istirahat dulu.
-> Kopi diseduh di depan kamu. Ada mie dan rice bowl buat yang pulang kerja lapar.
->
-> Kami belum buka, jadi belum ada review. Tanggal bukanya kami kabari di sini.
-> Mau dikabari lewat WA? Balas "kabari" di DM.
->
-> #Rawamangun #JakartaTimur #slowbar
-
-**Bio IG** (≤150 karakter):
-> Slowbar sore–malam di Rawamangun. Buat ngobrol, bukan kerja. HP boleh, laptop istirahat. 16.00–24.00 · Pesan meja via WA ↓
-
-**Aturan:**
-- Tanpa angka follower, tanpa "viral", tanpa testimoni.
-- Wajah orang lain hanya tampil dengan izin (`marketing.md` §14).
-
-### 7.5 Balasan untuk keluhan pertama
-
-**Skenario paling mungkin** (dari keraguan panel soal "slowbar lama"): ulasan Google Maps bintang 2: *"Tempatnya enak buat ngobrol, tapi V60 saya baru datang 25 menit. Nggak ada yang ngabarin."*
-
-> Halo [nama], terima kasih sudah menulis ini, dan maaf. 25 menit itu terlalu lama, apalagi tanpa kabar dari kami. Malam itu sekitar jam 19.30 bar kami kewalahan dan antrean seduhan manual menumpuk. Itu masalah kami, bukan alasan.
->
-> Yang kami ubah mulai minggu ini: kalau seduhan manual akan lebih dari 10 menit, barista bilang di kasir sebelum kamu bayar, supaya kamu bisa pilih menunggu atau ambil es kopi susu dulu. [Tulis hanya perubahan yang benar-benar dilakukan.]
->
-> Kalau suatu malam kamu mampir lagi, sebut nama kamu ke barista. Seduhan berikutnya kami yang tanggung. Tawaran ini tidak bergantung pada ulasan; ulasanmu biarkan apa adanya, ini masukan yang kami perlu.
->
-> [Nama founder], Meja Pelan
-
-**Varian singkat untuk keluhan soal aturan laptop:**
-
-> Halo [nama], maaf kalau malam itu terasa kurang enak. Aturan "HP boleh, laptop istirahat" memang kami pegang sejak awal, karena tempat ini kami buat untuk ngobrol. Kami paham kadang ada kerjaan yang harus selesai malam itu juga, dan untuk itu ada kafe lain yang lebih cocok. Kalau cara kami menyampaikannya kurang sopan, itu salah kami; ceritakan lewat WA [nomor] supaya kami perbaiki. Kalau suatu malam kamu datang untuk ngobrol, mejanya kami siapkan.
->
-> [Nama founder], Meja Pelan
-
-**Aturan membalas:**
-- Balas paling lambat 24 jam (`marketing.md`).
-- Balas semua ulasan, bukan hanya yang buruk.
-- Jangan pernah menawarkan imbalan supaya ulasan diubah atau dihapus.
-- Jangan menyebut atau menyindir kafe lain.
-
-### Kartu meja "HP boleh, laptop tidak"
-
-Kartu tenda (*tent card*) di setiap meja, warna Kertas dengan teks Biru Malam, ±10 × 7 cm per sisi.
+Kartu tenda di setiap meja rendah, ±10 × 7 cm per sisi, Kertas dengan teks Biru Malam, **dilaminasi** (embun, tumpahan) dan diberi **dudukan berat** atau penjepit kayu supaya tidak terbang ditiup angin.
 
 > **Sisi 1 (menghadap tamu)**
 > **HP boleh. Laptop istirahat dulu.**
-> Meja ini buat ngobrol. Balas chat sebentar, silakan. Kerjaan yang panjang, simpan sampai besok, ya.
-> Pesan meja: WA [nomor] · 16.00–24.00
+> Di sini memang nggak ada colokan: lapak ini buat ngobrol. Balas chat sebentar, silakan.
+> Pesan kursi rombongan: WA [nomor]
 >
-> **Sisi 2 (balik menghadap bar jika mau)**
+> **Sisi 2 (dibalik menghadap bar jika mau)**
 > **Cerita kopinya, dong.**
-> Balik kartu ini ke arah bar, nanti barista mampir sebentar cerita soal kopimu. Kalau tidak dibalik, kami nggak ganggu obrolan kalian.
+> Balik kartu ini ke arah bar, nanti barista mampir sebentar. Kalau tidak dibalik, kami nggak ganggu obrolan kalian.
 
-Sisi 2 menjalankan offer S10: "barista baca meja", cerita kopi hanya jika diminta.
+**Kalau ada laptop terbuka** (naskah dari `brand-kafe.md`, disesuaikan; diucapkan pelan, sekali, langsung ke pemiliknya):
 
-**Naskah barista jika ada laptop terbuka** (syarat board C9). Diucapkan pelan, sekali saja, langsung ke pemilik laptop, tidak di depan seluruh meja:
+> "Kak, maaf ganggu sebentar. Di lapak ini laptopnya kami minta istirahat dulu ya, kursinya buat ngobrol. HP tetap boleh. Kalau malam ini memang harus kerja, kami ngerti banget. Minumannya bisa kami pindah ke gelas bawa pulang."
 
-> "Kak, maaf ganggu sebentar. Di sini laptopnya kami minta istirahat dulu ya, mejanya buat ngobrol. HP tetap boleh. Kalau malam ini memang harus kerja, kami ngerti banget. Minumannya bisa kami pindah ke gelas bawa pulang."
+### 4.9 Kartu reservasi WA untuk rombongan
 
-**Materi cetak lain** (permintaan `marketing.md` §15). Kartu Ajak Teman, kartu QR review, dan flyer kantor memakai sistem yang sama:
-- latar Kertas, teks Biru Malam, satu aksen Lampu di bidang (bukan di teks);
-- simbol meja di pojok;
-- isi teks persis dari template `marketing.md` §10, dengan nama baru.
+Panel takut 15 kursi sudah penuh saat datang berempat (P004, P007, P008, P014, P020). Kartu ini dibagikan ke setiap tamu yang datang bersama teman. Ukurannya kartu nama, Kertas, teks Biru Malam, dengan gelembung Lampu.
+
+> **Depan**
+> **Bawa gengmu, yok. Kursinya kami siapin.**
+> Rombongan 4–8 orang? Pesan kursi lewat WA: [nomor] [QR wa.me]
+> Tulis: nama · jumlah orang · hari · jam datang
+>
+> **Belakang**
+> Kursi kami tahan 15 menit dari jam yang kamu tulis. Telat atau batal? Balas WA aja, nggak apa-apa.
+> Rabu–Kamis 19.00–24.00 · Jumat–Sabtu 18.00–24.00
+> HP boleh, laptop istirahat dulu.
+> Lapak Yok · [patokan alamat], Rawamangun
+
+**Balasan konfirmasi WA** (dikirim founder atau helper):
+
+> Halo [nama], kursinya sudah kami catat.
+>
+> [Hari], [tanggal] · jam [20.00] · [jumlah] orang
+> Lapak Yok, [patokan alamat]
+> Peta: [tautan Google Maps]
+> Parkir motor: [info parkir]
+>
+> Kursinya kami tahan sampai jam [20.15]. Kalau telat atau batal, balas pesan ini saja.
+> Info kecil: di sini HP boleh, laptop istirahat dulu.
+>
+> Sampai ketemu.
+> [Nama], Lapak Yok
+
+**Usulan untuk `/founder-ops`:** pada Jumat–Sabtu, kursi yang bisa dipesan paling banyak 8 dari 15, supaya tamu tanpa reservasi tetap kebagian. Lama kursi ditahan (15 menit) juga usulan. Pesan ini tanpa promo, dan tamu tidak dimasukkan ke daftar siaran tanpa izin (UU PDP, `marketing-kafe.md` §14).
 
 ---
 
-## 8. Aturan brand
+## 5. Brief logo
 
-- **Tidak meniru nama, logo, warna, atau tagline kompetitor.** "Seduh Pelan" (tagline JOS Cafe) dan nama berunsur jam (dekat Pukul Satu) sengaja dihindari.
-- **Huruf, gambar, dan ikon hanya yang boleh dipakai:**
-  - Fraunces dan Plus Jakarta Sans (OFL);
-  - foto milik sendiri;
-  - ikon gambar sendiri atau yang lisensinya jelas.
+**Yang harus dikatakan logo:** "ada yang ngajak, dan lampunya udah nyala."
+
+- **Simbol:** gelembung chat berbentuk **persegi membulat** (bukan lingkaran), ekornya di kiri bawah. Warna Lampu. Di dalamnya **"yok"** huruf kecil, Fraunces Black SOFT, warna Biru Malam (7,20:1). Gelembung adalah ajakan teman lewat WA, dan warnanya adalah lampu di malam hari.
+- **Wordmark:** **"LAPAK YOK"** dalam Fraunces Black SOFT, kapital, jarak antarhuruf sedikit longgar (+5%). Huruf kapital memberi tinggi huruf terbesar di spanduk. Huruf kecil "yok" di gelembung menjadi penyeimbang yang ramah.
+- **Versi yang harus ada:**
+  - horizontal (gelembung + LAPAK YOK) untuk spanduk;
+  - bertumpuk (gelembung di atas LAPAK / YOK) untuk panel gerobak dan post IG persegi;
+  - simbol saja untuk ikon, stiker gelas, dan cap kartu;
+  - satu warna Biru Malam untuk cap karet dan stiker;
+  - versi terbalik: Kertas di atas Biru Malam.
+- **Harus bekerja di tiga tempat:**
+  1. **Spanduk** 300 × 75 cm, terbaca dari 20 m di malam hari (bagian 4.3).
+  2. **Gelas:** stiker bulat 5 cm atau cap karet ±3 cm, satu warna. Hanya simbol dan nama kecil.
+  3. **Ikon 32 px** (avatar IG/TikTok/WA, favicon): gelembung Lampu di atas kotak Biru Malam. Gelembung ±24 × 18 px, "yok" setinggi x ±8 px. Simpan di tengah 80% kanvas supaya tidak terpotong lingkaran avatar IG. **Di 16 px**, pakai gelembung tanpa huruf atau hanya "y". Uji di daftar chat WA.
+- **Hindari:**
+  - warna hijau, gagang telepon, atau gelembung bulat yang bisa disangka logo WhatsApp;
+  - tanda petik seperti "YO'" (gaya YO'KOPI) dan kata "KOPI" di logo (menjauh dari YO'KOPI dan Kopi Yor);
+  - biji kopi, uap meliuk, cangkir berhati;
+  - motif blirik enamel sebagai logo (terlalu umum);
+  - gambar gerobak *clipart*, neon, laptop dicoret;
+  - warna dan bentuk logo kompetitor mana pun.
+- **Konsep dengan alat gambar:** sesi ini tersambung ke alat gambar (Canva, Figma, Higgsfield). Jika founder mau, saya bisa membuat 3–4 **konsep** gelembung "yok" dan spanduk. Setiap gambar akan diberi label **"KONSEP, bukan logo final"**. Konsep perlu digambar ulang oleh desainer, dicek kemiripannya dengan logo lain, dan hak ciptanya dialihkan tertulis sebelum didaftarkan ke DJKI.
+
+---
+
+## 6. Lima touchpoint pertama
+
+### 6.1 Spanduk
+
+**Bidang atas (Kertas):** [gelembung "yok"] **LAPAK YOK**
+**Pita bawah (Biru Malam):** **KOPI SEDUH · ANGKRINGAN**
+
+Spesifikasi lengkap di bagian 4.3. Hanya dua baris, tanpa harga, promo, atau nomor HP. Jam, kursi, dan parkir ada di papan berdiri.
+
+### 6.2 Post Instagram pertama (H-14, Rabu 25 November 2026)
+
+**Syarat:** merek kelas 43 sudah diajukan (24 Nov), dan tempat sudah pasti. Tanggal buka 9 Desember **hanya ditulis jika tempat dan status halal sudah jelas** (`lapak-malam.md` §7). Kalau belum, ganti dengan "Tanggal bukanya kami kabari di sini."
+
+- **Format:** video vertikal 9:16, ±25 detik, direkam malam hari di lokasi sebenarnya. Tanpa musik keras.
+- **Isi:** teras gelap → founder menyalakan lampu satu per satu (spanduk, lampu seduh, lentera meja) → close-up V60 dituang di bawah lampu seduh, uapnya terlihat → kursi bersandaran yang masih kosong → spanduk menyala.
+
+**Naskah suara:**
+> "Lampu ini nanti nyala tiap Rabu sampai Sabtu malam. Kopinya diseduh di depan kamu, kursinya ada sandarannya, dan nggak ada yang nyuruh buru-buru sampai jam dua belas. Di sini nggak ada colokan, jadi laptop istirahat dulu. Namanya Lapak Yok."
+
+Opsi kalimat pembuka, **hanya jika founder nyaman dan kontrak kerjanya membolehkan usaha sampingan** (`lapak-malam.md`): "Saya juga pulang kantor jam setengah enam, dan saya tahu rasanya pengin duduk dulu sebelum pulang."
+
+**Caption:**
+> Lampunya mulai nyala Rabu, 9 Desember.
+>
+> Lapak Yok: angkringan kopi malam di teras [patokan], Rawamangun.
+> Rabu–Kamis 19.00–24.00 · Jumat–Sabtu 18.00–24.00
+>
+> Kopi diseduh di depan kamu. V60 Rp22.000, es kopi susu Rp17.000, tubruk Rp8.000. Ada nasi kucing, sate, gorengan.
+> Sekitar 15 kursi bersandaran. Rombongan bisa pesan lewat WA.
+> HP boleh, laptop istirahat dulu. Memang nggak ada colokan.
+>
+> Kami belum buka, jadi belum ada review. Mau dikabari? Balas "yok" di DM.
+>
+> #Rawamangun #angkringan #kopimalam
+
+**Bio IG** (≤150 karakter):
+> Angkringan kopi malam di Rawamangun. Rabu–Sabtu sampai 24.00. Kopi diseduh di depanmu. HP boleh, laptop istirahat. Pesan kursi rombongan ↓
+
+**Aturan:** tanpa angka follower, tanpa "viral", tanpa testimoni. Wajah orang lain hanya dengan izin.
+
+### 6.3 Pesan WA yang diteruskan pelanggan ke temannya
+
+Lapak Yok menyediakan pesan ini (dikirim ke tamu yang setuju masuk daftar WA). **Tamu yang memutuskan mau meneruskan atau tidak.** Isinya hanya fakta. Jangan menaruh pujian seperti "enak banget" di mulut tamu (`marketing-kafe.md` §10 B).
+
+> Yok, ke Lapak Yok [hari] jam [20.00]?
+> Angkringan kopi malam di teras [patokan], Rawamangun: [tautan Google Maps]
+> Kopinya diseduh di depan kita: V60 22 rb, es kopi susu 17 rb, tubruk 8 rb. Ada nasi kucing sama sate.
+> Kursinya bersandaran, sekitar 15. Rombongan bisa pesan dulu: wa.me/62[nomor]
+> Parkir motor: [lokasi]
+> Sampai Sabtu 19 Des, minuman kedua buat teman yang diajak setengah harga.
+> Siapa ikut?
+
+**Catatan:**
+- Baris parkir hanya setelah lokasi pasti.
+- Baris promo dihapus setelah promo berakhir. **Sabtu 19 Desember 2026 pukul 24.00** adalah malam buka terakhir dalam 14 hari jika lapak buka Rabu 9 Desember [hitungan kalender]. Tanggal ini ditulis sejak hari pertama dan tidak diperpanjang.
+- "Kursinya bersandaran" hanya setelah kursinya dibeli.
+
+### 6.4 Kartu cap
+
+Kartu nama 9 × 5,5 cm, Kertas, teks Biru Malam. Capnya cap karet simbol gelembung "yok" (tinta biru), ditambah paraf barista dengan pulpen.
+
+> **Depan**
+> **Kartu Yok**
+> Nongkrong 6 malam, V60 berikutnya dari kami.
+> ( ) ( ) ( ) ( ) ( ) ( )
+> 1 cap per malam per orang, dengan minimal satu minuman.
+>
+> **Belakang**
+> Nama: __________
+> Cap ke-6 bisa ditukar satu V60 atau es kopi susu di kunjungan berikutnya. Bilang di awal, sebelum bayar.
+> Rabu–Kamis biasanya lebih lega buat seduhan V60.
+> Kartu hilang? Maaf, mulai dari awal lagi ya.
+> Berlaku selama Lapak Yok buka, termasuk kalau nanti pindah ke kios di Rawamangun.
+> Lapak Yok · Pulang kerja, yok nongkrong dulu. · WA [nomor]
+
+- **Kenapa 6 malam:** tamu mingguan menyelesaikan kartu dalam ±6 minggu, sebelum review 8 minggu (Selasa 2 Feb 2027). Jumlah cap per kartu bisa dipakai untuk mengukur target "≥25% tamu kembali dalam 14 hari" (`lapak-malam.md` §7).
+- **Kenapa hadiahnya V60:** harga jualnya paling tinggi dibanding biaya bahannya. V60 Rp22.000 dengan bahan Rp7.050 (`numbers-lapak.json`).
+- **Biaya:** satu kartu penuh ±Rp7.050–7.900, atau ±Rp1.200–1.300 per kunjungan selama 6 kunjungan. Itu ±8–9% dari kontribusi per tamu (Rp14.105) [Pasti, hitungan], dan hanya untuk tamu yang menyelesaikan kartu. **Belum ada di model CFO**, jadi tambahkan sebagai satu baris.
+
+### 6.5 Balasan untuk keluhan pertama: "nunggu V60 lama"
+
+**Skenario paling mungkin:** Jumat malam, helper baru belajar, enam V60 antre. Ulasan Google Maps bintang 2: *"Tempatnya enak, tapi V60 saya baru datang 25 menit. Nggak ada yang ngabarin."*
+
+**Saat itu juga, di lapak** (kalau tamu mengeluh langsung):
+> "Maaf banget, Kak, nunggunya kelamaan. Masih ada dua gelas di depan, kira-kira 8 menit lagi. Sambil nunggu, tubruknya dari kami ya."
+
+Memberi tubruk gratis (bahan ±Rp3.400) saat waktu tunggu melewati perkiraan yang disebut adalah **usulan**. `/founder-ops` yang memutuskan aturannya.
+
+**Balasan di Google Maps** (paling lambat 24 jam):
+> Halo [nama], terima kasih sudah menulis ini, dan maaf. 25 menit untuk satu V60 itu terlalu lama, apalagi tanpa kabar dari kami. Malam itu sekitar jam [20.00] ada [enam] seduhan manual antre dan kami seduh satu per satu. Itu masalah kami, bukan alasan.
+>
+> Yang kami ubah mulai [tanggal]: di gerobak sekarang ada papan "Antrean V60: __ gelas, ±__ menit" yang kami isi setiap ada pesanan, dan perkiraannya kami sebut sebelum kamu bayar. Jadi kamu bisa pilih menunggu, atau ambil es kopi susu atau tubruk dulu. [Tulis hanya perubahan yang benar-benar sudah dijalankan.]
+>
+> Kalau suatu malam mampir lagi, sebut nama kamu ke kami. Seduhan V60 berikutnya dari kami. Tawaran ini tidak bergantung pada ulasanmu, jadi biarkan ulasannya apa adanya.
+>
+> [Nama founder], Lapak Yok
+
+**Aturan membalas:**
+- Balas semua ulasan dalam 24 jam, yang baik maupun yang buruk.
+- Jangan pernah menawarkan imbalan supaya ulasan diubah atau dihapus.
+- Jangan menyebut atau menyindir lapak atau kafe lain.
+
+---
+
+## 7. Aturan brand lapak
+
+- **Tidak meniru nama, logo, warna, atau tagline kompetitor.** Menjauh dari pola "yo/yok + kopi" (YO'KOPI), bunyi "kopi yor", unsur "ngaso" (Ngaso Dulu Ah), dan "Yok Ngopi" (merchant GoFood/Grab).
+- **Huruf, gambar, dan ikon hanya yang boleh dipakai:** Fraunces dan Plus Jakarta Sans (OFL), foto milik sendiri, ikon gambar sendiri.
 - **Klaim hanya yang terbukti:**
-  - "3 menit" hanya setelah uji pop-up lolos;
-  - info parkir hanya setelah lokasi pasti.
-- **Tidak ada review palsu, angka follower, "viral", superlatif, atau klaim kesehatan** (mengikuti `marketing.md` §14).
-- **Status merek:** sampai DJKI mengeluarkan sertifikat, "Meja Pelan" hanyalah nama yang dipakai, bukan merek terlindungi. Jangan menulis simbol ® sebelum terdaftar.
+  - "3 menit" hanya setelah uji di malam latihan lolos;
+  - "kursi bersandaran" hanya setelah kursinya dibeli;
+  - info parkir hanya setelah lokasi pasti;
+  - tanggal buka hanya setelah tempat dan status halal jelas.
+- **Tanpa review palsu, angka follower, "viral", superlatif, klaim kesehatan, atau keramaian yang dipentaskan.**
+- **Harga ditulis final.** PBJT belum berlaku di omzet lapak; tulis ulang semua materi jika status ini berubah.
+- **Status merek:** sampai DJKI mengeluarkan sertifikat, "Lapak Yok" hanya nama yang dipakai. Jangan menulis ®.
 - **Bukan nasihat hukum.**
 
 **Syarat board yang tersentuh:**
-- **C2** (Coffee Story tanpa AI) dijawab kartu beans di 7.2.
-- **C9** (cara menolak laptop dengan sopan, cahaya, suasana) dijawab kartu meja, naskah barista, dan brief ruang.
+- **C2** (Coffee Story tanpa AI): kartu beans dan papan "Malam ini".
+- **C9** (cara menolak laptop dengan sopan, cahaya, suasana): kartu meja, naskah barista, dan rencana lampu.
 
 ---
 
-## 9. Langkah berikutnya
+## 8. Dampak ke dokumen lain dan langkah berikutnya
 
-- **Founder:** jalankan daftar kerja di bagian 4.6, terutama PDKI, Konsultan KI, dan handle **sebelum H-14**. Putuskan nama sebelum apa pun dicetak.
-- **`/founder-ops`:**
-  - janji "tidak buru-buru" (aturan meja dan reservasi);
-  - lama meja ditahan;
-  - standar cahaya dan musik;
-  - SOP membalas ulasan dalam 24 jam;
-  - pelatihan naskah laptop;
-  - pemasok gelas dan cetakan satu warna.
-- **`/founder-launch`:**
-  - uji nama di pop-up (bagian 4.6 langkah 5);
-  - tanggal pengajuan merek sebelum H-14;
-  - cetak materi setelah nama final.
-- **Perlu diperbarui (bukan oleh saya):**
-  - nama kerja "Kopiyo" di `marketing.md`, `pitch-v2-kafe.md`, dan `offer.md`;
-  - tambahkan Kopi Yor (Jl. Pemuda, Rawamangun) di `competitors.md`.
+Saya hanya menulis file ini. Yang perlu diperbarui oleh pemiliknya:
+
+| Dokumen | Yang perlu diubah |
+|---|---|
+| `pitch.md` | Kalimat pertama dan baris tempat duduk (bagian 3.3), lalu uji ulang di panel |
+| `numbers-lapak.json` (CFO) | Kursi bersandaran (baris Rp2,3 jt), lampu (baris Rp600 rb), biaya kartu cap, dan biaya merek jika lebih dari satu permohonan atau kelas |
+| `/founder-ops` | Aturan "V60 >10 menit disampaikan sebelum bayar", papan antrean, batas kursi yang bisa dipesan, lama kursi ditahan, tubruk gratis saat telat, SOP lampu dan isi ulang baterai, kursi dan kartu yang dilaminasi |
+| `/founder-launch` | Merek kelas 43 diajukan paling lambat Selasa 24 Nov; logo final ±20 Nov; uji 20 m dan uji 10 orang minggu ini; post H-14 Rabu 25 Nov; cetak setelah nama final |
+| `competitors.md` | Tambahkan YO'KOPI (Rawamangun dan Jogja) dan Kopi Yor (Jl. Pemuda) |
+
+**Urutan kerja founder minggu ini (9–15 Nov 2026):**
+1. PDKI dan amankan handle @lapakyok (hari 1–2).
+2. Uji 20 m dan uji 10 orang (bagian 1.4).
+3. Temui Konsultan KI dengan hasilnya (bagian 1.6).
+4. Putuskan nama. Jika setuju, saya bisa membuat konsep logo dengan alat gambar yang tersambung.
 
 ---
 
 ## Sumber
 
-Semua informasi diambil dari cuplikan hasil pencarian pada 8 Nov 2026, dan halamannya tidak dibuka langsung. Jumlah pengikut dan rating bisa sudah berubah.
+- Dokumen internal: `brand-kafe.md` §3–§7, `research/nama-yok.md` §1–§4, `lapak-malam.md` §1–§7, `pitch.md`, `panel/results.md`, `panel/answers/P001–P020.json`, `numbers-lapak.json`, `marketing-kafe.md` §4, §10, §14, `idea.md`.
+- Pencarian 8 Nov 2026 (bagian 1.5): empat pencarian tanpa hasil yang relevan untuk "Lapak Yok", "lapakyok", "Yok Leyeh", dan "yokleyeh". Satu hasil terkait: [video Facebook "Lapak Awak Cafe"](https://www.facebook.com/sepdumclub/videos/wakjesss-ikut-kami-ke-lapak-awak-cafe-yok-lokasinya-di-jl-sultan-hasanuddin-jl-o/849406959569604/) (dari cuplikan, halaman tidak dibuka).
+- Akun yang disebut dari riset sebelumnya: [@leyehleyehcoffee](https://www.instagram.com/leyehleyehcoffee/) · [@yo_kopi](https://www.instagram.com/yo_kopi/) · [@ngasoduluah](https://www.instagram.com/ngasoduluah/).
+- Merek: [PDKI](https://pdki-indonesia.dgip.go.id) · [Permohonan merek online](https://merek.dgip.go.id) · tarif PP 30/2026: lihat `brand-kafe.md` §4.1.
+- Huruf: [Fraunces](https://fonts.google.com/specimen/Fraunces) · [Plus Jakarta Sans](https://fonts.google.com/specimen/Plus+Jakarta+Sans) · [SIL Open Font License](https://openfontlicense.org).
+- Kontras: rumus luminans relatif dan rasio kontras WCAG 2.x, dihitung dengan skrip. Kolom 3000K/2700K memakai aproksimasi kromatisitas *blackbody* (Kim dkk.) ke sRGB linear, tanpa adaptasi warna.
 
-- Kopi Yor: [daftar outlet](https://kopiyor.com/our-outlet-locations/) · [RestaurantGuru Pulo Gadung Rawamangun](https://restaurantguru.com/Kopi-Yor-Pulo-Gadung-Rawamangun-East-Jakarta) · [@kopiyor.pulogebang](https://www.instagram.com/kopiyor.pulogebang/) · [industry.co.id](https://www.industry.co.id/read/80726/kopi-yor-memadukan-konsep-menikmati-kopi-campur-kopyor) · [Wanderlog Kopi Yor Pulogebang](https://wanderlog.com/place/details/10188858/kopi-yor-pulogebang)
-- Kopiyo di luar negeri: [@kopiyo_official](https://www.instagram.com/kopiyo_official/) · [@kopiyo.cafe](https://www.instagram.com/kopiyo.cafe/)
-- Kopiko: [Wikipedia Kopiko](https://en.wikipedia.org/wiki/Kopiko_(brand)) · [Wikipedia Mayora Indah](https://en.wikipedia.org/wiki/Mayora_Indah)
-- Ngopi-yo dan sejenisnya: [@ngopiyo](https://www.instagram.com/ngopiyo/) · [@ngopi.y](https://www.instagram.com/ngopi.y/) · [@kedai_ngopio](https://www.instagram.com/kedai_ngopio/) · [Yok Ngopi](https://kitalulus.com/company/yok-ngopi-crl0)
-- Kandidat lain: [@sepulangcoffe](https://www.instagram.com/sepulangcoffe/) · [Pulang Ke Rumah Coffee, Cipayung](https://nz.trip.com/moments/east-jakarta-1458423) · [Pulang Coffee Semarang](https://jateng.antaranews.com/berita/287185/pulang-coffee-tawarkan-taste-dan-nuansa-homey) · [@larutmalamkopi](https://www.instagram.com/larutmalamkopi/) · [@larutcoffeespace](https://www.instagram.com/larutcoffeespace/) · [@ngasoduluah](https://www.instagram.com/ngasoduluah/) · [@ngaso.space](https://www.instagram.com/ngaso.space/) · [@kopingaso.official](https://www.instagram.com/kopingaso.official/) · [@tokokopiteman.id](https://www.instagram.com/tokokopiteman.id/) · [@kopiteko.id](https://www.instagram.com/kopiteko.id/) · [@cengkerama.space](https://www.instagram.com/cengkerama.space/) · [@cengkramacafe](https://www.instagram.com/cengkramacafe/) · [JOS Cafe "Seduh Pelan"](https://joscafe.com/sajian-kopi-dunia/)
-- Merek dan hukum: [PDKI](https://pdki-indonesia.dgip.go.id) · [Permohonan merek online](https://merek.dgip.go.id) · [Cara cek PDKI (izin.co.id)](https://izin.co.id/blog/cara-cek-pdki/) · [KontrakHukum: istilah umum ditolak](https://kontrakhukum.com/article/mengapa-pendaftaran-merek-kopi-kekinian-sering-ditolak-djki-akibat-menggunakan-istilah-umum-milik-publik/) · [Sengketa KOPITIAM (detik)](https://news.detik.com/berita/d-2888831/sengketa-merek-antara-tiam-kopi-tiam-kopitiam-dan-kopitiam) · [ADCO Law: PP 30/2026](https://adcolaw.com/blog/the-price-of-protection-what-gr-30-2026-means-for-trademark-applicants/) · [Tilleke & Gibbins: tarif KI 2026](https://www.tilleke.com/insights/indonesias-new-ip-fee-schedule-signals-greater-focus-on-ip-as-commercial-assets/2/)
-- Domain: [PANDI](https://pandi.id)
-- Huruf: [Fraunces](https://fonts.google.com/specimen/Fraunces) · [Plus Jakarta Sans](https://fonts.google.com/specimen/Plus+Jakarta+Sans) · [SIL Open Font License](https://openfontlicense.org)
-- Tagline: [Liputan6, daftar caption](https://www.liputan6.com/feeds/read/5872008/350-caption-nongkrong-di-cafe-keren-untuk-feed-instagram)
-
-**Berikutnya:** `/founder-ops`, lalu `/founder-launch`.
+**Berikutnya:** `/founder-ops` (kursi, lampu, antrean, reservasi), lalu `/founder-launch` (tanggal merek dan post H-14).

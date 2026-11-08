@@ -24,8 +24,8 @@ Tanpa pemburu promo, pembeli sekitar 7/20 (35%).
 
 | Keberatan (panel lapak) | Jawaban v3 |
 |---|---|
-| Belum ada review atau buzz TikTok (4 trust + 4 habit) | **Tidak bisa dijawab oleh offer.** Hanya tamu nyata dan waktu. Kanalnya ajakan teman (`marketing-lapak.md`) |
-| Duduk di tikar 2–3 jam pegal (P007, P008, P019) | **Bangku atau kursi bersandaran, bukan tikar** (`brand-lapak.md`, `ops-lapak.md`) |
+| Belum ada review atau buzz TikTok (4 trust + 4 habit) | **Tidak bisa dijawab oleh offer.** Hanya tamu nyata dan waktu. Kanalnya ajakan teman (`marketing.md`) |
+| Duduk di tikar 2–3 jam pegal (P007, P008, P019) | **Bangku atau kursi bersandaran, bukan tikar** (`brand.md`, `ops.md`) |
 | 15 kursi bisa penuh saat rombongan datang (P004, P014, P018, P020) | **Reservasi meja grup lewat WhatsApp** untuk Jumat–Sabtu |
 | Parkir motor susah (P003, P004, P007, P010) | **Kriteria tempat:** ada parkir motor yang jelas, diumumkan di IG dan Google Maps (D4) |
 | V60 diseduh satu per satu, nunggu lama (P001, P020) | Es kopi susu ≤3 menit, **waktu tunggu V60 disebut sebelum bayar** (D3), menu malam solo dipangkas (D2) |
@@ -44,7 +44,7 @@ Tanpa pemburu promo, pembeli sekitar 7/20 (35%).
 - **Gelas kedua Rp12.000** (es kopi susu atau tubruk) untuk yang duduk lama.
 - **Bonus:** cicip (malam solo: cium bubuk dua beans; Jumat–Sabtu: tegukan kecil) dan kartu beans dibawa pulang.
 - **Garansi:** tidak cocok di tegukan pertama, diseduh ulang dengan beans lain, gratis.
-- **Kartu Cap Yok (menggantikan Ajak Teman 2 minggu):** 1 cap per malam belanja ≥Rp25.000. 5 cap = gelas ke-6 gratis. Cap bonus jika membawa teman yang baru pertama kali datang. Tanpa tanggal berakhir. Biaya ±Rp595/kunjungan (`marketing-lapak.md` §5). Kartu ini menjangkau penunggu review dan tidak mengundang pemburu promo yang hilang setelah 2 minggu.
+- **Kartu Cap Yok (menggantikan Ajak Teman 2 minggu):** 1 cap per malam belanja ≥Rp25.000. 5 cap = gelas ke-6 gratis. Cap bonus jika membawa teman yang baru pertama kali datang. Tanpa tanggal berakhir. Biaya ±Rp595/kunjungan (`marketing.md` §5). Kartu ini menjangkau penunggu review dan tidak mengundang pemburu promo yang hilang setelah 2 minggu.
 
 ## Menu menurut malam (syarat D2)
 
@@ -71,7 +71,7 @@ Belanja per tamu Rp29.000:
 | **Total** | **15.267** |
 | **Kontribusi** | **Rp13.733 (47%)** |
 
-Hasilnya: break-even **21 tamu/malam**, tahun 1 **+Rp2,1 juta**.
+Hasilnya, sebelum biaya nyata dari `ops.md`: break-even 21 tamu/malam, tahun 1 +Rp2,1 juta. **Setelah biaya nyata** (jam helper sebenarnya, es, galon, gas dua kompor): break-even **26 tamu/malam**, tahun 1 **−Rp11,8 juta**. Untuk kembali untung, offer harus menaikkan belanja ke **≥Rp32.000/tamu** (break-even 22) dan ops harus mendapat penghematan dari tuan rumah. Rinciannya di `cfo.md`.
 
 **Kalau semua makanan titipan (HPP ±72%, tidak memasak di akhir pekan):** kontribusi Rp13.063, break-even 22, tahun 1 **−Rp0,9 juta**. Selisih antara untung dan rugi di tahun 1 ditentukan oleh keputusan kecil seperti ini, jadi catat HPP makanan sejak malam pertama.
 

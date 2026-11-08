@@ -4,7 +4,7 @@ Score: 6/10 | Vote: FUND IF
 ## Yang berubah sejak rapat pertama
 1. **Potong Customer App: terpenuhi.** Aplikasi dibekukan, Coffee Story jadi kartu beans cetak.
 2. **Jangan bangun software: terpenuhi.** Qasir dan QRIS statis. Jogja ditunda dengan gerbang jelas.
-3. **Pitch satu kalimat dan naskah lima menit: sebagian.** Barista (founder), kursi, jam, harga ada. Tapi SOP-02 `ops.md` ditulis untuk ruko dengan host, bukan satu orang di tenda. "Pulang kerja, yok nongkrong dulu" adalah ajakan, belum kalimat produk.
+3. **Pitch satu kalimat dan naskah lima menit: sebagian.** Barista (founder), kursi, jam, harga ada. Tapi SOP-02 `ops-kafe.md` ditulis untuk ruko dengan host, bukan satu orang di tenda. "Pulang kerja, yok nongkrong dulu" adalah ajakan, belum kalimat produk.
 4. **Harga dan tenaga seduh sebelum sewa: sebagian besar.** Break-even 21 tamu, belum ada sewa. Belum diuji: berapa V60 per jam bisa dibuat sendirian dengan grinder tangan tanpa memotong ngobrolnya.
 
 Skor naik dari 5 ke 6: aplikasi hilang, dan tanpa listrik berarti tanpa colokan, jadi "bukan tempat kerja" ditegakkan lapaknya sendiri. Tidak lebih tinggi: pengalaman di tenda belum dirancang.
@@ -17,7 +17,7 @@ Skor naik dari 5 ke 6: aplikasi hilang, dan tanpa listrik berarti tanpa colokan,
 ## Yang bisa membunuhnya (top 3, paling berbahaya dulu)
 1. **Kamis 19.30, satu orang, semuanya serentak.** Founder tiba 18.30–19.00, memasang tenda, lampu, gas, mendidihkan air. Tiga teman datang. Satu orang menyapa, menjelaskan menu, mengecek bukti bayar QRIS statis, menggiling, menyeduh, menyajikan makanan. "Pelan" jadi "lama menunggu", keberatan "slowbar pasti lama" dari panel. Dengan ±75 jam kerja/minggu (`lapak-malam.md`), sudut yang dipotong saat lelah akan terlihat di cangkir.
 2. **Terlalu banyak untuk dua tangan.** V60, cold brew, tubruk, nasi kucing, gorengan, sate, roti bakar, Cicip Dulu, garansi, kartu beans, Ajak Teman, Sesi Ngobrol. Identitas terbelah: "Lapak", tubruk Rp8.000, nasi kucing terbaca angkringan; V60 Rp22.000 terbaca slowbar.
-3. **Tempat belum ada, jadi pengalaman belum bisa dirancang.** Uji 9 Des–2 Feb jatuh di musim hujan. Belum jelas: atap, toilet bagi tamu yang duduk 2–3 jam, air cuci cangkir, es, lampu hangat. `brand.md` masih menjanjikan "Meja Pelan, setiap hari 16.00–24.00", papan menyala, dinding foto: sambungan yang retak.
+3. **Tempat belum ada, jadi pengalaman belum bisa dirancang.** Uji 9 Des–2 Feb jatuh di musim hujan. Belum jelas: atap, toilet bagi tamu yang duduk 2–3 jam, air cuci cangkir, es, lampu hangat. `brand-kafe.md` masih menjanjikan "Meja Pelan, setiap hari 16.00–24.00", papan menyala, dinding foto: sambungan yang retak.
 
 ## Pertanyaan saya untuk founder
 - Gerobak dan tenda bisa dititip di lokasi? Berapa menit memasang sendirian, diukur stopwatch? (/founder-ops)

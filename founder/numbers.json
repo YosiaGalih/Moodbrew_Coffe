@@ -1,5 +1,5 @@
 {
- "business": "Lapak Yok (nama kerja): slowbar berbentuk lapak, teras ruko/rumah numpang di Rawamangun, tanpa listrik. Rabu-Sabtu, founder + helper Jumat-Sabtu. Offer v3: gelas kedua Rp12.000, kartu cap (gelas ke-6 gratis), paket dengan makanan siap saji, menu pendek di malam solo. Semua angka dalam Rupiah; alat mencetak '$' = Rp.",
+ "business": "Lapak Yok (nama kerja): slowbar berbentuk lapak, teras ruko/rumah numpang di Rawamangun, tanpa listrik. Rabu-Sabtu, founder + helper Jumat-Sabtu. Offer v3 + biaya nyata ops-lapak.md: gelas kedua Rp12.000, kartu cap (gelas ke-6 gratis), paket dengan makanan siap saji, menu pendek di malam solo. Semua angka dalam Rupiah; alat mencetak '$' = Rp.",
  "unit": "tamu (rata-rata belanja per kunjungan)",
  "price": 29000,
  "variable": [
@@ -46,16 +46,16 @@
    "cost": 1500000
   },
   {
-   "label": "Helper Jumat-Sabtu 5 jam (18.00-23.00) x 8,7 malam x Rp45.475/jam (UMP DKI / 126, PP 36/2021)",
-   "cost": 1970000
+   "label": "Helper Jumat-Sabtu 17.30-00.15 (6,75 jam x 8,67 malam x Rp45.475/jam, UMP DKI/126) + BPJS JKK/JKM (ops-lapak.md)",
+   "cost": 2675000
   },
   {
-   "label": "Gas LPG untuk kettle [estimasi]",
-   "cost": 250000
-  },
-  {
-   "label": "Angkut/titip alat (kalau tidak bisa disimpan di lokasi) [estimasi]",
+   "label": "Gas: LPG 5,5 kg + gas kaleng kompor kedua Jumat-Sabtu (ops-lapak.md) [estimasi]",
    "cost": 400000
+  },
+  {
+   "label": "Angkut alat: Rp0 HANYA jika titip gerobak tertulis di perjanjian (ops-lapak.md; jika tidak, +Rp400 rb)",
+   "cost": 0
   },
   {
    "label": "Iuran kebersihan/warga dengan kuitansi [estimasi]",
@@ -68,6 +68,14 @@
   {
    "label": "Aplikasi kasir Qasir Pro (Rp699 rb/tahun)",
    "cost": 58250
+  },
+  {
+   "label": "Es untuk cooler + ongkir (ops-lapak.md) [estimasi]",
+   "cost": 450000
+  },
+  {
+   "label": "Air galon untuk seduh & minum (ops-lapak.md) [estimasi]",
+   "cost": 250000
   }
  ],
  "startup": [
@@ -76,24 +84,24 @@
    "cost": 0
   },
   {
-   "label": "Tenda lipat 3x3 m [estimasi]",
-   "cost": 2250000
+   "label": "Tenda: Rp0 karena teras beratap (syarat D4; jika tidak beratap +Rp0,74-1,62 jt)",
+   "cost": 0
   },
   {
    "label": "Gerobak/meja bar portabel [estimasi]",
    "cost": 3000000
   },
   {
-   "label": "Bangku dan meja lipat ±15 kursi + tikar [estimasi]",
-   "cost": 2300000
+   "label": "16 kursi bersandaran + 4 meja (tanpa tikar) (ops-lapak.md)",
+   "cost": 2134000
   },
   {
-   "label": "Cooler box 2 unit [estimasi]",
-   "cost": 1000000
+   "label": "Cooler 45 L + 16 L + cooler bag & gel (ops-lapak.md)",
+   "cost": 1745000
   },
   {
-   "label": "Kompor portabel + tabung gas [estimasi]",
-   "cost": 600000
+   "label": "Kompor 1 tungku + regulator SNI + Bright Gas 5,5 kg + kompor kaleng (ops-lapak.md)",
+   "cost": 950000
   },
   {
    "label": "Lampu LED baterai + powerbank [estimasi]",
@@ -104,12 +112,12 @@
    "cost": 1000000
   },
   {
-   "label": "APAR kecil (wajib, risiko gas di tenda) [estimasi]",
-   "cost": 300000
+   "label": "APAR powder 3 kg (ops-lapak.md)",
+   "cost": 390000
   },
   {
-   "label": "Banner dan papan nama [estimasi]",
-   "cost": 700000
+   "label": "X-banner + spanduk + kartu meja/menu (ops-lapak.md)",
+   "cost": 300000
   },
   {
    "label": "Stok awal bahan [estimasi]",
@@ -130,10 +138,38 @@
   {
    "label": "NIB (gratis, OSS) dan halal self-declare SEHATI (gratis jika memenuhi syarat)",
    "cost": 0
+  },
+  {
+   "label": "Peralatan air & cuci: jerigen, jerigen keran, baskom, galon (ops-lapak.md)",
+   "cost": 510000
+  },
+  {
+   "label": "Ceret, termos, termometer (ops-lapak.md)",
+   "cost": 443000
+  },
+  {
+   "label": "Wajan roti bakar + tudung saji (ops-lapak.md)",
+   "cost": 390000
+  },
+  {
+   "label": "Container box 2 x 100 L (ops-lapak.md)",
+   "cost": 402000
+  },
+  {
+   "label": "Tempat sampah + wadah cold brew (ops-lapak.md)",
+   "cost": 242000
+  },
+  {
+   "label": "Barang kecil: gembok, nampan, saringan, lap, sabun, P3K [estimasi]",
+   "cost": 500000
+  },
+  {
+   "label": "Gaji 2 malam latihan helper (ops-lapak.md)",
+   "cost": 614000
   }
  ],
  "days_per_month": 17,
- "capacity_per_day": 37,
+ "capacity_per_day": 30,
  "plan_per_day": 28,
  "ramp_per_day": [
   10,
