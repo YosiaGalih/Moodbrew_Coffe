@@ -1,0 +1,43 @@
+{
+  "business": "Kopiyo: slowbar di Rawamangun (versi pitch awal: kopi saja, tanpa makanan). Semua angka dalam Rupiah; alat mencetak '$' = Rp.",
+  "unit": "gelas (rata-rata campuran 50% V60 Rp22.000 + 50% es kopi susu Rp20.000)",
+  "price": 21000,
+  "variable": [
+    {"label": "Biji kopi (V60 15g x Rp400/g; kopi susu 18g x Rp263/g; rata-rata)", "cost": 5367},
+    {"label": "Susu UHT 120ml x Rp23/ml (50% gelas)", "cost": 1380},
+    {"label": "Filter V60 Rp850/lembar (50% gelas)", "cost": 425},
+    {"label": "Gula aren + es (50% gelas) [estimasi]", "cost": 350},
+    {"label": "Air RO/galon per gelas [estimasi]", "cost": 200},
+    {"label": "Cup take-away Rp1.600/set (20% gelas dibawa pulang) [estimasi porsi]", "cost": 320},
+    {"label": "Waste/yield 5% dari bahan [estimasi]", "cost": 400},
+    {"label": "PPh Final UMKM 0,5% dari harga", "cost": 105},
+    {"label": "Biaya QRIS (MDR 0% untuk transaksi <= Rp100.000)", "cost": 0}
+  ],
+  "fixed_monthly": [
+    {"label": "Sewa ruko ±100-150 m2 Rawamangun (Rp150 jt/tahun)", "cost": 12500000},
+    {"label": "3 staf (2 barista + 1 helper/kasir) x Rp6,79 jt (UMP DKI 2026 + BPJS pemberi kerja + THR/12)", "cost": 20370000},
+    {"label": "Listrik B-2 ±1.250 kWh x Rp1.444,7 [estimasi beban]", "cost": 1800000},
+    {"label": "Air, galon, internet [estimasi]", "cost": 800000},
+    {"label": "POS Moka Basic", "cost": 299000},
+    {"label": "Marketing rutin [estimasi]", "cost": 2000000},
+    {"label": "Perawatan, kebersihan, perlengkapan kecil [estimasi]", "cost": 1000000}
+  ],
+  "startup": [
+    {"label": "Deposit sewa (batas bawah rentang Rp25-75 jt)", "cost": 25000000},
+    {"label": "Renovasi/fit-out ruko [estimasi, perlu quote kontraktor]", "cost": 75000000},
+    {"label": "Furnitur ±30 kursi + meja [estimasi]", "cost": 25000000},
+    {"label": "Peralatan bar manual brew (paket A riset biaya)", "cost": 18500000},
+    {"label": "AC 2 unit [estimasi]", "cost": 12000000},
+    {"label": "Under-counter chiller 2 pintu (batas bawah Tokopedia)", "cost": 10175000},
+    {"label": "Tablet POS + printer struk [estimasi]", "cost": 5000000},
+    {"label": "Gelas, dripper tambahan, smallwares [estimasi]", "cost": 5000000},
+    {"label": "Perizinan (SLHS, halal, dll.) [estimasi]", "cost": 3000000},
+    {"label": "Signage [estimasi]", "cost": 5000000},
+    {"label": "Stok awal bahan [estimasi]", "cost": 10000000},
+    {"label": "Marketing pembukaan [estimasi]", "cost": 5000000}
+  ],
+  "days_per_month": 30,
+  "capacity_per_day": 125,
+  "plan_per_day": 75,
+  "ramp_per_day": [30, 38, 45, 52, 58, 63, 67, 70, 72, 74, 75, 75]
+}

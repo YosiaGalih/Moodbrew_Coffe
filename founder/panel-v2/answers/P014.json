@@ -1,0 +1,13 @@
+{
+  "id": "P014",
+  "buys": true,
+  "purchases_first_month": 2,
+  "reason_code": "habit",
+  "reason": "Saya memang nongkrong tiap minggu sepulang kerja, jadi tempat baru dekat Rawamangun yang buka sampai jam 12 malam bakal saya coba bareng teman, apalagi pas promo minuman kedua setengah harga. Tapi gaji saya pas-pasan, jadi paling sekali dua kali saja; sisanya tetap warkop yang lebih murah.",
+  "objection": "Kopi plus camilan bisa Rp40 ribuan sekali datang, mahal kalau dibanding warkop buat nongkrong 2–3 jam tiap minggu. Soal nggak boleh buka laptop juga agak ganggu, tapi selama HP boleh saya masih bisa balas kerjaan dari HP.",
+  "would_change_my_mind": "Kalau ada paket nongkrong murah yang rutin, misalnya kopi susu plus pisang goreng sekitar Rp30 ribu, saya bisa jadikan tempat nongkrong mingguan, bukan cuma sekali coba.",
+  "price_too_cheap": 10000,
+  "price_cheap": 15000,
+  "price_expensive": 25000,
+  "price_too_expensive": 33000
+}

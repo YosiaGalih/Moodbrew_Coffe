@@ -1,0 +1,13 @@
+{
+  "id": "P008",
+  "buys": true,
+  "purchases_first_month": 2,
+  "reason_code": "convenience",
+  "reason": "Saya memang tiap minggu nongkrong sepulang kantor, dan tempat ini buka sore sampai malam, ada es kopi susu yang katanya keluar 3 menit plus rice bowl dan mie buat ganjal lapar, jadi saya mau coba sekali-dua kali bareng teman, apalagi minuman kedua teman setengah harga di dua minggu pertama. Tapi ini baru coba, belum langganan, karena warkop dan kafe langganan saya juga masih ada.",
+  "objection": "Kata 'slowbar' bikin saya ragu: jam 7 malam pas ramai, apa benar es kopi susunya keluar 3 menit dan makanannya cepat? Saya datang capek dan lapar, kalau harus nunggu 20 menit sambil lihat barista nyeduh V60 buat meja lain, saya tidak balik lagi.",
+  "would_change_my_mind": "Kalau di kunjungan pertama pesanan saya, kopi dan makanan, lama keluarnya atau rice bowl-nya porsi kecil tidak mengenyangkan, saya tidak akan datang lagi.",
+  "price_too_cheap": 12000,
+  "price_cheap": 18000,
+  "price_expensive": 32000,
+  "price_too_expensive": 45000
+}

@@ -1,0 +1,13 @@
+{
+  "id": "P007",
+  "buys": true,
+  "purchases_first_month": 2,
+  "reason_code": "habit",
+  "reason": "Aku memang nongkrong tiap minggu sama teman habis kantor, dan es kopi susu Rp22 ribu plus gelas kedua Rp15 ribu masih masuk akal buat duduk 2–3 jam. Promo setengah harga buat teman yang kuajak bikin gampang ngajak geng nyoba sekali-dua kali, tapi sisanya aku tetap selang-seling sama warkop yang jauh lebih murah.",
+  "objection": "Parkir di Rawamangun susah dan jam pulang kantor macet; kalau sampai sana harus muter-muter cari parkir, mending balik ke warkop langganan yang dekat dan murah.",
+  "would_change_my_mind": "Kalau pas datang pertama ternyata tidak ada parkir motor yang jelas dekat situ, aku cukup coba sekali lalu tidak balik lagi.",
+  "price_too_cheap": 10000,
+  "price_cheap": 15000,
+  "price_expensive": 28000,
+  "price_too_expensive": 35000
+}

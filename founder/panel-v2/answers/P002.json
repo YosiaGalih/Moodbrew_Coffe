@@ -1,0 +1,13 @@
+{
+  "id": "P002",
+  "buys": true,
+  "purchases_first_month": 1,
+  "reason_code": "price",
+  "reason": "Saya mungkin mampir sekali bareng teman kuliah selama promo 14 hari, soalnya minuman kedua setengah harga jadi patungannya sekitar Rp16 ribuan per orang, plus cicip tiga beans gratis. Setelah promo habis, Rp22.000 untuk es kopi susu kemahalan buat saya, saya balik ke kopi yang lagi ada promo e-wallet.",
+  "objection": "Harga normalnya di atas yang biasa saya bayar, dan saya nggak lihat ada promo e-wallet atau beli 1 gratis 1. Terus nggak boleh buka laptop bikin saya ragu nongkrong lama, kadang saya harus balas kerjaan sebentar dan di HP nggak selalu cukup.",
+  "would_change_my_mind": "Promo rutin setelah 14 hari, misalnya diskon e-wallet atau beli 1 gratis 1 di hari tertentu, yang bikin es kopi susunya sekitar Rp15.000.",
+  "price_too_cheap": 8000,
+  "price_cheap": 15000,
+  "price_expensive": 22000,
+  "price_too_expensive": 28000
+}

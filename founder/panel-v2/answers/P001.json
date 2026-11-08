@@ -1,0 +1,13 @@
+{
+  "id": "P001",
+  "buys": true,
+  "purchases_first_month": 2,
+  "reason_code": "quality",
+  "reason": "V60 single origin Rp25.000 dengan kartu asal beans dan tanggal sangrai itu murah untuk ukuran Jakarta, dan cicip tiga beans gratis bikin saya penasaran. Karena ada es kopi susu 3 menit dan rice bowl, teman yang nggak ngerti kopi juga bisa ikut, jadi saya mau coba ajak geng kantor sekali-dua kali bulan ini.",
+  "objection": "Jam pulang kantor pasti ramai; seduh V60 di depan saya tetap butuh waktu, dan kalau saya harus nunggu lama sambil lapar, ya mending pesan kopi susu lewat ojol saja. Saya juga agak curiga, single origin semurah Rp25.000 jangan-jangan beans-nya sudah lama disangrai.",
+  "would_change_my_mind": "Kalau di kunjungan pertama V60-nya harus ditunggu lebih dari 15 menit atau tanggal sangrai di kartunya sudah lewat sebulan, saya tidak balik lagi.",
+  "price_too_cheap": 15000,
+  "price_cheap": 22000,
+  "price_expensive": 38000,
+  "price_too_expensive": 50000
+}
