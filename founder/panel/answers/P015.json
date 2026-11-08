@@ -1,0 +1,13 @@
+{
+  "id": "P015",
+  "buys": false,
+  "purchases_first_month": 0,
+  "reason_code": "need",
+  "reason": "Saya ke kafe biasanya buat nyelesain kerjaan sambil ngopi, jadi tempat yang ngelarang laptop dan nggak ada colokan ya nggak masuk buat saya. Pulang kantor saya udah capek dan lapar, nggak mau nunggu kopi diseduh pelan-pelan sambil diajak ngobrol.",
+  "objection": "Nggak boleh bawa laptop itu langsung bikin saya coret, ditambah slowbar pasti lama nunggunya dan nggak disebut ada makanan.",
+  "would_change_my_mind": "Kalau teman-teman nongkrong saya sendiri yang ngajak ke sana dan ternyata ada makanan berat, saya mungkin ikut sekali.",
+  "price_too_cheap": 10000,
+  "price_cheap": 15000,
+  "price_expensive": 27000,
+  "price_too_expensive": 35000
+}

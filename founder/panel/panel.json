@@ -1,0 +1,108 @@
+{
+ "n": 20,
+ "seed": 2611,
+ "customer": {
+  "business": "Kopiyo: slowbar (kopi seduh manual) di Rawamangun, Jakarta Timur; tempat ngobrol dan melepas lelah sepulang kerja, bukan tempat kerja/laptop",
+  "target": "Pekerja dan warga sekitar Rawamangun–Pulogadung–Utan Kayu, 22–40 tahun, yang nongkrong dengan teman setelah jam kerja minimal 2x sebulan. CATATAN MATA UANG: semua uang dalam Rupiah (Rp); tanda $ di kartu ini berarti Rupiah, dan pendapatan adalah pendapatan per TAHUN dalam Rupiah. Jawab harga dalam Rupiah per cangkir.",
+  "where": "Rawamangun, Jakarta Timur, Indonesia",
+  "age": [
+   21,
+   40
+  ],
+  "segments": [
+   {
+    "name": "Karyawan muda (gaji sekitar Rp5–9 juta/bulan)",
+    "share": 0.45,
+    "income": [
+     60000000,
+     108000000
+    ]
+   },
+   {
+    "name": "Profesional mapan (gaji sekitar Rp10–25 juta/bulan)",
+    "share": 0.25,
+    "income": [
+     120000000,
+     300000000
+    ]
+   },
+   {
+    "name": "Mahasiswa tingkat akhir / fresh graduate (uang saku atau gaji Rp2–5 juta/bulan)",
+    "share": 0.2,
+    "income": [
+     24000000,
+     60000000
+    ]
+   },
+   {
+    "name": "Pekerja lokal / wiraswasta / guru / ASN (Rp6–15 juta/bulan)",
+    "share": 0.1,
+    "income": [
+     72000000,
+     180000000
+    ]
+   }
+  ],
+  "behaviours": [
+   {
+    "name": "Nongkrong rutin sepulang kerja",
+    "share": 0.2,
+    "how": "Seminggu sekali atau lebih ketemu teman di kafe atau warkop setelah jam kantor, biasanya 2–3 jam."
+   },
+   {
+    "name": "Pemburu promo",
+    "share": 0.15,
+    "how": "Pilih tempat yang ada diskon, beli 1 gratis 1, atau promo e-wallet; jarang bayar harga penuh."
+   },
+   {
+    "name": "Pecinta kopi yang suka ngulik",
+    "share": 0.12,
+    "how": "Tahu V60 dan single origin, suka ngobrol dengan barista soal beans."
+   },
+   {
+    "name": "Ikut tren / FOMO media sosial",
+    "share": 0.13,
+    "how": "Datang ke tempat yang sedang ramai di TikTok atau Instagram, suka foto, jarang kembali kecuali sangat berkesan."
+   },
+   {
+    "name": "Loyal ke tempat langganan",
+    "share": 0.12,
+    "how": "Sudah punya kafe atau warkop favorit dekat rumah atau kantor dan jarang mencoba tempat baru."
+   },
+   {
+    "name": "Hemat, kopi seadanya",
+    "share": 0.1,
+    "how": "Biasanya kopi sachet, warkop, atau kopi susu Rp15–25 ribu; nongkrong di tempat murah."
+   },
+   {
+    "name": "Cek review dulu",
+    "share": 0.1,
+    "how": "Selalu lihat rating Google Maps dan review sebelum mencoba tempat baru."
+   },
+   {
+    "name": "Cari tempat sambil kerja",
+    "share": 0.08,
+    "how": "Sering bawa laptop ke kafe untuk menyelesaikan kerjaan sambil ngopi."
+   }
+  ],
+  "objections": [
+   "Kopi manual brew itu mahal, kopi susu gula aren saja sudah cukup",
+   "Kok nggak boleh buka laptop? Kadang saya perlu balas kerjaan sebentar",
+   "Slowbar pasti lama nunggunya, saya capek dan lapar",
+   "Saya nggak ngerti kopi, takut salah pesan atau merasa bodoh di depan barista",
+   "Di Rawamangun sudah banyak kafe enak dan murah yang buka sampai malam, saya sudah punya langganan",
+   "Parkir di Rawamangun susah dan jam pulang kerja macet",
+   "Kopi hitam itu asam dan pahit, saya nggak suka",
+   "Tempat baru biasanya ramai sebentar lalu sepi; saya tunggu review dulu"
+  ],
+  "habits": [
+   "kamu pulang kantor sekitar jam 17.30–18.30 lewat Jl. Pemuda atau By Pass",
+   "kamu sering ketemu teman kuliah di sekitar Rawamangun atau Arion",
+   "kamu biasa pesan kopi susu lewat aplikasi ojol di kantor",
+   "akhir pekan kamu lebih suka nongkrong daripada ke mal",
+   "kamu tinggal di kos atau rumah keluarga di Jakarta Timur",
+   "kamu baru gajian dan sedang ingin sedikit memanjakan diri"
+  ]
+ },
+ "pitch": "Kopiyo, slowbar baru di Rawamangun, Jakarta Timur.\nKopi diseduh manual pelan-pelan di depan kamu oleh barista yang mengajak ngobrol soal kopinya.\nV60 single origin Indonesia Rp22.000, es kopi susu Rp20.000 (harga dalam Rupiah).\nTempat untuk ngobrol dan melepas lelah dengan teman, bukan tempat kerja: laptop tidak diperbolehkan dan tidak ada colokan untuk laptop.\nBuka setiap hari pukul 16.00–24.00."
+}

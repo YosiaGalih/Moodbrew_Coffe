@@ -1,0 +1,13 @@
+{
+  "id": "P007",
+  "buys": true,
+  "purchases_first_month": 1,
+  "reason_code": "habit",
+  "reason": "Saya memang tiap minggu nongkrong sama teman habis kerja, dan tempat yang buka sampai tengah malam tanpa orang-orang laptopan itu cocok buat ngobrol. Es kopi susu Rp20.000 masih masuk akal, jadi sekali coba bareng teman mungkin, tapi belum tentu jadi langganan.",
+  "objection": "Parkir di Rawamangun susah dan jam pulang kantor macet parah. Kalau saya harus muter-muter cari parkir atau kejebak macet satu jam cuma buat ke sana, mending ke warkop atau kafe yang sudah biasa dekat rumah.",
+  "would_change_my_mind": "Kalau ternyata parkir motornya gampang atau dekat halte TransJakarta, saya bisa jadikan tempat nongkrong rutin; kalau parkirnya nggak ada sama sekali, saya nggak balik lagi.",
+  "price_too_cheap": 10000,
+  "price_cheap": 15000,
+  "price_expensive": 28000,
+  "price_too_expensive": 35000
+}

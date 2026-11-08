@@ -1,0 +1,13 @@
+{
+  "id": "P001",
+  "buys": true,
+  "purchases_first_month": 2,
+  "reason_code": "quality",
+  "reason": "V60 single origin Indonesia Rp22.000 sambil ngobrol sama barista soal beans itu persis yang saya cari, dan harganya lebih murah dari slowbar lain. Saya coba sekali bareng teman habis kerja, kalau beans-nya enak dan baristanya paham, saya balik lagi.",
+  "objection": "Habis kerja saya capek dan lapar, slowbar itu biasanya lama nunggunya, dan di penawarannya sama sekali nggak disebut ada makanan. Kalau cuma kopi dan harus nunggu lama dengan perut kosong, teman-teman saya bakal milih tempat lain.",
+  "would_change_my_mind": "Ada makanan berat atau camilan yang bisa dipesan, dan es kopi susu yang cepat buat yang nggak mau nunggu manual brew.",
+  "price_too_cheap": 12000,
+  "price_cheap": 18000,
+  "price_expensive": 35000,
+  "price_too_expensive": 50000
+}

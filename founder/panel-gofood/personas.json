@@ -1,0 +1,222 @@
+[
+ {
+  "id": "P001",
+  "name": "Ada",
+  "age": 36,
+  "segment": "Profesional mapan (gaji sekitar Rp10–25 juta/bulan)",
+  "income": 193924000,
+  "behaviour": "Pecinta kopi yang suka ngulik",
+  "behaviour_how": "Tahu V60 dan single origin, suka ngobrol dengan barista soal beans.",
+  "objection": "Slowbar pasti lama nunggunya, saya capek dan lapar",
+  "habit": "kamu biasa pesan kopi susu lewat aplikasi ojol di kantor"
+ },
+ {
+  "id": "P002",
+  "name": "Talia",
+  "age": 27,
+  "segment": "Mahasiswa tingkat akhir / fresh graduate (uang saku atau gaji Rp2–5 juta/bulan)",
+  "income": 45398000,
+  "behaviour": "Pemburu promo",
+  "behaviour_how": "Pilih tempat yang ada diskon, beli 1 gratis 1, atau promo e-wallet; jarang bayar harga penuh.",
+  "objection": "Kok nggak boleh buka laptop? Kadang saya perlu balas kerjaan sebentar",
+  "habit": "kamu sering ketemu teman kuliah di sekitar Rawamangun atau Arion"
+ },
+ {
+  "id": "P003",
+  "name": "Levi",
+  "age": 23,
+  "segment": "Karyawan muda (gaji sekitar Rp5–9 juta/bulan)",
+  "income": 92804000,
+  "behaviour": "Pemburu promo",
+  "behaviour_how": "Pilih tempat yang ada diskon, beli 1 gratis 1, atau promo e-wallet; jarang bayar harga penuh.",
+  "objection": "Parkir di Rawamangun susah dan jam pulang kerja macet",
+  "habit": "akhir pekan kamu lebih suka nongkrong daripada ke mal"
+ },
+ {
+  "id": "P004",
+  "name": "Raj",
+  "age": 28,
+  "segment": "Mahasiswa tingkat akhir / fresh graduate (uang saku atau gaji Rp2–5 juta/bulan)",
+  "income": 58155000,
+  "behaviour": "Hemat, kopi seadanya",
+  "behaviour_how": "Biasanya kopi sachet, warkop, atau kopi susu Rp15–25 ribu; nongkrong di tempat murah.",
+  "objection": "Parkir di Rawamangun susah dan jam pulang kerja macet",
+  "habit": "kamu biasa pesan kopi susu lewat aplikasi ojol di kantor"
+ },
+ {
+  "id": "P005",
+  "name": "Min",
+  "age": 34,
+  "segment": "Pekerja lokal / wiraswasta / guru / ASN (Rp6–15 juta/bulan)",
+  "income": 99766000,
+  "behaviour": "Ikut tren / FOMO media sosial",
+  "behaviour_how": "Datang ke tempat yang sedang ramai di TikTok atau Instagram, suka foto, jarang kembali kecuali sangat berkesan.",
+  "objection": "Slowbar pasti lama nunggunya, saya capek dan lapar",
+  "habit": "akhir pekan kamu lebih suka nongkrong daripada ke mal"
+ },
+ {
+  "id": "P006",
+  "name": "Fatima",
+  "age": 22,
+  "segment": "Pekerja lokal / wiraswasta / guru / ASN (Rp6–15 juta/bulan)",
+  "income": 151219000,
+  "behaviour": "Loyal ke tempat langganan",
+  "behaviour_how": "Sudah punya kafe atau warkop favorit dekat rumah atau kantor dan jarang mencoba tempat baru.",
+  "objection": "Di Rawamangun sudah banyak kafe enak dan murah yang buka sampai malam, saya sudah punya langganan",
+  "habit": "akhir pekan kamu lebih suka nongkrong daripada ke mal"
+ },
+ {
+  "id": "P007",
+  "name": "Priya",
+  "age": 40,
+  "segment": "Karyawan muda (gaji sekitar Rp5–9 juta/bulan)",
+  "income": 101427000,
+  "behaviour": "Nongkrong rutin sepulang kerja",
+  "behaviour_how": "Seminggu sekali atau lebih ketemu teman di kafe atau warkop setelah jam kantor, biasanya 2–3 jam.",
+  "objection": "Parkir di Rawamangun susah dan jam pulang kerja macet",
+  "habit": "kamu tinggal di kos atau rumah keluarga di Jakarta Timur"
+ },
+ {
+  "id": "P008",
+  "name": "Sofia",
+  "age": 36,
+  "segment": "Profesional mapan (gaji sekitar Rp10–25 juta/bulan)",
+  "income": 234656000,
+  "behaviour": "Nongkrong rutin sepulang kerja",
+  "behaviour_how": "Seminggu sekali atau lebih ketemu teman di kafe atau warkop setelah jam kantor, biasanya 2–3 jam.",
+  "objection": "Slowbar pasti lama nunggunya, saya capek dan lapar",
+  "habit": "akhir pekan kamu lebih suka nongkrong daripada ke mal"
+ },
+ {
+  "id": "P009",
+  "name": "Olivia",
+  "age": 37,
+  "segment": "Karyawan muda (gaji sekitar Rp5–9 juta/bulan)",
+  "income": 71134000,
+  "behaviour": "Cari tempat sambil kerja",
+  "behaviour_how": "Sering bawa laptop ke kafe untuk menyelesaikan kerjaan sambil ngopi.",
+  "objection": "Saya nggak ngerti kopi, takut salah pesan atau merasa bodoh di depan barista",
+  "habit": "kamu pulang kantor sekitar jam 17.30–18.30 lewat Jl. Pemuda atau By Pass"
+ },
+ {
+  "id": "P010",
+  "name": "Aria",
+  "age": 39,
+  "segment": "Karyawan muda (gaji sekitar Rp5–9 juta/bulan)",
+  "income": 102018000,
+  "behaviour": "Ikut tren / FOMO media sosial",
+  "behaviour_how": "Datang ke tempat yang sedang ramai di TikTok atau Instagram, suka foto, jarang kembali kecuali sangat berkesan.",
+  "objection": "Parkir di Rawamangun susah dan jam pulang kerja macet",
+  "habit": "kamu baru gajian dan sedang ingin sedikit memanjakan diri"
+ },
+ {
+  "id": "P011",
+  "name": "Darius",
+  "age": 28,
+  "segment": "Karyawan muda (gaji sekitar Rp5–9 juta/bulan)",
+  "income": 104733000,
+  "behaviour": "Ikut tren / FOMO media sosial",
+  "behaviour_how": "Datang ke tempat yang sedang ramai di TikTok atau Instagram, suka foto, jarang kembali kecuali sangat berkesan.",
+  "objection": "Slowbar pasti lama nunggunya, saya capek dan lapar",
+  "habit": "kamu biasa pesan kopi susu lewat aplikasi ojol di kantor"
+ },
+ {
+  "id": "P012",
+  "name": "Malik",
+  "age": 29,
+  "segment": "Karyawan muda (gaji sekitar Rp5–9 juta/bulan)",
+  "income": 91800000,
+  "behaviour": "Pemburu promo",
+  "behaviour_how": "Pilih tempat yang ada diskon, beli 1 gratis 1, atau promo e-wallet; jarang bayar harga penuh.",
+  "objection": "Kopi manual brew itu mahal, kopi susu gula aren saja sudah cukup",
+  "habit": "kamu tinggal di kos atau rumah keluarga di Jakarta Timur"
+ },
+ {
+  "id": "P013",
+  "name": "Sienna",
+  "age": 24,
+  "segment": "Karyawan muda (gaji sekitar Rp5–9 juta/bulan)",
+  "income": 84141000,
+  "behaviour": "Cek review dulu",
+  "behaviour_how": "Selalu lihat rating Google Maps dan review sebelum mencoba tempat baru.",
+  "objection": "Tempat baru biasanya ramai sebentar lalu sepi; saya tunggu review dulu",
+  "habit": "kamu biasa pesan kopi susu lewat aplikasi ojol di kantor"
+ },
+ {
+  "id": "P014",
+  "name": "Adrian",
+  "age": 24,
+  "segment": "Mahasiswa tingkat akhir / fresh graduate (uang saku atau gaji Rp2–5 juta/bulan)",
+  "income": 49915000,
+  "behaviour": "Nongkrong rutin sepulang kerja",
+  "behaviour_how": "Seminggu sekali atau lebih ketemu teman di kafe atau warkop setelah jam kantor, biasanya 2–3 jam.",
+  "objection": "Kok nggak boleh buka laptop? Kadang saya perlu balas kerjaan sebentar",
+  "habit": "kamu biasa pesan kopi susu lewat aplikasi ojol di kantor"
+ },
+ {
+  "id": "P015",
+  "name": "Cole",
+  "age": 37,
+  "segment": "Karyawan muda (gaji sekitar Rp5–9 juta/bulan)",
+  "income": 92660000,
+  "behaviour": "Cari tempat sambil kerja",
+  "behaviour_how": "Sering bawa laptop ke kafe untuk menyelesaikan kerjaan sambil ngopi.",
+  "objection": "Slowbar pasti lama nunggunya, saya capek dan lapar",
+  "habit": "kamu pulang kantor sekitar jam 17.30–18.30 lewat Jl. Pemuda atau By Pass"
+ },
+ {
+  "id": "P016",
+  "name": "Ravi",
+  "age": 31,
+  "segment": "Mahasiswa tingkat akhir / fresh graduate (uang saku atau gaji Rp2–5 juta/bulan)",
+  "income": 38171000,
+  "behaviour": "Pecinta kopi yang suka ngulik",
+  "behaviour_how": "Tahu V60 dan single origin, suka ngobrol dengan barista soal beans.",
+  "objection": "Tempat baru biasanya ramai sebentar lalu sepi; saya tunggu review dulu",
+  "habit": "kamu pulang kantor sekitar jam 17.30–18.30 lewat Jl. Pemuda atau By Pass"
+ },
+ {
+  "id": "P017",
+  "name": "Nadia",
+  "age": 40,
+  "segment": "Profesional mapan (gaji sekitar Rp10–25 juta/bulan)",
+  "income": 265685000,
+  "behaviour": "Hemat, kopi seadanya",
+  "behaviour_how": "Biasanya kopi sachet, warkop, atau kopi susu Rp15–25 ribu; nongkrong di tempat murah.",
+  "objection": "Tempat baru biasanya ramai sebentar lalu sepi; saya tunggu review dulu",
+  "habit": "kamu tinggal di kos atau rumah keluarga di Jakarta Timur"
+ },
+ {
+  "id": "P018",
+  "name": "Tariq",
+  "age": 39,
+  "segment": "Karyawan muda (gaji sekitar Rp5–9 juta/bulan)",
+  "income": 91933000,
+  "behaviour": "Nongkrong rutin sepulang kerja",
+  "behaviour_how": "Seminggu sekali atau lebih ketemu teman di kafe atau warkop setelah jam kantor, biasanya 2–3 jam.",
+  "objection": "Slowbar pasti lama nunggunya, saya capek dan lapar",
+  "habit": "kamu baru gajian dan sedang ingin sedikit memanjakan diri"
+ },
+ {
+  "id": "P019",
+  "name": "Theo",
+  "age": 31,
+  "segment": "Profesional mapan (gaji sekitar Rp10–25 juta/bulan)",
+  "income": 281388000,
+  "behaviour": "Cek review dulu",
+  "behaviour_how": "Selalu lihat rating Google Maps dan review sebelum mencoba tempat baru.",
+  "objection": "Kok nggak boleh buka laptop? Kadang saya perlu balas kerjaan sebentar",
+  "habit": "kamu baru gajian dan sedang ingin sedikit memanjakan diri"
+ },
+ {
+  "id": "P020",
+  "name": "Ezra",
+  "age": 22,
+  "segment": "Profesional mapan (gaji sekitar Rp10–25 juta/bulan)",
+  "income": 221975000,
+  "behaviour": "Loyal ke tempat langganan",
+  "behaviour_how": "Sudah punya kafe atau warkop favorit dekat rumah atau kantor dan jarang mencoba tempat baru.",
+  "objection": "Slowbar pasti lama nunggunya, saya capek dan lapar",
+  "habit": "kamu tinggal di kos atau rumah keluarga di Jakarta Timur"
+ }
+]
